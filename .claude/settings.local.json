@@ -17,7 +17,12 @@
       "Bash(timeout 30 bash -c 'until curl -sf http://localhost:5173 >/dev/null 2>&1; do sleep 1; done')",
       "PowerShell(node tmp-cdp.mjs)",
       "Bash(rm -f tmp-cdp.mjs tmp-shot.png)",
-      "Bash(pkill -f \"npm run dev\")"
+      "Bash(pkill -f \"npm run dev\")",
+      "Bash(node -e \"const s=require\\('./public/data/snapshot.json'\\); console.log\\(Object.keys\\(s\\)\\); console.log\\('rateHist:', s.rateHist ? Object.keys\\(s.rateHist\\) : 'MISSING'\\); if\\(s.rateHist\\){for\\(const k of Object.keys\\(s.rateHist\\)\\){console.log\\('  '+k+': len='+\\(Array.isArray\\(s.rateHist[k]\\)?s.rateHist[k].length:typeof s.rateHist[k]\\)\\)}} console.log\\('chaosPrice:', s.chaosPrice\\); console.log\\('divinePrice:', s.divinePrice\\); console.log\\('source:', s.source\\); console.log\\('updated:', s.updated\\);\")",
+      "Bash(git log *)",
+      "Bash(curl -s --max-time 45 \"https://divineflip-proxy.divineflipapp.workers.dev\" -H \"accept: application/json\" -o /tmp/live.json -w \"HTTP %{http_code}  size=%{size_download} bytes  time=%{time_total}s\\\\n\")",
+      "Bash(node -e \"const s=require\\('/tmp/live.json'\\); console.log\\('top-level keys:', Object.keys\\(s\\)\\); console.log\\('source:', s.source\\); console.log\\('chaosPrice:', s.chaosPrice, '\\(isFull =', s.chaosPrice!=null, '\\)'\\); console.log\\('rateHist:', s.rateHist===undefined?'KEY ABSENT':\\(s.rateHist===null?'null':JSON.stringify\\(Object.fromEntries\\(Object.entries\\(s.rateHist\\).map\\(\\([k,v]\\)=>[k,Array.isArray\\(v\\)?'len '+v.length:v]\\)\\)\\)\\)\\); console.log\\('items:', Array.isArray\\(s.items\\)?s.items.length:'n/a'\\);\")",
+      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{const s=JSON.parse\\(d\\);const keys=Object.keys\\(s\\);console.log\\('has rateHist?', keys.includes\\('rateHist'\\)?\\('YES len div='+\\(s.rateHist?.div?.length\\)\\):'NO'\\);console.log\\('has rateSpark?', keys.includes\\('rateSpark'\\)?\\('YES len div='+\\(s.rateSpark?.div?.length\\)\\):'NO'\\);}\\)\")"
     ]
   }
 }
