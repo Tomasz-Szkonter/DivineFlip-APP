@@ -1,4052 +1,4066 @@
 {
   "league": "Runes of Aldur",
-  "divinePrice": 200.702,
-  "updated": "2026-06-18T15:49:12.124Z",
+  "divinePrice": 202.12,
+  "updated": "2026-06-18T17:01:00.230Z",
   "source": "github-action",
   "items": [
     {
       "name": "Chaos Orb",
       "cat": "currency",
-      "ex": 21.5332,
-      "div": 0.115963,
-      "vol": 111948
+      "ex": 21.9551,
+      "div": 0.116937,
+      "vol": 125765
     },
     {
       "name": "Omen of Light",
       "cat": "ritual",
-      "ex": 1186.74,
-      "div": 6.88323,
-      "vol": 1848
+      "ex": 1183.6,
+      "div": 6.92045,
+      "vol": 1993
     },
     {
       "name": "Omen of Whittling",
       "cat": "ritual",
-      "ex": 753.258,
-      "div": 4.35944,
-      "vol": 2475
+      "ex": 725.55,
+      "div": 4.42447,
+      "vol": 2725
     },
     {
       "name": "Orb of Annulment",
       "cat": "currency",
-      "ex": 109.093,
-      "div": 0.62511,
-      "vol": 14828
-    },
-    {
-      "name": "Greater Chaos Orb",
-      "cat": "currency",
-      "ex": 58.8633,
-      "div": 0.353709,
-      "vol": 19921
+      "ex": 115.205,
+      "div": 0.615334,
+      "vol": 17024
     },
     {
       "name": "Perfect Exalted Orb",
       "cat": "currency",
-      "ex": 442.628,
-      "div": 2.89733,
-      "vol": 2420
+      "ex": 472.638,
+      "div": 2.85235,
+      "vol": 3007
+    },
+    {
+      "name": "Greater Chaos Orb",
+      "cat": "currency",
+      "ex": 62.1346,
+      "div": 0.350062,
+      "vol": 22200
     },
     {
       "name": "Fracturing Orb",
       "cat": "currency",
-      "ex": 610.411,
-      "div": 3.84956,
-      "vol": 1593
-    },
-    {
-      "name": "Omen of Abyssal Echoes",
-      "cat": "ritual",
-      "ex": 69.7161,
-      "div": 0.39906,
-      "vol": 13038
+      "ex": 643.026,
+      "div": 3.83479,
+      "vol": 1852
     },
     {
       "name": "Perfect Chaos Orb",
       "cat": "currency",
-      "ex": 680.948,
-      "div": 4.35496,
-      "vol": 1189
+      "ex": 788.332,
+      "div": 4.83256,
+      "vol": 1440
+    },
+    {
+      "name": "Omen of Abyssal Echoes",
+      "cat": "ritual",
+      "ex": 69.7321,
+      "div": 0.394077,
+      "vol": 13440
     },
     {
       "name": "Faded Crisis Fragment",
       "cat": "fragments",
-      "ex": 659.709,
-      "div": 3.87377,
-      "vol": 1051
+      "ex": 649.312,
+      "div": 3.82975,
+      "vol": 1270
     },
     {
       "name": "Perfect Jeweller's Orb",
       "cat": "currency",
-      "ex": 76.382,
-      "div": 0.500958,
-      "vol": 8140
-    },
-    {
-      "name": "Simulacrum",
-      "cat": "fragments",
-      "ex": 1174.58,
-      "div": 7.02769,
-      "vol": 448
+      "ex": 81.4702,
+      "div": 0.468969,
+      "vol": 8330
     },
     {
       "name": "Omen of Sinistral Annulment",
       "cat": "ritual",
-      "ex": 1075.68,
-      "div": 6.51708,
-      "vol": 437
+      "ex": 1104.58,
+      "div": 6.49687,
+      "vol": 501
     },
     {
       "name": "Omen of Sinistral Erasure",
       "cat": "ritual",
-      "ex": 1035.36,
-      "div": 6.5088,
-      "vol": 452
+      "ex": 1077.73,
+      "div": 6.42291,
+      "vol": 503
+    },
+    {
+      "name": "Simulacrum",
+      "cat": "fragments",
+      "ex": 1178.88,
+      "div": 7.0246,
+      "vol": 450
     },
     {
       "name": "Potent Liquid Contempt",
       "cat": "delirium",
-      "ex": 1557.24,
-      "div": 9.86813,
-      "vol": 290
-    },
-    {
-      "name": "Origin Cradle",
-      "cat": "fragments",
-      "ex": 453.902,
-      "div": 2.81221,
-      "vol": 980
+      "ex": 1560.18,
+      "div": 9.61641,
+      "vol": 337
     },
     {
       "name": "Reaver Catalyst",
       "cat": "breach",
-      "ex": 54.9073,
-      "div": 0.325556,
-      "vol": 8071
-    },
-    {
-      "name": "Expedition Logbook",
-      "cat": "expedition",
-      "ex": 194.778,
-      "div": 1.17709,
-      "vol": 2140
+      "ex": 52.6168,
+      "div": 0.323543,
+      "vol": 9943
     },
     {
       "name": "Uncut Skill Gem (Level 20)",
       "cat": "uncutgems",
-      "ex": 752.124,
-      "div": 4.74363,
-      "vol": 534
+      "ex": 754.078,
+      "div": 4.76571,
+      "vol": 654
     },
     {
       "name": "Preserved Cranium",
       "cat": "abyss",
-      "ex": 219.558,
-      "div": 1.54111,
-      "vol": 1789
+      "ex": 242.584,
+      "div": 1.56511,
+      "vol": 1917
     },
     {
-      "name": "Head of the King",
-      "cat": "ritual",
-      "ex": 191.365,
-      "div": 0.881973,
-      "vol": 1947
+      "name": "Origin Cradle",
+      "cat": "fragments",
+      "ex": 449.939,
+      "div": 2.82187,
+      "vol": 1004
     },
     {
-      "name": "Omen of Dextral Annulment",
-      "cat": "ritual",
-      "ex": 625.306,
-      "div": 3.87953,
-      "vol": 579
-    },
-    {
-      "name": "Omen of Dextral Erasure",
-      "cat": "ritual",
-      "ex": 647.975,
-      "div": 4.00739,
-      "vol": 515
-    },
-    {
-      "name": "Preserved Collarbone",
-      "cat": "abyss",
-      "ex": 59.7352,
-      "div": 0.292325,
-      "vol": 5519
-    },
-    {
-      "name": "Ancient Rib",
-      "cat": "abyss",
-      "ex": 629.735,
-      "div": 3.77448,
-      "vol": 503
+      "name": "Expedition Logbook",
+      "cat": "expedition",
+      "ex": 184.912,
+      "div": 1.16086,
+      "vol": 2319
     },
     {
       "name": "Ancient Jawbone",
       "cat": "abyss",
-      "ex": 1437.02,
-      "div": 8.88622,
-      "vol": 217
+      "ex": 1424.61,
+      "div": 8.64645,
+      "vol": 290
     },
     {
-      "name": "Potent Liquid Ferocity",
-      "cat": "delirium",
-      "ex": 558.112,
-      "div": 3.7643,
-      "vol": 490
+      "name": "Omen of Dextral Erasure",
+      "cat": "ritual",
+      "ex": 693.017,
+      "div": 3.97979,
+      "vol": 594
+    },
+    {
+      "name": "Head of the King",
+      "cat": "ritual",
+      "ex": 179.185,
+      "div": 0.839645,
+      "vol": 2167
+    },
+    {
+      "name": "Omen of Dextral Annulment",
+      "cat": "ritual",
+      "ex": 623.076,
+      "div": 3.81274,
+      "vol": 607
+    },
+    {
+      "name": "Ancient Rib",
+      "cat": "abyss",
+      "ex": 631.453,
+      "div": 3.66535,
+      "vol": 526
+    },
+    {
+      "name": "Preserved Collarbone",
+      "cat": "abyss",
+      "ex": 58.9029,
+      "div": 0.279811,
+      "vol": 5590
     },
     {
       "name": "Sibilant Catalyst",
       "cat": "breach",
-      "ex": 33.2797,
-      "div": 0.215977,
-      "vol": 7668
+      "ex": 34.4193,
+      "div": 0.201691,
+      "vol": 9252
     },
     {
-      "name": "Architect's Orb",
-      "cat": "incursion",
-      "ex": 278.75,
-      "div": 1.79402,
-      "vol": 893
-    },
-    {
-      "name": "Vaal Cultivation Orb",
-      "cat": "incursion",
-      "ex": 265.244,
-      "div": 1.60098,
-      "vol": 928
-    },
-    {
-      "name": "Concentrated Liquid Isolation",
+      "name": "Potent Liquid Ferocity",
       "cat": "delirium",
-      "ex": 464.277,
-      "div": 2.50789,
-      "vol": 500
-    },
-    {
-      "name": "Origin Core",
-      "cat": "fragments",
-      "ex": 745.626,
-      "div": 4.4779,
-      "vol": 282
-    },
-    {
-      "name": "Vaal Orb",
-      "cat": "currency",
-      "ex": 2.05397,
-      "div": 0.00892379,
-      "vol": 101094
-    },
-    {
-      "name": "Weathered Crisis Fragment",
-      "cat": "fragments",
-      "ex": 153.899,
-      "div": 1.05624,
-      "vol": 1320
-    },
-    {
-      "name": "Origin Spark",
-      "cat": "fragments",
-      "ex": 223.774,
-      "div": 1.38408,
-      "vol": 885
-    },
-    {
-      "name": "Refined Reaver Catalyst",
-      "cat": "breach",
-      "ex": 283.575,
-      "div": 1.95248,
-      "vol": 689
+      "ex": 602.507,
+      "div": 3.63946,
+      "vol": 523
     },
     {
       "name": "Breachlord Sac",
       "cat": "fragments",
-      "ex": 958.4,
-      "div": 5.78979,
-      "vol": 199
+      "ex": 961.132,
+      "div": 5.86718,
+      "vol": 289
     },
     {
-      "name": "Ancient Crisis Fragment",
+      "name": "Vaal Cultivation Orb",
+      "cat": "incursion",
+      "ex": 245.616,
+      "div": 1.5261,
+      "vol": 1081
+    },
+    {
+      "name": "Architect's Orb",
+      "cat": "incursion",
+      "ex": 275.473,
+      "div": 1.81257,
+      "vol": 951
+    },
+    {
+      "name": "Origin Core",
       "cat": "fragments",
-      "ex": 156.876,
-      "div": 1.02834,
-      "vol": 1193
+      "ex": 754.926,
+      "div": 4.46535,
+      "vol": 339
     },
     {
-      "name": "Uncut Spirit Gem (Level 20)",
-      "cat": "uncutgems",
-      "ex": 787.071,
-      "div": 5.03,
-      "vol": 230
+      "name": "Concentrated Liquid Isolation",
+      "cat": "delirium",
+      "ex": 465.885,
+      "div": 2.5779,
+      "vol": 547
     },
     {
-      "name": "Omen of Chaotic Quantity",
-      "cat": "ritual",
-      "ex": 28.0057,
-      "div": 0.119759,
-      "vol": 6270
+      "name": "Vaal Orb",
+      "cat": "currency",
+      "ex": 2.02722,
+      "div": 0.00788688,
+      "vol": 122615
+    },
+    {
+      "name": "Refined Reaver Catalyst",
+      "cat": "breach",
+      "ex": 311.377,
+      "div": 2.01051,
+      "vol": 796
     },
     {
       "name": "Refined Sibilant Catalyst",
       "cat": "breach",
-      "ex": 217.123,
-      "div": 1.68772,
-      "vol": 797
+      "ex": 238.627,
+      "div": 1.64845,
+      "vol": 987
+    },
+    {
+      "name": "Weathered Crisis Fragment",
+      "cat": "fragments",
+      "ex": 156.92,
+      "div": 1.0214,
+      "vol": 1434
     },
     {
       "name": "Orb of Chance",
       "cat": "currency",
-      "ex": 8.38618,
-      "div": 0.045389,
-      "vol": 18399
+      "ex": 8.35811,
+      "div": 0.0457267,
+      "vol": 23881
+    },
+    {
+      "name": "Omen of Chaotic Quantity",
+      "cat": "ritual",
+      "ex": 25.4906,
+      "div": 0.131825,
+      "vol": 7521
     },
     {
       "name": "Perfect Orb of Augmentation",
       "cat": "currency",
-      "ex": 8.80763,
-      "div": 0.0581722,
-      "vol": 16335
+      "ex": 8.90602,
+      "div": 0.0582424,
+      "vol": 21164
     },
     {
-      "name": "Vaal Armourer's Infuser",
-      "cat": "vaal",
-      "ex": 74.4923,
-      "div": 0.496451,
-      "vol": 1663
+      "name": "Ancient Crisis Fragment",
+      "cat": "fragments",
+      "ex": 152.222,
+      "div": 1.05214,
+      "vol": 1223
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 20)",
+      "cat": "uncutgems",
+      "ex": 768.526,
+      "div": 4.98958,
+      "vol": 238
+    },
+    {
+      "name": "Origin Spark",
+      "cat": "fragments",
+      "ex": 201.63,
+      "div": 1.43001,
+      "vol": 777
     },
     {
       "name": "Crystallised Corruption",
       "cat": "incursion",
-      "ex": 136.914,
-      "div": 1.04563,
-      "vol": 761
+      "ex": 128.671,
+      "div": 0.963319,
+      "vol": 1148
     },
     {
-      "name": "Simulacrum Splinter",
-      "cat": "fragments",
-      "ex": 4.0966,
-      "div": 0.0226038,
-      "vol": 24991
-    },
-    {
-      "name": "Core Destabiliser",
-      "cat": "incursion",
-      "ex": 90.2784,
-      "div": 0.845533,
-      "vol": 1048
+      "name": "Vaal Armourer's Infuser",
+      "cat": "vaal",
+      "ex": 66.7572,
+      "div": 0.472943,
+      "vol": 2080
     },
     {
       "name": "Ancient Potent Liquid Contempt",
       "cat": "delirium",
-      "ex": 1042.32,
-      "div": 7.05983,
-      "vol": 86
-    },
-    {
-      "name": "Greater Exalted Orb",
-      "cat": "currency",
-      "ex": 3.38303,
-      "div": 0.0173978,
-      "vol": 26277
-    },
-    {
-      "name": "Vaal Catalysing Infuser",
-      "cat": "vaal",
-      "ex": 403.024,
-      "div": 2.8193,
-      "vol": 217
-    },
-    {
-      "name": "Ancient Collarbone",
-      "cat": "abyss",
-      "ex": 2878.38,
-      "div": 17.7156,
-      "vol": 29
-    },
-    {
-      "name": "Olroth's Crest of the Sun",
-      "cat": "verisium",
-      "ex": 211.561,
-      "div": 2.14371,
-      "vol": 386
-    },
-    {
-      "name": "Deadly Fate",
-      "cat": "fragments",
-      "ex": 398.06,
-      "div": 2.45306,
-      "vol": 187
-    },
-    {
-      "name": "Celestial Alloy",
-      "cat": "verisium",
-      "ex": 2191.69,
-      "div": 10.6483,
-      "vol": 33
-    },
-    {
-      "name": "Omen of Chaotic Effectiveness",
-      "cat": "ritual",
-      "ex": 16.7711,
-      "div": 0.0995433,
-      "vol": 4095
-    },
-    {
-      "name": "Cowardly Fate",
-      "cat": "fragments",
-      "ex": 383.42,
-      "div": 2.55562,
-      "vol": 178
-    },
-    {
-      "name": "Perfect Regal Orb",
-      "cat": "currency",
-      "ex": 16.2714,
-      "div": 0.090584,
-      "vol": 3826
-    },
-    {
-      "name": "Victorious Fate",
-      "cat": "fragments",
-      "ex": 363.266,
-      "div": 2.49088,
-      "vol": 169
-    },
-    {
-      "name": "Omen of Sinistral Crystallisation",
-      "cat": "ritual",
-      "ex": 23.1832,
-      "div": 0.18135,
-      "vol": 2559
-    },
-    {
-      "name": "Refined Necrotic Catalyst",
-      "cat": "breach",
-      "ex": 63.8338,
-      "div": 0.454715,
-      "vol": 918
-    },
-    {
-      "name": "Perfect Orb of Transmutation",
-      "cat": "currency",
-      "ex": 9.27131,
-      "div": 0.063675,
-      "vol": 6285
-    },
-    {
-      "name": "Soul Core of Quipolatl",
-      "cat": "ultimatum",
-      "ex": 882.816,
-      "div": 5.5848,
-      "vol": 65
-    },
-    {
-      "name": "Uhtred's Saga",
-      "cat": "expedition",
-      "ex": 127.799,
-      "div": 0.973104,
-      "vol": 424
-    },
-    {
-      "name": "Perfect Iron Rune",
-      "cat": "runes",
-      "ex": 142.89,
-      "div": 0.929911,
-      "vol": 376
-    },
-    {
-      "name": "Omen of Chance",
-      "cat": "ritual",
-      "ex": 1089.87,
-      "div": 8.03958,
-      "vol": 48
-    },
-    {
-      "name": "Amanamu's Tithe",
-      "cat": "lineagesupportgems",
-      "ex": 400.367,
-      "div": 2.70032,
+      "ex": 1065.5,
+      "div": 7.0457,
       "vol": 127
-    },
-    {
-      "name": "Tecrod's Gaze",
-      "cat": "abyss",
-      "ex": 492.867,
-      "div": 2.66009,
-      "vol": 103
-    },
-    {
-      "name": "Omen of Chaotic Monsters",
-      "cat": "ritual",
-      "ex": 16.7209,
-      "div": 0.0689374,
-      "vol": 3017
-    },
-    {
-      "name": "Altered Collarbone",
-      "cat": "abyss",
-      "ex": 186.302,
-      "div": 0.884964,
-      "vol": 267
     },
     {
       "name": "Masterwork Rune",
       "cat": "runes",
-      "ex": 75.2334,
-      "div": 0.552192,
-      "vol": 641
+      "ex": 76.5824,
+      "div": 0.500507,
+      "vol": 1606
     },
     {
-      "name": "Omen of Bartering",
+      "name": "Simulacrum Splinter",
+      "cat": "fragments",
+      "ex": 4.17371,
+      "div": 0.0223699,
+      "vol": 29102
+    },
+    {
+      "name": "Vaal Catalysing Infuser",
+      "cat": "vaal",
+      "ex": 385.838,
+      "div": 2.6282,
+      "vol": 300
+    },
+    {
+      "name": "Perfect Orb of Transmutation",
+      "cat": "currency",
+      "ex": 10.5234,
+      "div": 0.0600178,
+      "vol": 10553
+    },
+    {
+      "name": "Core Destabiliser",
+      "cat": "incursion",
+      "ex": 90.3478,
+      "div": 0.935529,
+      "vol": 1223
+    },
+    {
+      "name": "Greater Exalted Orb",
+      "cat": "currency",
+      "ex": 3.14456,
+      "div": 0.0165852,
+      "vol": 33068
+    },
+    {
+      "name": "Celestial Alloy",
+      "cat": "verisium",
+      "ex": 2172.76,
+      "div": 10.5541,
+      "vol": 47
+    },
+    {
+      "name": "Deadly Fate",
+      "cat": "fragments",
+      "ex": 400.139,
+      "div": 2.56497,
+      "vol": 251
+    },
+    {
+      "name": "Victorious Fate",
+      "cat": "fragments",
+      "ex": 409.871,
+      "div": 2.4272,
+      "vol": 220
+    },
+    {
+      "name": "Cowardly Fate",
+      "cat": "fragments",
+      "ex": 404.242,
+      "div": 2.47301,
+      "vol": 217
+    },
+    {
+      "name": "Olroth's Crest of the Sun",
+      "cat": "verisium",
+      "ex": 228.85,
+      "div": 2.09812,
+      "vol": 367
+    },
+    {
+      "name": "Omen of Chaotic Effectiveness",
       "cat": "ritual",
-      "ex": 4.32946,
-      "div": 0.0308978,
-      "vol": 10179
+      "ex": 18.6058,
+      "div": 0.107354,
+      "vol": 4223
+    },
+    {
+      "name": "Omen of Chaotic Monsters",
+      "cat": "ritual",
+      "ex": 19.2379,
+      "div": 0.0719933,
+      "vol": 4074
+    },
+    {
+      "name": "Omen of Chance",
+      "cat": "ritual",
+      "ex": 1249.32,
+      "div": 7.97349,
+      "vol": 59
     },
     {
       "name": "Omen of Dextral Crystallisation",
       "cat": "ritual",
-      "ex": 23.2138,
-      "div": 0.142684,
-      "vol": 1857
+      "ex": 21.817,
+      "div": 0.144122,
+      "vol": 3317
     },
     {
-      "name": "Kolr's Hunt",
+      "name": "Refined Necrotic Catalyst",
+      "cat": "breach",
+      "ex": 58.4111,
+      "div": 0.472599,
+      "vol": 1183
+    },
+    {
+      "name": "Perfect Iron Rune",
       "cat": "runes",
-      "ex": 297.441,
-      "div": 2.06976,
-      "vol": 141
+      "ex": 156.699,
+      "div": 0.898812,
+      "vol": 427
     },
     {
-      "name": "Armourer's Scrap",
+      "name": "Perfect Regal Orb",
       "cat": "currency",
-      "ex": 0.655099,
-      "div": 0.00524577,
-      "vol": 62038
+      "ex": 16.2095,
+      "div": 0.0880717,
+      "vol": 4117
+    },
+    {
+      "name": "Soul Core of Quipolatl",
+      "cat": "ultimatum",
+      "ex": 910.504,
+      "div": 5.3159,
+      "vol": 67
     },
     {
       "name": "Vaal Blacksmith's Infuser",
       "cat": "vaal",
-      "ex": 45.1032,
-      "div": 0.342741,
-      "vol": 874
+      "ex": 44.0386,
+      "div": 0.3418,
+      "vol": 1333
     },
     {
-      "name": "Catha's Brilliance",
+      "name": "Ancient Collarbone",
+      "cat": "abyss",
+      "ex": 2534.84,
+      "div": 17.6591,
+      "vol": 23
+    },
+    {
+      "name": "Amanamu's Tithe",
       "cat": "lineagesupportgems",
-      "ex": 640.187,
-      "div": 3.52707,
-      "vol": 54
+      "ex": 399.495,
+      "div": 2.72595,
+      "vol": 144
     },
     {
-      "name": "Orb of Extraction",
-      "cat": "incursion",
-      "ex": 111.095,
-      "div": 0.501199,
-      "vol": 298
-    },
-    {
-      "name": "Exceptional Verisium",
-      "cat": "verisium",
-      "ex": 3.69428,
-      "div": 0.0230407,
-      "vol": 8694
-    },
-    {
-      "name": "Omen of Amelioration",
+      "name": "Omen of Bartering",
       "cat": "ritual",
-      "ex": 5.43544,
-      "div": 0.020852,
-      "vol": 5696
+      "ex": 4.03404,
+      "div": 0.0280454,
+      "vol": 13757
     },
     {
-      "name": "Tul's Catalyst",
-      "cat": "breach",
-      "ex": 5.75136,
-      "div": 0.0394727,
-      "vol": 5379
-    },
-    {
-      "name": "Xoph's Catalyst",
-      "cat": "breach",
-      "ex": 5.08593,
-      "div": 0.0336983,
-      "vol": 5590
-    },
-    {
-      "name": "Concentrated Liquid Suffering",
-      "cat": "delirium",
-      "ex": 136.102,
-      "div": 0.996965,
-      "vol": 195
-    },
-    {
-      "name": "Orb of Alchemy",
+      "name": "Armourer's Scrap",
       "cat": "currency",
-      "ex": 0.427229,
-      "div": 0.00415172,
-      "vol": 62071
+      "ex": 0.643344,
+      "div": 0.00531364,
+      "vol": 85156
     },
     {
-      "name": "Esh's Catalyst",
-      "cat": "breach",
-      "ex": 5.34533,
-      "div": 0.0432529,
-      "vol": 4805
+      "name": "Omen of Sinistral Crystallisation",
+      "cat": "ritual",
+      "ex": 17.7978,
+      "div": 0.191543,
+      "vol": 2980
     },
     {
-      "name": "Necrotic Catalyst",
-      "cat": "breach",
-      "ex": 6.38992,
-      "div": 0.0417304,
-      "vol": 3808
+      "name": "Tecrod's Gaze",
+      "cat": "abyss",
+      "ex": 449.252,
+      "div": 2.66578,
+      "vol": 112
     },
     {
-      "name": "Essence of Hysteria",
-      "cat": "essences",
-      "ex": 121.767,
-      "div": 0.782806,
-      "vol": 198
+      "name": "Altered Collarbone",
+      "cat": "abyss",
+      "ex": 193.247,
+      "div": 0.996978,
+      "vol": 234
+    },
+    {
+      "name": "Uhtred's Saga",
+      "cat": "expedition",
+      "ex": 129.556,
+      "div": 1.07393,
+      "vol": 336
     },
     {
       "name": "Soul Core of Azcapa",
       "cat": "ultimatum",
-      "ex": 634.028,
-      "div": 4.51627,
-      "vol": 36
-    },
-    {
-      "name": "Soul Core of Tacati",
-      "cat": "ultimatum",
-      "ex": 72.3524,
-      "div": 0.484863,
-      "vol": 306
-    },
-    {
-      "name": "Serle's Triumph",
-      "cat": "runes",
-      "ex": 738.639,
-      "div": 5.04578,
-      "vol": 26
-    },
-    {
-      "name": "Neural Catalyst",
-      "cat": "breach",
-      "ex": 2.35941,
-      "div": 0.0225839,
-      "vol": 7171
-    },
-    {
-      "name": "Atalui's Bloodletting",
-      "cat": "lineagesupportgems",
-      "ex": 260.099,
-      "div": 2.07712,
-      "vol": 65
+      "ex": 724.098,
+      "div": 4.39002,
+      "vol": 60
     },
     {
       "name": "Omen of Chaotic Rarity",
       "cat": "ritual",
-      "ex": 8.46489,
-      "div": 0.0414231,
-      "vol": 1881
+      "ex": 11.7828,
+      "div": 0.0374844,
+      "vol": 3661
     },
     {
-      "name": "Arcanist's Etcher",
-      "cat": "currency",
-      "ex": 1.09941,
-      "div": 0.014238,
-      "vol": 14058
+      "name": "Kolr's Hunt",
+      "cat": "runes",
+      "ex": 282.408,
+      "div": 1.99752,
+      "vol": 151
     },
     {
-      "name": "Omen of Greater Exaltation",
-      "cat": "ritual",
-      "ex": 1.96055,
-      "div": 0.00937861,
-      "vol": 7615
+      "name": "Xoph's Catalyst",
+      "cat": "breach",
+      "ex": 4.41603,
+      "div": 0.0359783,
+      "vol": 8406
     },
     {
       "name": "Breachstone",
       "cat": "fragments",
-      "ex": 73.4302,
-      "div": 0.339214,
-      "vol": 202
+      "ex": 74.2926,
+      "div": 0.330933,
+      "vol": 497
     },
     {
-      "name": "Vorana's Siege",
-      "cat": "lineagesupportgems",
-      "ex": 3650.52,
-      "div": 20.3455,
-      "vol": 4
-    },
-    {
-      "name": "Ancient Infuser",
-      "cat": "incursion",
-      "ex": 34.4501,
-      "div": 0.211178,
-      "vol": 422
-    },
-    {
-      "name": "Gemcutter's Prism",
-      "cat": "currency",
-      "ex": 0.712768,
-      "div": 0.0104098,
-      "vol": 18234
-    },
-    {
-      "name": "Cadigan's Epiphany",
-      "cat": "runes",
-      "ex": 1741.91,
-      "div": 10.6148,
-      "vol": 7
-    },
-    {
-      "name": "Perfect Storm Rune",
-      "cat": "runes",
-      "ex": 185.642,
-      "div": 1.01104,
-      "vol": 64
-    },
-    {
-      "name": "Omen of the Ancients",
-      "cat": "ritual",
-      "ex": 4.31292,
-      "div": 0.0254405,
-      "vol": 2672
-    },
-    {
-      "name": "Liquid Disgust",
-      "cat": "delirium",
-      "ex": 4.10994,
-      "div": null,
-      "vol": 2742
-    },
-    {
-      "name": "Uhtred's Omen",
-      "cat": "lineagesupportgems",
-      "ex": 1753.03,
-      "div": 9.57902,
-      "vol": 6
-    },
-    {
-      "name": "Veridical Starlit Ore",
-      "cat": "verisium",
-      "ex": 66.6468,
-      "div": null,
-      "vol": 154
-    },
-    {
-      "name": "Breachlord's Amalgam",
-      "cat": "lineagesupportgems",
-      "ex": 222.965,
-      "div": 1.79905,
-      "vol": 46
-    },
-    {
-      "name": "Tecrod's Revenge",
-      "cat": "lineagesupportgems",
-      "ex": 224.05,
-      "div": 1.56688,
-      "vol": 45
-    },
-    {
-      "name": "Greater Regal Orb",
-      "cat": "currency",
-      "ex": 1.74582,
-      "div": 0.00680452,
-      "vol": 5649
-    },
-    {
-      "name": "Soul Core of Jiquani",
-      "cat": "ultimatum",
-      "ex": 87.7949,
-      "div": 0.730068,
-      "vol": 110
-    },
-    {
-      "name": "Skittering Catalyst",
+      "name": "Tul's Catalyst",
       "cat": "breach",
-      "ex": 5.02356,
-      "div": 0.0465179,
-      "vol": 1875
-    },
-    {
-      "name": "Perfect Desert Rune",
-      "cat": "runes",
-      "ex": 209.25,
-      "div": 0.980196,
-      "vol": 43
-    },
-    {
-      "name": "Breachlord's Rift",
-      "cat": "lineagesupportgems",
-      "ex": 885.685,
-      "div": 5.82135,
-      "vol": 10
-    },
-    {
-      "name": "Olroth's Saga",
-      "cat": "expedition",
-      "ex": 40.4988,
-      "div": 0.229873,
-      "vol": 215
-    },
-    {
-      "name": "Omen of the Blessed",
-      "cat": "ritual",
-      "ex": 12.6227,
-      "div": 0.0647114,
-      "vol": 689
-    },
-    {
-      "name": "Fox Idol",
-      "cat": "idol",
-      "ex": 99.3951,
-      "div": 0.75947,
-      "vol": 85
-    },
-    {
-      "name": "Olroth's Conviction",
-      "cat": "lineagesupportgems",
-      "ex": 1666.11,
-      "div": 9.6333,
-      "vol": 5
-    },
-    {
-      "name": "Warding Starlit Ore",
-      "cat": "verisium",
-      "ex": 38.401,
-      "div": 0.486729,
-      "vol": 208
-    },
-    {
-      "name": "Carved Cunning",
-      "cat": "expedition",
-      "ex": 599.185,
-      "div": 4.17093,
-      "vol": 13
-    },
-    {
-      "name": "Essence of the Abyss",
-      "cat": "essences",
-      "ex": 5.9385,
-      "div": 0.0614534,
-      "vol": 1274
-    },
-    {
-      "name": "Concentrated Liquid Fear",
-      "cat": "delirium",
-      "ex": 45.5109,
-      "div": 0.304324,
-      "vol": 166
-    },
-    {
-      "name": "Perfect Glacial Rune",
-      "cat": "runes",
-      "ex": 183.851,
-      "div": 1.01333,
-      "vol": 40
-    },
-    {
-      "name": "Sovereign Alloy",
-      "cat": "verisium",
-      "ex": 33.0003,
-      "div": 0.391236,
-      "vol": 212
-    },
-    {
-      "name": "Opiloti's Soul Core of Assault",
-      "cat": "ultimatum",
-      "ex": 367.601,
-      "div": 2.47831,
-      "vol": 18
-    },
-    {
-      "name": "Soul Core of Citaqualotl",
-      "cat": "ultimatum",
-      "ex": 53.5749,
-      "div": 0.641218,
-      "vol": 120
-    },
-    {
-      "name": "Perfect Mind Rune",
-      "cat": "runes",
-      "ex": 226.585,
-      "div": 0.934207,
-      "vol": 28
-    },
-    {
-      "name": "Essence of the Breach",
-      "cat": "essences",
-      "ex": 14.8562,
-      "div": 0.10156,
-      "vol": 404
-    },
-    {
-      "name": "Soul Core of Cholotl",
-      "cat": "ultimatum",
-      "ex": 136.286,
-      "div": 1.0464,
-      "vol": 44
-    },
-    {
-      "name": "Essence of Horror",
-      "cat": "essences",
-      "ex": 33.5026,
-      "div": 0.386796,
-      "vol": 175
-    },
-    {
-      "name": "Refined Carapace Catalyst",
-      "cat": "breach",
-      "ex": 8.43283,
-      "div": 0.0899708,
-      "vol": 677
-    },
-    {
-      "name": "Carapace Catalyst",
-      "cat": "breach",
-      "ex": 1.76269,
-      "div": 0.0147434,
-      "vol": 3128
-    },
-    {
-      "name": "Aldur's Saga",
-      "cat": "expedition",
-      "ex": 5453.81,
-      "div": 35.5342,
-      "vol": 1
-    },
-    {
-      "name": "Chilling Flux",
-      "cat": "expedition",
-      "ex": 8.9863,
-      "div": null,
-      "vol": 580
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 19)",
-      "cat": "uncutgems",
-      "ex": 21.6999,
-      "div": 0.21603,
-      "vol": 235
-    },
-    {
-      "name": "Blacksmith's Whetstone",
-      "cat": "currency",
-      "ex": 0.282698,
-      "div": 0.00397632,
-      "vol": 17620
-    },
-    {
-      "name": "Regal Orb",
-      "cat": "currency",
-      "ex": 0.337801,
-      "div": 0.00307422,
-      "vol": 14381
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 8)",
-      "cat": "uncutgems",
-      "ex": 186.701,
-      "div": 2.35609,
-      "vol": 25
-    },
-    {
-      "name": "Ulaman's Gaze",
-      "cat": "abyss",
-      "ex": 318.051,
-      "div": 1.29553,
-      "vol": 14
-    },
-    {
-      "name": "Her Declaration",
-      "cat": "lineagesupportgems",
-      "ex": 4282.04,
-      "div": 48.4725,
-      "vol": 1
-    },
-    {
-      "name": "Liquid Envy",
-      "cat": "delirium",
-      "ex": 1.26401,
-      "div": null,
-      "vol": 3252
-    },
-    {
-      "name": "Cryptic Key",
-      "cat": "currency",
-      "ex": 51.8474,
-      "div": 0.308534,
-      "vol": 78
-    },
-    {
-      "name": "Refined Neural Catalyst",
-      "cat": "breach",
-      "ex": 8.12548,
-      "div": 0.1183,
-      "vol": 481
-    },
-    {
-      "name": "Omen of the Hunt",
-      "cat": "ritual",
-      "ex": 65.0456,
-      "div": 0.928789,
-      "vol": 60
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 14)",
-      "cat": "uncutgems",
-      "ex": 68.874,
-      "div": 0.305043,
-      "vol": 54
-    },
-    {
-      "name": "Khatal's Rejuvenation",
-      "cat": "lineagesupportgems",
-      "ex": 92.4094,
-      "div": 1.68176,
-      "vol": 40
-    },
-    {
-      "name": "Refined Tul's Catalyst",
-      "cat": "breach",
-      "ex": 12.4846,
-      "div": 0.114238,
-      "vol": 291
-    },
-    {
-      "name": "Breach Splinter",
-      "cat": "fragments",
-      "ex": 0.135857,
-      "div": 0.00070072,
-      "vol": 25610
-    },
-    {
-      "name": "Astrid's Creativity",
-      "cat": "runes",
-      "ex": 3470.87,
-      "div": 20.5446,
-      "vol": 1
-    },
-    {
-      "name": "An Audience with the King",
-      "cat": "fragments",
-      "ex": 4.12734,
-      "div": 0.0298447,
-      "vol": 840
-    },
-    {
-      "name": "Adaptive Alloy",
-      "cat": "verisium",
-      "ex": 10.8041,
-      "div": null,
-      "vol": 320
-    },
-    {
-      "name": "Perfect Body Rune",
-      "cat": "runes",
-      "ex": 157.415,
-      "div": 1.00592,
-      "vol": 21
-    },
-    {
-      "name": "Uncut Support Gem (Level 5)",
-      "cat": "uncutgems",
-      "ex": 0.922685,
-      "div": 0.0218304,
-      "vol": 3502
-    },
-    {
-      "name": "Doedre's Undoing",
-      "cat": "lineagesupportgems",
-      "ex": 13.4929,
-      "div": null,
-      "vol": 237
-    },
-    {
-      "name": "Refined Esh's Catalyst",
-      "cat": "breach",
-      "ex": 8.67028,
-      "div": 0.161592,
-      "vol": 367
-    },
-    {
-      "name": "Greater Rune of Leadership",
-      "cat": "runes",
-      "ex": 124.423,
-      "div": 0.968364,
-      "vol": 24
-    },
-    {
-      "name": "Omen of Resurgence",
-      "cat": "ritual",
-      "ex": 3.37728,
-      "div": 0.00915633,
-      "vol": 884
-    },
-    {
-      "name": "Emergent Vigour",
-      "cat": "expedition",
-      "ex": 245.668,
-      "div": 1.40846,
-      "vol": 12
-    },
-    {
-      "name": "Omen of Sanctification",
-      "cat": "ritual",
-      "ex": 25.4843,
-      "div": 0.311681,
-      "vol": 114
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 15)",
-      "cat": "uncutgems",
-      "ex": 36.3004,
-      "div": 0.60583,
-      "vol": 78
-    },
-    {
-      "name": "Ritualistic Reliquary Key",
-      "cat": "vaultkeys",
-      "ex": 175.707,
-      "div": 1.86744,
-      "vol": 16
-    },
-    {
-      "name": "Preserved Rib",
-      "cat": "abyss",
-      "ex": 0.411734,
-      "div": 0.00629156,
-      "vol": 6696
-    },
-    {
-      "name": "Call of the Shadows",
-      "cat": "ritual",
-      "ex": 2.36088,
-      "div": 0.0683336,
-      "vol": 1140
-    },
-    {
-      "name": "Greater Orb of Augmentation",
-      "cat": "currency",
-      "ex": 0.145134,
-      "div": 0.00114992,
-      "vol": 18120
-    },
-    {
-      "name": "Ancient Potent Liquid Melancholy",
-      "cat": "delirium",
-      "ex": 16.9997,
-      "div": 0.154049,
-      "vol": 152
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 13)",
-      "cat": "uncutgems",
-      "ex": 19.3438,
-      "div": null,
-      "vol": 133
-    },
-    {
-      "name": "Perfect Robust Rune",
-      "cat": "runes",
-      "ex": 182.262,
-      "div": 0.831906,
-      "vol": 14
-    },
-    {
-      "name": "Adaptive Catalyst",
-      "cat": "breach",
-      "ex": 1.54045,
-      "div": 0.014519,
-      "vol": 1599
-    },
-    {
-      "name": "Perfect Vision Rune",
-      "cat": "runes",
-      "ex": 153.458,
-      "div": 1.04072,
-      "vol": 16
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 16)",
-      "cat": "uncutgems",
-      "ex": 40.9078,
-      "div": 0.185849,
-      "vol": 60
-    },
-    {
-      "name": "Essence of Delirium",
-      "cat": "essences",
-      "ex": 7.9472,
-      "div": null,
-      "vol": 308
-    },
-    {
-      "name": "Soul Core of Ticaba",
-      "cat": "ultimatum",
-      "ex": 25.9544,
-      "div": null,
-      "vol": 92
-    },
-    {
-      "name": "Transcendent Alloy",
-      "cat": "verisium",
-      "ex": 29.3627,
-      "div": 0.382001,
-      "vol": 79
-    },
-    {
-      "name": "Perfect Essence of Battle",
-      "cat": "essences",
-      "ex": 9.33579,
-      "div": 0.158321,
-      "vol": 247
-    },
-    {
-      "name": "Protective Alloy",
-      "cat": "verisium",
-      "ex": 26.8998,
-      "div": 0.307546,
-      "vol": 84
-    },
-    {
-      "name": "Greater Jeweller's Orb",
-      "cat": "currency",
-      "ex": 0.425046,
-      "div": 0.0158857,
-      "vol": 5287
-    },
-    {
-      "name": "Soul Core of Tzamoto",
-      "cat": "ultimatum",
-      "ex": 26.6848,
-      "div": null,
-      "vol": 82
-    },
-    {
-      "name": "Soul Core of Xopec",
-      "cat": "ultimatum",
-      "ex": 26.8623,
-      "div": null,
-      "vol": 81
-    },
-    {
-      "name": "Omen of Catalysing Exaltation",
-      "cat": "ritual",
-      "ex": 2.82651,
-      "div": 0.0245362,
-      "vol": 766
-    },
-    {
-      "name": "Soul Core of Zalatl",
-      "cat": "ultimatum",
-      "ex": 67.487,
-      "div": 0.642131,
-      "vol": 32
-    },
-    {
-      "name": "Perfect Adept Rune",
-      "cat": "runes",
-      "ex": 192.727,
-      "div": 0.999567,
-      "vol": 11
-    },
-    {
-      "name": "Emergent Instinct",
-      "cat": "expedition",
-      "ex": 46.8209,
-      "div": null,
-      "vol": 42
-    },
-    {
-      "name": "Glassblower's Bauble",
-      "cat": "currency",
-      "ex": 0.760421,
-      "div": 0.00878523,
-      "vol": 2585
-    },
-    {
-      "name": "Perfect Charging Rune",
-      "cat": "runes",
-      "ex": 244.068,
-      "div": 1.21464,
-      "vol": 8
-    },
-    {
-      "name": "Fenumus' Rune of Spinning",
-      "cat": "runes",
-      "ex": 5.92672,
-      "div": null,
-      "vol": 327
-    },
-    {
-      "name": "Rabbit Idol",
-      "cat": "idol",
-      "ex": 19.2467,
-      "div": 0.137187,
-      "vol": 97
-    },
-    {
-      "name": "Omen of Sinistral Exaltation",
-      "cat": "ritual",
-      "ex": 1.12632,
-      "div": 0.0333585,
-      "vol": 1646
-    },
-    {
-      "name": "Omen of Dextral Exaltation",
-      "cat": "ritual",
-      "ex": 0.95429,
-      "div": 0.0152321,
-      "vol": 1935
-    },
-    {
-      "name": "Preserved Jawbone",
-      "cat": "abyss",
-      "ex": 0.759518,
-      "div": 0.01329,
-      "vol": 2385
-    },
-    {
-      "name": "Soul Core of Puhuarte",
-      "cat": "ultimatum",
-      "ex": 25.7408,
-      "div": null,
-      "vol": 70
-    },
-    {
-      "name": "Flesh Catalyst",
-      "cat": "breach",
-      "ex": 1.63041,
-      "div": 0.0110457,
-      "vol": 1104
+      "ex": 5.32821,
+      "div": 0.0417846,
+      "vol": 6819
     },
     {
       "name": "Soul Core of Topotante",
       "cat": "ultimatum",
-      "ex": 31.9876,
-      "div": 0.158185,
-      "vol": 56
-    },
-    {
-      "name": "Xopec's Soul Core of Power",
-      "cat": "ultimatum",
-      "ex": 148.379,
-      "div": 0.989556,
-      "vol": 12
-    },
-    {
-      "name": "Greater Rune of Alacrity",
-      "cat": "runes",
-      "ex": 80.7427,
-      "div": 0.934441,
-      "vol": 22
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 5)",
-      "cat": "uncutgems",
-      "ex": 20.1845,
+      "ex": 32.5111,
       "div": null,
-      "vol": 88
+      "vol": 1085
     },
     {
-      "name": "Uncut Spirit Gem (Level 12)",
-      "cat": "uncutgems",
-      "ex": 7.0487,
-      "div": null,
-      "vol": 251
+      "name": "Catha's Brilliance",
+      "cat": "lineagesupportgems",
+      "ex": 555.551,
+      "div": 3.43107,
+      "vol": 62
     },
     {
-      "name": "The Arbiter's Reliquary Key",
-      "cat": "vaultkeys",
-      "ex": 884.497,
-      "div": 6.6552,
-      "vol": 2
-    },
-    {
-      "name": "Perfect Resolve Rune",
+      "name": "Astrid's Creativity",
       "cat": "runes",
-      "ex": 213.274,
-      "div": 0.879782,
+      "ex": 4203.01,
+      "div": 20.1105,
       "vol": 8
     },
     {
-      "name": "Twilight Reliquary Key",
-      "cat": "vaultkeys",
-      "ex": 2.73459,
-      "div": 0.0340694,
-      "vol": 620
-    },
-    {
-      "name": "Uhtred's Rite",
-      "cat": "lineagesupportgems",
-      "ex": 11.9844,
-      "div": null,
-      "vol": 141
-    },
-    {
-      "name": "Uul-Netol's Catalyst",
-      "cat": "breach",
-      "ex": 1.50442,
-      "div": 0.0124977,
-      "vol": 1057
-    },
-    {
-      "name": "Rune of Renown",
-      "cat": "runes",
-      "ex": 9.17767,
-      "div": null,
-      "vol": 173
-    },
-    {
-      "name": "Liquid Despair",
-      "cat": "delirium",
-      "ex": 14.333,
-      "div": 0.0877035,
-      "vol": 110
-    },
-    {
-      "name": "Thaumaturgic Flux (Level 19)",
-      "cat": "expedition",
-      "ex": 5.05984,
-      "div": null,
-      "vol": 302
-    },
-    {
-      "name": "Romira's Requital",
-      "cat": "lineagesupportgems",
-      "ex": 4.25179,
-      "div": null,
-      "vol": 356
-    },
-    {
-      "name": "Hedgewitch Assandra's Rune of Wisdom",
-      "cat": "runes",
-      "ex": 20.5206,
-      "div": 0.218667,
-      "vol": 73
-    },
-    {
-      "name": "Medved's Saga",
-      "cat": "expedition",
-      "ex": 9.63866,
-      "div": 0.0739454,
-      "vol": 150
-    },
-    {
-      "name": "Perfect Inspiration Rune",
-      "cat": "runes",
-      "ex": 101.383,
-      "div": 1.66969,
-      "vol": 14
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 18)",
-      "cat": "uncutgems",
-      "ex": 4.42776,
-      "div": 0.155155,
-      "vol": 297
-    },
-    {
-      "name": "Orb of Augmentation",
+      "name": "Orb of Alchemy",
       "cat": "currency",
-      "ex": 0.165677,
-      "div": 0.00187,
-      "vol": 7926
+      "ex": 0.382294,
+      "div": 0.00348047,
+      "vol": 84449
     },
     {
-      "name": "Expansive Alloy",
-      "cat": "verisium",
-      "ex": 2.98254,
-      "div": null,
-      "vol": 429
-    },
-    {
-      "name": "Greater Orb of Transmutation",
-      "cat": "currency",
-      "ex": 0.139297,
-      "div": 0.00219525,
-      "vol": 9079
-    },
-    {
-      "name": "Tul's Stillness",
-      "cat": "lineagesupportgems",
-      "ex": 1243.51,
-      "div": 68.7724,
-      "vol": 1
-    },
-    {
-      "name": "Refined Xoph's Catalyst",
-      "cat": "breach",
-      "ex": 6.69723,
-      "div": 0.391843,
-      "vol": 183
-    },
-    {
-      "name": "Omen of Reinforcements",
+      "name": "Omen of Amelioration",
       "cat": "ritual",
-      "ex": 60.8484,
-      "div": 0.443827,
-      "vol": 20
+      "ex": 5.0477,
+      "div": 0.025982,
+      "vol": 5813
+    },
+    {
+      "name": "Concentrated Liquid Suffering",
+      "cat": "delirium",
+      "ex": 138.726,
+      "div": 0.882305,
+      "vol": 210
     },
     {
       "name": "Soul Core of Opiloti",
       "cat": "ultimatum",
-      "ex": 33.7753,
-      "div": 0.0743556,
-      "vol": 36
-    },
-    {
-      "name": "Kulemak's Invitation",
-      "cat": "fragments",
-      "ex": 5.72261,
-      "div": 0.0686198,
-      "vol": 212
-    },
-    {
-      "name": "Atmohua's Soul Core of Retreat",
-      "cat": "ultimatum",
-      "ex": 9.30828,
+      "ex": 33.2393,
       "div": null,
-      "vol": 130
+      "vol": 870
     },
     {
-      "name": "Farrul's Rune of the Hunt",
-      "cat": "runes",
-      "ex": 2.99844,
-      "div": null,
-      "vol": 399
-    },
-    {
-      "name": "Olroth's Reliquary Key",
-      "cat": "vaultkeys",
-      "ex": 583.095,
-      "div": 3.10869,
-      "vol": 2
-    },
-    {
-      "name": "Perfect Essence of Haste",
+      "name": "Essence of Hysteria",
       "cat": "essences",
-      "ex": 10.9646,
-      "div": 0.256359,
-      "vol": 106
+      "ex": 123.05,
+      "div": 0.767294,
+      "vol": 228
     },
     {
-      "name": "Uncut Skill Gem (Level 5)",
-      "cat": "uncutgems",
-      "ex": 5.74752,
-      "div": null,
-      "vol": 202
-    },
-    {
-      "name": "Breath of Aldur",
-      "cat": "runes",
-      "ex": 8.55039,
-      "div": null,
-      "vol": 135
-    },
-    {
-      "name": "Refined Adaptive Catalyst",
-      "cat": "breach",
-      "ex": 7.42907,
-      "div": 0.0819638,
-      "vol": 154
-    },
-    {
-      "name": "Perfect Ward Rune",
-      "cat": "runes",
-      "ex": 221.145,
-      "div": 0.89468,
-      "vol": 5
-    },
-    {
-      "name": "Saqawal's Rune of Memory",
-      "cat": "runes",
-      "ex": 6.65945,
-      "div": null,
-      "vol": 166
-    },
-    {
-      "name": "Greater Essence of Opulence",
-      "cat": "essences",
-      "ex": 6.07799,
-      "div": 0.116966,
-      "vol": 180
-    },
-    {
-      "name": "Artificer's Orb",
-      "cat": "currency",
-      "ex": 0.47758,
-      "div": 0.0156381,
-      "vol": 2287
-    },
-    {
-      "name": "Emergent Possibility",
-      "cat": "expedition",
-      "ex": 1074.23,
-      "div": 19.6476,
-      "vol": 1
-    },
-    {
-      "name": "Warding Rune of Heart",
-      "cat": "runes",
-      "ex": 9.18965,
-      "div": null,
-      "vol": 116
-    },
-    {
-      "name": "Uncut Skill Gem (Level 7)",
-      "cat": "uncutgems",
-      "ex": 24.4971,
-      "div": 0.173851,
-      "vol": 42
-    },
-    {
-      "name": "Refined Uul-Netol's Catalyst",
-      "cat": "breach",
-      "ex": 9.26621,
-      "div": 0.0425746,
-      "vol": 111
-    },
-    {
-      "name": "Sione's Temper",
+      "name": "Atalui's Bloodletting",
       "cat": "lineagesupportgems",
-      "ex": 31.9682,
-      "div": 0.322976,
-      "vol": 32
+      "ex": 295.188,
+      "div": 1.83952,
+      "vol": 93
     },
     {
-      "name": "Cyclonic Alloy",
+      "name": "Exceptional Verisium",
       "cat": "verisium",
-      "ex": 3.51619,
-      "div": null,
-      "vol": 286
+      "ex": 3.69139,
+      "div": 0.0253726,
+      "vol": 7217
     },
     {
-      "name": "Oisín's Oath",
+      "name": "Uhtred's Omen",
       "cat": "lineagesupportgems",
-      "ex": 4.47332,
-      "div": null,
-      "vol": 220
+      "ex": 1705.62,
+      "div": 9.54805,
+      "vol": 15
     },
     {
-      "name": "Uncut Skill Gem (Level 19)",
-      "cat": "uncutgems",
-      "ex": 3.99996,
-      "div": 0.228886,
-      "vol": 244
-    },
-    {
-      "name": "Essence of Opulence",
-      "cat": "essences",
-      "ex": 35.6418,
-      "div": null,
-      "vol": 27
-    },
-    {
-      "name": "Greater Rune of Tithing",
-      "cat": "runes",
-      "ex": 47.9035,
-      "div": 0.339407,
-      "vol": 20
-    },
-    {
-      "name": "Hayoxi's Fulmination",
-      "cat": "lineagesupportgems",
-      "ex": 21.9868,
-      "div": null,
-      "vol": 43
-    },
-    {
-      "name": "Uhtred's Sidereus",
-      "cat": "runes",
-      "ex": 72.2026,
-      "div": 0.531074,
-      "vol": 13
-    },
-    {
-      "name": "Refined Skittering Catalyst",
+      "name": "Necrotic Catalyst",
       "cat": "breach",
-      "ex": 7.42521,
-      "div": 0.122991,
-      "vol": 125
+      "ex": 5.23734,
+      "div": 0.0468382,
+      "vol": 4796
     },
     {
-      "name": "Uncut Spirit Gem (Level 6)",
-      "cat": "uncutgems",
-      "ex": 11.4474,
-      "div": null,
-      "vol": 76
-    },
-    {
-      "name": "Hayoxi's Soul Core of Heatproofing",
-      "cat": "ultimatum",
-      "ex": 6.83846,
-      "div": null,
-      "vol": 121
-    },
-    {
-      "name": "Greater Ward Rune",
+      "name": "Serle's Triumph",
       "cat": "runes",
-      "ex": 7.875,
-      "div": null,
-      "vol": 104
+      "ex": 749.885,
+      "div": 4.94242,
+      "vol": 33
     },
     {
-      "name": "Uncut Skill Gem (Level 1)",
-      "cat": "uncutgems",
-      "ex": 38.446,
-      "div": 0.267009,
-      "vol": 21
+      "name": "Cadigan's Epiphany",
+      "cat": "runes",
+      "ex": 1592.87,
+      "div": 10.663,
+      "vol": 14
     },
     {
-      "name": "Styrn's Ferocity",
+      "name": "Esh's Catalyst",
+      "cat": "breach",
+      "ex": 5.13036,
+      "div": 0.0628172,
+      "vol": 3964
+    },
+    {
+      "name": "Neural Catalyst",
+      "cat": "breach",
+      "ex": 2.32826,
+      "div": 0.0205002,
+      "vol": 8156
+    },
+    {
+      "name": "Olroth's Conviction",
       "cat": "lineagesupportgems",
-      "ex": 17.866,
-      "div": null,
-      "vol": 45
+      "ex": 2120.62,
+      "div": 9.55341,
+      "vol": 8
     },
     {
-      "name": "Iron Rune",
-      "cat": "runes",
-      "ex": 4.50826,
-      "div": null,
-      "vol": 175
+      "name": "Concentrated Liquid Fear",
+      "cat": "delirium",
+      "ex": 46.0942,
+      "div": 0.356601,
+      "vol": 347
     },
     {
-      "name": "Cholotl's Soul Core of War",
-      "cat": "ultimatum",
-      "ex": 6.09021,
-      "div": null,
-      "vol": 128
-    },
-    {
-      "name": "Void Flux",
-      "cat": "expedition",
-      "ex": 18.2975,
-      "div": 0.2562,
-      "vol": 42
-    },
-    {
-      "name": "Zarokh's Revolt",
+      "name": "Tecrod's Revenge",
       "cat": "lineagesupportgems",
-      "ex": 19.05,
-      "div": null,
-      "vol": 40
+      "ex": 228.004,
+      "div": 1.62087,
+      "vol": 69
     },
     {
-      "name": "Medved's Tending",
-      "cat": "runes",
-      "ex": 57.9415,
-      "div": 0.322259,
-      "vol": 13
-    },
-    {
-      "name": "Omen of Sinistral Necromancy",
-      "cat": "ritual",
-      "ex": 0.478855,
-      "div": 0.0263954,
-      "vol": 1562
-    },
-    {
-      "name": "Uncut Skill Gem (Level 8)",
-      "cat": "uncutgems",
-      "ex": 7.20759,
-      "div": null,
-      "vol": 103
-    },
-    {
-      "name": "Robust Rune",
-      "cat": "runes",
-      "ex": 7.54869,
-      "div": null,
-      "vol": 98
-    },
-    {
-      "name": "Quipolatl's Thesis",
+      "name": "Orb of Extraction",
       "cat": "incursion",
-      "ex": 737.358,
-      "div": 4.557,
-      "vol": 1
+      "ex": 105.088,
+      "div": 0.51674,
+      "vol": 138
     },
     {
-      "name": "Chayula's Catalyst",
-      "cat": "breach",
-      "ex": 1.86435,
-      "div": 0.027795,
-      "vol": 387
-    },
-    {
-      "name": "Omen of the Blackblooded",
-      "cat": "ritual",
-      "ex": 13.6015,
-      "div": 0.164647,
-      "vol": 53
-    },
-    {
-      "name": "Uhtred's Constellation",
-      "cat": "lineagesupportgems",
-      "ex": 44.4951,
-      "div": 1.08888,
-      "vol": 16
-    },
-    {
-      "name": "Carved Tenacity",
-      "cat": "expedition",
-      "ex": 87.8001,
-      "div": 1.78072,
-      "vol": 8
-    },
-    {
-      "name": "Essence of Abrasion",
-      "cat": "essences",
-      "ex": 13.4231,
-      "div": null,
-      "vol": 52
-    },
-    {
-      "name": "Refined Flesh Catalyst",
-      "cat": "breach",
-      "ex": 9.16453,
-      "div": 0.0894224,
-      "vol": 76
-    },
-    {
-      "name": "Thaumaturgic Flux (Level 20)",
-      "cat": "expedition",
-      "ex": 66.9895,
-      "div": 1.28795,
-      "vol": 10
-    },
-    {
-      "name": "Xoph's Pyre",
-      "cat": "lineagesupportgems",
-      "ex": 669.415,
-      "div": 17.7263,
-      "vol": 1
-    },
-    {
-      "name": "Rune of Acrobatics",
-      "cat": "runes",
-      "ex": 5.71086,
-      "div": null,
-      "vol": 115
-    },
-    {
-      "name": "Warding Rune of Equinox",
-      "cat": "runes",
-      "ex": 10.5574,
-      "div": null,
-      "vol": 61
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 9)",
-      "cat": "uncutgems",
-      "ex": 78.4338,
-      "div": 0.539305,
-      "vol": 8
-    },
-    {
-      "name": "Uncut Skill Gem (Level 10)",
-      "cat": "uncutgems",
-      "ex": 3.14025,
-      "div": null,
-      "vol": 194
-    },
-    {
-      "name": "Estazunti's Soul Core of Convalescence",
+      "name": "Soul Core of Tacati",
       "cat": "ultimatum",
-      "ex": 9.5,
-      "div": null,
-      "vol": 62
+      "ex": 54.7833,
+      "div": 0.605418,
+      "vol": 257
     },
     {
-      "name": "Tzamoto's Soul Core of Ferocity",
-      "cat": "ultimatum",
-      "ex": 73.3008,
-      "div": 0.569719,
-      "vol": 8
-    },
-    {
-      "name": "Xipocado's Soul Core of Dominion",
-      "cat": "ultimatum",
-      "ex": 7.13195,
-      "div": null,
-      "vol": 78
-    },
-    {
-      "name": "Guatelitzi's Soul Core of Endurance",
-      "cat": "ultimatum",
-      "ex": 13.4634,
-      "div": null,
-      "vol": 41
-    },
-    {
-      "name": "Orb of Transmutation",
+      "name": "Gemcutter's Prism",
       "cat": "currency",
-      "ex": 0.0490319,
-      "div": 0.00101372,
-      "vol": 11224
+      "ex": 0.842551,
+      "div": 0.00958361,
+      "vol": 15445
     },
     {
-      "name": "Perfect Rebirth Rune",
-      "cat": "runes",
-      "ex": 137.015,
-      "div": 1.07178,
-      "vol": 4
-    },
-    {
-      "name": "Fenumus' Rune of Agony",
-      "cat": "runes",
-      "ex": 3.35047,
-      "div": null,
-      "vol": 160
-    },
-    {
-      "name": "Storm Rune",
-      "cat": "runes",
-      "ex": 2.1063,
-      "div": null,
-      "vol": 254
-    },
-    {
-      "name": "Vorana's Saga",
-      "cat": "expedition",
-      "ex": 3.7362,
-      "div": 0.16329,
-      "vol": 143
-    },
-    {
-      "name": "Greater Robust Rune",
-      "cat": "runes",
-      "ex": 0.978697,
-      "div": null,
-      "vol": 543
-    },
-    {
-      "name": "Idol of Grold",
-      "cat": "idol",
-      "ex": 3.07477,
-      "div": null,
-      "vol": 167
-    },
-    {
-      "name": "Uncut Skill Gem (Level 3)",
-      "cat": "uncutgems",
-      "ex": 4.27463,
-      "div": 0.160717,
-      "vol": 120
-    },
-    {
-      "name": "Greater Iron Rune",
-      "cat": "runes",
-      "ex": 1.13022,
-      "div": 0.017809,
-      "vol": 449
-    },
-    {
-      "name": "Rune of the Prism",
-      "cat": "runes",
-      "ex": 3.25908,
-      "div": null,
-      "vol": 155
-    },
-    {
-      "name": "Tacati's Soul Core of Affliction",
-      "cat": "ultimatum",
-      "ex": 8.60345,
-      "div": null,
-      "vol": 58
-    },
-    {
-      "name": "Ixchel's Torment",
-      "cat": "lineagesupportgems",
-      "ex": 157.198,
-      "div": 1.13593,
-      "vol": 3
-    },
-    {
-      "name": "Katla's Gloom",
-      "cat": "runes",
-      "ex": 39.2918,
-      "div": 0.452516,
-      "vol": 12
-    },
-    {
-      "name": "Greater Mind Rune",
-      "cat": "runes",
-      "ex": 0.99471,
-      "div": null,
-      "vol": 474
-    },
-    {
-      "name": "Ahn's Citadel",
-      "cat": "lineagesupportgems",
-      "ex": 5.13156,
-      "div": null,
-      "vol": 89
-    },
-    {
-      "name": "Idol of the Pharisee",
+      "name": "Omen of Greater Exaltation",
       "cat": "ritual",
-      "ex": 3.5285,
-      "div": null,
-      "vol": 129
+      "ex": 1.9723,
+      "div": 0.0101211,
+      "vol": 6565
     },
     {
-      "name": "Uncut Skill Gem (Level 12)",
-      "cat": "uncutgems",
-      "ex": 2.08257,
-      "div": null,
-      "vol": 218
-    },
-    {
-      "name": "Citaqualotl's Soul Core of Foulness",
-      "cat": "ultimatum",
-      "ex": 5.4779,
-      "div": null,
-      "vol": 82
-    },
-    {
-      "name": "Kurgal's Leash",
-      "cat": "lineagesupportgems",
-      "ex": 2.72121,
-      "div": null,
-      "vol": 165
-    },
-    {
-      "name": "Greater Essence of Haste",
-      "cat": "essences",
-      "ex": 1.0127,
-      "div": null,
-      "vol": 441
-    },
-    {
-      "name": "Omen of Answered Prayers",
+      "name": "Omen of Resurgence",
       "cat": "ritual",
-      "ex": 10.0238,
-      "div": null,
-      "vol": 42
+      "ex": 3.82158,
+      "div": 0.00511521,
+      "vol": 3188
     },
     {
-      "name": "Gnawed Jawbone",
-      "cat": "abyss",
-      "ex": 2.13198,
-      "div": null,
-      "vol": 197
-    },
-    {
-      "name": "Kurgal's Gaze",
-      "cat": "abyss",
-      "ex": 403.303,
-      "div": 13.5273,
-      "vol": 1
-    },
-    {
-      "name": "Ancient Concentrated Liquid Isolation",
-      "cat": "delirium",
-      "ex": 4.13954,
-      "div": null,
-      "vol": 97
-    },
-    {
-      "name": "Omen of Dextral Necromancy",
-      "cat": "ritual",
-      "ex": 0.479512,
-      "div": 0.0288974,
-      "vol": 817
-    },
-    {
-      "name": "Omen of the Sovereign",
-      "cat": "ritual",
-      "ex": 0.964081,
-      "div": null,
-      "vol": 405
-    },
-    {
-      "name": "Rune of the Hunt",
-      "cat": "runes",
-      "ex": 3.36135,
-      "div": null,
-      "vol": 115
-    },
-    {
-      "name": "Atziri's Impatience",
-      "cat": "lineagesupportgems",
-      "ex": 8.04878,
-      "div": null,
-      "vol": 48
-    },
-    {
-      "name": "Uncut Skill Gem (Level 14)",
-      "cat": "uncutgems",
-      "ex": 0.727571,
-      "div": null,
-      "vol": 513
-    },
-    {
-      "name": "Paquate's Pact",
-      "cat": "lineagesupportgems",
-      "ex": 6.62711,
-      "div": null,
-      "vol": 56
-    },
-    {
-      "name": "Prismatic Alloy",
+      "name": "Veridical Starlit Ore",
       "cat": "verisium",
-      "ex": 6.62205,
-      "div": 0.388366,
-      "vol": 56
-    },
-    {
-      "name": "Kalisa's Crescendo",
-      "cat": "lineagesupportgems",
-      "ex": 6.93789,
+      "ex": 68.0867,
       "div": null,
-      "vol": 52
+      "vol": 177
     },
     {
-      "name": "Glacial Rune",
-      "cat": "runes",
-      "ex": 4.72,
-      "div": null,
-      "vol": 75
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 17)",
-      "cat": "uncutgems",
-      "ex": 4.95093,
-      "div": 0.36936,
-      "vol": 70
-    },
-    {
-      "name": "Perfect Essence of Enhancement",
-      "cat": "essences",
-      "ex": 0.873169,
-      "div": 0.0775911,
-      "vol": 393
-    },
-    {
-      "name": "Perfect Essence of Sorcery",
-      "cat": "essences",
-      "ex": 0.704978,
-      "div": null,
-      "vol": 484
-    },
-    {
-      "name": "Idol of Oak",
-      "cat": "ritual",
-      "ex": 5.77966,
-      "div": null,
-      "vol": 59
-    },
-    {
-      "name": "Brutus' Brain",
-      "cat": "lineagesupportgems",
-      "ex": 37.7651,
-      "div": 1.25682,
-      "vol": 9
-    },
-    {
-      "name": "Idol of Sirrius",
-      "cat": "idol",
-      "ex": 18.8763,
-      "div": 0.255556,
-      "vol": 18
-    },
-    {
-      "name": "Perfect Essence of Flames",
-      "cat": "essences",
-      "ex": 2.24667,
-      "div": null,
-      "vol": 150
-    },
-    {
-      "name": "Farrul's Rune of the Chase",
-      "cat": "runes",
-      "ex": 16.6632,
-      "div": 0.234518,
-      "vol": 20
-    },
-    {
-      "name": "Rune of Accumulation",
-      "cat": "runes",
-      "ex": 2.97059,
-      "div": null,
-      "vol": 102
-    },
-    {
-      "name": "Zalatl's Soul Core of Insulation",
+      "name": "Opiloti's Soul Core of Assault",
       "cat": "ultimatum",
-      "ex": 4.12195,
-      "div": null,
-      "vol": 73
-    },
-    {
-      "name": "Thaumaturgic Flux (Level 18)",
-      "cat": "expedition",
-      "ex": 3.73163,
-      "div": null,
-      "vol": 80
-    },
-    {
-      "name": "Diluted Liquid Ire",
-      "cat": "delirium",
-      "ex": 0.0635502,
-      "div": null,
-      "vol": 4642
-    },
-    {
-      "name": "Essence of Insanity",
-      "cat": "essences",
-      "ex": 2.37097,
-      "div": null,
-      "vol": 124
-    },
-    {
-      "name": "Refined Chayula's Catalyst",
-      "cat": "breach",
-      "ex": 7.91635,
-      "div": 0.146378,
-      "vol": 37
-    },
-    {
-      "name": "Uromoti's Soul Core of Attenuation",
-      "cat": "ultimatum",
-      "ex": 8.55882,
-      "div": null,
-      "vol": 34
-    },
-    {
-      "name": "The Runefather's Alloy",
-      "cat": "verisium",
-      "ex": 7.72973,
-      "div": null,
-      "vol": 37
-    },
-    {
-      "name": "Diluted Liquid Greed",
-      "cat": "delirium",
-      "ex": 0.320161,
-      "div": null,
-      "vol": 888
-    },
-    {
-      "name": "Essence of Seeking",
-      "cat": "essences",
-      "ex": 11.5417,
-      "div": null,
-      "vol": 24
-    },
-    {
-      "name": "Chance Shard",
-      "cat": "currency",
-      "ex": 0.728947,
-      "div": null,
-      "vol": 380
-    },
-    {
-      "name": "Zarokh's Refrain",
-      "cat": "lineagesupportgems",
-      "ex": 5.09434,
-      "div": null,
-      "vol": 53
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 4)",
-      "cat": "uncutgems",
-      "ex": 32.6614,
-      "div": 0.315196,
-      "vol": 8
-    },
-    {
-      "name": "Idol of Eeshta",
-      "cat": "idol",
-      "ex": 12.3361,
-      "div": 0.360781,
-      "vol": 21
-    },
-    {
-      "name": "Greater Desert Rune",
-      "cat": "runes",
-      "ex": 0.415035,
-      "div": null,
-      "vol": 623
-    },
-    {
-      "name": "Greater Storm Rune",
-      "cat": "runes",
-      "ex": 0.232677,
-      "div": null,
-      "vol": 1111
-    },
-    {
-      "name": "The Runebinder's Alloy",
-      "cat": "verisium",
-      "ex": 42.8213,
-      "div": 0.478808,
-      "vol": 6
-    },
-    {
-      "name": "Omen of Refreshment",
-      "cat": "ritual",
-      "ex": 0.167528,
-      "div": null,
-      "vol": 1525
-    },
-    {
-      "name": "Essence of Thawing",
-      "cat": "essences",
-      "ex": 15.875,
-      "div": null,
-      "vol": 16
-    },
-    {
-      "name": "Perfect Essence of Seeking",
-      "cat": "essences",
-      "ex": 0.766149,
-      "div": null,
-      "vol": 331
-    },
-    {
-      "name": "Idol of the Martyr",
-      "cat": "ritual",
-      "ex": 4.08365,
-      "div": null,
-      "vol": 61
-    },
-    {
-      "name": "Greater Body Rune",
-      "cat": "runes",
-      "ex": 1.0081,
-      "div": null,
-      "vol": 247
-    },
-    {
-      "name": "Omen of Gambling",
-      "cat": "ritual",
-      "ex": 0.406071,
-      "div": 0.00429719,
-      "vol": 602
-    },
-    {
-      "name": "Styrn's Mountain",
-      "cat": "lineagesupportgems",
-      "ex": 6.69444,
-      "div": null,
-      "vol": 36
+      "ex": 425.177,
+      "div": 2.24225,
+      "vol": 28
     },
     {
       "name": "Olroth's Hubris",
       "cat": "lineagesupportgems",
-      "ex": 20.0543,
-      "div": 0.966314,
+      "ex": 83.994,
+      "div": 2.93477,
+      "vol": 141
+    },
+    {
+      "name": "Ancient Infuser",
+      "cat": "incursion",
+      "ex": 35.2005,
+      "div": 0.199146,
+      "vol": 336
+    },
+    {
+      "name": "Protective Alloy",
+      "cat": "verisium",
+      "ex": 31.1391,
+      "div": null,
+      "vol": 376
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 8)",
+      "cat": "uncutgems",
+      "ex": 245.37,
+      "div": 1.10238,
+      "vol": 46
+    },
+    {
+      "name": "Breachlord's Rift",
+      "cat": "lineagesupportgems",
+      "ex": 912.99,
+      "div": 6.08334,
       "vol": 12
+    },
+    {
+      "name": "Perfect Storm Rune",
+      "cat": "runes",
+      "ex": 178.873,
+      "div": 1.00026,
+      "vol": 59
+    },
+    {
+      "name": "Vorana's Siege",
+      "cat": "lineagesupportgems",
+      "ex": 3389.16,
+      "div": 19.6734,
+      "vol": 3
+    },
+    {
+      "name": "Tzamoto's Soul Core of Ferocity",
+      "cat": "ultimatum",
+      "ex": 66.7345,
+      "div": null,
+      "vol": 145
+    },
+    {
+      "name": "Omen of the Blessed",
+      "cat": "ritual",
+      "ex": 14.2786,
+      "div": 0.0664239,
+      "vol": 637
+    },
+    {
+      "name": "Fox Idol",
+      "cat": "idol",
+      "ex": 100.718,
+      "div": 0.801451,
+      "vol": 85
+    },
+    {
+      "name": "Breachlord's Amalgam",
+      "cat": "lineagesupportgems",
+      "ex": 237.273,
+      "div": 1.63312,
+      "vol": 36
+    },
+    {
+      "name": "Arcanist's Etcher",
+      "cat": "currency",
+      "ex": 1.22782,
+      "div": 0.0114499,
+      "vol": 6689
+    },
+    {
+      "name": "Omen of the Ancients",
+      "cat": "ritual",
+      "ex": 3.15951,
+      "div": 0.0396132,
+      "vol": 2497
+    },
+    {
+      "name": "Essence of the Abyss",
+      "cat": "essences",
+      "ex": 4.06064,
+      "div": 0.0705905,
+      "vol": 1942
+    },
+    {
+      "name": "Soul Core of Jiquani",
+      "cat": "ultimatum",
+      "ex": 82.2025,
+      "div": 0.696788,
+      "vol": 94
+    },
+    {
+      "name": "Refined Tul's Catalyst",
+      "cat": "breach",
+      "ex": 12.2507,
+      "div": 0.109184,
+      "vol": 617
+    },
+    {
+      "name": "Perfect Glacial Rune",
+      "cat": "runes",
+      "ex": 180.568,
+      "div": 1.01073,
+      "vol": 41
+    },
+    {
+      "name": "Greater Regal Orb",
+      "cat": "currency",
+      "ex": 1.2004,
+      "div": 0.00560548,
+      "vol": 6116
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 14)",
+      "cat": "uncutgems",
+      "ex": 64.1696,
+      "div": 0.383478,
+      "vol": 113
+    },
+    {
+      "name": "Chilling Flux",
+      "cat": "expedition",
+      "ex": 9.95376,
+      "div": null,
+      "vol": 692
+    },
+    {
+      "name": "Olroth's Saga",
+      "cat": "expedition",
+      "ex": 39.2816,
+      "div": 0.26762,
+      "vol": 175
+    },
+    {
+      "name": "Soul Core of Citaqualotl",
+      "cat": "ultimatum",
+      "ex": 55.6083,
+      "div": 0.548161,
+      "vol": 120
+    },
+    {
+      "name": "Skittering Catalyst",
+      "cat": "breach",
+      "ex": 4.01807,
+      "div": 0.0421506,
+      "vol": 1596
+    },
+    {
+      "name": "Perfect Desert Rune",
+      "cat": "runes",
+      "ex": 186.061,
+      "div": 1.01329,
+      "vol": 30
+    },
+    {
+      "name": "Perfect Mind Rune",
+      "cat": "runes",
+      "ex": 230.219,
+      "div": 0.892994,
+      "vol": 24
+    },
+    {
+      "name": "Aldur's Saga",
+      "cat": "expedition",
+      "ex": 5400.76,
+      "div": 35.5349,
+      "vol": 1
+    },
+    {
+      "name": "Refined Carapace Catalyst",
+      "cat": "breach",
+      "ex": 9.42687,
+      "div": 0.0994447,
+      "vol": 572
+    },
+    {
+      "name": "Ulaman's Gaze",
+      "cat": "abyss",
+      "ex": 285.911,
+      "div": 1.41517,
+      "vol": 18
     },
     {
       "name": "Omen of Secret Compartments",
       "cat": "ritual",
-      "ex": 59.829,
-      "div": 0.214201,
-      "vol": 4
+      "ex": 48.9859,
+      "div": null,
+      "vol": 105
     },
     {
-      "name": "Warding Rune of Reinforcement",
-      "cat": "runes",
-      "ex": 5.26098,
-      "div": 0.2571,
-      "vol": 45
-    },
-    {
-      "name": "Soul Core of Zantipi",
+      "name": "Soul Core of Cholotl",
       "cat": "ultimatum",
-      "ex": 28.993,
-      "div": 0.297373,
+      "ex": 143.535,
+      "div": 1.08489,
+      "vol": 33
+    },
+    {
+      "name": "Khatal's Rejuvenation",
+      "cat": "lineagesupportgems",
+      "ex": 98.6703,
+      "div": 1.60859,
+      "vol": 48
+    },
+    {
+      "name": "Essence of the Breach",
+      "cat": "essences",
+      "ex": 14.5548,
+      "div": 0.11599,
+      "vol": 320
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 19)",
+      "cat": "uncutgems",
+      "ex": 24.2097,
+      "div": 0.17749,
+      "vol": 191
+    },
+    {
+      "name": "Soul Core of Ticaba",
+      "cat": "ultimatum",
+      "ex": 28.1639,
+      "div": null,
+      "vol": 164
+    },
+    {
+      "name": "Carved Cunning",
+      "cat": "expedition",
+      "ex": 563.951,
+      "div": 3.53315,
       "vol": 8
     },
     {
-      "name": "Omen of Putrefaction",
-      "cat": "ritual",
-      "ex": 0.330182,
-      "div": 0.0398805,
-      "vol": 689
+      "name": "Greater Rune of Leadership",
+      "cat": "runes",
+      "ex": 118.609,
+      "div": 1.16314,
+      "vol": 38
     },
     {
-      "name": "Medved's Crest of the Circle",
+      "name": "Seraph's Heart",
+      "cat": "lineagesupportgems",
+      "ex": 4303.26,
+      "div": 46.8231,
+      "vol": 1
+    },
+    {
+      "name": "Orb of Augmentation",
+      "cat": "currency",
+      "ex": 0.155815,
+      "div": 0.00127554,
+      "vol": 27515
+    },
+    {
+      "name": "Essence of Horror",
+      "cat": "essences",
+      "ex": 34.2123,
+      "div": 0.357554,
+      "vol": 124
+    },
+    {
+      "name": "Refined Esh's Catalyst",
+      "cat": "breach",
+      "ex": 7.88811,
+      "div": 0.153474,
+      "vol": 529
+    },
+    {
+      "name": "Liquid Envy",
+      "cat": "delirium",
+      "ex": 1.12228,
+      "div": null,
+      "vol": 3692
+    },
+    {
+      "name": "The Runebinder's Alloy",
       "cat": "verisium",
-      "ex": 0.216377,
+      "ex": 45.7624,
       "div": null,
-      "vol": 1033
+      "vol": 85
     },
     {
-      "name": "Idol of Thruldana",
-      "cat": "idol",
-      "ex": 2.9259,
-      "div": null,
-      "vol": 76
+      "name": "Uncut Support Gem (Level 5)",
+      "cat": "uncutgems",
+      "ex": 1.08325,
+      "div": 0.0207302,
+      "vol": 3478
     },
     {
-      "name": "Saqawal's Rune of the Sky",
+      "name": "Perfect Body Rune",
       "cat": "runes",
-      "ex": 9.99621,
-      "div": 0.128947,
-      "vol": 22
+      "ex": 207.87,
+      "div": 0.968151,
+      "vol": 18
     },
     {
-      "name": "Warding Rune of Nourishment",
-      "cat": "runes",
-      "ex": 5.86255,
+      "name": "Perfect Essence of Battle",
+      "cat": "essences",
+      "ex": 7.07133,
+      "div": 0.141319,
+      "vol": 529
+    },
+    {
+      "name": "Cryptic Key",
+      "cat": "currency",
+      "ex": 49.9976,
+      "div": 0.309751,
+      "vol": 72
+    },
+    {
+      "name": "Carapace Catalyst",
+      "cat": "breach",
+      "ex": 1.61406,
+      "div": 0.0168365,
+      "vol": 2220
+    },
+    {
+      "name": "Uhtred's Augury",
+      "cat": "lineagesupportgems",
+      "ex": 3453.7,
+      "div": 29.2512,
+      "vol": 1
+    },
+    {
+      "name": "Glassblower's Bauble",
+      "cat": "currency",
+      "ex": 0.844514,
+      "div": 0.0049561,
+      "vol": 3825
+    },
+    {
+      "name": "An Audience with the King",
+      "cat": "fragments",
+      "ex": 4.43832,
+      "div": 0.0244795,
+      "vol": 714
+    },
+    {
+      "name": "Soul Core of Tzamoto",
+      "cat": "ultimatum",
+      "ex": 28.8204,
       "div": null,
-      "vol": 36
+      "vol": 109
     },
     {
-      "name": "Emergent Protection",
+      "name": "Soul Core of Puhuarte",
+      "cat": "ultimatum",
+      "ex": 26.3884,
+      "div": null,
+      "vol": 115
+    },
+    {
+      "name": "Liquid Despair",
+      "cat": "delirium",
+      "ex": 14.8769,
+      "div": 0.082264,
+      "vol": 203
+    },
+    {
+      "name": "Blacksmith's Whetstone",
+      "cat": "currency",
+      "ex": 0.191007,
+      "div": 0.0046291,
+      "vol": 15748
+    },
+    {
+      "name": "Countess Seske's Rune of Archery",
+      "cat": "runes",
+      "ex": 8.46774,
+      "div": null,
+      "vol": 350
+    },
+    {
+      "name": "The Greatwolf's Rune of Willpower",
+      "cat": "runes",
+      "ex": 13.8462,
+      "div": null,
+      "vol": 212
+    },
+    {
+      "name": "Emergent Vigour",
       "cat": "expedition",
-      "ex": 8.36895,
-      "div": null,
-      "vol": 25
+      "ex": 180.083,
+      "div": 1.44042,
+      "vol": 16
     },
     {
-      "name": "Thaumaturgic Flux (Level 14)",
-      "cat": "expedition",
-      "ex": 7.39286,
-      "div": null,
-      "vol": 28
+      "name": "Call of the Shadows",
+      "cat": "ritual",
+      "ex": 3.53488,
+      "div": 0.0406701,
+      "vol": 812
     },
     {
-      "name": "Vorana's Carnage",
+      "name": "Perfect Robust Rune",
       "cat": "runes",
-      "ex": 18.7866,
-      "div": 0.274151,
+      "ex": 259.219,
+      "div": 0.852099,
       "vol": 11
     },
     {
-      "name": "Ailith's Chimes",
+      "name": "Esh's Radiance",
       "cat": "lineagesupportgems",
-      "ex": 20.4917,
-      "div": 0.317112,
-      "vol": 10
+      "ex": 2805.86,
+      "div": 37.3892,
+      "vol": 1
     },
     {
-      "name": "Lesser Essence of Abrasion",
+      "name": "Regal Orb",
+      "cat": "currency",
+      "ex": 0.254796,
+      "div": 0.00325441,
+      "vol": 10978
+    },
+    {
+      "name": "Medved's Felling",
+      "cat": "lineagesupportgems",
+      "ex": 23.1567,
+      "div": null,
+      "vol": 120
+    },
+    {
+      "name": "Soul Core of Zalatl",
+      "cat": "ultimatum",
+      "ex": 61.0114,
+      "div": 0.56129,
+      "vol": 44
+    },
+    {
+      "name": "Perfect Essence of Haste",
       "cat": "essences",
-      "ex": 9.66667,
-      "div": null,
-      "vol": 21
+      "ex": 9.21827,
+      "div": 0.170314,
+      "vol": 278
     },
     {
-      "name": "Mórrigan's Insight",
+      "name": "Soul Core of Xopec",
+      "cat": "ultimatum",
+      "ex": 26.7746,
+      "div": null,
+      "vol": 94
+    },
+    {
+      "name": "Perfect Vision Rune",
+      "cat": "runes",
+      "ex": 143.264,
+      "div": 0.963983,
+      "vol": 17
+    },
+    {
+      "name": "Warding Starlit Ore",
+      "cat": "verisium",
+      "ex": 43.1218,
+      "div": 0.739697,
+      "vol": 56
+    },
+    {
+      "name": "Arbiter's Ignition",
       "cat": "lineagesupportgems",
-      "ex": 21.8137,
-      "div": 3.93777,
-      "vol": 9
+      "ex": 74.3583,
+      "div": 0.138825,
+      "vol": 32
     },
     {
-      "name": "Thaumaturgic Flux (Level 10)",
-      "cat": "expedition",
-      "ex": 8.77273,
-      "div": null,
-      "vol": 22
-    },
-    {
-      "name": "Thaumaturgic Flux (Level 11)",
-      "cat": "expedition",
-      "ex": 9,
-      "div": null,
-      "vol": 21
-    },
-    {
-      "name": "Kulemak's Dominion",
-      "cat": "lineagesupportgems",
-      "ex": 8.54545,
-      "div": null,
-      "vol": 22
-    },
-    {
-      "name": "Citaqualotl's Thesis",
-      "cat": "incursion",
-      "ex": 61.3333,
-      "div": null,
-      "vol": 3
-    },
-    {
-      "name": "Snake Idol",
+      "name": "Omen of Sanctification",
       "cat": "ritual",
-      "ex": 1.19738,
+      "ex": 13.0565,
+      "div": 0.2707,
+      "vol": 178
+    },
+    {
+      "name": "Preserved Rib",
+      "cat": "abyss",
+      "ex": 0.414588,
+      "div": 0.00553013,
+      "vol": 5486
+    },
+    {
+      "name": "Flesh Catalyst",
+      "cat": "breach",
+      "ex": 1.62752,
+      "div": 0.0133688,
+      "vol": 1385
+    },
+    {
+      "name": "Adaptive Catalyst",
+      "cat": "breach",
+      "ex": 1.55665,
+      "div": 0.0176099,
+      "vol": 1403
+    },
+    {
+      "name": "Omen of Catalysing Exaltation",
+      "cat": "ritual",
+      "ex": 2.51549,
+      "div": 0.0238865,
+      "vol": 828
+    },
+    {
+      "name": "Xipocado's Soul Core of Dominion",
+      "cat": "ultimatum",
+      "ex": 8.33976,
+      "div": null,
+      "vol": 246
+    },
+    {
+      "name": "Omen of Sinistral Exaltation",
+      "cat": "ritual",
+      "ex": 1.27552,
+      "div": 0.0284559,
+      "vol": 1554
+    },
+    {
+      "name": "Sovereign Alloy",
+      "cat": "verisium",
+      "ex": 35.0698,
+      "div": 0.417024,
+      "vol": 55
+    },
+    {
+      "name": "Essence of Opulence",
+      "cat": "essences",
+      "ex": 39.2041,
+      "div": null,
+      "vol": 49
+    },
+    {
+      "name": "Uhtred's Rite",
+      "cat": "lineagesupportgems",
+      "ex": 13.7763,
+      "div": null,
+      "vol": 139
+    },
+    {
+      "name": "Breach Splinter",
+      "cat": "fragments",
+      "ex": 0.125382,
+      "div": 0.000685021,
+      "vol": 14897
+    },
+    {
+      "name": "Refined Uul-Netol's Catalyst",
+      "cat": "breach",
+      "ex": 9.19071,
+      "div": 0.0927311,
+      "vol": 198
+    },
+    {
+      "name": "Ancient Potent Liquid Melancholy",
+      "cat": "delirium",
+      "ex": 17.956,
+      "div": 0.15295,
+      "vol": 96
+    },
+    {
+      "name": "Transcendent Alloy",
+      "cat": "verisium",
+      "ex": 30.2314,
+      "div": 0.454534,
+      "vol": 56
+    },
+    {
+      "name": "Greater Ward Rune",
+      "cat": "runes",
+      "ex": 9.32069,
+      "div": null,
+      "vol": 169
+    },
+    {
+      "name": "Uul-Netol's Catalyst",
+      "cat": "breach",
+      "ex": 1.42341,
+      "div": 0.0145883,
+      "vol": 1081
+    },
+    {
+      "name": "Idol of Sirrius",
+      "cat": "idol",
+      "ex": 23.9841,
+      "div": 0.124815,
+      "vol": 63
+    },
+    {
+      "name": "Greater Essence of Opulence",
+      "cat": "essences",
+      "ex": 6.22337,
+      "div": 0.106892,
+      "vol": 240
+    },
+    {
+      "name": "Greater Rune of Alacrity",
+      "cat": "runes",
+      "ex": 82.3658,
+      "div": 0.794999,
+      "vol": 18
+    },
+    {
+      "name": "Lesser Robust Rune",
+      "cat": "runes",
+      "ex": 5.2644,
+      "div": null,
+      "vol": 273
+    },
+    {
+      "name": "Robust Rune",
+      "cat": "runes",
+      "ex": 7.60317,
+      "div": null,
+      "vol": 189
+    },
+    {
+      "name": "Thane Grannell's Rune of Mastery",
+      "cat": "runes",
+      "ex": 4.85895,
+      "div": null,
+      "vol": 295
+    },
+    {
+      "name": "Greater Orb of Augmentation",
+      "cat": "currency",
+      "ex": 0.164788,
+      "div": 0.0011914,
+      "vol": 8470
+    },
+    {
+      "name": "Breath of Aldur",
+      "cat": "runes",
+      "ex": 7.95728,
+      "div": null,
+      "vol": 165
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 12)",
+      "cat": "uncutgems",
+      "ex": 6.42676,
+      "div": null,
+      "vol": 202
+    },
+    {
+      "name": "Essence of Delirium",
+      "cat": "essences",
+      "ex": 9.60894,
+      "div": 0.174035,
+      "vol": 135
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 11)",
+      "cat": "uncutgems",
+      "ex": 15.3026,
+      "div": null,
+      "vol": 82
+    },
+    {
+      "name": "Uncut Skill Gem (Level 19)",
+      "cat": "uncutgems",
+      "ex": 3.7586,
+      "div": 0.238519,
+      "vol": 333
+    },
+    {
+      "name": "Uncut Skill Gem (Level 3)",
+      "cat": "uncutgems",
+      "ex": 6.94318,
+      "div": null,
+      "vol": 176
+    },
+    {
+      "name": "Refined Xoph's Catalyst",
+      "cat": "breach",
+      "ex": 6.858,
+      "div": 0.457946,
+      "vol": 178
+    },
+    {
+      "name": "Artificer's Orb",
+      "cat": "currency",
+      "ex": 0.264837,
+      "div": 0.00557001,
+      "vol": 4492
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 9)",
+      "cat": "uncutgems",
+      "ex": 90.9588,
+      "div": 0.433969,
+      "vol": 13
+    },
+    {
+      "name": "Chayula's Catalyst",
+      "cat": "breach",
+      "ex": 1.48443,
+      "div": 0.036036,
+      "vol": 781
+    },
+    {
+      "name": "Perfect Adept Rune",
+      "cat": "runes",
+      "ex": 183.686,
+      "div": 0.939368,
+      "vol": 6
+    },
+    {
+      "name": "Emergent Possibility",
+      "cat": "expedition",
+      "ex": 1021.94,
+      "div": 20.5409,
+      "vol": 1
+    },
+    {
+      "name": "Omen of Dextral Necromancy",
+      "cat": "ritual",
+      "ex": 0.591169,
+      "div": 0.0182948,
+      "vol": 1714
+    },
+    {
+      "name": "Omen of Gambling",
+      "cat": "ritual",
+      "ex": 0.416602,
+      "div": 0.00381546,
+      "vol": 2407
+    },
+    {
+      "name": "Preserved Jawbone",
+      "cat": "abyss",
+      "ex": 0.520434,
+      "div": 0.0195542,
+      "vol": 1887
+    },
+    {
+      "name": "Iron Rune",
+      "cat": "runes",
+      "ex": 3.26193,
+      "div": null,
+      "vol": 294
+    },
+    {
+      "name": "Twilight Reliquary Key",
+      "cat": "vaultkeys",
+      "ex": 2.50334,
+      "div": 0.0369175,
+      "vol": 382
+    },
+    {
+      "name": "Hayoxi's Fulmination",
+      "cat": "lineagesupportgems",
+      "ex": 22.756,
+      "div": null,
+      "vol": 42
+    },
+    {
+      "name": "Refined Adaptive Catalyst",
+      "cat": "breach",
+      "ex": 6.9731,
+      "div": 0.110362,
+      "vol": 137
+    },
+    {
+      "name": "Uncut Skill Gem (Level 9)",
+      "cat": "uncutgems",
+      "ex": 3.02246,
+      "div": null,
+      "vol": 315
+    },
+    {
+      "name": "Carved Tenacity",
+      "cat": "expedition",
+      "ex": 86.2978,
+      "div": 1.63092,
+      "vol": 11
+    },
+    {
+      "name": "Kulemak's Invitation",
+      "cat": "fragments",
+      "ex": 5.34158,
+      "div": 0.0835341,
+      "vol": 177
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 20)",
+      "cat": "expedition",
+      "ex": 78.7141,
+      "div": 0.921315,
+      "vol": 12
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 15)",
+      "cat": "uncutgems",
+      "ex": 47.2176,
+      "div": 0.541502,
+      "vol": 20
+    },
+    {
+      "name": "Greater Iron Rune",
+      "cat": "runes",
+      "ex": 1.05321,
+      "div": 0.0182176,
+      "vol": 894
+    },
+    {
+      "name": "Uncut Skill Gem (Level 5)",
+      "cat": "uncutgems",
+      "ex": 4.54455,
+      "div": null,
+      "vol": 202
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 16)",
+      "cat": "uncutgems",
+      "ex": 36.5998,
+      "div": 0.191956,
+      "vol": 25
+    },
+    {
+      "name": "Greater Orb of Transmutation",
+      "cat": "currency",
+      "ex": 0.120375,
+      "div": 0.00274503,
+      "vol": 7601
+    },
+    {
+      "name": "Kurgal's Gaze",
+      "cat": "abyss",
+      "ex": 456.738,
+      "div": 12.9068,
+      "vol": 2
+    },
+    {
+      "name": "Refined Flesh Catalyst",
+      "cat": "breach",
+      "ex": 9.92794,
+      "div": 0.0899331,
+      "vol": 88
+    },
+    {
+      "name": "Tacati's Soul Core of Affliction",
+      "cat": "ultimatum",
+      "ex": 7.70173,
+      "div": null,
+      "vol": 113
+    },
+    {
+      "name": "Ahn's Citadel",
+      "cat": "lineagesupportgems",
+      "ex": 8.10241,
+      "div": null,
+      "vol": 107
+    },
+    {
+      "name": "Omen of Answered Prayers",
+      "cat": "ritual",
+      "ex": 11.0909,
+      "div": null,
+      "vol": 77
+    },
+    {
+      "name": "Hedgewitch Assandra's Rune of Wisdom",
+      "cat": "runes",
+      "ex": 21.3241,
+      "div": 0.138395,
+      "vol": 40
+    },
+    {
+      "name": "Uhtred's Constellation",
+      "cat": "lineagesupportgems",
+      "ex": 42.5242,
+      "div": 1.01122,
+      "vol": 19
+    },
+    {
+      "name": "Perfect Rebirth Rune",
+      "cat": "runes",
+      "ex": 99.2469,
+      "div": 1.75721,
+      "vol": 8
+    },
+    {
+      "name": "Perfect Essence of the Mind",
+      "cat": "essences",
+      "ex": 1.06612,
+      "div": null,
+      "vol": 726
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 6)",
+      "cat": "uncutgems",
+      "ex": 10.7253,
+      "div": null,
+      "vol": 72
+    },
+    {
+      "name": "Medved's Saga",
+      "cat": "expedition",
+      "ex": 8.38224,
+      "div": 0.073299,
+      "vol": 92
+    },
+    {
+      "name": "Greater Essence of Ruin",
+      "cat": "essences",
+      "ex": 1.47421,
+      "div": null,
+      "vol": 519
+    },
+    {
+      "name": "Perfect Charging Rune",
+      "cat": "runes",
+      "ex": 189.579,
+      "div": 1.45562,
+      "vol": 4
+    },
+    {
+      "name": "Rabbit Idol",
+      "cat": "idol",
+      "ex": 17.0803,
+      "div": 0.0815905,
+      "vol": 44
+    },
+    {
+      "name": "Greater Rune of Tithing",
+      "cat": "runes",
+      "ex": 40.925,
+      "div": 0.433299,
+      "vol": 18
+    },
+    {
+      "name": "Omen of the Hunt",
+      "cat": "ritual",
+      "ex": 61.0015,
+      "div": 1.33191,
+      "vol": 12
+    },
+    {
+      "name": "Zalatl's Soul Core of Insulation",
+      "cat": "ultimatum",
+      "ex": 5.49101,
+      "div": null,
+      "vol": 133
+    },
+    {
+      "name": "Ritualistic Reliquary Key",
+      "cat": "vaultkeys",
+      "ex": 103.533,
+      "div": 1.67443,
+      "vol": 7
+    },
+    {
+      "name": "Katla's Gloom",
+      "cat": "runes",
+      "ex": 39.4155,
+      "div": 0.453004,
+      "vol": 18
+    },
+    {
+      "name": "Atmohua's Soul Core of Retreat",
+      "cat": "ultimatum",
+      "ex": 5.81523,
+      "div": null,
+      "vol": 122
+    },
+    {
+      "name": "Omen of Dextral Exaltation",
+      "cat": "ritual",
+      "ex": 0.714646,
+      "div": 0.02425,
+      "vol": 981
+    },
+    {
+      "name": "Perfect Inspiration Rune",
+      "cat": "runes",
+      "ex": 139.504,
+      "div": 0.499218,
+      "vol": 5
+    },
+    {
+      "name": "Scroll of Wisdom",
+      "cat": "currency",
+      "ex": 0.0125601,
+      "div": 0.000042492,
+      "vol": 55503
+    },
+    {
+      "name": "Fenumus' Rune of Agony",
+      "cat": "runes",
+      "ex": 3.88969,
+      "div": null,
+      "vol": 177
+    },
+    {
+      "name": "Rune of Foundations",
+      "cat": "runes",
+      "ex": 9.03252,
+      "div": 0.0798127,
+      "vol": 75
+    },
+    {
+      "name": "Brutus' Brain",
+      "cat": "lineagesupportgems",
+      "ex": 38.6698,
+      "div": 1.35899,
+      "vol": 17
+    },
+    {
+      "name": "Farrul's Rune of the Chase",
+      "cat": "runes",
+      "ex": 18.031,
+      "div": 0.187718,
+      "vol": 36
+    },
+    {
+      "name": "Carved Mischief",
+      "cat": "expedition",
+      "ex": 20.0491,
+      "div": null,
+      "vol": 32
+    },
+    {
+      "name": "Sione's Temper",
+      "cat": "lineagesupportgems",
+      "ex": 31.9444,
+      "div": 0.312041,
+      "vol": 20
+    },
+    {
+      "name": "Hayoxi's Soul Core of Heatproofing",
+      "cat": "ultimatum",
+      "ex": 4.23089,
       "div": null,
       "vol": 146
     },
     {
-      "name": "Carved Majesty",
-      "cat": "expedition",
-      "ex": 173.695,
-      "div": 50.3684,
-      "vol": 1
+      "name": "Uncut Skill Gem (Level 1)",
+      "cat": "uncutgems",
+      "ex": 40.9251,
+      "div": 0.317913,
+      "vol": 15
     },
     {
-      "name": "Idol of Kraityn",
-      "cat": "ritual",
-      "ex": 3.90909,
+      "name": "Uncut Support Gem (Level 1)",
+      "cat": "uncutgems",
+      "ex": 1.27443,
       "div": null,
-      "vol": 44
+      "vol": 481
     },
     {
-      "name": "Thaumaturgic Flux (Level 13)",
+      "name": "Uncut Skill Gem (Level 7)",
+      "cat": "uncutgems",
+      "ex": 25.336,
+      "div": 0.191432,
+      "vol": 24
+    },
+    {
+      "name": "Uncut Skill Gem (Level 2)",
+      "cat": "uncutgems",
+      "ex": 4.11034,
+      "div": null,
+      "vol": 145
+    },
+    {
+      "name": "Orb of Transmutation",
+      "cat": "currency",
+      "ex": 0.0462925,
+      "div": 0.00099904,
+      "vol": 12808
+    },
+    {
+      "name": "Vilenta's Propulsion",
+      "cat": "lineagesupportgems",
+      "ex": 2.00915,
+      "div": null,
+      "vol": 293
+    },
+    {
+      "name": "Omen of Reinforcements",
+      "cat": "ritual",
+      "ex": 43.0919,
+      "div": 0.565857,
+      "vol": 13
+    },
+    {
+      "name": "Xopec's Soul Core of Power",
+      "cat": "ultimatum",
+      "ex": 107.331,
+      "div": 1.40229,
+      "vol": 5
+    },
+    {
+      "name": "Warding Rune of Equinox",
+      "cat": "runes",
+      "ex": 2.86386,
+      "div": null,
+      "vol": 186
+    },
+    {
+      "name": "Omen of Sinistral Necromancy",
+      "cat": "ritual",
+      "ex": 0.500835,
+      "div": 0.040007,
+      "vol": 1057
+    },
+    {
+      "name": "Omen of the Blackblooded",
+      "cat": "ritual",
+      "ex": 13.797,
+      "div": 0.231975,
+      "vol": 38
+    },
+    {
+      "name": "Ixchel's Torment",
+      "cat": "lineagesupportgems",
+      "ex": 125.583,
+      "div": 1.36843,
+      "vol": 4
+    },
+    {
+      "name": "Refined Chayula's Catalyst",
+      "cat": "breach",
+      "ex": 7.67812,
+      "div": 0.153106,
+      "vol": 60
+    },
+    {
+      "name": "Refined Neural Catalyst",
+      "cat": "breach",
+      "ex": 9.75521,
+      "div": 0.0838473,
+      "vol": 46
+    },
+    {
+      "name": "Uncut Skill Gem (Level 12)",
+      "cat": "uncutgems",
+      "ex": 1.77631,
+      "div": null,
+      "vol": 249
+    },
+    {
+      "name": "Void Flux",
+      "cat": "expedition",
+      "ex": 18.1018,
+      "div": 0.255453,
+      "vol": 24
+    },
+    {
+      "name": "Storm Rune",
+      "cat": "runes",
+      "ex": 1.27456,
+      "div": null,
+      "vol": 338
+    },
+    {
+      "name": "Lesser Essence of Opulence",
+      "cat": "essences",
+      "ex": 17.5652,
+      "div": null,
+      "vol": 23
+    },
+    {
+      "name": "Perfect Stone Rune",
+      "cat": "runes",
+      "ex": 200,
+      "div": null,
+      "vol": 2
+    },
+    {
+      "name": "Idol of Oak",
+      "cat": "ritual",
+      "ex": 4.9375,
+      "div": null,
+      "vol": 80
+    },
+    {
+      "name": "Perfect Ward Rune",
+      "cat": "runes",
+      "ex": 98.4322,
+      "div": 1.08617,
+      "vol": 4
+    },
+    {
+      "name": "Idol of Thruldana",
+      "cat": "idol",
+      "ex": 4.02711,
+      "div": null,
+      "vol": 97
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 18)",
+      "cat": "uncutgems",
+      "ex": 4.88112,
+      "div": 0.134009,
+      "vol": 80
+    },
+    {
+      "name": "Dominus' Grasp",
+      "cat": "lineagesupportgems",
+      "ex": 2.49468,
+      "div": null,
+      "vol": 156
+    },
+    {
+      "name": "Greater Essence of Insulation",
+      "cat": "essences",
+      "ex": 0.512178,
+      "div": null,
+      "vol": 758
+    },
+    {
+      "name": "Perfect Resolve Rune",
+      "cat": "runes",
+      "ex": 187.416,
+      "div": 0.773958,
+      "vol": 2
+    },
+    {
+      "name": "Quipolatl's Thesis",
+      "cat": "incursion",
+      "ex": 186.394,
+      "div": 5.48424,
+      "vol": 2
+    },
+    {
+      "name": "Paquate's Pact",
+      "cat": "lineagesupportgems",
+      "ex": 4.23467,
+      "div": null,
+      "vol": 87
+    },
+    {
+      "name": "Citaqualotl's Soul Core of Foulness",
+      "cat": "ultimatum",
+      "ex": 4.32941,
+      "div": null,
+      "vol": 85
+    },
+    {
+      "name": "Kalisa's Crescendo",
+      "cat": "lineagesupportgems",
+      "ex": 9.83784,
+      "div": null,
+      "vol": 37
+    },
+    {
+      "name": "Liquid Disgust",
+      "cat": "delirium",
+      "ex": 3.74656,
+      "div": 0.0474034,
+      "vol": 97
+    },
+    {
+      "name": "Perfect Essence of Seeking",
+      "cat": "essences",
+      "ex": 1.4031,
+      "div": null,
+      "vol": 258
+    },
+    {
+      "name": "Guatelitzi's Soul Core of Endurance",
+      "cat": "ultimatum",
+      "ex": 14.36,
+      "div": null,
+      "vol": 25
+    },
+    {
+      "name": "Medved's Tending",
+      "cat": "runes",
+      "ex": 39.1555,
+      "div": 0.513613,
+      "vol": 9
+    },
+    {
+      "name": "Adaptive Alloy",
+      "cat": "verisium",
+      "ex": 9.77887,
+      "div": 0.193208,
+      "vol": 36
+    },
+    {
+      "name": "Quipolatl's Soul Core of Flow",
+      "cat": "ultimatum",
+      "ex": 38.4045,
+      "div": 0.431352,
+      "vol": 9
+    },
+    {
+      "name": "Greater Charging Rune",
+      "cat": "runes",
+      "ex": 4.64384,
+      "div": null,
+      "vol": 73
+    },
+    {
+      "name": "Zarokh's Refrain",
+      "cat": "lineagesupportgems",
+      "ex": 4.28939,
+      "div": null,
+      "vol": 78
+    },
+    {
+      "name": "Greater Essence of Seeking",
+      "cat": "essences",
+      "ex": 2.46721,
+      "div": 0.0515438,
+      "vol": 132
+    },
+    {
+      "name": "Uhtred's Sidereus",
+      "cat": "runes",
+      "ex": 64.8811,
+      "div": 0.423219,
+      "vol": 5
+    },
+    {
+      "name": "Morgana's Tempest",
+      "cat": "lineagesupportgems",
+      "ex": 3.12166,
+      "div": null,
+      "vol": 103
+    },
+    {
+      "name": "Ailith's Chimes",
+      "cat": "lineagesupportgems",
+      "ex": 20.052,
+      "div": 0.513371,
+      "vol": 16
+    },
+    {
+      "name": "Diluted Liquid Guilt",
+      "cat": "delirium",
+      "ex": 0.168478,
+      "div": null,
+      "vol": 1873
+    },
+    {
+      "name": "Crackling Flux",
+      "cat": "expedition",
+      "ex": 5.26018,
+      "div": 0.386159,
+      "vol": 58
+    },
+    {
+      "name": "Gnawed Jawbone",
+      "cat": "abyss",
+      "ex": 2.16312,
+      "div": null,
+      "vol": 141
+    },
+    {
+      "name": "Betrayal of Aldur",
+      "cat": "runes",
+      "ex": 5.84,
+      "div": null,
+      "vol": 50
+    },
+    {
+      "name": "Greater Body Rune",
+      "cat": "runes",
+      "ex": 0.58,
+      "div": null,
+      "vol": 500
+    },
+    {
+      "name": "Liquid Paranoia",
+      "cat": "delirium",
+      "ex": 0.414976,
+      "div": null,
+      "vol": 697
+    },
+    {
+      "name": "Uncut Skill Gem (Level 8)",
+      "cat": "uncutgems",
+      "ex": 7.9867,
+      "div": 0.0667351,
+      "vol": 36
+    },
+    {
+      "name": "Rune of the Prism",
+      "cat": "runes",
+      "ex": 2.45372,
+      "div": null,
+      "vol": 117
+    },
+    {
+      "name": "Arbiter's Reach",
+      "cat": "lineagesupportgems",
+      "ex": 9.58621,
+      "div": null,
+      "vol": 29
+    },
+    {
+      "name": "Ire of Aldur",
+      "cat": "runes",
+      "ex": 4.94643,
+      "div": null,
+      "vol": 56
+    },
+    {
+      "name": "Rune of Accumulation",
+      "cat": "runes",
+      "ex": 3.10112,
+      "div": null,
+      "vol": 89
+    },
+    {
+      "name": "Glacial Rune",
+      "cat": "runes",
+      "ex": 4.32258,
+      "div": null,
+      "vol": 62
+    },
+    {
+      "name": "Uncut Support Gem (Level 3)",
+      "cat": "uncutgems",
+      "ex": 11.6054,
+      "div": 0.118249,
+      "vol": 23
+    },
+    {
+      "name": "Cholotl's Soul Core of War",
+      "cat": "ultimatum",
+      "ex": 5.32934,
+      "div": 0.20171,
+      "vol": 50
+    },
+    {
+      "name": "Idol of the Sycophant",
+      "cat": "ritual",
+      "ex": 2.70408,
+      "div": null,
+      "vol": 98
+    },
+    {
+      "name": "Perfect Essence of Sorcery",
+      "cat": "essences",
+      "ex": 0.506631,
+      "div": null,
+      "vol": 510
+    },
+    {
+      "name": "Omen of Refreshment",
+      "cat": "ritual",
+      "ex": 0.13645,
+      "div": null,
+      "vol": 1838
+    },
+    {
+      "name": "The Runefather's Alloy",
+      "cat": "verisium",
+      "ex": 8.58621,
+      "div": null,
+      "vol": 29
+    },
+    {
+      "name": "Chance Shard",
+      "cat": "currency",
+      "ex": 0.731118,
+      "div": null,
+      "vol": 331
+    },
+    {
+      "name": "Lesser Essence of Abrasion",
+      "cat": "essences",
+      "ex": 7.05882,
+      "div": null,
+      "vol": 34
+    },
+    {
+      "name": "Thane Girt's Rune of Wildness",
+      "cat": "runes",
+      "ex": 1.13737,
+      "div": null,
+      "vol": 207
+    },
+    {
+      "name": "Idol of the Martyr",
+      "cat": "ritual",
+      "ex": 2.90123,
+      "div": null,
+      "vol": 81
+    },
+    {
+      "name": "Diluted Liquid Ire",
+      "cat": "delirium",
+      "ex": 0.0622571,
+      "div": null,
+      "vol": 3756
+    },
+    {
+      "name": "Vorana's Saga",
+      "cat": "expedition",
+      "ex": 4.3711,
+      "div": 0.175358,
+      "vol": 52
+    },
+    {
+      "name": "Emergent Protection",
+      "cat": "expedition",
+      "ex": 9.86957,
+      "div": null,
+      "vol": 23
+    },
+    {
+      "name": "Rune of the Hunt",
+      "cat": "runes",
+      "ex": 2.64864,
+      "div": null,
+      "vol": 84
+    },
+    {
+      "name": "Prismatic Alloy",
+      "cat": "verisium",
+      "ex": 6.14185,
+      "div": 0.298693,
+      "vol": 36
+    },
+    {
+      "name": "Greater Resolve Rune",
+      "cat": "runes",
+      "ex": 0.91399,
+      "div": null,
+      "vol": 241
+    },
+    {
+      "name": "Vorana's Crest of the Scythe",
+      "cat": "verisium",
+      "ex": 0.410174,
+      "div": null,
+      "vol": 531
+    },
+    {
+      "name": "Saqawal's Rune of the Sky",
+      "cat": "runes",
+      "ex": 9.876,
+      "div": 0.13941,
+      "vol": 22
+    },
+    {
+      "name": "Essence of Enhancement",
+      "cat": "essences",
+      "ex": 6.78125,
+      "div": null,
+      "vol": 32
+    },
+    {
+      "name": "Omen of the Liege",
+      "cat": "ritual",
+      "ex": 0.230852,
+      "div": null,
+      "vol": 927
+    },
+    {
+      "name": "Greater Storm Rune",
+      "cat": "runes",
+      "ex": 0.284619,
+      "div": null,
+      "vol": 748
+    },
+    {
+      "name": "Greater Mind Rune",
+      "cat": "runes",
+      "ex": 0.887771,
+      "div": null,
+      "vol": 239
+    },
+    {
+      "name": "Styrn's Mountain",
+      "cat": "lineagesupportgems",
+      "ex": 6.22279,
+      "div": null,
+      "vol": 34
+    },
+    {
+      "name": "Uncut Skill Gem (Level 4)",
+      "cat": "uncutgems",
+      "ex": 2.45349,
+      "div": null,
+      "vol": 86
+    },
+    {
+      "name": "The Arbiter's Reliquary Key",
+      "cat": "vaultkeys",
+      "ex": 103.875,
+      "div": 7.14542,
+      "vol": 2
+    },
+    {
+      "name": "Runic Alloy",
+      "cat": "verisium",
+      "ex": 0.760956,
+      "div": null,
+      "vol": 251
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 10)",
+      "cat": "expedition",
+      "ex": 5.78125,
+      "div": null,
+      "vol": 32
+    },
+    {
+      "name": "Citaqualotl's Thesis",
+      "cat": "incursion",
+      "ex": 61,
+      "div": null,
+      "vol": 3
+    },
+    {
+      "name": "Desert Rune",
+      "cat": "runes",
+      "ex": 4.91667,
+      "div": null,
+      "vol": 36
+    },
+    {
+      "name": "Ratha's Assault",
+      "cat": "lineagesupportgems",
+      "ex": 2.96724,
+      "div": null,
+      "vol": 58
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 11)",
       "cat": "expedition",
       "ex": 6.61538,
       "div": null,
       "vol": 26
     },
     {
-      "name": "Topotante's Soul Core of Dampening",
-      "cat": "ultimatum",
-      "ex": 7.78813,
-      "div": 0.149358,
-      "vol": 22
+      "name": "Ancient Potent Liquid Ferocity",
+      "cat": "delirium",
+      "ex": 2.06173,
+      "div": null,
+      "vol": 81
     },
     {
-      "name": "Perfect Essence of Abrasion",
-      "cat": "essences",
-      "ex": 1.34658,
-      "div": 0.242287,
-      "vol": 126
-    },
-    {
-      "name": "Uncut Support Gem (Level 4)",
-      "cat": "uncutgems",
-      "ex": 4.75389,
-      "div": 0.16866,
-      "vol": 35
+      "name": "Thaumaturgic Flux (Level 13)",
+      "cat": "expedition",
+      "ex": 11.6429,
+      "div": null,
+      "vol": 14
     },
     {
       "name": "Thaumaturgic Flux (Level 8)",
       "cat": "expedition",
-      "ex": 27.5,
+      "ex": 22.8571,
       "div": null,
-      "vol": 6
+      "vol": 7
     },
     {
-      "name": "Scroll of Wisdom",
-      "cat": "currency",
-      "ex": 0.0103057,
-      "div": 0.000221897,
-      "vol": 16007
-    },
-    {
-      "name": "Thrud's Might",
-      "cat": "runes",
-      "ex": 13.7313,
-      "div": 0.27294,
-      "vol": 12
-    },
-    {
-      "name": "Betrayal of Aldur",
-      "cat": "runes",
-      "ex": 4.58094,
-      "div": null,
-      "vol": 35
-    },
-    {
-      "name": "Bear Idol",
-      "cat": "idol",
-      "ex": 0.54778,
-      "div": null,
-      "vol": 292
-    },
-    {
-      "name": "Uncut Support Gem (Level 3)",
-      "cat": "uncutgems",
-      "ex": 14.4415,
-      "div": 0.113576,
-      "vol": 11
-    },
-    {
-      "name": "Crackling Flux",
-      "cat": "expedition",
-      "ex": 5.66065,
-      "div": 0.041936,
-      "vol": 28
-    },
-    {
-      "name": "Greater Charging Rune",
-      "cat": "runes",
-      "ex": 4.33333,
-      "div": null,
-      "vol": 36
-    },
-    {
-      "name": "Lesser Robust Rune",
-      "cat": "runes",
-      "ex": 4.8648,
-      "div": 0.107795,
-      "vol": 32
-    },
-    {
-      "name": "Einhar's Beastrite",
+      "name": "Bhatair's Vengeance",
       "cat": "lineagesupportgems",
-      "ex": 2.43306,
+      "ex": 1.97436,
       "div": null,
-      "vol": 63
+      "vol": 78
     },
     {
-      "name": "Potent Liquid Melancholy",
-      "cat": "delirium",
-      "ex": 1.88633,
-      "div": 0.0672259,
-      "vol": 81
-    },
-    {
-      "name": "Ancient Potent Liquid Ferocity",
-      "cat": "delirium",
-      "ex": 2.7725,
-      "div": null,
-      "vol": 55
-    },
-    {
-      "name": "Arbiter's Reach",
-      "cat": "lineagesupportgems",
-      "ex": 6.38012,
-      "div": null,
-      "vol": 23
-    },
-    {
-      "name": "Idol of Maxarius",
-      "cat": "idol",
-      "ex": 2.71698,
-      "div": null,
-      "vol": 53
-    },
-    {
-      "name": "Ancient Rune of Splinters",
-      "cat": "runes",
-      "ex": 4.05714,
-      "div": null,
-      "vol": 35
-    },
-    {
-      "name": "Arbiter's Ignition",
-      "cat": "lineagesupportgems",
-      "ex": 69.6815,
-      "div": 1.89549,
-      "vol": 2
-    },
-    {
-      "name": "Thane Leld's Rune of Spring",
-      "cat": "runes",
-      "ex": 2.01544,
-      "div": null,
-      "vol": 69
-    },
-    {
-      "name": "Thaumaturgic Flux (Level 15)",
-      "cat": "expedition",
-      "ex": 5.11111,
-      "div": null,
-      "vol": 27
-    },
-    {
-      "name": "Warding Rune of Symbiosis",
-      "cat": "runes",
-      "ex": 1.02222,
-      "div": null,
-      "vol": 135
-    },
-    {
-      "name": "Inspiration Rune",
-      "cat": "runes",
-      "ex": 14.6667,
-      "div": null,
-      "vol": 9
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 7)",
-      "cat": "uncutgems",
-      "ex": 14.3452,
-      "div": 0.147338,
-      "vol": 9
-    },
-    {
-      "name": "Idol of Alira",
-      "cat": "ritual",
-      "ex": 3.6,
-      "div": null,
-      "vol": 35
-    },
-    {
-      "name": "Amanamu's Gaze",
-      "cat": "abyss",
-      "ex": 20.6955,
-      "div": 0.938298,
-      "vol": 6
-    },
-    {
-      "name": "Thaumaturgic Flux (Level 9)",
-      "cat": "expedition",
-      "ex": 7.75,
-      "div": null,
-      "vol": 16
-    },
-    {
-      "name": "Ancient Liquid Despair",
-      "cat": "delirium",
-      "ex": 0.728067,
-      "div": null,
-      "vol": 169
-    },
-    {
-      "name": "Mystic Alloy",
-      "cat": "verisium",
-      "ex": 2.99787,
-      "div": 1.32015,
-      "vol": 39
-    },
-    {
-      "name": "Thane Grannell's Rune of Mastery",
-      "cat": "runes",
-      "ex": 3.96632,
-      "div": 0.130193,
-      "vol": 29
-    },
-    {
-      "name": "Ratha's Assault",
-      "cat": "lineagesupportgems",
-      "ex": 2.6517,
-      "div": null,
-      "vol": 43
-    },
-    {
-      "name": "Vaal Arcanist's Infuser",
-      "cat": "vaal",
-      "ex": 0.352053,
-      "div": 0.047424,
-      "vol": 323
-    },
-    {
-      "name": "Soul Core of Atmohua",
-      "cat": "ultimatum",
-      "ex": 28.1759,
-      "div": 0.3821,
-      "vol": 4
-    },
-    {
-      "name": "Passion of Aldur",
-      "cat": "runes",
-      "ex": 3.39394,
-      "div": null,
-      "vol": 33
-    },
-    {
-      "name": "Quipolatl's Soul Core of Flow",
-      "cat": "ultimatum",
-      "ex": 37.0402,
-      "div": 0.44549,
-      "vol": 3
-    },
-    {
-      "name": "Ancient Rune of Detonation",
-      "cat": "runes",
-      "ex": 2.675,
-      "div": null,
-      "vol": 40
-    },
-    {
-      "name": "Adept Rune",
-      "cat": "runes",
-      "ex": 5.35,
-      "div": null,
-      "vol": 20
-    },
-    {
-      "name": "Perfect Essence of Command",
-      "cat": "essences",
-      "ex": 0.736111,
-      "div": null,
-      "vol": 144
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 10)",
-      "cat": "uncutgems",
-      "ex": 7.55463,
-      "div": 0.373046,
-      "vol": 14
-    },
-    {
-      "name": "Countess Seske's Rune of Archery",
-      "cat": "runes",
-      "ex": 7.91026,
-      "div": 0.45396,
-      "vol": 13
-    },
-    {
-      "name": "Gnawed Collarbone",
-      "cat": "abyss",
-      "ex": 1.37108,
-      "div": 0.0790473,
-      "vol": 75
-    },
-    {
-      "name": "Saqawal's Rune of Erosion",
-      "cat": "runes",
-      "ex": 3.0303,
-      "div": null,
-      "vol": 33
-    },
-    {
-      "name": "Esh's Prowess",
-      "cat": "lineagesupportgems",
-      "ex": 16.5465,
-      "div": 1.32893,
-      "vol": 6
-    },
-    {
-      "name": "Kaom's Madness",
-      "cat": "lineagesupportgems",
-      "ex": 1.1531,
-      "div": null,
-      "vol": 86
-    },
-    {
-      "name": "Essence of Enhancement",
-      "cat": "essences",
-      "ex": 5.76471,
-      "div": null,
-      "vol": 17
-    },
-    {
-      "name": "The Greatwolf's Rune of Willpower",
-      "cat": "runes",
-      "ex": 11.8922,
-      "div": 0.816278,
-      "vol": 8
-    },
-    {
-      "name": "Ward Rune",
-      "cat": "runes",
-      "ex": 3.13333,
-      "div": null,
-      "vol": 30
-    },
-    {
-      "name": "Greater Resolve Rune",
-      "cat": "runes",
-      "ex": 0.647592,
-      "div": null,
-      "vol": 145
-    },
-    {
-      "name": "Greater Essence of Seeking",
-      "cat": "essences",
-      "ex": 3.10026,
-      "div": 0.0609362,
-      "vol": 30
-    },
-    {
-      "name": "Gnawed Rib",
-      "cat": "abyss",
-      "ex": 0.502703,
-      "div": null,
-      "vol": 185
-    },
-    {
-      "name": "Idol of the Sycophant",
-      "cat": "ritual",
-      "ex": 1.78283,
-      "div": null,
-      "vol": 51
-    },
-    {
-      "name": "Uncut Skill Gem (Level 17)",
-      "cat": "uncutgems",
-      "ex": 0.359782,
-      "div": 0.210445,
-      "vol": 244
-    },
-    {
-      "name": "Blazing Flux",
-      "cat": "expedition",
-      "ex": 9.66336,
-      "div": 0.23512,
-      "vol": 9
-    },
-    {
-      "name": "Rune of Foundations",
-      "cat": "runes",
-      "ex": 6.18656,
-      "div": 0.86726,
-      "vol": 14
-    },
-    {
-      "name": "Uncut Skill Gem (Level 18)",
-      "cat": "uncutgems",
-      "ex": 0.239201,
-      "div": 0.271433,
-      "vol": 358
+      "name": "Olroth's Reliquary Key",
+      "cat": "vaultkeys",
+      "ex": 152.229,
+      "div": 4.89247,
+      "vol": 1
     },
     {
       "name": "Uncut Skill Gem (Level 11)",
       "cat": "uncutgems",
-      "ex": 6.11095,
-      "div": 0.382358,
-      "vol": 14
+      "ex": 2.62402,
+      "div": 0.367677,
+      "vol": 58
+    },
+    {
+      "name": "Greater Desert Rune",
+      "cat": "runes",
+      "ex": 0.179457,
+      "div": null,
+      "vol": 847
+    },
+    {
+      "name": "Warding Rune of Armature",
+      "cat": "runes",
+      "ex": 9.53333,
+      "div": null,
+      "vol": 15
     },
     {
       "name": "Essence of Sorcery",
       "cat": "essences",
-      "ex": 9.44444,
+      "ex": 9.46667,
       "div": null,
-      "vol": 9
+      "vol": 15
     },
     {
-      "name": "Body Rune",
-      "cat": "runes",
-      "ex": 3.95238,
+      "name": "Thaumaturgic Flux (Level 9)",
+      "cat": "expedition",
+      "ex": 6.7619,
       "div": null,
       "vol": 21
     },
     {
       "name": "Zerphi's Infamy",
       "cat": "lineagesupportgems",
-      "ex": 26.8613,
-      "div": 0.726691,
-      "vol": 3
+      "ex": 22.77,
+      "div": 0.755983,
+      "vol": 6
     },
     {
-      "name": "Farrul's Rune of Grace",
-      "cat": "runes",
-      "ex": 2.75,
-      "div": null,
-      "vol": 28
+      "name": "Uncut Spirit Gem (Level 7)",
+      "cat": "uncutgems",
+      "ex": 15.1567,
+      "div": 0.142949,
+      "vol": 9
     },
     {
-      "name": "Uhtred's Crest of the Chalice",
-      "cat": "verisium",
-      "ex": 2.19765,
-      "div": 0.330034,
-      "vol": 35
+      "name": "Soul Core of Zantipi",
+      "cat": "ultimatum",
+      "ex": 34.0026,
+      "div": 0.300169,
+      "vol": 4
     },
     {
-      "name": "Ancient Rune of Shattering",
-      "cat": "runes",
-      "ex": 6.90909,
-      "div": null,
-      "vol": 11
-    },
-    {
-      "name": "Greater Essence of Sorcery",
-      "cat": "essences",
-      "ex": 0.32531,
-      "div": null,
-      "vol": 231
-    },
-    {
-      "name": "Desert Rune",
-      "cat": "runes",
-      "ex": 0.445122,
-      "div": null,
-      "vol": 164
+      "name": "Greater Jeweller's Orb",
+      "cat": "currency",
+      "ex": 0.36382,
+      "div": 0.035282,
+      "vol": 367
     },
     {
       "name": "Perfect Essence of Ice",
       "cat": "essences",
-      "ex": 0.503618,
-      "div": 0.159758,
-      "vol": 144
-    },
-    {
-      "name": "Thaumaturgic Flux (Level 12)",
-      "cat": "expedition",
-      "ex": 5.30769,
+      "ex": 0.796407,
       "div": null,
-      "vol": 13
+      "vol": 167
     },
     {
-      "name": "Lesser Storm Rune",
-      "cat": "runes",
-      "ex": 0.289362,
-      "div": null,
-      "vol": 235
-    },
-    {
-      "name": "Ancient Liquid Paranoia",
-      "cat": "delirium",
-      "ex": 0.561373,
-      "div": null,
-      "vol": 121
-    },
-    {
-      "name": "Vilenta's Propulsion",
+      "name": "Mórrigan's Insight",
       "cat": "lineagesupportgems",
-      "ex": 1.05557,
-      "div": 0.205531,
-      "vol": 64
-    },
-    {
-      "name": "Resolve Rune",
-      "cat": "runes",
-      "ex": 6.7,
-      "div": null,
-      "vol": 10
-    },
-    {
-      "name": "Greater Rune of Nobility",
-      "cat": "runes",
-      "ex": 5.07692,
-      "div": null,
-      "vol": 13
-    },
-    {
-      "name": "Warding Rune of Bodyguards",
-      "cat": "runes",
-      "ex": 3.875,
-      "div": null,
-      "vol": 16
-    },
-    {
-      "name": "Warding Rune of Stability",
-      "cat": "runes",
-      "ex": 8.85714,
-      "div": null,
-      "vol": 7
-    },
-    {
-      "name": "Thaumaturgic Flux (Level 16)",
-      "cat": "expedition",
-      "ex": 3.41707,
-      "div": null,
-      "vol": 18
-    },
-    {
-      "name": "Medved's Felling",
-      "cat": "lineagesupportgems",
-      "ex": 20.1132,
-      "div": 0.751484,
-      "vol": 3
-    },
-    {
-      "name": "Ire of Aldur",
-      "cat": "runes",
-      "ex": 2.94277,
-      "div": 0.55153,
-      "vol": 20
-    },
-    {
-      "name": "Perfect Stone Rune",
-      "cat": "runes",
-      "ex": 58.4006,
-      "div": 4.49596,
-      "vol": 1
-    },
-    {
-      "name": "Runic Alloy",
-      "cat": "verisium",
-      "ex": 0.277963,
-      "div": null,
-      "vol": 208
-    },
-    {
-      "name": "Craiceann's Rune of Warding",
-      "cat": "runes",
-      "ex": 5.92131,
-      "div": 0.333173,
-      "vol": 9
-    },
-    {
-      "name": "Greater Vision Rune",
-      "cat": "runes",
-      "ex": 0.312983,
-      "div": null,
-      "vol": 170
-    },
-    {
-      "name": "Greater Essence of Abrasion",
-      "cat": "essences",
-      "ex": 0.796106,
-      "div": 0.0444348,
-      "vol": 66
-    },
-    {
-      "name": "Lesser Jeweller's Orb",
-      "cat": "currency",
-      "ex": 0.0407674,
-      "div": null,
-      "vol": 1251
-    },
-    {
-      "name": "Prototype Seventeen",
-      "cat": "lineagesupportgems",
-      "ex": 8.5,
-      "div": null,
+      "ex": 22.1494,
+      "div": 4.42668,
       "vol": 6
     },
     {
-      "name": "Atziri's Allure",
-      "cat": "lineagesupportgems",
-      "ex": 16.8641,
-      "div": 0.883817,
-      "vol": 3
-    },
-    {
-      "name": "Xibaqua's Rending",
-      "cat": "lineagesupportgems",
-      "ex": 5.55556,
-      "div": null,
-      "vol": 9
-    },
-    {
-      "name": "Greater Adept Rune",
+      "name": "Rune of Culmination",
       "cat": "runes",
-      "ex": 0.250364,
+      "ex": 2.58612,
       "div": null,
-      "vol": 193
-    },
-    {
-      "name": "Lesser Essence of Opulence",
-      "cat": "essences",
-      "ex": 8,
-      "div": null,
-      "vol": 6
-    },
-    {
-      "name": "Lesser Adept Rune",
-      "cat": "runes",
-      "ex": 0.786885,
-      "div": null,
-      "vol": 61
-    },
-    {
-      "name": "Idol of Yeena",
-      "cat": "ritual",
-      "ex": 0.88084,
-      "div": null,
-      "vol": 54
-    },
-    {
-      "name": "Bhatair's Vengeance",
-      "cat": "lineagesupportgems",
-      "ex": 0.788232,
-      "div": null,
-      "vol": 58
-    },
-    {
-      "name": "Perfect Essence of Opulence",
-      "cat": "essences",
-      "ex": 3.79092,
-      "div": 0.254456,
-      "vol": 12
-    },
-    {
-      "name": "Dominus' Grasp",
-      "cat": "lineagesupportgems",
-      "ex": 1.4728,
-      "div": 0.263146,
-      "vol": 30
-    },
-    {
-      "name": "Perfect Essence of the Mind",
-      "cat": "essences",
-      "ex": 0.322093,
-      "div": 0.0589945,
-      "vol": 137
-    },
-    {
-      "name": "Rune of Vitality",
-      "cat": "runes",
-      "ex": 1.91304,
-      "div": null,
-      "vol": 23
-    },
-    {
-      "name": "Idol of Ralakesh",
-      "cat": "idol",
-      "ex": 8.68658,
-      "div": 2.63333,
-      "vol": 5
-    },
-    {
-      "name": "Swift Alloy",
-      "cat": "verisium",
-      "ex": 3.28918,
-      "div": 0.231391,
-      "vol": 13
-    },
-    {
-      "name": "Perfect Essence of Alacrity",
-      "cat": "essences",
-      "ex": 0.672131,
-      "div": null,
-      "vol": 61
-    },
-    {
-      "name": "Ancient Rune of Decay",
-      "cat": "runes",
-      "ex": 6.79173,
-      "div": null,
-      "vol": 6
-    },
-    {
-      "name": "Lesser Glacial Rune",
-      "cat": "runes",
-      "ex": 0.213904,
-      "div": null,
-      "vol": 187
-    },
-    {
-      "name": "Ox Idol",
-      "cat": "idol",
-      "ex": 0.290251,
-      "div": null,
-      "vol": 134
-    },
-    {
-      "name": "Greater Essence of Ruin",
-      "cat": "essences",
-      "ex": 1.54482,
-      "div": 0.136365,
-      "vol": 25
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 11)",
-      "cat": "uncutgems",
-      "ex": 7.62342,
-      "div": 0.496045,
-      "vol": 5
-    },
-    {
-      "name": "Tangmazu's Thurible",
-      "cat": "lineagesupportgems",
-      "ex": 3.805,
-      "div": 0.618847,
-      "vol": 10
-    },
-    {
-      "name": "Greater Essence of Command",
-      "cat": "essences",
-      "ex": 0.77551,
-      "div": null,
-      "vol": 49
-    },
-    {
-      "name": "Uncut Skill Gem (Level 2)",
-      "cat": "uncutgems",
-      "ex": 1.55462,
-      "div": 0.871871,
-      "vol": 24
-    },
-    {
-      "name": "Essence of Alacrity",
-      "cat": "essences",
-      "ex": 3.36364,
-      "div": null,
-      "vol": 11
-    },
-    {
-      "name": "Carved Mischief",
-      "cat": "expedition",
-      "ex": 18.0727,
-      "div": 4.81582,
-      "vol": 2
-    },
-    {
-      "name": "Uncut Skill Gem (Level 4)",
-      "cat": "uncutgems",
-      "ex": 0.669566,
-      "div": null,
-      "vol": 53
-    },
-    {
-      "name": "Idol of Eramir",
-      "cat": "ritual",
-      "ex": 17.4736,
-      "div": 2.10098,
-      "vol": 2
-    },
-    {
-      "name": "Craiceann's Rune of Recovery",
-      "cat": "runes",
-      "ex": 2.87555,
-      "div": 0.77608,
-      "vol": 12
-    },
-    {
-      "name": "Warding Rune of Protection",
-      "cat": "runes",
-      "ex": 1.65,
-      "div": null,
-      "vol": 20
-    },
-    {
-      "name": "Tacati's Ire",
-      "cat": "lineagesupportgems",
-      "ex": 1,
-      "div": null,
-      "vol": 33
-    },
-    {
-      "name": "Essence of Insulation",
-      "cat": "essences",
-      "ex": 10.6667,
-      "div": null,
-      "vol": 3
-    },
-    {
-      "name": "Greater Inspiration Rune",
-      "cat": "runes",
-      "ex": 0.364706,
-      "div": null,
-      "vol": 85
-    },
-    {
-      "name": "Arjun's Medal",
-      "cat": "lineagesupportgems",
-      "ex": 0.720134,
-      "div": null,
-      "vol": 42
-    },
-    {
-      "name": "Perfect Essence of Grounding",
-      "cat": "essences",
-      "ex": 2.23799,
-      "div": 0.437123,
-      "vol": 13
-    },
-    {
-      "name": "Uruk's Smelting",
-      "cat": "lineagesupportgems",
-      "ex": 2.63245,
-      "div": 0.231924,
-      "vol": 11
-    },
-    {
-      "name": "Thaumaturgic Flux (Level 17)",
-      "cat": "expedition",
-      "ex": 2.36693,
-      "div": 0.450941,
-      "vol": 12
-    },
-    {
-      "name": "Perfect Essence of Ruin",
-      "cat": "essences",
-      "ex": 0.56,
-      "div": null,
-      "vol": 50
-    },
-    {
-      "name": "Idol of Greust",
-      "cat": "ritual",
-      "ex": 2.33333,
-      "div": null,
-      "vol": 12
-    },
-    {
-      "name": "Greater Essence of Insulation",
-      "cat": "essences",
-      "ex": 0.490486,
-      "div": 0.0604488,
-      "vol": 56
-    },
-    {
-      "name": "Arakaali's Lust",
-      "cat": "lineagesupportgems",
-      "ex": 0.722222,
-      "div": null,
-      "vol": 36
-    },
-    {
-      "name": "Uncut Skill Gem (Level 9)",
-      "cat": "uncutgems",
-      "ex": 2.12053,
-      "div": 2.04233,
-      "vol": 12
-    },
-    {
-      "name": "Lesser Desert Rune",
-      "cat": "runes",
-      "ex": 0.138122,
-      "div": null,
-      "vol": 181
-    },
-    {
-      "name": "Ancient Rune of Witchcraft",
-      "cat": "runes",
-      "ex": 1.23894,
-      "div": null,
-      "vol": 20
-    },
-    {
-      "name": "Rune of Reach",
-      "cat": "runes",
-      "ex": 2.23399,
-      "div": null,
-      "vol": 11
-    },
-    {
-      "name": "Ancient Rune of the Horde",
-      "cat": "runes",
-      "ex": 3,
-      "div": null,
-      "vol": 8
-    },
-    {
-      "name": "Perfect Essence of the Infinite",
-      "cat": "essences",
-      "ex": 0.157962,
-      "div": 0.107683,
-      "vol": 150
-    },
-    {
-      "name": "Verisium",
-      "cat": "verisium",
-      "ex": 0.000295181,
-      "div": 0.000527726,
-      "vol": 80003
-    },
-    {
-      "name": "Perfect Essence of Electricity",
-      "cat": "essences",
-      "ex": 0.528263,
-      "div": 0.146246,
-      "vol": 42
-    },
-    {
-      "name": "Essence of Haste",
-      "cat": "essences",
-      "ex": 10.5,
-      "div": null,
-      "vol": 2
-    },
-    {
-      "name": "Uncut Skill Gem (Level 16)",
-      "cat": "uncutgems",
-      "ex": 0.679168,
-      "div": 0.934074,
-      "vol": 30
-    },
-    {
-      "name": "Greater Essence of the Infinite",
-      "cat": "essences",
-      "ex": 0.416667,
-      "div": null,
-      "vol": 48
-    },
-    {
-      "name": "Wolf Idol",
-      "cat": "idol",
-      "ex": 0.555556,
-      "div": null,
-      "vol": 36
-    },
-    {
-      "name": "Lesser Essence of Grounding",
-      "cat": "essences",
-      "ex": 5,
-      "div": null,
-      "vol": 4
-    },
-    {
-      "name": "Tasalio's Rhythm",
-      "cat": "lineagesupportgems",
-      "ex": 1,
-      "div": null,
-      "vol": 20
-    },
-    {
-      "name": "Perfect Essence of Insulation",
-      "cat": "essences",
-      "ex": 0.217391,
-      "div": null,
-      "vol": 92
-    },
-    {
-      "name": "Boar Idol",
-      "cat": "idol",
-      "ex": 0.240659,
-      "div": null,
-      "vol": 78
-    },
-    {
-      "name": "Rune of the Blossom",
-      "cat": "runes",
-      "ex": 4.65716,
-      "div": 4.90152,
-      "vol": 4
-    },
-    {
-      "name": "Essence of Ruin",
-      "cat": "essences",
-      "ex": 3.6,
-      "div": null,
-      "vol": 5
-    },
-    {
-      "name": "Venerable Starlit Ore",
-      "cat": "verisium",
-      "ex": 0.947368,
-      "div": null,
-      "vol": 19
-    },
-    {
-      "name": "Liquid Paranoia",
-      "cat": "delirium",
-      "ex": 0.394454,
-      "div": 0.0895139,
-      "vol": 44
-    },
-    {
-      "name": "The Greatwolf's Rune of Claws",
-      "cat": "runes",
-      "ex": 3.41029,
-      "div": 1.67909,
-      "vol": 5
-    },
-    {
-      "name": "Warding Rune of Disintegration",
-      "cat": "runes",
-      "ex": 4.25,
-      "div": null,
-      "vol": 4
-    },
-    {
-      "name": "Essence of Electricity",
-      "cat": "essences",
-      "ex": 4.25,
-      "div": null,
-      "vol": 4
-    },
-    {
-      "name": "Uncut Support Gem (Level 2)",
-      "cat": "uncutgems",
-      "ex": 1.04651,
-      "div": 0.309923,
-      "vol": 16
-    },
-    {
-      "name": "Cat Idol",
-      "cat": "idol",
-      "ex": 0.310145,
-      "div": null,
-      "vol": 53
-    },
-    {
-      "name": "Warding Rune of Annihilation",
-      "cat": "runes",
-      "ex": 3.2,
-      "div": null,
-      "vol": 5
-    },
-    {
-      "name": "Ancient Rune of Retaliation",
-      "cat": "runes",
-      "ex": 4,
-      "div": null,
-      "vol": 4
-    },
-    {
-      "name": "Idol of Egrin",
-      "cat": "idol",
-      "ex": 2.27346,
-      "div": 0.896384,
-      "vol": 7
-    },
-    {
-      "name": "Primate Idol",
-      "cat": "idol",
-      "ex": 0.882624,
-      "div": 0.26352,
-      "vol": 18
-    },
-    {
-      "name": "Greater Essence of Thawing",
-      "cat": "essences",
-      "ex": 0.298259,
-      "div": 0.0752202,
       "vol": 51
     },
     {
-      "name": "Vorana's Crest of the Scythe",
-      "cat": "verisium",
-      "ex": 0.421599,
-      "div": 0.496267,
-      "vol": 36
-    },
-    {
-      "name": "Thane Myrk's Rune of Summer",
-      "cat": "runes",
-      "ex": 1,
-      "div": null,
-      "vol": 15
-    },
-    {
-      "name": "Essence of Grounding",
-      "cat": "essences",
-      "ex": 2.5,
-      "div": null,
-      "vol": 6
-    },
-    {
-      "name": "Lesser Essence of Ice",
-      "cat": "essences",
-      "ex": 7.5,
-      "div": null,
-      "vol": 2
-    },
-    {
-      "name": "Greater Essence of Flames",
-      "cat": "essences",
-      "ex": 0.25,
-      "div": null,
-      "vol": 60
-    },
-    {
-      "name": "Lesser Iron Rune",
-      "cat": "runes",
-      "ex": 0.352321,
-      "div": 0.223762,
-      "vol": 40
-    },
-    {
-      "name": "Owl Idol",
+      "name": "Idol of Eeshta",
       "cat": "idol",
-      "ex": 0.482759,
-      "div": null,
-      "vol": 29
-    },
-    {
-      "name": "Ancient Rune of Dueling",
-      "cat": "runes",
-      "ex": 2.8,
-      "div": null,
-      "vol": 5
-    },
-    {
-      "name": "Greater Essence of Grounding",
-      "cat": "essences",
-      "ex": 0.530208,
-      "div": 0.315349,
-      "vol": 26
-    },
-    {
-      "name": "Thane Girt's Rune of Wildness",
-      "cat": "runes",
-      "ex": 1.21841,
-      "div": 0.193679,
-      "vol": 11
-    },
-    {
-      "name": "Stag Idol",
-      "cat": "idol",
-      "ex": 0.309524,
-      "div": null,
-      "vol": 42
-    },
-    {
-      "name": "Warding Rune of Obsession",
-      "cat": "runes",
-      "ex": 4.33333,
-      "div": null,
-      "vol": 3
-    },
-    {
-      "name": "Uncut Skill Gem (Level 13)",
-      "cat": "uncutgems",
-      "ex": 0.555863,
-      "div": 0.963795,
-      "vol": 23
+      "ex": 13.1,
+      "div": 0.446997,
+      "vol": 10
     },
     {
       "name": "Uncut Skill Gem (Level 6)",
       "cat": "uncutgems",
-      "ex": 0.298439,
-      "div": 0.41164,
-      "vol": 42
-    },
-    {
-      "name": "Greater Essence of Enhancement",
-      "cat": "essences",
-      "ex": 0.389789,
-      "div": 0.245383,
-      "vol": 32
-    },
-    {
-      "name": "Greater Essence of Alacrity",
-      "cat": "essences",
-      "ex": 0.224197,
+      "ex": 2.18333,
       "div": null,
-      "vol": 55
+      "vol": 60
     },
     {
-      "name": "Morgana's Tempest",
-      "cat": "lineagesupportgems",
-      "ex": 4.10263,
-      "div": 1.89306,
-      "vol": 3
-    },
-    {
-      "name": "Lesser Essence of Insulation",
-      "cat": "essences",
-      "ex": 1,
-      "div": null,
-      "vol": 12
-    },
-    {
-      "name": "Lesser Ward Rune",
+      "name": "Warding Rune of Nourishment",
       "cat": "runes",
-      "ex": 2.4,
+      "ex": 7.16667,
       "div": null,
-      "vol": 5
+      "vol": 18
     },
     {
-      "name": "Vruun's Inevitability",
+      "name": "Ancient Rune of Witchcraft",
+      "cat": "runes",
+      "ex": 3.30769,
+      "div": null,
+      "vol": 39
+    },
+    {
+      "name": "Idol of Ralakesh",
+      "cat": "idol",
+      "ex": 8.44596,
+      "div": 1.71993,
+      "vol": 15
+    },
+    {
+      "name": "Refined Skittering Catalyst",
+      "cat": "breach",
+      "ex": 6.27225,
+      "div": 0.125947,
+      "vol": 20
+    },
+    {
+      "name": "Greater Glacial Rune",
+      "cat": "runes",
+      "ex": 0.152826,
+      "div": null,
+      "vol": 816
+    },
+    {
+      "name": "Soul Core of Atmohua",
+      "cat": "ultimatum",
+      "ex": 30.5784,
+      "div": 0.3711,
+      "vol": 4
+    },
+    {
+      "name": "Daresso's Passion",
       "cat": "lineagesupportgems",
-      "ex": 0.382951,
+      "ex": 2.14422,
       "div": null,
-      "vol": 30
+      "vol": 57
     },
     {
-      "name": "Uncut Skill Gem (Level 15)",
+      "name": "Ancient Rune of Decay",
+      "cat": "runes",
+      "ex": 9.38462,
+      "div": null,
+      "vol": 13
+    },
+    {
+      "name": "Perfect Essence of Opulence",
+      "cat": "essences",
+      "ex": 5.5389,
+      "div": 0.245961,
+      "vol": 22
+    },
+    {
+      "name": "Ancient Concentrated Liquid Isolation",
+      "cat": "delirium",
+      "ex": 2.67056,
+      "div": 0.253484,
+      "vol": 45
+    },
+    {
+      "name": "Gnawed Collarbone",
+      "cat": "abyss",
+      "ex": 1.5253,
+      "div": 0.0816039,
+      "vol": 75
+    },
+    {
+      "name": "Perfect Essence of Electricity",
+      "cat": "essences",
+      "ex": 1.68903,
+      "div": 0.290112,
+      "vol": 67
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 4)",
       "cat": "uncutgems",
-      "ex": 0.380884,
-      "div": 1.55999,
+      "ex": 28.157,
+      "div": 0.369385,
+      "vol": 4
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 17)",
+      "cat": "expedition",
+      "ex": 5.01966,
+      "div": null,
+      "vol": 22
+    },
+    {
+      "name": "Einhar's Beastrite",
+      "cat": "lineagesupportgems",
+      "ex": 2.06278,
+      "div": null,
+      "vol": 53
+    },
+    {
+      "name": "Passion of Aldur",
+      "cat": "runes",
+      "ex": 3.63333,
+      "div": null,
       "vol": 30
     },
     {
-      "name": "Charging Rune",
-      "cat": "runes",
-      "ex": 3.66667,
+      "name": "Perfect Essence of Command",
+      "cat": "essences",
+      "ex": 0.715232,
       "div": null,
-      "vol": 3
+      "vol": 151
     },
     {
-      "name": "Ancient Rune of Prowess",
+      "name": "Ancient Rune of Splinters",
       "cat": "runes",
-      "ex": 1,
+      "ex": 3.16,
+      "div": null,
+      "vol": 34
+    },
+    {
+      "name": "Ancient Rune of Shattering",
+      "cat": "runes",
+      "ex": 9.63636,
       "div": null,
       "vol": 11
     },
     {
-      "name": "Ancient Diluted Liquid Ire",
-      "cat": "delirium",
-      "ex": 0.0372881,
-      "div": null,
-      "vol": 295
-    },
-    {
-      "name": "Perfect Essence of Thawing",
-      "cat": "essences",
-      "ex": 0.0874375,
-      "div": null,
-      "vol": 125
-    },
-    {
-      "name": "Ancient Concentrated Liquid Fear",
-      "cat": "delirium",
-      "ex": 1.30249,
-      "div": 0.909299,
-      "vol": 8
-    },
-    {
-      "name": "Ancient Concentrated Liquid Suffering",
-      "cat": "delirium",
-      "ex": 0.638316,
-      "div": 0.474159,
-      "vol": 16
-    },
-    {
-      "name": "Vision Rune",
-      "cat": "runes",
-      "ex": 1.66667,
-      "div": null,
-      "vol": 6
-    },
-    {
-      "name": "Lesser Body Rune",
-      "cat": "runes",
-      "ex": 0.0574713,
-      "div": null,
-      "vol": 174
-    },
-    {
-      "name": "Lesser Essence of Haste",
-      "cat": "essences",
-      "ex": 10,
-      "div": null,
-      "vol": 1
-    },
-    {
-      "name": "Warding Rune of Hollowing",
-      "cat": "runes",
-      "ex": 1,
-      "div": null,
-      "vol": 10
-    },
-    {
-      "name": "Lesser Resolve Rune",
-      "cat": "runes",
-      "ex": 0.153846,
-      "div": null,
-      "vol": 65
-    },
-    {
-      "name": "Trickster's Shard",
-      "cat": "lineagesupportgems",
-      "ex": 4.71045,
-      "div": 14.6627,
-      "vol": 2
-    },
-    {
-      "name": "Warding Rune of Glancing",
-      "cat": "runes",
-      "ex": 2.25,
-      "div": null,
-      "vol": 4
-    },
-    {
-      "name": "Greater Rebirth Rune",
-      "cat": "runes",
-      "ex": 0.163636,
-      "div": null,
-      "vol": 55
-    },
-    {
-      "name": "Ancient Rune of Discovery",
-      "cat": "runes",
-      "ex": 4,
-      "div": null,
-      "vol": 2
-    },
-    {
-      "name": "Warding Rune of Salvaging",
-      "cat": "runes",
-      "ex": 1.6,
-      "div": null,
-      "vol": 5
-    },
-    {
-      "name": "Lesser Essence of the Body",
-      "cat": "essences",
-      "ex": 1,
-      "div": null,
-      "vol": 8
-    },
-    {
-      "name": "Tawhoa's Tending",
-      "cat": "lineagesupportgems",
-      "ex": 0.5,
-      "div": null,
-      "vol": 16
-    },
-    {
-      "name": "Ancient Diluted Liquid Greed",
-      "cat": "delirium",
-      "ex": 0.0769231,
-      "div": null,
-      "vol": 91
-    },
-    {
-      "name": "Lesser Essence of Sorcery",
-      "cat": "essences",
-      "ex": 2.33333,
-      "div": null,
+      "name": "Emergent Instinct",
+      "cat": "expedition",
+      "ex": 34.1741,
+      "div": 0.387821,
       "vol": 3
     },
     {
-      "name": "Ancient Liquid Envy",
-      "cat": "delirium",
-      "ex": 0.0857143,
-      "div": null,
-      "vol": 70
-    },
-    {
-      "name": "Uncut Support Gem (Level 1)",
-      "cat": "uncutgems",
-      "ex": 0.848129,
-      "div": 2.18634,
-      "vol": 7
-    },
-    {
-      "name": "Lady Hestra's Rune of Winter",
+      "name": "Vorana's Carnage",
       "cat": "runes",
-      "ex": 0.286055,
-      "div": 0.072273,
-      "vol": 20
+      "ex": 17.0125,
+      "div": 0.230562,
+      "vol": 6
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 15)",
+      "cat": "expedition",
+      "ex": 6.375,
+      "div": null,
+      "vol": 16
+    },
+    {
+      "name": "Perfect Essence of Abrasion",
+      "cat": "essences",
+      "ex": 2.47406,
+      "div": 0.317353,
+      "vol": 41
+    },
+    {
+      "name": "Omen of Putrefaction",
+      "cat": "ritual",
+      "ex": 0.192142,
+      "div": 0.0621532,
+      "vol": 525
     },
     {
       "name": "Courtesan Mannan's Rune of Cruelty",
       "cat": "runes",
-      "ex": 0.74513,
-      "div": 0.814061,
-      "vol": 7
-    },
-    {
-      "name": "Lesser Essence of Command",
-      "cat": "essences",
-      "ex": 5,
+      "ex": 1.21311,
       "div": null,
-      "vol": 1
+      "vol": 83
     },
     {
-      "name": "Guatelitzi's Ablation",
-      "cat": "lineagesupportgems",
-      "ex": 1,
+      "name": "Uncut Spirit Gem (Level 10)",
+      "cat": "uncutgems",
+      "ex": 6.93927,
+      "div": 0.409809,
+      "vol": 14
+    },
+    {
+      "name": "Idol of Kraityn",
+      "cat": "ritual",
+      "ex": 2.60872,
       "div": null,
-      "vol": 5
+      "vol": 37
     },
     {
-      "name": "Varashta's Blessing",
-      "cat": "lineagesupportgems",
-      "ex": 1,
-      "div": null,
-      "vol": 5
-    },
-    {
-      "name": "Warding Rune of Desperation",
+      "name": "Thane Leld's Rune of Spring",
       "cat": "runes",
-      "ex": 0.833333,
+      "ex": 1.84736,
+      "div": null,
+      "vol": 52
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 18)",
+      "cat": "expedition",
+      "ex": 9.57403,
+      "div": 0.157422,
+      "vol": 10
+    },
+    {
+      "name": "Rune of the Blossom",
+      "cat": "runes",
+      "ex": 3.94334,
+      "div": 3.23581,
+      "vol": 24
+    },
+    {
+      "name": "Topotante's Soul Core of Dampening",
+      "cat": "ultimatum",
+      "ex": 8.56647,
+      "div": 0.169447,
+      "vol": 11
+    },
+    {
+      "name": "Blazing Flux",
+      "cat": "expedition",
+      "ex": 9.20603,
+      "div": 0.198041,
+      "vol": 10
+    },
+    {
+      "name": "Ward Rune",
+      "cat": "runes",
+      "ex": 3.5,
+      "div": null,
+      "vol": 26
+    },
+    {
+      "name": "Rune of Reach",
+      "cat": "runes",
+      "ex": 4.5,
+      "div": null,
+      "vol": 20
+    },
+    {
+      "name": "Greater Essence of Command",
+      "cat": "essences",
+      "ex": 0.809091,
+      "div": null,
+      "vol": 110
+    },
+    {
+      "name": "Uhtred's Crest of the Chalice",
+      "cat": "verisium",
+      "ex": 1.77935,
+      "div": 0.519791,
+      "vol": 50
+    },
+    {
+      "name": "Ancient Liquid Paranoia",
+      "cat": "delirium",
+      "ex": 1,
+      "div": null,
+      "vol": 88
+    },
+    {
+      "name": "Warding Rune of Stability",
+      "cat": "runes",
+      "ex": 11,
+      "div": null,
+      "vol": 8
+    },
+    {
+      "name": "Uromoti's Soul Core of Attenuation",
+      "cat": "ultimatum",
+      "ex": 1.82054,
+      "div": null,
+      "vol": 48
+    },
+    {
+      "name": "Essence of Insulation",
+      "cat": "essences",
+      "ex": 17.4,
+      "div": null,
+      "vol": 5
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 5)",
+      "cat": "uncutgems",
+      "ex": 14.4162,
+      "div": 1.02088,
+      "vol": 6
+    },
+    {
+      "name": "Doedre's Undoing",
+      "cat": "lineagesupportgems",
+      "ex": 14.4133,
+      "div": 0.307707,
+      "vol": 6
+    },
+    {
+      "name": "Perfect Essence of Grounding",
+      "cat": "essences",
+      "ex": 3.30803,
+      "div": 0.276078,
+      "vol": 26
+    },
+    {
+      "name": "Essence of Abrasion",
+      "cat": "essences",
+      "ex": 9.55285,
+      "div": 0.186442,
+      "vol": 9
+    },
+    {
+      "name": "Revered Starlit Ore",
+      "cat": "verisium",
+      "ex": 3.90476,
+      "div": null,
+      "vol": 21
+    },
+    {
+      "name": "Idol of Greust",
+      "cat": "ritual",
+      "ex": 2.45455,
+      "div": null,
+      "vol": 33
+    },
+    {
+      "name": "Esh's Prowess",
+      "cat": "lineagesupportgems",
+      "ex": 16.1222,
+      "div": 2.93943,
+      "vol": 5
+    },
+    {
+      "name": "Idol of Eramir",
+      "cat": "ritual",
+      "ex": 13.4019,
+      "div": 2.48844,
+      "vol": 6
+    },
+    {
+      "name": "Ancient Rune of Detonation",
+      "cat": "runes",
+      "ex": 2.92593,
+      "div": null,
+      "vol": 27
+    },
+    {
+      "name": "Warding Rune of Bodyguards",
+      "cat": "runes",
+      "ex": 6,
+      "div": null,
+      "vol": 13
+    },
+    {
+      "name": "Essence of Alacrity",
+      "cat": "essences",
+      "ex": 4.22222,
+      "div": null,
+      "vol": 18
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 13)",
+      "cat": "uncutgems",
+      "ex": 18.9952,
+      "div": 0.574258,
+      "vol": 4
+    },
+    {
+      "name": "Verisium",
+      "cat": "verisium",
+      "ex": 0.000189966,
+      "div": 0.000178597,
+      "vol": 399158
+    },
+    {
+      "name": "Perfect Essence of Alacrity",
+      "cat": "essences",
+      "ex": 0.568182,
+      "div": null,
+      "vol": 132
+    },
+    {
+      "name": "Idol of Maxarius",
+      "cat": "idol",
+      "ex": 1.21046,
+      "div": null,
+      "vol": 61
+    },
+    {
+      "name": "Perfect Essence of Flames",
+      "cat": "essences",
+      "ex": 2.11702,
+      "div": 0.159341,
+      "vol": 34
+    },
+    {
+      "name": "Warding Rune of Reinforcement",
+      "cat": "runes",
+      "ex": 7.95333,
+      "div": 0.255462,
+      "vol": 9
+    },
+    {
+      "name": "Kulemak's Dominion",
+      "cat": "lineagesupportgems",
+      "ex": 8.875,
+      "div": null,
+      "vol": 8
+    },
+    {
+      "name": "Perfect Essence of Enhancement",
+      "cat": "essences",
+      "ex": 0.389497,
+      "div": 0.0848438,
+      "vol": 179
+    },
+    {
+      "name": "Essence of Insanity",
+      "cat": "essences",
+      "ex": 1.55257,
+      "div": 0.112369,
+      "vol": 44
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 12)",
+      "cat": "expedition",
+      "ex": 4,
+      "div": null,
+      "vol": 17
+    },
+    {
+      "name": "Essence of Seeking",
+      "cat": "essences",
+      "ex": 6.09091,
+      "div": null,
+      "vol": 11
+    },
+    {
+      "name": "Saqawal's Rune of Erosion",
+      "cat": "runes",
+      "ex": 2.48148,
+      "div": null,
+      "vol": 27
+    },
+    {
+      "name": "Idol of Alira",
+      "cat": "ritual",
+      "ex": 1.50464,
+      "div": null,
+      "vol": 44
+    },
+    {
+      "name": "Rune of Renown",
+      "cat": "runes",
+      "ex": 8.26951,
+      "div": 0.272857,
+      "vol": 8
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 17)",
+      "cat": "uncutgems",
+      "ex": 4.12691,
+      "div": 0.425778,
+      "vol": 16
+    },
+    {
+      "name": "Essence of the Body",
+      "cat": "essences",
+      "ex": 1.83333,
+      "div": null,
+      "vol": 36
+    },
+    {
+      "name": "Essence of Ruin",
+      "cat": "essences",
+      "ex": 10.8333,
       "div": null,
       "vol": 6
     },
     {
-      "name": "Warding Rune of Armature",
-      "cat": "runes",
-      "ex": 4.6554,
-      "div": 9.74596,
-      "vol": 1
+      "name": "Atziri's Impatience",
+      "cat": "lineagesupportgems",
+      "ex": 7.13006,
+      "div": 0.184842,
+      "vol": 9
     },
     {
-      "name": "Rune of Consistency",
-      "cat": "runes",
-      "ex": 0.149753,
+      "name": "Amanamu's Gaze",
+      "cat": "abyss",
+      "ex": 20.6368,
+      "div": 0.980771,
+      "vol": 3
+    },
+    {
+      "name": "Idol of Yeena",
+      "cat": "ritual",
+      "ex": 0.953606,
       "div": null,
-      "vol": 28
+      "vol": 64
     },
     {
-      "name": "Lesser Essence of Enhancement",
+      "name": "Perfect Essence of Thawing",
       "cat": "essences",
-      "ex": 1,
+      "ex": 0.383648,
       "div": null,
+      "vol": 159
+    },
+    {
+      "name": "Greater Essence of Sorcery",
+      "cat": "essences",
+      "ex": 0.53211,
+      "div": null,
+      "vol": 109
+    },
+    {
+      "name": "Lesser Adept Rune",
+      "cat": "runes",
+      "ex": 0.604396,
+      "div": null,
+      "vol": 91
+    },
+    {
+      "name": "Xibaqua's Rending",
+      "cat": "lineagesupportgems",
+      "ex": 6.625,
+      "div": null,
+      "vol": 8
+    },
+    {
+      "name": "Greater Essence of the Infinite",
+      "cat": "essences",
+      "ex": 0.302857,
+      "div": null,
+      "vol": 175
+    },
+    {
+      "name": "Essence of Thawing",
+      "cat": "essences",
+      "ex": 17.3333,
+      "div": null,
+      "vol": 3
+    },
+    {
+      "name": "Greater Essence of Haste",
+      "cat": "essences",
+      "ex": 1.19222,
+      "div": 0.0574891,
+      "vol": 42
+    },
+    {
+      "name": "Body Rune",
+      "cat": "runes",
+      "ex": 3.57143,
+      "div": null,
+      "vol": 14
+    },
+    {
+      "name": "Romira's Requital",
+      "cat": "lineagesupportgems",
+      "ex": 4.53609,
+      "div": 0.955039,
+      "vol": 11
+    },
+    {
+      "name": "Greater Essence of Thawing",
+      "cat": "essences",
+      "ex": 0.487529,
+      "div": 0.0695882,
+      "vol": 102
+    },
+    {
+      "name": "Atziri's Allure",
+      "cat": "lineagesupportgems",
+      "ex": 16.5104,
+      "div": 0.748744,
+      "vol": 3
+    },
+    {
+      "name": "Cyclonic Alloy",
+      "cat": "verisium",
+      "ex": 2.73787,
+      "div": 0.52203,
+      "vol": 18
+    },
+    {
+      "name": "Mystic Alloy",
+      "cat": "verisium",
+      "ex": 3.33235,
+      "div": 5.45679,
+      "vol": 14
+    },
+    {
+      "name": "Ancient Rune of Dueling",
+      "cat": "runes",
+      "ex": 3.53846,
+      "div": null,
+      "vol": 13
+    },
+    {
+      "name": "Uncut Support Gem (Level 4)",
+      "cat": "uncutgems",
+      "ex": 3.7199,
+      "div": 0.213823,
+      "vol": 12
+    },
+    {
+      "name": "Rune of Vitality",
+      "cat": "runes",
+      "ex": 2.58824,
+      "div": null,
+      "vol": 17
+    },
+    {
+      "name": "Lesser Body Rune",
+      "cat": "runes",
+      "ex": 0.122905,
+      "div": null,
+      "vol": 358
+    },
+    {
+      "name": "Greater Essence of Electricity",
+      "cat": "essences",
+      "ex": 0.328358,
+      "div": null,
+      "vol": 134
+    },
+    {
+      "name": "Perfect Essence of the Body",
+      "cat": "essences",
+      "ex": 0.165385,
+      "div": null,
+      "vol": 260
+    },
+    {
+      "name": "Fenumus' Rune of Spinning",
+      "cat": "runes",
+      "ex": 4.68824,
+      "div": 0.386544,
+      "vol": 9
+    },
+    {
+      "name": "Tangmazu's Thurible",
+      "cat": "lineagesupportgems",
+      "ex": 4.01983,
+      "div": 0.844674,
+      "vol": 10
+    },
+    {
+      "name": "Vaal Arcanist's Infuser",
+      "cat": "vaal",
+      "ex": 0.0938934,
+      "div": 0.0534356,
+      "vol": 425
+    },
+    {
+      "name": "Styrn's Ferocity",
+      "cat": "lineagesupportgems",
+      "ex": 19.5827,
+      "div": 1.65855,
+      "vol": 2
+    },
+    {
+      "name": "Ancient Liquid Disgust",
+      "cat": "delirium",
+      "ex": 0.76,
+      "div": null,
+      "vol": 50
+    },
+    {
+      "name": "Greater Adept Rune",
+      "cat": "runes",
+      "ex": 0.344735,
+      "div": null,
+      "vol": 110
+    },
+    {
+      "name": "Warding Rune of Disintegration",
+      "cat": "runes",
+      "ex": 5.14286,
+      "div": null,
+      "vol": 7
+    },
+    {
+      "name": "Cat Idol",
+      "cat": "idol",
+      "ex": 0.8,
+      "div": null,
+      "vol": 45
+    },
+    {
+      "name": "Warding Rune of Symbiosis",
+      "cat": "runes",
+      "ex": 1.09375,
+      "div": null,
+      "vol": 32
+    },
+    {
+      "name": "Ox Idol",
+      "cat": "idol",
+      "ex": 0.272872,
+      "div": null,
+      "vol": 125
+    },
+    {
+      "name": "Rune of Acrobatics",
+      "cat": "runes",
+      "ex": 6.71226,
+      "div": 0.751255,
+      "vol": 5
+    },
+    {
+      "name": "Ancient Rune of the Horde",
+      "cat": "runes",
+      "ex": 3.32686,
+      "div": null,
+      "vol": 10
+    },
+    {
+      "name": "Zarokh's Revolt",
+      "cat": "lineagesupportgems",
+      "ex": 16.5635,
+      "div": 1.94352,
+      "vol": 2
+    },
+    {
+      "name": "Arjun's Medal",
+      "cat": "lineagesupportgems",
+      "ex": 0.970588,
+      "div": null,
+      "vol": 34
+    },
+    {
+      "name": "Estazunti's Soul Core of Convalescence",
+      "cat": "ultimatum",
+      "ex": 8.01238,
+      "div": 0.76845,
       "vol": 4
+    },
+    {
+      "name": "Resolve Rune",
+      "cat": "runes",
+      "ex": 0.888889,
+      "div": null,
+      "vol": 36
     },
     {
       "name": "Artificer's Shard",
       "cat": "currency",
       "ex": 0.333333,
       "div": null,
-      "vol": 12
+      "vol": 96
     },
     {
-      "name": "Vruun's Aftermath",
+      "name": "Fenumus' Rune of Draining",
+      "cat": "runes",
+      "ex": 0.753964,
+      "div": null,
+      "vol": 42
+    },
+    {
+      "name": "Uncut Skill Gem (Level 13)",
+      "cat": "uncutgems",
+      "ex": 2.72769,
+      "div": 1.18499,
+      "vol": 11
+    },
+    {
+      "name": "Greater Vision Rune",
+      "cat": "runes",
+      "ex": 0.28488,
+      "div": null,
+      "vol": 105
+    },
+    {
+      "name": "Greater Inspiration Rune",
+      "cat": "runes",
+      "ex": 0.23745,
+      "div": null,
+      "vol": 125
+    },
+    {
+      "name": "Kurgal's Leash",
       "cat": "lineagesupportgems",
-      "ex": 0.444444,
+      "ex": 1.9512,
+      "div": 0.220795,
+      "vol": 15
+    },
+    {
+      "name": "Lesser Essence of Command",
+      "cat": "essences",
+      "ex": 3.5,
+      "div": null,
+      "vol": 8
+    },
+    {
+      "name": "Venerable Starlit Ore",
+      "cat": "verisium",
+      "ex": 0.870968,
+      "div": null,
+      "vol": 31
+    },
+    {
+      "name": "Owl Idol",
+      "cat": "idol",
+      "ex": 0.490909,
+      "div": null,
+      "vol": 55
+    },
+    {
+      "name": "Warding Rune of Hollowing",
+      "cat": "runes",
+      "ex": 1.42105,
+      "div": null,
+      "vol": 19
+    },
+    {
+      "name": "Thrud's Might",
+      "cat": "runes",
+      "ex": 8.87901,
+      "div": 9.26966,
+      "vol": 3
+    },
+    {
+      "name": "Wolf Idol",
+      "cat": "idol",
+      "ex": 0.65,
+      "div": null,
+      "vol": 40
+    },
+    {
+      "name": "Farrul's Rune of Grace",
+      "cat": "runes",
+      "ex": 0.834399,
+      "div": null,
+      "vol": 31
+    },
+    {
+      "name": "Perfect Essence of Insulation",
+      "cat": "essences",
+      "ex": 0.215517,
+      "div": null,
+      "vol": 116
+    },
+    {
+      "name": "Greater Essence of Ice",
+      "cat": "essences",
+      "ex": 0.255319,
+      "div": null,
+      "vol": 94
+    },
+    {
+      "name": "Idol of the Pharisee",
+      "cat": "ritual",
+      "ex": 2.8969,
+      "div": 0.548125,
+      "vol": 8
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 16)",
+      "cat": "expedition",
+      "ex": 1.4375,
+      "div": null,
+      "vol": 16
+    },
+    {
+      "name": "Stag Idol",
+      "cat": "idol",
+      "ex": 0.333333,
+      "div": null,
+      "vol": 69
+    },
+    {
+      "name": "Uncut Skill Gem (Level 18)",
+      "cat": "uncutgems",
+      "ex": 0.100073,
+      "div": 0.363718,
+      "vol": 225
+    },
+    {
+      "name": "Lesser Ward Rune",
+      "cat": "runes",
+      "ex": 2.44444,
       "div": null,
       "vol": 9
     },
     {
-      "name": "Diluted Liquid Guilt",
-      "cat": "delirium",
-      "ex": 0.0688312,
-      "div": 0.244848,
-      "vol": 49
+      "name": "Primate Idol",
+      "cat": "idol",
+      "ex": 1.16852,
+      "div": 0.300012,
+      "vol": 18
     },
     {
-      "name": "Daresso's Passion",
+      "name": "Craiceann's Rune of Recovery",
+      "cat": "runes",
+      "ex": 2.5676,
+      "div": 3.37412,
+      "vol": 8
+    },
+    {
+      "name": "Greater Essence of Abrasion",
+      "cat": "essences",
+      "ex": 0.310949,
+      "div": 0.0581271,
+      "vol": 66
+    },
+    {
+      "name": "Ancient Concentrated Liquid Fear",
+      "cat": "delirium",
+      "ex": 1.27773,
+      "div": 0.805848,
+      "vol": 16
+    },
+    {
+      "name": "Kaom's Madness",
       "cat": "lineagesupportgems",
-      "ex": 0.640073,
-      "div": 1.42013,
+      "ex": 0.883862,
+      "div": 0.635875,
+      "vol": 23
+    },
+    {
+      "name": "Ancient Rune of Discovery",
+      "cat": "runes",
+      "ex": 4,
+      "div": null,
       "vol": 5
     },
     {
-      "name": "Greater Essence of Battle",
+      "name": "Greater Essence of the Body",
       "cat": "essences",
-      "ex": 0.0857143,
+      "ex": 0.126582,
       "div": null,
-      "vol": 35
+      "vol": 158
     },
     {
-      "name": "Lesser Inspiration Rune",
+      "name": "Warding Rune of Heart",
       "cat": "runes",
-      "ex": 0.5,
+      "ex": 9.75218,
+      "div": 11.5522,
+      "vol": 2
+    },
+    {
+      "name": "Idol of Grold",
+      "cat": "idol",
+      "ex": 3.10447,
+      "div": 1.03678,
+      "vol": 6
+    },
+    {
+      "name": "Uncut Skill Gem (Level 15)",
+      "cat": "uncutgems",
+      "ex": 1.08515,
+      "div": 2.08752,
+      "vol": 17
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 14)",
+      "cat": "expedition",
+      "ex": 4.5154,
+      "div": 7.31849,
+      "vol": 4
+    },
+    {
+      "name": "Snake Idol",
+      "cat": "ritual",
+      "ex": 0.718587,
+      "div": 0.545247,
+      "vol": 25
+    },
+    {
+      "name": "Ancient Concentrated Liquid Suffering",
+      "cat": "delirium",
+      "ex": 1.12203,
+      "div": 0.547482,
+      "vol": 16
+    },
+    {
+      "name": "Swift Alloy",
+      "cat": "verisium",
+      "ex": 1.37481,
+      "div": 0.36793,
+      "vol": 13
+    },
+    {
+      "name": "Diluted Liquid Greed",
+      "cat": "delirium",
+      "ex": 0.240877,
+      "div": 0.0737277,
+      "vol": 70
+    },
+    {
+      "name": "Greater Essence of Grounding",
+      "cat": "essences",
+      "ex": 0.318009,
+      "div": 0.255827,
+      "vol": 52
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 19)",
+      "cat": "expedition",
+      "ex": 2.35591,
+      "div": 1.10085,
+      "vol": 7
+    },
+    {
+      "name": "Boar Idol",
+      "cat": "idol",
+      "ex": 0.144079,
+      "div": null,
+      "vol": 113
+    },
+    {
+      "name": "Mind Rune",
+      "cat": "runes",
+      "ex": 1.45455,
+      "div": null,
+      "vol": 11
+    },
+    {
+      "name": "Idol of Egrin",
+      "cat": "idol",
+      "ex": 2.17032,
+      "div": 0.98796,
+      "vol": 7
+    },
+    {
+      "name": "Warding Rune of Protection",
+      "cat": "runes",
+      "ex": 1.36364,
+      "div": null,
+      "vol": 11
+    },
+    {
+      "name": "Expansive Alloy",
+      "cat": "verisium",
+      "ex": 2.47884,
+      "div": 1.61048,
+      "vol": 6
+    },
+    {
+      "name": "Prototype Seventeen",
+      "cat": "lineagesupportgems",
+      "ex": 2.35331,
       "div": null,
       "vol": 6
     },
     {
-      "name": "Greater Essence of the Mind",
-      "cat": "essences",
-      "ex": 0.03,
+      "name": "Adept Rune",
+      "cat": "runes",
+      "ex": 0.518519,
       "div": null,
-      "vol": 100
+      "vol": 27
     },
     {
-      "name": "Lesser Essence of Seeking",
-      "cat": "essences",
-      "ex": 1,
+      "name": "Vruun's Inevitability",
+      "cat": "lineagesupportgems",
+      "ex": 0.636364,
       "div": null,
-      "vol": 3
+      "vol": 22
     },
     {
-      "name": "Lesser Essence of Thawing",
+      "name": "Ancient Diluted Liquid Ire",
+      "cat": "delirium",
+      "ex": 0.04,
+      "div": null,
+      "vol": 350
+    },
+    {
+      "name": "Essence of Electricity",
       "cat": "essences",
-      "ex": 0.6,
+      "ex": 7,
+      "div": null,
+      "vol": 2
+    },
+    {
+      "name": "Greater Rune of Nobility",
+      "cat": "runes",
+      "ex": 2.25081,
+      "div": null,
+      "vol": 6
+    },
+    {
+      "name": "Lady Hestra's Rune of Winter",
+      "cat": "runes",
+      "ex": 0.726377,
+      "div": null,
+      "vol": 18
+    },
+    {
+      "name": "Uncut Skill Gem (Level 10)",
+      "cat": "uncutgems",
+      "ex": 0.9238,
+      "div": 2.60096,
+      "vol": 14
+    },
+    {
+      "name": "Greater Essence of Enhancement",
+      "cat": "essences",
+      "ex": 0.398271,
+      "div": 0.235216,
+      "vol": 32
+    },
+    {
+      "name": "Essence of Grounding",
+      "cat": "essences",
+      "ex": 2.4,
       "div": null,
       "vol": 5
     },
     {
+      "name": "Greater Essence of Alacrity",
+      "cat": "essences",
+      "ex": 0.165678,
+      "div": null,
+      "vol": 72
+    },
+    {
+      "name": "Trickster's Shard",
+      "cat": "lineagesupportgems",
+      "ex": 5.87331,
+      "div": 5.74868,
+      "vol": 2
+    },
+    {
+      "name": "Ancient Rune of the Titan",
+      "cat": "runes",
+      "ex": 2.75454,
+      "div": null,
+      "vol": 4
+    },
+    {
+      "name": "Greater Rebirth Rune",
+      "cat": "runes",
+      "ex": 0.15493,
+      "div": null,
+      "vol": 71
+    },
+    {
+      "name": "Omen of the Sovereign",
+      "cat": "ritual",
+      "ex": 0.895839,
+      "div": 0.877861,
+      "vol": 12
+    },
+    {
+      "name": "Uncut Skill Gem (Level 17)",
+      "cat": "uncutgems",
+      "ex": 0.149268,
+      "div": 0.859111,
+      "vol": 71
+    },
+    {
+      "name": "Essence of Haste",
+      "cat": "essences",
+      "ex": 1.25,
+      "div": null,
+      "vol": 8
+    },
+    {
+      "name": "Tawhoa's Tending",
+      "cat": "lineagesupportgems",
+      "ex": 0.529412,
+      "div": null,
+      "vol": 17
+    },
+    {
+      "name": "Guatelitzi's Ablation",
+      "cat": "lineagesupportgems",
+      "ex": 0.75,
+      "div": null,
+      "vol": 12
+    },
+    {
+      "name": "Ancient Diluted Liquid Greed",
+      "cat": "delirium",
+      "ex": 0.236842,
+      "div": null,
+      "vol": 38
+    },
+    {
+      "name": "Warding Rune of Annihilation",
+      "cat": "runes",
+      "ex": 1.21123,
+      "div": null,
+      "vol": 7
+    },
+    {
+      "name": "Uncut Skill Gem (Level 16)",
+      "cat": "uncutgems",
+      "ex": 0.403263,
+      "div": 1.29493,
+      "vol": 20
+    },
+    {
+      "name": "Lesser Essence of Sorcery",
+      "cat": "essences",
+      "ex": 1.14286,
+      "div": null,
+      "vol": 7
+    },
+    {
       "name": "Essence of the Infinite",
       "cat": "essences",
-      "ex": 0.75,
+      "ex": 8,
+      "div": null,
+      "vol": 1
+    },
+    {
+      "name": "Lesser Essence of Ice",
+      "cat": "essences",
+      "ex": 8,
+      "div": null,
+      "vol": 1
+    },
+    {
+      "name": "Ancient Liquid Envy",
+      "cat": "delirium",
+      "ex": 0.1,
+      "div": null,
+      "vol": 80
+    },
+    {
+      "name": "Gnawed Rib",
+      "cat": "abyss",
+      "ex": 0.0966937,
+      "div": 0.0666946,
+      "vol": 76
+    },
+    {
+      "name": "Lesser Inspiration Rune",
+      "cat": "runes",
+      "ex": 0.777778,
+      "div": null,
+      "vol": 9
+    },
+    {
+      "name": "Ancient Rune of Retaliation",
+      "cat": "runes",
+      "ex": 1.75,
       "div": null,
       "vol": 4
     },
     {
       "name": "Essence of Ice",
       "cat": "essences",
-      "ex": 0.428571,
+      "ex": 0.5,
+      "div": null,
+      "vol": 14
+    },
+    {
+      "name": "Rune of Confrontation",
+      "cat": "runes",
+      "ex": 1,
       "div": null,
       "vol": 7
     },
     {
-      "name": "Greater Essence of Ice",
+      "name": "Greater Essence of Flames",
       "cat": "essences",
-      "ex": 0.0598733,
+      "ex": 0.25,
       "div": null,
-      "vol": 48
+      "vol": 28
+    },
+    {
+      "name": "Saqawal's Rune of Memory",
+      "cat": "runes",
+      "ex": 6.39888,
+      "div": 22.35,
+      "vol": 1
+    },
+    {
+      "name": "Uncut Skill Gem (Level 14)",
+      "cat": "uncutgems",
+      "ex": 0.255202,
+      "div": 2.47006,
+      "vol": 25
+    },
+    {
+      "name": "Greater Essence of Battle",
+      "cat": "essences",
+      "ex": 0.109091,
+      "div": null,
+      "vol": 55
+    },
+    {
+      "name": "Vruun's Aftermath",
+      "cat": "lineagesupportgems",
+      "ex": 0.6,
+      "div": null,
+      "vol": 10
+    },
+    {
+      "name": "Vision Rune",
+      "cat": "runes",
+      "ex": 0.461538,
+      "div": null,
+      "vol": 13
     },
     {
       "name": "Vaal Siphoner",
       "cat": "incursion",
-      "ex": 0.06078,
+      "ex": 0.0250881,
       "div": null,
-      "vol": 42
+      "vol": 237
     },
     {
-      "name": "Greater Glacial Rune",
+      "name": "Craiceann's Rune of Warding",
       "cat": "runes",
-      "ex": 0.103361,
-      "div": 0.73732,
-      "vol": 24
+      "ex": 5.25855,
+      "div": 30.4709,
+      "vol": 1
     },
     {
-      "name": "Ancient Liquid Disgust",
-      "cat": "delirium",
-      "ex": 0.0961111,
-      "div": null,
-      "vol": 25
-    },
-    {
-      "name": "Omen of the Liege",
-      "cat": "ritual",
-      "ex": 0.0697175,
-      "div": 0.677621,
-      "vol": 32
-    },
-    {
-      "name": "Lesser Mind Rune",
+      "name": "Lesser Glacial Rune",
       "cat": "runes",
-      "ex": 0.0246914,
-      "div": null,
-      "vol": 81
+      "ex": 0.0866287,
+      "div": 0.116617,
+      "vol": 60
     },
     {
-      "name": "Mind Rune",
+      "name": "Uncut Support Gem (Level 2)",
+      "cat": "uncutgems",
+      "ex": 0.315633,
+      "div": 0.529229,
+      "vol": 16
+    },
+    {
+      "name": "Thane Myrk's Rune of Summer",
       "cat": "runes",
       "ex": 1,
+      "div": null,
+      "vol": 5
+    },
+    {
+      "name": "Lesser Essence of Flames",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "vol": 5
+    },
+    {
+      "name": "The Greatwolf's Rune of Claws",
+      "cat": "runes",
+      "ex": 2.49682,
+      "div": 41.1442,
+      "vol": 2
+    },
+    {
+      "name": "Tacati's Ire",
+      "cat": "lineagesupportgems",
+      "ex": 0.298188,
+      "div": null,
+      "vol": 16
+    },
+    {
+      "name": "Lesser Storm Rune",
+      "cat": "runes",
+      "ex": 0.135997,
+      "div": 0.230097,
+      "vol": 35
+    },
+    {
+      "name": "Ancient Liquid Despair",
+      "cat": "delirium",
+      "ex": 0.223169,
+      "div": 0.329555,
+      "vol": 20
+    },
+    {
+      "name": "Lesser Essence of Haste",
+      "cat": "essences",
+      "ex": 2,
+      "div": null,
+      "vol": 2
+    },
+    {
+      "name": "Warding Rune of Obsession",
+      "cat": "runes",
+      "ex": 2,
+      "div": null,
+      "vol": 2
+    },
+    {
+      "name": "Lesser Iron Rune",
+      "cat": "runes",
+      "ex": 0.197447,
+      "div": 0.641129,
+      "vol": 20
+    },
+    {
+      "name": "Ancient Rune of Prowess",
+      "cat": "runes",
+      "ex": 0.281145,
+      "div": null,
+      "vol": 13
+    },
+    {
+      "name": "Oisín's Oath",
+      "cat": "lineagesupportgems",
+      "ex": 3.65222,
+      "div": 31.7448,
+      "vol": 1
+    },
+    {
+      "name": "Medved's Crest of the Circle",
+      "cat": "verisium",
+      "ex": 0.0954676,
+      "div": 0.698689,
+      "vol": 36
+    },
+    {
+      "name": "Warding Rune of Courage",
+      "cat": "runes",
+      "ex": 0.6,
+      "div": null,
+      "vol": 5
+    },
+    {
+      "name": "Lesser Resolve Rune",
+      "cat": "runes",
+      "ex": 0.15,
+      "div": null,
+      "vol": 20
+    },
+    {
+      "name": "Greater Essence of the Mind",
+      "cat": "essences",
+      "ex": 0.0384615,
+      "div": null,
+      "vol": 78
+    },
+    {
+      "name": "Uruk's Smelting",
+      "cat": "lineagesupportgems",
+      "ex": 2.81718,
+      "div": 38.1672,
+      "vol": 1
+    },
+    {
+      "name": "Bear Idol",
+      "cat": "idol",
+      "ex": 0.351528,
+      "div": 5.54454,
+      "vol": 8
+    },
+    {
+      "name": "Farrul's Rune of the Hunt",
+      "cat": "runes",
+      "ex": 2.54212,
+      "div": 47.8366,
+      "vol": 1
+    },
+    {
+      "name": "Greater Robust Rune",
+      "cat": "runes",
+      "ex": 0.703315,
+      "div": 37.6166,
+      "vol": 3
+    },
+    {
+      "name": "Charging Rune",
+      "cat": "runes",
+      "ex": 1,
+      "div": null,
+      "vol": 2
+    },
+    {
+      "name": "Ancient Rune of Animosity",
+      "cat": "runes",
+      "ex": 1,
+      "div": null,
+      "vol": 2
+    },
+    {
+      "name": "Greater Stone Rune",
+      "cat": "runes",
+      "ex": 0.05,
+      "div": null,
+      "vol": 40
+    },
+    {
+      "name": "Lesser Essence of Enhancement",
+      "cat": "essences",
+      "ex": 2,
+      "div": null,
+      "vol": 1
+    },
+    {
+      "name": "Lesser Essence of the Body",
+      "cat": "essences",
+      "ex": 2,
+      "div": null,
+      "vol": 1
+    },
+    {
+      "name": "Lesser Essence of the Mind",
+      "cat": "essences",
+      "ex": 0.4,
+      "div": null,
+      "vol": 5
+    },
+    {
+      "name": "Lesser Desert Rune",
+      "cat": "runes",
+      "ex": 0.0455523,
+      "div": 0.14527,
+      "vol": 40
+    },
+    {
+      "name": "Perfect Essence of the Infinite",
+      "cat": "essences",
+      "ex": 0.282509,
+      "div": 6.88392,
+      "vol": 6
+    },
+    {
+      "name": "Lesser Jeweller's Orb",
+      "cat": "currency",
+      "ex": 0.00462365,
+      "div": 0.0138666,
+      "vol": 351
+    },
+    {
+      "name": "Perfect Essence of Ruin",
+      "cat": "essences",
+      "ex": 0.112953,
+      "div": 1.87653,
+      "vol": 11
+    },
+    {
+      "name": "Warding Rune of Glancing",
+      "cat": "runes",
+      "ex": 0.412209,
+      "div": null,
+      "vol": 3
+    },
+    {
+      "name": "Regal Shard",
+      "cat": "currency",
+      "ex": 0.0666667,
+      "div": null,
+      "vol": 15
+    },
+    {
+      "name": "Rebirth Rune",
+      "cat": "runes",
+      "ex": 0.5,
       "div": null,
       "vol": 2
     },
@@ -4055,59 +4069,31 @@
       "cat": "runes",
       "ex": 1,
       "div": null,
-      "vol": 2
+      "vol": 1
     },
     {
-      "name": "Rune of Confrontation",
-      "cat": "runes",
-      "ex": 1,
-      "div": null,
-      "vol": 2
-    },
-    {
-      "name": "Rune of Culmination",
-      "cat": "runes",
-      "ex": 0.960929,
-      "div": 10.9951,
-      "vol": 2
-    },
-    {
-      "name": "Fenumus' Rune of Draining",
-      "cat": "runes",
-      "ex": 0.564235,
-      "div": 30.947,
-      "vol": 3
-    },
-    {
-      "name": "Perfect Essence of the Body",
+      "name": "Lesser Essence of Seeking",
       "cat": "essences",
-      "ex": 0.05595,
-      "div": 0.280428,
-      "vol": 30
-    },
-    {
-      "name": "Lesser Vision Rune",
-      "cat": "runes",
-      "ex": 0.0454546,
-      "div": null,
-      "vol": 22
-    },
-    {
-      "name": "Rebirth Rune",
-      "cat": "runes",
       "ex": 1,
       "div": null,
       "vol": 1
     },
     {
-      "name": "Greater Stone Rune",
-      "cat": "runes",
-      "ex": 0.05,
+      "name": "Lesser Essence of Thawing",
+      "cat": "essences",
+      "ex": 1,
       "div": null,
-      "vol": 20
+      "vol": 1
     },
     {
-      "name": "Lesser Essence of Flames",
+      "name": "Essence of Command",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "vol": 1
+    },
+    {
+      "name": "Lesser Essence of Ruin",
       "cat": "essences",
       "ex": 0.5,
       "div": null,
@@ -4116,9 +4102,9 @@
     {
       "name": "Essence of Flames",
       "cat": "essences",
-      "ex": 1,
+      "ex": 0.5,
       "div": null,
-      "vol": 1
+      "vol": 2
     },
     {
       "name": "Cirel's Cultivation",
@@ -4137,71 +4123,78 @@
     {
       "name": "Lesser Rebirth Rune",
       "cat": "runes",
+      "ex": 1,
+      "div": null,
+      "vol": 1
+    },
+    {
+      "name": "Transmutation Shard",
+      "cat": "currency",
+      "ex": 0.111111,
+      "div": null,
+      "vol": 9
+    },
+    {
+      "name": "Essence of the Mind",
+      "cat": "essences",
       "ex": 0.333333,
       "div": null,
       "vol": 3
     },
     {
+      "name": "Potent Liquid Melancholy",
+      "cat": "delirium",
+      "ex": 0.725589,
+      "div": 93.1221,
+      "vol": 1
+    },
+    {
+      "name": "Varashta's Blessing",
+      "cat": "lineagesupportgems",
+      "ex": 0.160288,
+      "div": null,
+      "vol": 3
+    },
+    {
+      "name": "Tasalio's Rhythm",
+      "cat": "lineagesupportgems",
+      "ex": 0.0773681,
+      "div": 0.417916,
+      "vol": 6
+    },
+    {
       "name": "Ancient Diluted Liquid Guilt",
       "cat": "delirium",
-      "ex": 0.0208333,
+      "ex": 0.00257407,
       "div": null,
-      "vol": 48
+      "vol": 144
     },
     {
-      "name": "Ancient Rune of the Titan",
-      "cat": "runes",
-      "ex": 0.767246,
-      "div": 4.46626,
-      "vol": 1
-    },
-    {
-      "name": "Essence of the Body",
-      "cat": "essences",
-      "ex": 0.70786,
-      "div": 22.3909,
-      "vol": 1
-    },
-    {
-      "name": "Greater Essence of Electricity",
-      "cat": "essences",
-      "ex": 0.0532715,
-      "div": 1.16256,
-      "vol": 7
-    },
-    {
-      "name": "Revered Starlit Ore",
-      "cat": "verisium",
-      "ex": 0.0902585,
-      "div": 0.656787,
+      "name": "Arakaali's Lust",
+      "cat": "lineagesupportgems",
+      "ex": 0.074269,
+      "div": 1.64507,
       "vol": 4
     },
     {
-      "name": "Greater Essence of the Body",
-      "cat": "essences",
-      "ex": 0.0107584,
-      "div": 0.123596,
-      "vol": 22
+      "name": "Rune of Consistency",
+      "cat": "runes",
+      "ex": 0.112092,
+      "div": 9.12623,
+      "vol": 2
     },
     {
       "name": "Idol of Silk",
       "cat": "ritual",
-      "ex": 0.0249631,
+      "ex": 0.0139167,
       "div": null,
-      "vol": 8
-    },
-    {
-      "name": "Warding Rune of Courage",
-      "cat": "runes",
-      "ex": 0.0139976,
-      "div": 1.19734,
-      "vol": 3
+      "vol": 4
     },
     {
       "name": "Lesser Essence of Alacrity",
       "cat": "essences",
-      "ex": 0.0103379,
-      "div": 1.98966,
+      "ex": 0.0300812,
+      "div": 5.84959,
       "vol": 1
     }
   ]
