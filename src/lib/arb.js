@@ -41,6 +41,16 @@ export function analyze(d, iE, pItemDiv, units = 1, goldPerUnit = 0) {
 }
 
 /**
+ * Smart score = margin weighted by a log of liquidity, so a fat margin isn't
+ * buried by a mega-volume item while thin books are still demoted.
+ * NOTE: log10(1 + vol) only spans ~1.7 (vol 50) to ~5.0 (vol ~90k), so the
+ * volume penalty is gentle — treat the weighting as tunable.
+ */
+export function scoreOf(marginPct, vol) {
+  return marginPct * Math.log10(1 + (vol || 0));
+}
+
+/**
  * Turn normalized snapshot items into ranked arbitrage opportunities.
  * Items without a real divine quote (`div == null`) fall back to the implied
  * price ex/d (=> ~0% margin) and are flagged `hasRealDiv: false`.
@@ -58,10 +68,11 @@ export function buildOpportunities(rows, d, { minVol = 0, goldPerUnit = 0, capIn
       const a = analyze(d || 0, r.ex, pItemDiv, 1, goldPerUnit);
       const unitPrice = Math.min(a.iE, a.iDx || a.iE) || a.iE;
       const units = unitPrice > 0 ? Math.floor(capInEx / unitPrice) : 0;
+      const vol = r.vol || 0;
       return {
         name: r.name,
         cat: r.cat,
-        vol: r.vol || 0,
+        vol,
         ex: r.ex,
         div: pItemDiv,
         marginPct: a.marginPct,
@@ -71,24 +82,47 @@ export function buildOpportunities(rows, d, { minVol = 0, goldPerUnit = 0, capIn
         totalProfit: a.perUnit * units,
         units,
         hasRealDiv,
-        hunt: (r.vol || 0) * r.ex,
+        hunt: vol * r.ex,
+        // Smart score (margin x liquidity) and a volume-capped "realistic" total.
+        score: scoreOf(a.marginPct, vol),
+        realisticTotal: a.perUnit * vol,
       };
     })
     .filter((r) => r.vol >= minVol);
 }
 
+const SORTERS = {
+  score: (a, b) => b.score - a.score,
+  margin: (a, b) => b.marginPct - a.marginPct,
+  perUnit: (a, b) => b.perUnit - a.perUnit,
+  ppg: (a, b) => b.ppg - a.ppg,
+  total: (a, b) => b.totalProfit - a.totalProfit,
+  vol: (a, b) => b.vol - a.vol,
+  liq: (a, b) => b.hunt - a.hunt,
+};
+
 /**
- * Sort + slice opportunities for one of the four ranking tabs.
- *  - "ppg"    profit per gold (default)
- *  - "margin" % margin
- *  - "total"  total profit at capital
- *  - "liq"    liquidity / safety (hunt = vol * ex), ignores margin filter
+ * Sort + slice opportunities by one of the SORTERS keys.
+ *  - "score"  smart score = margin x liquidity (default for the table)
+ *  - "margin" % margin            - "perUnit" profit per unit
+ *  - "ppg"    profit per gold     - "total"   total profit at capital
+ *  - "vol"    units traded
+ *  - "liq"    liquidity / safety (hunt = vol * ex), ignores the margin filter
+ * `dir` is 'desc' by default; 'asc' reverses the order.
  */
-export function rankOpportunities(opps, sortKey, { minMargin = 0, limit = 40 } = {}) {
-  const rows = [...opps];
-  if (sortKey === 'liq') return rows.sort((a, b) => b.hunt - a.hunt).slice(0, limit);
-  const filtered = rows.filter((r) => r.marginPct >= minMargin);
-  if (sortKey === 'margin') return filtered.sort((a, b) => b.marginPct - a.marginPct).slice(0, limit);
-  if (sortKey === 'total') return filtered.sort((a, b) => b.totalProfit - a.totalProfit).slice(0, limit);
-  return filtered.sort((a, b) => b.ppg - a.ppg).slice(0, limit);
+export function rankOpportunities(opps, sortKey, { minMargin = 0, limit = 40, dir = 'desc' } = {}) {
+  const rows = sortKey === 'liq' ? [...opps] : [...opps].filter((r) => r.marginPct >= minMargin);
+  rows.sort(SORTERS[sortKey] || SORTERS.ppg);
+  if (dir === 'asc') rows.reverse();
+  return rows.slice(0, limit);
+}
+
+/**
+ * The headline "TOP FLIPS": real (non-implied) edges with enough liquidity and
+ * a positive margin, ranked by smart score. Thin wrapper over rankOpportunities
+ * so the cards and the score-sorted table share one ordering.
+ */
+export function topFlips(opps, { minVol = 50, n = 5 } = {}) {
+  const pool = opps.filter((o) => o.hasRealDiv && o.vol >= minVol && o.marginPct > 0);
+  return rankOpportunities(pool, 'score', { limit: n });
 }

@@ -159,3 +159,75 @@ pre {
   background-size: 200% 100%; animation: sh 1.2s infinite;
 }
 @keyframes sh { to { background-position: -200% 0; } }
+
+/* ---- TOP FLIPS cards ---- */
+.topflips-section { margin-bottom: 20px; }
+.topflips { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+.flipcard {
+  background: linear-gradient(180deg, var(--surface), var(--bg2));
+  border: 1px solid var(--border); border-top: 3px solid var(--border); border-radius: 16px; padding: 16px;
+  cursor: pointer; transition: transform .12s, border-color .12s, box-shadow .12s;
+}
+.flipcard.fwd { border-top-color: var(--divine); }
+.flipcard.rev { border-top-color: var(--exalted); }
+.flipcard:hover { transform: translateY(-2px); border-color: var(--indigo); box-shadow: 0 16px 40px -28px rgba(56, 189, 248, .5); }
+.flipcard .fc-top { display: flex; align-items: center; gap: 8px; margin-bottom: 9px; }
+.flipcard .fc-top .iname { font-size: 14.5px; }
+.flipcard .fc-act { font-size: 12.5px; font-weight: 600; margin-bottom: 11px; color: var(--text); }
+.flipcard .fc-big { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
+.flipcard .big { font-size: 28px; font-weight: 800; letter-spacing: -.5px; }
+.flipcard .fc-per { font-size: 13px; color: var(--muted); }
+.flipcard .fc-real { font-size: 12.5px; color: var(--muted); margin-bottom: 9px; }
+.flipcard .fc-small { font-size: 11px; color: var(--faint); line-height: 1.7; }
+
+/* ---- "Best flips to hunt" controls bar ---- */
+.controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end; margin-bottom: 12px; }
+.controls .search { width: auto; flex: 1 1 180px; min-width: 150px; font-family: inherit; margin: 0; }
+.controls select { width: auto; flex: 0 0 auto; min-width: 140px; margin: 0; }
+.controls .slider { display: flex; flex-direction: column; gap: 5px; min-width: 150px; }
+.controls .slider label { margin: 0; }
+.sortpills { display: flex; gap: 6px; align-items: center; }
+.sortpill {
+  background: var(--surface2); border: 1px solid var(--border); color: var(--muted); border-radius: 20px;
+  padding: 6px 13px; font-size: 12.5px; font-weight: 600; cursor: pointer; user-select: none; white-space: nowrap;
+}
+.sortpill.on { background: var(--surface3); color: #fff; border-color: var(--purple); box-shadow: inset 0 0 0 1px var(--purple); }
+.implied-toggle {
+  display: flex; align-items: center; gap: 7px; margin: 0; font-size: 12.5px; color: var(--muted);
+  text-transform: none; letter-spacing: 0; font-weight: 600; cursor: pointer; white-space: nowrap;
+}
+.implied-toggle input[type=checkbox] { width: auto; height: auto; padding: 0; margin: 0; accent-color: var(--purple); cursor: pointer; }
+
+/* themed range slider */
+input[type=range] {
+  -webkit-appearance: none; appearance: none; width: 100%; height: 5px; padding: 0; border: none;
+  background: var(--surface3); border-radius: 3px; cursor: pointer; box-shadow: none;
+}
+input[type=range]:focus { outline: none; box-shadow: none; }
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none; width: 15px; height: 15px; border-radius: 50%;
+  background: var(--indigo); border: 2px solid var(--bg2); cursor: pointer;
+}
+input[type=range]::-moz-range-thumb {
+  width: 15px; height: 15px; border-radius: 50%; background: var(--indigo); border: 2px solid var(--bg2); cursor: pointer;
+}
+
+/* ---- sortable headers + expandable rows ---- */
+th.sortable { cursor: pointer; user-select: none; }
+th.sortable:hover { color: var(--muted); }
+th.sortable.active { color: var(--text); }
+th.sortable .arrow { margin-left: 4px; font-size: 9px; }
+.fliptable .volcell { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
+.fliptable .chevcell { text-align: center; width: 28px; }
+.chev { display: inline-block; color: var(--faint); transition: transform .15s, color .15s; }
+.chev.open { transform: rotate(180deg); color: var(--indigo); }
+tbody tr.open td { background: rgba(129, 140, 248, .06); }
+tr.rowdetail { cursor: default; }
+tr.rowdetail:hover td { background: none; }
+tr.rowdetail td { padding: 4px 12px 16px; white-space: normal; }
+.rd-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0 24px;
+  background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 4px 16px; margin-top: 4px;
+}
+.rd-grid .kv { font-size: 13px; }
+.rd-send { width: auto; margin-top: 12px; padding: 9px 16px; }
