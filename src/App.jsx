@@ -53,6 +53,10 @@ const RefreshIcon = ({ spin }) => (
 const BoltIcon = () => (
   <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 4.5 13H11l-1 9 8.5-11H12l1-9z" /></svg>
 );
+const BookIcon = () => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
+    strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" /><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" /></svg>
+);
 
 export default function App() {
   const [settings, setSettings] = useState(loadSettings);
@@ -63,6 +67,8 @@ export default function App() {
   const [calGold, setCalGold] = useState('');
   const [rawJson, setRawJson] = useState('');
   const [openRow, setOpenRow] = useState(null); // expanded table row, keyed by item name
+  const [openFlip, setOpenFlip] = useState(null); // expanded TOP FLIPS card, keyed by item name
+  const [guideOpen, setGuideOpen] = useState(false); // "How to read a flip" slideout
 
   const setField = (k, v) => setSettings((s) => ({ ...s, [k]: v }));
   const effectiveLiveUrl = (settings.liveUrl || '').trim() || ENV_LIVE_URL;
@@ -164,6 +170,7 @@ export default function App() {
   const sortBy = (key) =>
     setSettings((s) => ({ ...s, sortKey: key, sortDir: s.sortKey === key && s.sortDir === 'desc' ? 'asc' : 'desc' }));
   const toggleRow = (name) => setOpenRow((cur) => (cur === name ? null : name));
+  const toggleFlip = (name) => setOpenFlip((cur) => (cur === name ? null : name));
   const sortTh = (label, k) => (
     <th className={`sortable${settings.sortKey === k ? ' active' : ''}`} onClick={() => sortBy(k)}>
       {label}{settings.sortKey === k && <span className="arrow">{settings.sortDir === 'desc' ? '▼' : '▲'}</span>}
@@ -251,17 +258,22 @@ export default function App() {
               <h2>Top flips</h2>
               <span className="live">live</span>
               <span className="muted" style={{ fontSize: 12 }}>
-                highest smart score (margin × liquidity) · real edges only · click a card to load the calculator
+                highest smart score (margin × liquidity) · real edges only · click a card for the full breakdown
               </span>
+              <button className="ghost guide-btn" style={{ marginLeft: 'auto' }} onClick={() => setGuideOpen(true)}>
+                <BookIcon /> How to read a flip
+              </button>
             </div>
             <div className="topflips">
               {flips.map((f) => {
                 const iDx = f.div * d;
+                const open = openFlip === f.name;
                 return (
-                  <div key={f.name} className={`flipcard ${f.forward ? 'fwd' : 'rev'}`} onClick={() => pickRow(f)} title="Send to the calculator">
+                  <div key={f.name} className={`flipcard ${f.forward ? 'fwd' : 'rev'}${open ? ' open' : ''}`} onClick={() => toggleFlip(f.name)} title="Click for the full breakdown">
                     <div className="fc-top">
                       <span className="iname">{f.name}</span>
                       <span className="cat">{f.cat || '—'}</span>
+                      <span className={`chev${open ? ' open' : ''}`} style={{ marginLeft: 'auto' }}>⌄</span>
                     </div>
                     <div className="fc-act">
                       {f.forward
@@ -279,6 +291,14 @@ export default function App() {
                       <span className="num">{fmt(f.ppg * 1000)}</span> /1k gold · <span className="num">{fmt(num(settings.goldPerUnit), 0)}</span> gold/flip
                       {' · '}ex <span className="num">{fmt(f.ex)}</span> · div-mkt <span className="num">{fmt(iDx)}</span>
                     </div>
+                    {open && (
+                      <div className="fc-expand" onClick={(e) => e.stopPropagation()}>
+                        <FlipDetail
+                          r={f} d={d} goldPerUnit={num(settings.goldPerUnit)}
+                          onSend={() => pickRow(f)} onGuide={() => setGuideOpen(true)}
+                        />
+                      </div>
+                    )}
                   </div>
                 );
               })}
@@ -380,17 +400,10 @@ export default function App() {
                         {open && (
                           <tr className="rowdetail">
                             <td colSpan={7}>
-                              <div className="rd-grid">
-                                <KV k="Value via Exalted market"><span className="num">{fmt(r.ex)} <span className="exalted">ex</span></span></KV>
-                                <KV k="Value via Divine market"><span className="num">{fmt(r.div * d)} <span className="exalted">ex</span> <span className="muted">({fmt(r.div, 3)} div)</span></span></KV>
-                                <KV k="Profit / unit"><span className={`num ${pc}`}>{fmt(r.perUnit)} ex</span></KV>
-                                <KV k={`Realistic total · clear ~${fmt(r.vol, 0)} units`}><span className={`num ${pc}`}>{fmt(r.realisticTotal, 0)} ex</span></KV>
-                                <KV k="Profit / 1000 gold"><span className={`num ${pc}`}>{fmt(r.ppg * 1000)} ex</span></KV>
-                                <KV k="Est. gold to clear book"><span className="num">{fmt(num(settings.goldPerUnit) * r.vol, 0)} gold</span></KV>
-                                <KV k="Units @ your capital"><span className="num">{fmt(r.units, 0)}</span></KV>
-                                <KV k="Total @ your capital"><span className={`num ${pc}`}>{fmt(r.totalProfit, 0)} ex</span></KV>
-                              </div>
-                              <button className="btn sec rd-send" onClick={(e) => { e.stopPropagation(); pickRow(r); }}>Send to calculator</button>
+                              <FlipDetail
+                                r={r} d={d} goldPerUnit={num(settings.goldPerUnit)}
+                                onSend={() => pickRow(r)} onGuide={() => setGuideOpen(true)}
+                              />
                             </td>
                           </tr>
                         )}
@@ -516,6 +529,8 @@ sample:   ${JSON.stringify(snapshot.items[0] || {}, null, 0)}`}
           Not affiliated with or endorsed by Grinding Gear Games. The live in-game rate in the calculator is always the source of truth.
         </div>
       </div>
+
+      <GuideDrawer open={guideOpen} onClose={() => setGuideOpen(false)} />
     </>
   );
 }
@@ -538,4 +553,130 @@ function Field({ label, labelClass, value, onChange, step }) {
 }
 function KV({ k, children }) {
   return <div className="kv"><span className="k">{k}</span>{children}</div>;
+}
+
+// Shared expanded detail: the full number breakdown + a plain-English explainer.
+// Used by both the TOP FLIPS cards and the "Best flips to hunt" table rows.
+function FlipDetail({ r, d, goldPerUnit, onSend, onGuide }) {
+  const pc = r.perUnit > 0 ? 'profit' : '';
+  const iDx = r.div * d;
+  const buyCur = r.forward ? 'Exalted' : 'Divine';
+  const sellCur = r.forward ? 'Divine' : 'Exalted';
+  const buyPrice = r.forward ? r.ex : iDx; // ex you pay for one unit on the cheap book
+  const sellPrice = r.forward ? iDx : r.ex; // ex one unit is worth on the rich book
+  const stop = (fn) => (e) => { e.stopPropagation(); fn(); };
+  return (
+    <div className="fd">
+      <div className="rd-grid">
+        <KV k="Value via Exalted market"><span className="num">{fmt(r.ex)} <span className="exalted">ex</span></span></KV>
+        <KV k="Value via Divine market"><span className="num">{fmt(iDx)} <span className="exalted">ex</span> <span className="muted">({fmt(r.div, 3)} div)</span></span></KV>
+        <KV k="Profit / unit"><span className={`num ${pc}`}>{fmt(r.perUnit)} ex</span></KV>
+        <KV k={`Realistic total · clear ~${fmt(r.vol, 0)} units`}><span className={`num ${pc}`}>{fmt(r.realisticTotal, 0)} ex</span></KV>
+        <KV k="Profit / 1000 gold"><span className={`num ${pc}`}>{fmt(r.ppg * 1000)} ex</span></KV>
+        <KV k="Est. gold to clear book"><span className="num">{fmt(goldPerUnit * r.vol, 0)} gold</span></KV>
+        <KV k="Units @ your capital"><span className="num">{fmt(r.units, 0)}</span></KV>
+        <KV k="Total @ your capital"><span className={`num ${pc}`}>{fmt(r.totalProfit, 0)} ex</span></KV>
+      </div>
+
+      <div className="plain">
+        <div className="plain-h">What these numbers mean</div>
+        <ul>
+          <li>
+            <b>The play:</b> buy 1 <b>{r.name}</b> on the <b className={r.forward ? 'exalted' : 'divine'}>{buyCur}</b> market
+            for ~<span className="num">{fmt(buyPrice)}</span> ex, then sell it on the <b className={r.forward ? 'divine' : 'exalted'}>{sellCur}</b>{' '}
+            market for ~<span className="num">{fmt(sellPrice)}</span> ex. You keep the gap.
+          </li>
+          <li><b>Margin {fmt(r.marginPct)}%</b> — your pile of ex grows this much every time you complete one full loop (before gold fees).</li>
+          <li><b>Profit/flip {fmt(r.perUnit)} ex</b> — what you net for pushing a single unit through the loop.</li>
+          <li><b>Volume {fmt(r.vol, 0)}</b> — units recently traded on the thinner book. Higher = your buy/sell orders actually get filled; low volume = you may sit unfilled.</li>
+          <li><b>Realistic total {fmt(r.realisticTotal, 0)} ex</b> — profit <i>if</i> you flipped every one of the ~{fmt(r.vol, 0)} units on the book. You won't clear it all (prices move, orders run dry) — treat it as a ceiling, not a promise.</li>
+          <li><b>Profit / 1000 gold {fmt(r.ppg * 1000)} ex</b> — the exchange charges gold per trade; this is the ex you earn per 1,000 gold of fees. Higher = more gold-efficient.</li>
+          <li><b>@ your capital</b> — with the orbs you entered in Settings → Your capital you can run ~<span className="num">{fmt(r.units, 0)}</span> loops now for ~<span className="num">{fmt(r.totalProfit, 0)}</span> ex. This is just a personal figure — it never affects the ranking.</li>
+        </ul>
+        <p className="plain-warn">⚠ Markets move and the snapshot can be up to ~30 min old. Confirm both live rates in the calculator before you trade.</p>
+      </div>
+
+      <div className="rd-actions">
+        <button className="btn sec" onClick={stop(onSend)}>Send to calculator</button>
+        <button className="btn sec" onClick={stop(onGuide)}>How to read this →</button>
+      </div>
+    </div>
+  );
+}
+
+// Right-hand slideout: a worked example of how to read & act on a flip, using the
+// Omen of Light numbers from the screenshot. Static, illustrative data on purpose.
+function GuideDrawer({ open, onClose }) {
+  const EX = [
+    ['Action', 'Buy Ex→Div'],
+    ['Margin %', '17.02%'],
+    ['Profit / flip', '200.8 ex'],
+    ['Volume', '1,471'],
+    ['Value via Exalted market', '1,179.83 ex'],
+    ['Value via Divine market', '1,380.63 ex (6.888 div)'],
+    ['Profit / unit', '200.8 ex'],
+    ['Realistic total · clear ~1,471 units', '295,379 ex'],
+    ['Profit / 1000 gold', '573.72 ex'],
+    ['Est. gold to clear book', '514,850 gold'],
+    ['Units @ your capital', '5'],
+    ['Total @ your capital', '1,004 ex'],
+  ];
+  return (
+    <>
+      <div className={`drawer-backdrop${open ? ' open' : ''}`} onClick={onClose} />
+      <aside className={`drawer${open ? ' open' : ''}`} role="dialog" aria-modal="true" aria-label="How to read a flip" aria-hidden={!open}>
+        <div className="drawer-head">
+          <h2>How to read a flip</h2>
+          <button className="drawer-close" onClick={onClose} aria-label="Close guide">✕</button>
+        </div>
+        <div className="drawer-body">
+          <div className="guide-note">
+            <b>Worked example — Omen of Light.</b> The numbers below are <b>illustrative example data</b> (not a live quote).
+            Your real values will differ — and are usually smaller — but the way you read and act on them is exactly the same.
+          </div>
+
+          <h3>1 · Why the edge exists</h3>
+          <p>
+            The in-game Currency Exchange runs a <b>separate order book for every pair</b>. So one item has a price vs{' '}
+            <b className="exalted">Exalted</b> and a <i>different</i> price vs <b className="divine">Divine</b>. When those two
+            drift apart, you can loop between them and end with more orbs than you started — that gap is the whole game.
+          </p>
+
+          <h3>2 · The example row</h3>
+          <div className="guide-row">
+            {EX.map(([k, v]) => (
+              <div className="kv" key={k}><span className="k">{k}</span><span className="num">{v}</span></div>
+            ))}
+          </div>
+
+          <h3>3 · What each number tells you</h3>
+          <ul className="guide-list">
+            <li><b>Action — Buy Ex→Div.</b> The loop direction. Here: spend <b className="exalted">Exalted</b> to buy the Omen, sell the Omen for <b className="divine">Divine</b>, convert that Divine back to Exalted. (A <span className="dir rev">Buy Div→Ex</span> row runs the opposite way.)</li>
+            <li><b>Value via Exalted market — 1,179.83 ex.</b> What one Omen costs on the Exalted book. This is your <b>buy price</b>.</li>
+            <li><b>Value via Divine market — 1,380.63 ex (6.888 div).</b> What one Omen is worth on the Divine book, shown in ex. This is your effective <b>sell price</b> after converting the Divine back to Exalted.</li>
+            <li><b>Margin % — 17.02%.</b> The sell value is 17% above the buy cost, so your ex stack grows ~17% per completed loop (before gold).</li>
+            <li><b>Profit / flip — 200.8 ex.</b> The ex you net on a single unit: 1,380.63 − 1,179.83.</li>
+            <li><b>Volume — 1,471.</b> How many units recently traded on the thinner book. High volume = your orders fill fast; thin volume = you may not get filled at the shown price.</li>
+            <li><b>Realistic total — 295,379 ex (clear ~1,471 units).</b> Profit if you flipped the <i>entire</i> book (200.8 × 1,471). A ceiling — in practice prices move and the book empties before you clear it.</li>
+            <li><b>Profit / 1000 gold — 573.72 ex.</b> The exchange burns gold per trade. This is your ex earned per 1,000 gold of fees — a gold-efficiency score.</li>
+            <li><b>Est. gold to clear book — 514,850 gold.</b> The gold you'd spend in fees to flip all ~1,471 units. Make sure you actually have the gold.</li>
+            <li><b>Units / Total @ your capital — 5 · 1,004 ex.</b> Based on the orbs you typed into Settings → Your capital: how many loops you can afford <i>right now</i> and the ex that yields. Purely personal — it never changes the ranking.</li>
+          </ul>
+
+          <h3>4 · How to actually trade it</h3>
+          <ol className="guide-list">
+            <li>Open the in-game <b>Currency Exchange</b> and find the item.</li>
+            <li><b>Confirm both live rates yourself</b> and punch them into DivineFlip's calculator — markets move and the snapshot can be ~30 min old, so the live rate is the only source of truth.</li>
+            <li>If the edge still holds, run the loop in the shown direction: buy on the cheap book → sell on the rich book → convert back.</li>
+            <li><b>Start small</b> to confirm your orders actually fill, then scale up while the gap and the volume hold.</li>
+            <li>Re-check often. Arbitrage gaps close fast as others trade the same edge.</li>
+          </ol>
+
+          <div className="guide-note">
+            ⚠ <b>Reminder:</b> these figures are an example for illustration only. Trade on your own freshly-confirmed numbers, mind the gold cost, and never assume you can clear the whole book.
+          </div>
+        </div>
+      </aside>
+    </>
+  );
 }

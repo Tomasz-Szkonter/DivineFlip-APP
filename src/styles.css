@@ -230,4 +230,61 @@ tr.rowdetail td { padding: 4px 12px 16px; white-space: normal; }
   background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 4px 16px; margin-top: 4px;
 }
 .rd-grid .kv { font-size: 13px; }
-.rd-send { width: auto; margin-top: 12px; padding: 9px 16px; }
+.rd-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+.rd-actions .btn { width: auto; padding: 9px 16px; }
+
+/* plain-English explainer (shared by cards + table rows) */
+.plain { margin-top: 12px; }
+.plain-h { font-size: 11px; text-transform: uppercase; letter-spacing: .6px; color: var(--faint); font-weight: 700; margin-bottom: 6px; }
+.plain ul { margin: 0; padding-left: 18px; }
+.plain li { font-size: 12.5px; color: var(--muted); line-height: 1.6; margin-bottom: 5px; }
+.plain li b { color: var(--text); font-weight: 600; }
+.plain-warn { font-size: 12px; color: var(--exalted); margin: 8px 0 0; }
+
+/* TOP FLIPS card expansion */
+.flipcard.open { border-color: var(--indigo); cursor: default; }
+.flipcard.open .fc-top, .flipcard.open .fc-act, .flipcard.open .fc-big,
+.flipcard.open .fc-real, .flipcard.open .fc-small { cursor: pointer; }
+.fc-expand { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); cursor: default; }
+.flipcard .chev { font-size: 14px; }
+
+/* "How to read a flip" slideout */
+.guide-btn { font-size: 13px; padding: 7px 13px; }
+.drawer-backdrop {
+  position: fixed; inset: 0; z-index: 50; background: rgba(4, 7, 14, .6); backdrop-filter: blur(2px);
+  opacity: 0; pointer-events: none; transition: opacity .2s ease;
+}
+.drawer-backdrop.open { opacity: 1; pointer-events: auto; }
+.drawer {
+  position: fixed; top: 0; right: 0; z-index: 60; height: 100vh; height: 100dvh;
+  width: clamp(320px, 92vw, 500px);
+  background: linear-gradient(180deg, var(--surface), var(--bg2));
+  border-left: 1px solid var(--border); box-shadow: -30px 0 60px -30px rgba(0, 0, 0, .7);
+  transform: translateX(100%); transition: transform .25s ease;
+  display: flex; flex-direction: column;
+}
+.drawer.open { transform: translateX(0); }
+.drawer-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 16px 20px; border-bottom: 1px solid var(--border); flex: 0 0 auto;
+}
+.drawer-head h2 { margin: 0; font-size: 17px; font-weight: 700; }
+.drawer-close {
+  background: var(--surface3); border: 1px solid var(--border); color: var(--muted); border-radius: 9px;
+  width: 32px; height: 32px; cursor: pointer; font-size: 15px; line-height: 1; flex: 0 0 auto;
+}
+.drawer-close:hover { color: #fff; border-color: var(--indigo); }
+.drawer-body { padding: 18px 20px 40px; overflow-y: auto; }
+.drawer-body h3 { font-size: 13.5px; margin: 22px 0 8px; color: var(--indigo); letter-spacing: .2px; }
+.drawer-body h3:first-of-type { margin-top: 10px; }
+.drawer-body p { font-size: 13px; color: var(--muted); line-height: 1.65; margin: 0 0 8px; }
+.guide-note {
+  font-size: 12.5px; line-height: 1.6; color: var(--text); background: rgba(251, 191, 36, .07);
+  border: 1px solid rgba(251, 191, 36, .28); border-radius: 11px; padding: 11px 13px; margin-bottom: 6px;
+}
+.guide-note b { color: var(--exalted); }
+.guide-row { background: var(--bg2); border: 1px solid var(--border); border-radius: 11px; padding: 4px 14px; }
+.guide-row .kv { font-size: 12.5px; }
+.guide-list { margin: 0; padding-left: 18px; }
+.guide-list li { font-size: 12.5px; color: var(--muted); line-height: 1.6; margin-bottom: 8px; }
+.guide-list li b { color: var(--text); font-weight: 600; }
