@@ -3,7 +3,14 @@
     "allow": [
       "Bash(node scripts/fetch-data.mjs)",
       "Bash(node -e \"const d=require\\('./public/data/snapshot.json'\\);console.log\\('league:',d.league,'| divinePrice:',d.divinePrice,'| source:',d.source\\);console.log\\(JSON.stringify\\(d.items.slice\\(0,3\\),null,2\\)\\)\")",
-      "PowerShell(npm install 2>&1)"
+      "PowerShell(npm install 2>&1)",
+      "PowerShell(npm test 2>&1)",
+      "PowerShell(npm run build 2>&1)",
+      "PowerShell(\"===== build =====\")",
+      "PowerShell(\"===== git log =====\")",
+      "PowerShell(\"===== full status =====\")",
+      "PowerShell(\"===== diff stat vs HEAD =====\")",
+      "PowerShell(git pull --ff-only 2>&1)"
     ]
   }
 }
