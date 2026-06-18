@@ -129,17 +129,34 @@ export default function App() {
     }
   }
 
+  // A snapshot is "full schema" once it carries the multi-currency / liquidity fields.
+  const isFull = (snap) => !!snap && snap.chaosPrice != null;
+
   function applySnapshot(data, live) {
     if (!data || !Array.isArray(data.items)) throw new Error('missing items[]');
+    // Don't let a stale Worker (old 2-currency schema, no chaos/liquidity) clobber a richer
+    // committed snapshot — that would empty Top Flips and blank the Chaos rate.
+    if (live && !isFull(data) && isFull(prevSnapRef.current)) {
+      setStatus({
+        msg: 'Live Worker returned old-format data (no Chaos / liquidity). Redeploy it — '
+          + '<code>cd worker &amp;&amp; wrangler deploy</code> — to enable live Chaos + two-way data. '
+          + 'Keeping the committed snapshot.',
+        kind: 'warn',
+      });
+      return;
+    }
     fillVph(data);
     prevSnapRef.current = data;
     setSnapshot(data);
     if (data.league) setSettings((s) => (s.league ? s : { ...s, league: data.league }));
     const real = data.items.filter((i) => i.div != null).length;
+    const stale = isFull(data)
+      ? ''
+      : ' ⚠ old-format data — redeploy the Worker / refresh the snapshot to enable Chaos + liquidity.';
     setStatus({
       msg: `${live ? 'Live now' : 'Loaded'}: ${data.items.length} items · ${real} with real divine quotes · `
-        + `source "${data.source}" · ${data.league}. Confirm the in-game rate in the calculator before trading.`,
-      kind: 'ok',
+        + `source "${data.source}" · ${data.league}.${stale} Confirm the in-game rate in the calculator before trading.`,
+      kind: stale ? 'warn' : 'ok',
     });
   }
 
@@ -316,16 +333,13 @@ export default function App() {
         <div className="ticker">
           <Stat label="League" small>{snapshot ? snapshot.league : <span className="skel" />}</Stat>
           <Stat label="1 Divine">
-            <span className="num exalted">{snapshot ? fmt(d, 0) : <span className="skel" />}</span>{' '}
-            <span className="exalted" style={{ fontSize: 12 }}>ex</span>
+            {snapshot ? <Rate parts={[[fmt(d, 0), 'ex', 'exalted'], ch ? [fmt(d / ch, 1), 'cha', 'chaos'] : null]} /> : <span className="skel" />}
           </Stat>
           <Stat label="1 Exalted">
-            <span className="num divine">{d ? fmt(1 / d, 4) : '—'}</span>{' '}
-            <span className="divine" style={{ fontSize: 12 }}>div</span>
+            {d ? <Rate parts={[[fmt(1 / d, 4), 'div', 'divine'], ch ? [fmt(1 / ch, 4), 'cha', 'chaos'] : null]} /> : '—'}
           </Stat>
           <Stat label="1 Chaos">
-            <span className="num chaos">{ch ? fmt(ch) : '—'}</span>{' '}
-            <span className="chaos" style={{ fontSize: 12 }}>ex</span>
+            {ch ? <Rate parts={[[fmt(ch), 'ex', 'exalted'], d ? [fmt(ch / d, 4), 'div', 'divine'] : null]} /> : '—'}
           </Stat>
           <Stat label="Items"><span className="num">{snapshot ? fmt(snapshot.items.length, 0) : '—'}</span></Stat>
           <Stat label="Updated" small>{updatedLabel}</Stat>
@@ -345,6 +359,15 @@ export default function App() {
 
       <div className="wrap">
         <div className={`banner ${status.kind}`}><span dangerouslySetInnerHTML={{ __html: status.msg }} /></div>
+
+        {/* Currency rates + 7-day price history (EX is the base unit) */}
+        {snapshot && (
+          <div className="rates">
+            <RateTile cur="ex" valEx={1} note="base unit — always 1 ex" />
+            <RateTile cur="div" valEx={d} spark={snapshot.rateSpark?.div} note="7-day history unavailable (refresh data)" />
+            <RateTile cur="cha" valEx={ch} spark={snapshot.rateSpark?.cha} note="7-day history unavailable (refresh data)" />
+          </div>
+        )}
 
         {/* TOP FLIPS: headline cards */}
         {snapshot && flips.length > 0 && (
@@ -664,6 +687,45 @@ function Field({ label, labelClass, value, onChange, step }) {
 function KV({ k, children }) {
   return <div className="kv"><span className="k">{k}</span>{children}</div>;
 }
+// One-line multi-unit rate, e.g. "200 ex · 9.1 cha". parts = [[value, unit, colorClass]|null, ...]
+function Rate({ parts }) {
+  const items = parts.filter(Boolean);
+  return (
+    <>
+      {items.map(([val, unit, cls], i) => (
+        <React.Fragment key={unit}>
+          {i > 0 && <span className="faint" style={{ fontSize: 11 }}>{' · '}</span>}
+          <span className={`num ${cls}`}>{val}</span>{' '}
+          <span className={cls} style={{ fontSize: 11 }}>{unit}</span>
+        </React.Fragment>
+      ))}
+    </>
+  );
+}
+// Base-currency tile with its value in exalted + a 7-day price-history sparkline.
+function RateTile({ cur, valEx, spark, note }) {
+  const c = CUR[cur];
+  const has = Array.isArray(spark) && spark.length > 1;
+  const chg = has ? (spark[spark.length - 1] / spark[0] - 1) * 100 : 0;
+  return (
+    <div className={`rate-tile sell-${cur}`}>
+      <div className="rt-head">
+        <span className={`rt-name ${c.cls}`}>1 {c.name}</span>
+        <span className="rt-val num">
+          {valEx === 1 ? '1.00' : fmt(valEx, valEx < 10 ? 2 : 0)} <span className="exalted">ex</span>
+        </span>
+      </div>
+      {has ? (
+        <div className="rt-spark">
+          <Sparkline data={spark} w={170} h={30} />
+          <span className={`rt-chg ${chg >= 0 ? 'profit' : 'loss'}`}>{chg >= 0 ? '+' : ''}{fmt(chg, 0)}% <span className="muted">7d</span></span>
+        </div>
+      ) : (
+        <div className="rt-note muted">{note || '7-day history unavailable'}</div>
+      )}
+    </div>
+  );
+}
 
 // Shared expanded detail: the full number breakdown + a plain-English explainer.
 // Used by both the TOP FLIPS cards and the "Best flips to hunt" table rows.
@@ -678,6 +740,13 @@ function FlipDetail({ r, d, ch, goldPerUnit, onSend, onGuide }) {
     { cur: 'div', valEx: r.div != null ? r.div * d : null, native: r.div, unit: 'div' },
     { cur: 'cha', valEx: r.cha != null ? r.cha * ch : null, native: r.cha, unit: 'cha' },
   ].filter((m) => m.valEx != null);
+  // Step-by-step playbook amounts (per 1 item; you start and end holding the SELL currency).
+  const CUR_EX = { ex: 1, div: d, cha: ch }; // 1 unit of each currency, in exalted
+  const NATIVE = { ex: r.ex, div: r.div, cha: r.cha }; // item's price in each currency
+  const buyN = NATIVE[r.buyCur]; // units of buy currency to buy 1 item
+  const sellN = NATIVE[r.sellCur]; // units of sell currency you receive for 1 item
+  const fundS = CUR_EX[r.sellCur] ? r.buyValEx / CUR_EX[r.sellCur] : null; // sell-cur spent to fund the buy
+  const netS = CUR_EX[r.sellCur] ? r.perUnit / CUR_EX[r.sellCur] : null; // net sell-cur gained per item
   const stop = (fn) => (e) => { e.stopPropagation(); fn(); };
   return (
     <div className="fd">
@@ -698,6 +767,40 @@ function FlipDetail({ r, d, ch, goldPerUnit, onSend, onGuide }) {
         <KV k="Units @ your capital"><span className="num">{fmt(r.units, 0)}</span></KV>
         <KV k="Total @ your capital"><span className={`num ${pc}`}>{fmt(r.totalProfit, 0)} ex</span></KV>
       </div>
+
+      {r.hasEdge && (
+        <div className="playbook">
+          <div className="plain-h">How to run this loop — you start &amp; end holding <b className={sell.cls}>{sell.name}</b></div>
+          <ol className="steps">
+            <li>
+              <span className="step-n">1</span>
+              Convert ~<span className={`num ${sell.cls}`}>{fmt(fundS)}</span> <b className={sell.cls}>{sell.name}</b>
+              {' → '}~<span className={`num ${buy.cls}`}>{fmt(buyN)}</span> <b className={buy.cls}>{buy.name}</b>
+              <span className="muted"> (your buy funds)</span>
+            </li>
+            <li>
+              <span className="step-n">2</span>
+              Buy <b>1 {r.name}</b> with ~<span className={`num ${buy.cls}`}>{fmt(buyN)}</span> <b className={buy.cls}>{buy.name}</b>
+              <span className="muted"> (≈{fmt(r.buyValEx)} ex)</span>
+            </li>
+            <li>
+              <span className="step-n">3</span>
+              Sell <b>1 {r.name}</b> for ~<span className={`num ${sell.cls}`}>{fmt(sellN)}</span> <b className={sell.cls}>{sell.name}</b>
+              <span className="muted"> (≈{fmt(r.sellValEx)} ex)</span>
+            </li>
+            <li className="step-result">
+              <span className="step-n">✓</span>
+              Net <span className="num profit">+{fmt(netS)}</span> <b className={sell.cls}>{sell.name}</b>
+              <span className="muted"> (≈{fmt(r.perUnit)} ex)</span> per loop, minus ~<span className="num">{fmt(goldPerUnit, 0)}</span> gold in fees
+            </li>
+          </ol>
+          <div className="pb-scale muted">
+            At your capital: ~<span className="num">{fmt(r.units, 0)}</span> loops → ~<span className="num profit">{fmt(r.totalProfit, 0)}</span> ex
+            for ~<span className="num">{fmt(goldPerUnit * r.units, 0)}</span> gold. Clearing the whole ~{fmt(r.vol, 0)}-unit book ≈{' '}
+            <span className="num profit">{fmt(r.realisticTotal, 0)}</span> ex for ~<span className="num">{fmt(goldPerUnit * r.vol, 0)}</span> gold.
+          </div>
+        </div>
+      )}
 
       {r.spark && (
         <div className="fd-spark">

@@ -263,13 +263,23 @@ export async function fetchSnapshot({
     emitted.push([apiId, item]);
   }
 
-  // 7. Free 7-day sparkline from PriceLogs (best-effort), attached by apiId.
+  // 7. Free 7-day sparkline from PriceLogs (best-effort), attached by apiId. The same fetch
+  //    also yields the base currencies' own normalized (exalted) price history, surfaced at
+  //    the top level for the per-currency graphs.
+  let rateSpark = null;
   if (withSpark) {
     const cats = [...new Set(emitted.map(([, it]) => it.cat).filter(Boolean))];
     const sparks = await fetchSparks(base, realm, leagueName, cats);
     for (const [apiId, item] of emitted) {
       const s = sparks.get(apiId);
       if (s && s.length) item.spark = s;
+    }
+    const div = sparks.get('divine');
+    const cha = sparks.get('chaos');
+    if ((div && div.length) || (cha && cha.length)) {
+      rateSpark = {}; // 7-day history of each currency's value in exalted
+      if (div && div.length) rateSpark.div = div;
+      if (cha && cha.length) rateSpark.cha = cha;
     }
   }
 
@@ -281,6 +291,7 @@ export async function fetchSnapshot({
     divinePrice: round(divinePrice),
     chaosPrice: round(chaosPrice),
     epoch,
+    rateSpark, // { div:[...ex prices], cha:[...] } | null — per-currency 7-day history
     updated: new Date().toISOString(),
     source,
     items,
