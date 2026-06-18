@@ -1,22 +1,28 @@
 # DivineFlip — PoE2 Currency Exchange Arbitrage
 
-Detects **triangular arbitrage** in the *Path of Exile 2* in-game Currency Exchange
-(**Exalted ↔ item ↔ Divine**), gold-fee aware. Vite + React, deployable free to GitHub Pages.
+Detects **triangular arbitrage** across the three base currencies of the *Path of Exile 2* in-game
+Currency Exchange — **Exalted (EX) ↔ item ↔ Divine (DIV) ↔ Chaos (CHA)** — gold-fee aware.
+Vite + React, deployable free to GitHub Pages.
 
 ## The edge
 
-The Currency Exchange runs an **independent order book per pair**, so an item has one rate vs
-Exalted and a separate rate vs Divine. When they drift, you profit by looping:
+The Currency Exchange runs an **independent order book per pair**, so one item has a separate rate vs
+**EX**, vs **DIV** and vs **CHA**. When they drift, you profit by **buying on the cheapest market and
+selling on the richest**, then converting back:
 
 > 1 Divine = 198 ex · 1 Omen of Light = 1380 ex · 1 Omen = 7.2 div
 > Loop **Ex → buy Omen → sell for Divine → convert to Ex** = `7.2 × 198 − 1380 = +45.6 ex (+3.30%)`.
-> The reverse loop loses — **direction matters**, and the app always tells you which way to run it.
+> DivineFlip compares all three markets and tells you the exact buy→sell route to run.
 
 poe2scout's `SnapshotPairs` endpoint exposes those independent per-pair rates, so DivineFlip surfaces
 **real** edges (not just normalized ~0% implied gaps). See [API_NOTES.md](API_NOTES.md) for the full,
-verified data mapping. Rows without an independent Divine book are computed from the implied price
-and clearly labelled **`implied`**. The live in-game rate (in the calculator) is always the final
-source of truth.
+verified data mapping. Rows without a real cross-market edge are labelled **`implied`**.
+
+**Two-way liquidity (kills false positives).** A fat price gap is worthless if the market you'd sell
+*into* has no stock — you could buy but never sell back. Each book also carries its **receive-side**
+liquidity, so every flip is flagged **two-way ✓ / one-way ✗**, and the headline **Top Flips** only
+shows genuinely two-sided, realistically-sized edges (the full table shows everything, badged). The
+live in-game rate (in the calculator) is always the final source of truth.
 
 ## How the data gets to the browser (CORS is the whole problem)
 
@@ -33,12 +39,26 @@ Two paths both produce the *same* normalized JSON, so the app is source-agnostic
 the Worker, so the logic never diverges.
 
 ### Normalized JSON the UI consumes
-```json
-{ "league": "Runes of Aldur", "divinePrice": 200.4, "updated": "2026-06-18T12:00:00Z",
+
+```jsonc
+{ "league": "Runes of Aldur", "divinePrice": 200.4, "chaosPrice": 21.96,
+  "epoch": 1781791200, "updated": "2026-06-18T12:00:00Z",
   "source": "github-action | worker | sample",
-  "items": [ { "name": "Vaal Orb", "cat": "currency", "ex": 1.996, "div": 0.0088, "vol": 679 } ] }
+  "items": [ {
+    "name": "Omen of Light", "cat": "ritual",
+    "ex": 1183.6, "div": 6.92, "cha": 58.16,   // item price in EX / DIV / CHA (div/cha null if no book)
+    "vol": 1993,                                // min VolumeTraded across the books the item has
+    "vph": 540,                                 // trades/hour (snapshot deltas; committed pipeline only)
+    "liq": { "ex": { "s": 182589, "v": 2489057 },   // per-book RECEIVE-side liquidity (sell-into side)
+             "div": { "s": 9974430, "v": 87890 },   //   s = StockValue, v = VolumeTraded
+             "cha": { "s": 737690, "v": 117875 } },
+    "spark": [840, 737, 858, 1175, 1473, 1409, 1337]  // ~7-day daily EX price (PriceLogs), chronological
+  } ] }
 ```
-`div` = the item's independent Divine-market price, or `null` → the app uses implied `ex / divinePrice`.
+`div`/`cha` = the item's independent Divine/Chaos-market price, or `null` → no book on that market.
+`chaosPrice` = ex per chaos (from the direct `chaos/exalted` book). `liq[cur]` is the counter-currency
+("receive") side of each book, used for the two-way-liquidity guard. The schema is an additive superset —
+older consumers that only read `ex`/`div`/`vol` keep working.
 
 ## Develop
 

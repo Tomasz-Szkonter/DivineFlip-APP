@@ -25,7 +25,7 @@ export default {
     const league = url.searchParams.get('league') || undefined;
 
     try {
-      const snapshot = await fetchSnapshot({ league, source: 'worker' });
+      const snapshot = await fetchSnapshot({ league, source: 'worker', withSpark: true });
       return new Response(JSON.stringify(snapshot), {
         headers: {
           'Content-Type': 'application/json; charset=utf-8',

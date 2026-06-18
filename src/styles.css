@@ -4,6 +4,7 @@
   --text: #e8edf7; --muted: #8b97b0; --faint: #5b6680;
   --divine: #38bdf8; --divine-dim: #0e3a52;
   --exalted: #fbbf24; --exalted-dim: #46350a;
+  --chaos: #d9a066; --chaos-dim: #3a2c18;
   --profit: #34d399; --loss: #fb7185;
   --indigo: #818cf8; --purple: #c084fc; --info: #60a5fa;
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
@@ -21,7 +22,7 @@ body {
 }
 a { color: var(--divine); text-decoration: none; }
 .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
-.divine { color: var(--divine); } .exalted { color: var(--exalted); }
+.divine { color: var(--divine); } .exalted { color: var(--exalted); } .chaos { color: var(--chaos); }
 .profit { color: var(--profit); } .loss { color: var(--loss); }
 .muted { color: var(--muted); } .faint { color: var(--faint); }
 
@@ -110,6 +111,14 @@ tbody tr:hover td { background: rgba(129,140,248,.06); }
 .dir { font-size: 10.5px; padding: 3px 8px; border-radius: 6px; font-weight: 700; }
 .dir.fwd { background: rgba(56,189,248,.13); color: var(--divine); }
 .dir.rev { background: rgba(251,191,36,.13); color: var(--exalted); }
+/* route chips coloured by the SELL-side currency */
+.dir.sell-ex { background: rgba(251,191,36,.13); color: var(--exalted); }
+.dir.sell-div { background: rgba(56,189,248,.13); color: var(--divine); }
+.dir.sell-cha { background: rgba(217,160,102,.15); color: var(--chaos); }
+/* two-way / one-way liquidity badges */
+.twoway, .oneway { font-size: 11px; font-weight: 800; margin-left: 6px; }
+.twoway { color: var(--profit); } .oneway { color: var(--loss); }
+.vph { color: var(--faint); font-size: 11px; }
 .pill { display: inline-block; font-size: 10px; border-radius: 5px; padding: 1px 6px; border: 1px solid var(--border); color: var(--faint); margin-left: 6px; }
 .empty { padding: 38px 16px; text-align: center; color: var(--muted); font-size: 13.5px; line-height: 1.7; }
 .bar { height: 5px; border-radius: 3px; background: var(--surface3); overflow: hidden; min-width: 54px; }
@@ -162,15 +171,21 @@ pre {
 
 /* ---- TOP FLIPS cards ---- */
 .topflips-section { margin-bottom: 20px; }
-.topflips { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+/* align-items: start so expanding one card grows only THAT card, not its whole row. */
+.topflips { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; align-items: start; }
 .flipcard {
+  align-self: start;
   background: linear-gradient(180deg, var(--surface), var(--bg2));
   border: 1px solid var(--border); border-top: 3px solid var(--border); border-radius: 16px; padding: 16px;
   cursor: pointer; transition: transform .12s, border-color .12s, box-shadow .12s;
 }
-.flipcard.fwd { border-top-color: var(--divine); }
-.flipcard.rev { border-top-color: var(--exalted); }
+/* card top-border accent coloured by the SELL-side currency */
+.flipcard.sell-ex { border-top-color: var(--exalted); }
+.flipcard.sell-div { border-top-color: var(--divine); }
+.flipcard.sell-cha { border-top-color: var(--chaos); }
 .flipcard:hover { transform: translateY(-2px); border-color: var(--indigo); box-shadow: 0 16px 40px -28px rgba(56, 189, 248, .5); }
+.flipcard .fc-top .spark { margin-left: 6px; opacity: .85; }
+.flipcard .fc-act .twoway { margin-left: 6px; }
 .flipcard .fc-top { display: flex; align-items: center; gap: 8px; margin-bottom: 9px; }
 .flipcard .fc-top .iname { font-size: 14.5px; }
 .flipcard .fc-act { font-size: 12.5px; font-weight: 600; margin-bottom: 11px; color: var(--text); }
@@ -232,6 +247,15 @@ tr.rowdetail td { padding: 4px 12px 16px; white-space: normal; }
 .rd-grid .kv { font-size: 13px; }
 .rd-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
 .rd-actions .btn { width: auto; padding: 9px 16px; }
+
+/* 7-day price sparkline */
+.spark { display: inline-block; vertical-align: middle; }
+.fd-spark {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  margin-top: 10px; padding: 8px 12px; background: var(--bg2);
+  border: 1px solid var(--border); border-radius: 12px;
+}
+.fd-spark .plain-h { margin: 0; }
 
 /* plain-English explainer (shared by cards + table rows) */
 .plain { margin-top: 12px; }

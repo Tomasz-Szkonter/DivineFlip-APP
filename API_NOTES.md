@@ -63,8 +63,25 @@ Returns **all ~2157 independent currency-pair order books in one call** (no pagi
 | --- | --- |
 | `ex`  | item's RelativePrice ratio in its **item/exalted** book (`item.RP / exalted.RP`) |
 | `div` | item's RelativePrice ratio in its **item/divine** book (`item.RP / divine.RP`), else `null` |
-| `vol` | `min(VolumeTraded_exbook, VolumeTraded_divbook)` (or just the exalted book when no divine book) |
-| top-level `divinePrice` | the `divine/exalted` book ratio |
+| `cha` | item's RelativePrice ratio in its **item/chaos** book (`item.RP / chaos.RP`), else `null` |
+| `vol` | `min(VolumeTraded)` across the books the item actually has (EX / DIV / CHA item side) |
+| `liq[cur]` | the **counter-currency (receive) side** of the item/`cur` book: `{ s: StockValue, v: VolumeTraded }` |
+| top-level `divinePrice` | the `divine/exalted` book ratio (ex per divine) |
+| top-level `chaosPrice`  | the `chaos/exalted` book ratio (ex per chaos); fallback `divinePrice / ChaosDivinePrice` |
+| top-level `epoch`       | `ExchangeSnapshot.Epoch` (unix s) — used to derive `vph` (trades/hour) from snapshot deltas |
+| `vph` *(committed only)* | `Δvol / Δhours` vs the previous committed snapshot; `null` if unknown / a volume reset |
+| `spark` *(optional)*    | `Currencies/ByCategory` `PriceLogs[].Price`, ~7 daily points, chronological (free 7-day sparkline) |
+
+The three base currencies (`exalted`, `divine`, `chaos`) are **not** emitted as items — their pairwise
+rates are the top-level `divinePrice` / `chaosPrice` cross-rates instead.
+
+### Two-way liquidity (the receive side)
+
+Each `*Data` block also carries **`StockValue`** (string; can be `"0E-8"` → parses to `0`) and
+**`VolumeTraded`** (number). A flip A→B is only tradeable if the **B-side** currency actually has stock
+to sell into — otherwise you can buy but never sell back (the "Verisium 8,178%" false positive). So
+`liq[cur]` records the counter-currency side of each book, and `arb.js` requires the **sell** market's
+receive side to be liquid before a flip is flagged two-way / eligible for the headline.
 
 ## Other confirmed endpoints
 
