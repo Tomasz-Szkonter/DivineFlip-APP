@@ -1,0 +1,19 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+
+# Vite / env
+.env
+.env.*
+!.env.example
+
+# Cloudflare Wrangler
+.wrangler
+worker/.wrangler
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

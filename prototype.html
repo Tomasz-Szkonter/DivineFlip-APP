@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DivineFlip — PoE2 Currency Exchange Arbitrage</title>
+<style>
+  :root{
+    --bg:#080b12; --bg2:#0c111c; --surface:#121826; --surface2:#171f30; --surface3:#1d2738;
+    --border:#232e46; --border-soft:#1a2236;
+    --text:#e8edf7; --muted:#8b97b0; --faint:#5b6680;
+    --divine:#38bdf8; --divine-dim:#0e3a52;
+    --exalted:#fbbf24; --exalted-dim:#46350a;
+    --profit:#34d399; --loss:#fb7185;
+    --indigo:#818cf8; --purple:#c084fc; --info:#60a5fa;
+    --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{background:
+      radial-gradient(900px 500px at 85% -8%,rgba(129,140,248,.10),transparent 60%),
+      radial-gradient(800px 500px at 10% -5%,rgba(56,189,248,.08),transparent 55%),
+      var(--bg);
+    color:var(--text);font:15px/1.55 "Inter",system-ui,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:var(--divine);text-decoration:none}
+  .num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+  .divine{color:var(--divine)} .exalted{color:var(--exalted)}
+  .profit{color:var(--profit)} .loss{color:var(--loss)}
+  .muted{color:var(--muted)} .faint{color:var(--faint)}
+
+  /* top bar */
+  .topbar{position:sticky;top:0;z-index:20;backdrop-filter:blur(10px);
+    background:linear-gradient(180deg,rgba(12,17,28,.92),rgba(12,17,28,.78));
+    border-bottom:1px solid var(--border);padding:12px 22px;
+    display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+  .logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;letter-spacing:.3px}
+  .logo .d{color:var(--divine)} .logo .f{color:var(--exalted)}
+  .logo .dot{width:9px;height:9px;border-radius:50%;background:var(--profit);box-shadow:0 0 10px var(--profit)}
+  .ticker{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-left:auto}
+  .stat{background:var(--surface);border:1px solid var(--border);border-radius:11px;padding:7px 13px;min-width:96px}
+  .stat .lbl{font-size:10.5px;text-transform:uppercase;letter-spacing:.7px;color:var(--faint)}
+  .stat .val{font-size:16px;font-weight:700;line-height:1.25}
+  .ghost{background:transparent;border:1px solid var(--border);color:var(--text);border-radius:11px;
+    padding:9px 15px;font-weight:600;cursor:pointer;font-size:14px;display:inline-flex;gap:7px;align-items:center}
+  .ghost:hover{border-color:var(--indigo);color:#fff}
+  .ghost.spin svg{animation:rot 1s linear infinite}
+  @keyframes rot{to{transform:rotate(360deg)}}
+
+  .wrap{max-width:1240px;margin:0 auto;padding:22px 22px 90px}
+  .banner{font-size:13px;padding:10px 14px;border-radius:11px;margin-bottom:18px;border:1px solid var(--border);
+    display:flex;gap:9px;align-items:center}
+  .banner.ok{background:rgba(52,211,153,.08);border-color:rgba(52,211,153,.3);color:var(--profit)}
+  .banner.warn{background:rgba(251,191,36,.07);border-color:rgba(251,191,36,.28);color:var(--exalted)}
+  .banner.err{background:rgba(251,113,133,.08);border-color:rgba(251,113,133,.3);color:var(--loss)}
+
+  .card{background:linear-gradient(180deg,var(--surface),var(--bg2));
+    border:1px solid var(--border);border-radius:18px;padding:20px;margin-bottom:20px}
+  .card.hero{border-color:#2c3a5c;box-shadow:0 0 0 1px rgba(129,140,248,.05),0 18px 50px -30px rgba(56,189,248,.4)}
+  .ch{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+  .ch h2{margin:0;font-size:18px;font-weight:700;letter-spacing:.2px}
+  .ch .live{font-size:10.5px;font-weight:700;color:var(--profit);border:1px solid rgba(52,211,153,.4);
+    background:rgba(52,211,153,.1);border-radius:20px;padding:2px 9px;display:flex;align-items:center;gap:5px}
+  .ch .live::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--profit);animation:pulse 1.4s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+  .sub{color:var(--muted);font-size:13px;margin:0 0 16px}
+
+  .tabs{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px}
+  .tab{background:var(--surface2);border:1px solid var(--border);color:var(--muted);border-radius:11px;
+    padding:9px 15px;cursor:pointer;font-size:13px;font-weight:600;display:flex;gap:7px;align-items:center;transition:.12s}
+  .tab .ic{width:8px;height:8px;border-radius:3px}
+  .tab[data-k=ppg] .ic{background:var(--profit)} .tab[data-k=margin] .ic{background:var(--exalted)}
+  .tab[data-k=total] .ic{background:var(--indigo)} .tab[data-k=liq] .ic{background:var(--purple)}
+  .tab.on{color:#fff;border-color:transparent;background:var(--surface3)}
+  .tab[data-k=ppg].on{box-shadow:inset 0 0 0 1px var(--profit)}
+  .tab[data-k=margin].on{box-shadow:inset 0 0 0 1px var(--exalted)}
+  .tab[data-k=total].on{box-shadow:inset 0 0 0 1px var(--indigo)}
+  .tab[data-k=liq].on{box-shadow:inset 0 0 0 1px var(--purple)}
+
+  .scrollx{overflow-x:auto;border-radius:12px}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th,td{text-align:right;padding:11px 12px;white-space:nowrap}
+  th{color:var(--faint);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.5px;
+    border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--bg2)}
+  td{border-bottom:1px solid var(--border-soft)}
+  td:first-child,th:first-child{text-align:left}
+  tbody tr:hover td{background:rgba(129,140,248,.06)}
+  .rank{color:var(--faint);font-family:var(--mono);font-size:12px}
+  .iname{font-weight:600}
+  .cat{font-size:10.5px;color:var(--muted);background:var(--surface3);border:1px solid var(--border);
+    border-radius:6px;padding:1px 7px;margin-left:7px}
+  .dir{font-size:10.5px;padding:3px 8px;border-radius:6px;font-weight:700}
+  .dir.fwd{background:rgba(56,189,248,.13);color:var(--divine)}
+  .dir.rev{background:rgba(251,191,36,.13);color:var(--exalted)}
+  .pill{display:inline-block;font-size:10px;border-radius:5px;padding:1px 6px;border:1px solid var(--border);color:var(--faint);margin-left:6px}
+  .empty{padding:38px 16px;text-align:center;color:var(--muted);font-size:13.5px;line-height:1.7}
+  .bar{height:5px;border-radius:3px;background:var(--surface3);overflow:hidden;min-width:54px}
+  .bar i{display:block;height:100%;border-radius:3px}
+
+  .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:20px}
+  @media(max-width:900px){.grid{grid-template-columns:1fr}.ticker{margin-left:0;width:100%}}
+  label{display:block;font-size:11.5px;color:var(--muted);margin:12px 0 5px;font-weight:600;letter-spacing:.2px}
+  input,select{width:100%;background:var(--bg2);border:1px solid var(--border);color:var(--text);
+    border-radius:10px;padding:10px 12px;font-size:14px;font-family:var(--mono)}
+  input:focus,select:focus{outline:none;border-color:var(--indigo);box-shadow:0 0 0 3px rgba(129,140,248,.15)}
+  .r2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .btn{background:linear-gradient(180deg,var(--indigo),#6366f1);color:#0b0e17;border:none;border-radius:11px;
+    padding:12px 16px;font-weight:800;cursor:pointer;font-size:14.5px;width:100%;letter-spacing:.2px}
+  .btn:hover{filter:brightness(1.07)}
+  .btn.sky{background:linear-gradient(180deg,var(--divine),#0ea5e9)}
+  .btn.sec{background:var(--surface3);color:var(--text);border:1px solid var(--border);font-weight:600}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+  .chip{background:var(--surface2);border:1px solid var(--border);color:var(--muted);border-radius:20px;
+    padding:5px 12px;font-size:12px;cursor:pointer;user-select:none}
+  .chip.on{background:rgba(192,132,252,.16);border-color:var(--purple);color:#e9d5ff;font-weight:600}
+
+  .verdict{margin-top:16px;padding:18px;border-radius:14px;background:var(--bg2);border:1px solid var(--border)}
+  .verbig{font-size:34px;font-weight:800;letter-spacing:-.5px}
+  .kv{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px dashed var(--border);font-size:13.5px}
+  .kv:last-child{border:none}
+  .kv .k{color:var(--muted)}
+  details summary{cursor:pointer;color:var(--muted);font-size:13px;margin-top:6px}
+  textarea{width:100%;min-height:90px;background:var(--bg2);border:1px solid var(--border);color:var(--text);
+    border-radius:10px;padding:9px;font:12px/1.45 var(--mono)}
+  pre{white-space:pre-wrap;font-size:11px;color:var(--muted);max-height:220px;overflow:auto;
+    background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:10px}
+  .foot{color:var(--faint);font-size:12px;text-align:center;margin-top:34px;line-height:1.8}
+  .skel{display:inline-block;width:54px;height:15px;border-radius:5px;
+    background:linear-gradient(90deg,var(--surface2),var(--surface3),var(--surface2));
+    background-size:200% 100%;animation:sh 1.2s infinite}
+  @keyframes sh{to{background-position:-200% 0}}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="logo"><span class="dot"></span><span class="d">Divine</span><span class="f">Flip</span></div>
+  <div class="ticker">
+    <div class="stat"><div class="lbl">League</div><div class="val" id="tLeague" style="font-size:13px"><span class="skel"></span></div></div>
+    <div class="stat"><div class="lbl">1 Divine</div><div class="val"><span class="num exalted" id="tDivEx"><span class="skel"></span></span> <span class="exalted" style="font-size:12px">ex</span></div></div>
+    <div class="stat"><div class="lbl">1 Exalted</div><div class="val"><span class="num divine" id="tExDiv">—</span> <span class="divine" style="font-size:12px">div</span></div></div>
+    <div class="stat"><div class="lbl">Items</div><div class="val num" id="tItems">—</div></div>
+    <div class="stat"><div class="lbl">Updated</div><div class="val" id="tUpd" style="font-size:13px">—</div></div>
+    <button class="ghost" id="refreshBtn" onclick="scan()">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12a9 9 0 1 1-2.6-6.4"/><path d="M21 3v6h-6"/></svg>
+      Refresh
+    </button>
+  </div>
+</div>
+
+<div class="wrap">
+  <div id="banner" class="banner warn"><span id="bannerTxt">Loading live market…</span></div>
+
+  <!-- ============ HERO: BEST FLIPS LIVE ============ -->
+  <div class="card hero">
+    <div class="ch"><h2>Best flips to hunt</h2><span class="live">live</span></div>
+    <p class="sub">Ranked from live poe2scout data. Snapshots are ~hourly &amp; normalized — pick a target here, then confirm its real rate in the calculator below before you trade.</p>
+    <div class="tabs" id="tabs">
+      <div class="tab on" data-k="ppg"><span class="ic"></span>Profit / gold</div>
+      <div class="tab" data-k="margin"><span class="ic"></span>% margin</div>
+      <div class="tab" data-k="total"><span class="ic"></span>Total profit @ capital</div>
+      <div class="tab" data-k="liq"><span class="ic"></span>Liquidity / safety</div>
+    </div>
+    <div class="scrollx"><table id="resTable"><tbody><tr><td class="empty">Pulling live data…</td></tr></tbody></table></div>
+  </div>
+
+  <!-- ============ CALCULATOR + SETTINGS ============ -->
+  <div class="grid">
+    <div class="card">
+      <div class="ch"><h2>Live flip calculator</h2></div>
+      <p class="sub">Enter the two rates you read in-game. This is your source of truth — instant, offline, gold-aware.</p>
+      <div class="r2">
+        <div><label>1 Divine = ? Exalted</label><input id="cDiv" type="number" value="198"/></div>
+        <div><label>Units to flip</label><input id="cUnits" type="number" value="30"/></div>
+      </div>
+      <div class="r2">
+        <div><label class="exalted">Item price in Exalted</label><input id="cIE" type="number" value="1380"/></div>
+        <div><label class="divine">Item price in Divine</label><input id="cID" type="number" value="7.2"/></div>
+      </div>
+      <button class="btn sky" style="margin-top:14px" onclick="calc()">Calculate flip</button>
+      <div class="verdict" id="calcOut" style="display:none"></div>
+    </div>
+
+    <div>
+      <div class="card" style="margin-bottom:16px">
+        <div class="ch"><h2>Your capital</h2></div>
+        <div class="r2">
+          <div><label class="divine">Divine orbs</label><input id="capDiv" type="number" value="30"/></div>
+          <div><label class="exalted">Exalted orbs</label><input id="capEx" type="number" value="0"/></div>
+        </div>
+        <p class="sub" style="margin:10px 0 0">Drives the “Total profit @ capital” ranking.</p>
+      </div>
+      <div class="card" style="margin-bottom:16px">
+        <div class="ch"><h2>Gold model</h2></div>
+        <label>Gold per unit traded (per loop)</label>
+        <input id="goldPerUnit" type="number" value="350"/>
+        <details>
+          <summary>Calibrate from a real trade</summary>
+          <div class="r2" style="margin-top:8px">
+            <div><label>Units traded</label><input id="calUnits" type="number" placeholder="50"/></div>
+            <div><label>Gold it cost</label><input id="calGold" type="number" placeholder="17500"/></div>
+          </div>
+          <button class="btn sec" style="margin-top:10px" onclick="calibrate()">Set gold/unit</button>
+        </details>
+      </div>
+      <div class="card">
+        <div class="ch"><h2>Scan settings</h2></div>
+        <label>poe2scout API base</label>
+        <input id="apiBase" value="https://poe2scout.com/api"/>
+        <label>League</label>
+        <select id="leagueSel"><option>Return of the Ancients</option></select>
+        <div class="r2">
+          <div><label>Min % margin</label><input id="minMargin" type="number" value="1.5" step="0.5"/></div>
+          <div><label>Min volume</label><input id="minVol" type="number" value="0" step="10"/></div>
+        </div>
+        <label>Categories</label>
+        <div class="chips" id="catChips"></div>
+        <details style="margin-top:12px">
+          <summary>Diagnostics / manual paste</summary>
+          <p class="sub" style="margin:8px 0">Auto-fetch tries direct → CORS proxy. If both fail, paste a poe2scout currency JSON response and Parse.</p>
+          <textarea id="rawJson" placeholder="paste JSON array of currency items…"></textarea>
+          <button class="btn sec" style="margin-top:8px" onclick="parsePasted()">Parse pasted JSON</button>
+          <pre id="diagOut" style="display:none"></pre>
+        </details>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    DivineFlip · personal analysis tool · data via <a href="https://poe2scout.com" target="_blank" rel="noopener">poe2scout</a> (hourly snapshots).<br>
+    Not affiliated with or endorsed by Grinding Gear Games. The live in-game rate in the calculator is always the source of truth.
+  </div>
+</div>
+
+<script>
+/* ---------------- config / state ---------------- */
+const CATS=["currency","omens","essences","breach","ritual","delirium","expedition","fragments","runes","soulcores","catalysts","distilled"];
+let activeCats=new Set(["currency","omens","essences","breach","fragments","runes","catalysts"]);
+let scanData=[], lastRows=[], lastD=0, sortKey="ppg";
+const LS="divineflip.v2";
+const $=id=>document.getElementById(id);
+const num=v=>{const n=parseFloat(v);return isFinite(n)?n:0;};
+const fmt=(n,d=2)=>(n==null||!isFinite(n))?"—":Number(n).toLocaleString(undefined,{maximumFractionDigits:d});
+function banner(msg,cls="warn"){const b=$("banner");b.className="banner "+cls;$("bannerTxt").innerHTML=msg;}
+
+function save(){try{localStorage.setItem(LS,JSON.stringify({
+  apiBase:$("apiBase").value,minMargin:$("minMargin").value,minVol:$("minVol").value,
+  capDiv:$("capDiv").value,capEx:$("capEx").value,goldPerUnit:$("goldPerUnit").value,
+  cDiv:$("cDiv").value,cIE:$("cIE").value,cID:$("cID").value,cUnits:$("cUnits").value,
+  cats:[...activeCats],sortKey}));}catch(e){}}
+function load(){try{const s=JSON.parse(localStorage.getItem(LS));if(!s)return;
+  for(const k of ["apiBase","minMargin","minVol","capDiv","capEx","goldPerUnit","cDiv","cIE","cID","cUnits"])
+    if(s[k]!=null&&$(k))$(k).value=s[k];
+  if(s.cats)activeCats=new Set(s.cats); if(s.sortKey)sortKey=s.sortKey;
+}catch(e){}}
+
+function renderChips(){const c=$("catChips");c.innerHTML="";CATS.forEach(cat=>{
+  const el=document.createElement("span");el.className="chip"+(activeCats.has(cat)?" on":"");el.textContent=cat;
+  el.onclick=()=>{activeCats.has(cat)?activeCats.delete(cat):activeCats.add(cat);renderChips();save();};
+  c.appendChild(el);});}
+
+/* ===================== CORE MATH =====================
+   Unit of account = Exalted (E).
+   d=ex per divine, iE=item's exalted price, pItemDiv=item's divine price
+   iDx = pItemDiv*d = item value in E via the Divine market.
+   Gap between iE and iDx == triangular arbitrage. */
+function analyze(d,iE,pItemDiv,units,goldPerUnit){
+  const iDx=pItemDiv*d, high=Math.max(iE,iDx), low=Math.min(iE,iDx);
+  const perUnit=high-low, marginPct=low>0?(perUnit/low)*100:0, forward=iDx>iE;
+  const grossTotal=perUnit*units, goldTotal=goldPerUnit*units;
+  return {iE,iDx,d,pItemDiv,perUnit,marginPct,forward,units,grossTotal,goldTotal,
+    profitPerGold:goldTotal>0?grossTotal/goldTotal:0};
+}
+
+/* ---------------- live calculator ---------------- */
+function calc(){
+  const d=num($("cDiv").value),iE=num($("cIE").value),pid=num($("cID").value),units=num($("cUnits").value)||1,gpu=num($("goldPerUnit").value);
+  save();
+  if(!d||!iE||!pid){$("calcOut").style.display="block";$("calcOut").innerHTML="<span class='loss'>Enter the Divine rate and both item prices.</span>";return;}
+  const r=analyze(d,iE,pid,units,gpu),pc=r.perUnit>0?"profit":"loss";
+  const dirTxt=r.forward?"Buy item with <b class='exalted'>Exalted</b> → sell for <b class='divine'>Divine</b> → convert back to Exalted"
+                        :"Buy item with <b class='divine'>Divine</b> → sell for <b class='exalted'>Exalted</b>";
+  const dirTag=r.forward?"<span class='dir fwd'>Ex → Item → Div</span>":"<span class='dir rev'>Div → Item → Ex</span>";
+  $("calcOut").style.display="block";
+  $("calcOut").innerHTML=`
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+      <div class="verbig ${pc}">${r.marginPct>0?"+":""}${fmt(r.marginPct)}%<span class="muted" style="font-size:14px;font-weight:500"> / loop</span></div>${dirTag}
+    </div>
+    <p style="margin:10px 0 14px;font-size:13.5px">${dirTxt}</p>
+    <div class="kv"><span class="k">Value via Exalted market</span><span class="num">${fmt(r.iE)} <span class="exalted">ex</span></span></div>
+    <div class="kv"><span class="k">Value via Divine market</span><span class="num">${fmt(r.iDx)} <span class="exalted">ex</span> <span class="muted">(${fmt(r.pItemDiv,3)} div)</span></span></div>
+    <div class="kv"><span class="k">Profit / unit (pre-gold)</span><span class="num ${pc}">${fmt(r.perUnit)} ex</span></div>
+    <div class="kv"><span class="k">Gross profit · ${fmt(units,0)} units</span><span class="num ${pc}">${fmt(r.grossTotal)} ex (${fmt(r.grossTotal/d,2)} div)</span></div>
+    <div class="kv"><span class="k">Est. gold cost</span><span class="num">${fmt(r.goldTotal,0)} gold</span></div>
+    <div class="kv"><span class="k">Profit / 1000 gold</span><span class="num ${pc}">${fmt(r.profitPerGold*1000)} ex</span></div>
+    ${r.marginPct<1?"<p class='muted' style='font-size:12px;margin-top:12px'>⚠ Thin margin — spread, rounding &amp; gold can erase it. Re-check both live rates.</p>":""}`;
+}
+
+/* ---------------- fetch (direct → proxy fallback) ---------------- */
+const PROXIES=[u=>u, u=>"https://api.allorigins.win/raw?url="+encodeURIComponent(u), u=>"https://corsproxy.io/?url="+encodeURIComponent(u)];
+async function getJSON(url){
+  let err;
+  for(const wrap of PROXIES){
+    try{const r=await fetch(wrap(url),{headers:{accept:"application/json"}});
+      if(!r.ok)throw new Error("HTTP "+r.status);
+      const t=await r.text(); return JSON.parse(t);
+    }catch(e){err=e;}
+  }
+  throw err||new Error("fetch failed");
+}
+
+async function loadLeagues(base){
+  try{
+    const j=await getJSON(base+"/leagues");
+    const arr=Array.isArray(j)?j:(j.leagues||j.data||[]);
+    if(arr.length){
+      const sel=$("leagueSel");sel.innerHTML="";
+      arr.forEach(l=>{const v=l.value||l.name||l.id||l;const o=document.createElement("option");o.value=v;o.textContent=v;sel.appendChild(o);});
+      const cur=arr[0];const v=(cur.value||cur.name||cur);
+      $("tLeague").textContent=v;
+      const dp=cur.divinePrice||cur.divine_price||cur.DivinePrice;
+      if(dp){setDivRate(dp);}
+      return v;
+    }
+  }catch(e){}
+  return null;
+}
+function setDivRate(d){
+  d=Math.round(d*100)/100;
+  $("tDivEx").textContent=fmt(d,0);
+  $("tExDiv").textContent=fmt(1/d,4);
+  $("cDiv").value=Math.round(d);
+}
+
+function firstNum(o,keys){for(const k of keys){if(o&&o[k]!=null&&isFinite(parseFloat(o[k])))return parseFloat(o[k]);}return null;}
+function normItem(o){
+  if(!o||typeof o!=="object")return null;
+  const name=o.text||o.name||o.apiId||(o.currencyItem&&o.currencyItem.text)||(o.itemMetadata&&o.itemMetadata.name)||"?";
+  const ex=firstNum(o,["currentPrice","price","exaltedPrice","chaosEquivalent","value","priceInExalted","current_price"]);
+  const div=firstNum(o,["divinePrice","priceInDivine","divine_price","valueInDivine"]);
+  const vol=firstNum(o,["volume","logCount","receivedCurrencyVolume","payCurrencyVolume","count","tradeVolume"]);
+  const cat=(o.category||o.categoryApiId||o.type||"").toString().toLowerCase();
+  if(name==="?"&&!ex)return null;
+  return {name,ex,div,vol,cat,raw:o};
+}
+async function fetchCategory(base,league,cat){
+  const tries=[
+    `${base}/items/currency?league=${encodeURIComponent(league)}&category=${cat}&perPage=300&page=1`,
+    `${base}/currencies/byCategory?league=${encodeURIComponent(league)}&category=${cat}&perPage=300&page=1`,
+    `${base}/items/currencyByCategory?league=${encodeURIComponent(league)}&category=${cat}&perPage=300`];
+  for(const url of tries){
+    try{const j=await getJSON(url);
+      const arr=Array.isArray(j)?j:(j.items||j.currencies||j.data||j.results||[]);
+      if(arr&&arr.length)return arr.map(normItem).filter(Boolean).map(x=>({...x,cat:x.cat||cat}));
+    }catch(e){}
+  }
+  return [];
+}
+
+async function scan(){
+  save();
+  const base=$("apiBase").value.replace(/\/$/,""),btn=$("refreshBtn");
+  btn.classList.add("spin");banner("Connecting to poe2scout…","warn");
+  const lv=await loadLeagues(base);
+  const league=lv||$("leagueSel").value;
+  banner("Fetching "+activeCats.size+" categories…","warn");
+  let all=[];
+  for(const cat of activeCats){all=all.concat(await fetchCategory(base,league,cat));}
+  btn.classList.remove("spin");
+  $("diagOut").style.display="block";
+  $("diagOut").textContent=all.length?("✓ "+all.length+" items. Sample record:\n"+JSON.stringify(all[0].raw,null,2).slice(0,1400)):"✗ No records from any endpoint shape / proxy.";
+  if(!all.length){
+    $("tItems").textContent="0";
+    banner("Couldn’t reach poe2scout (CORS + proxies failed, or the API path changed). The calculator still works. Open Diagnostics to paste a response, or connect me to Chrome and I’ll wire it exactly.","err");
+    renderTable();return;
+  }
+  let d=num($("cDiv").value);
+  if(!d){const dv=all.find(x=>/divine orb/i.test(x.name));if(dv&&dv.ex){d=dv.ex;setDivRate(d);}}
+  $("tItems").textContent=fmt(all.length,0);
+  $("tUpd").textContent=new Date().toLocaleTimeString([], {hour:"2-digit",minute:"2-digit"});
+  buildOpportunities(all,d);
+  banner("Live: "+fmt(all.length,0)+" items across "+activeCats.size+" categories. Snapshots are ~1h &amp; normalized — confirm the live in-game Divine rate before trading.","ok");
+}
+
+function parsePasted(){
+  try{const j=JSON.parse($("rawJson").value);
+    const arr=Array.isArray(j)?j:(j.items||j.currencies||j.data||j.results||[]);
+    const rows=arr.map(normItem).filter(Boolean);if(!rows.length)throw new Error("no recognizable items");
+    let d=num($("cDiv").value);if(!d){const dv=rows.find(x=>/divine orb/i.test(x.name));if(dv)d=dv.ex;}
+    $("tItems").textContent=fmt(rows.length,0);buildOpportunities(rows,d);banner("Parsed "+rows.length+" pasted items.","ok");
+  }catch(e){banner("Couldn’t parse JSON: "+e.message,"err");}
+}
+
+function buildOpportunities(rows,d){
+  lastRows=rows;lastD=d;
+  const minV=num($("minVol").value),gpu=num($("goldPerUnit").value);
+  const capInEx=num($("capEx").value)+num($("capDiv").value)*(d||0);
+  scanData=rows.filter(r=>r.ex>0).map(r=>{
+    const pItemDiv=r.div!=null?r.div:(d?r.ex/d:0);
+    const a=analyze(d||0,r.ex,pItemDiv,1,gpu);
+    const units=a.iE>0?Math.floor(capInEx/Math.min(a.iE,a.iDx||a.iE)):0;
+    return {name:r.name,cat:r.cat,vol:r.vol||0,ex:r.ex,marginPct:a.marginPct,forward:a.forward,
+      perUnit:a.perUnit,ppg:a.profitPerGold,totalProfit:a.perUnit*units,units,
+      hasRealDiv:r.div!=null,hunt:(r.vol||0)*r.ex};
+  }).filter(r=>r.vol>=minV);
+  renderTable();
+}
+
+function renderTable(){
+  const t=$("resTable");
+  if(!scanData.length){t.innerHTML=`<tbody><tr><td class="empty">No data yet. Hit <b>Refresh</b> — or use the calculator below with rates you read in-game.</td></tr></tbody>`;return;}
+  const minM=num($("minMargin").value),rows=[...scanData];
+  let view;
+  if(sortKey==="liq")view=rows.sort((a,b)=>b.hunt-a.hunt).slice(0,40);
+  else if(sortKey==="margin")view=rows.filter(r=>r.marginPct>=minM).sort((a,b)=>b.marginPct-a.marginPct).slice(0,40);
+  else if(sortKey==="total")view=rows.filter(r=>r.marginPct>=minM).sort((a,b)=>b.totalProfit-a.totalProfit).slice(0,40);
+  else view=rows.filter(r=>r.marginPct>=minM).sort((a,b)=>b.ppg-a.ppg).slice(0,40);
+
+  if(!view.length){
+    t.innerHTML=`<tbody><tr><td class="empty">${sortKey!=="liq"
+      ?"No stale price gaps in the snapshot (it’s normalized &amp; hourly — expected). Switch to <b style='color:var(--purple)'>Liquidity / safety</b> to see the best items to hunt manually, then verify their live Divine rate in the calculator."
+      :"No items match your filters."}</td></tr></tbody>`;
+    return;}
+
+  const maxHunt=Math.max(...view.map(r=>r.hunt),1);
+  let head,body;
+  if(sortKey==="liq"){
+    head=`<tr><th>#</th><th>Item</th><th>Volume</th><th>Price</th><th>Hunt score</th></tr>`;
+    body=view.map((r,i)=>`<tr><td class="rank">${i+1}</td>
+      <td><span class="iname">${r.name}</span><span class="cat">${r.cat||"—"}</span></td>
+      <td class="num">${fmt(r.vol,0)}</td>
+      <td class="num exalted">${fmt(r.ex)}</td>
+      <td><div class="bar"><i style="width:${Math.max(4,r.hunt/maxHunt*100)}%;background:var(--purple)"></i></div></td></tr>`).join("");
+  }else{
+    head=`<tr><th>#</th><th>Item</th><th>Direction</th><th>% margin</th><th>Profit/unit</th><th>Units @cap</th><th>Total profit</th><th>Profit/1k gold</th><th>Vol</th></tr>`;
+    body=view.map((r,i)=>{
+      const dir=r.forward?"<span class='dir fwd'>Ex→I→Div</span>":"<span class='dir rev'>Div→I→Ex</span>";
+      const pc=r.perUnit>0?"profit":"";
+      return `<tr><td class="rank">${i+1}</td>
+        <td><span class="iname">${r.name}</span>${r.hasRealDiv?"":"<span class='pill'>implied</span>"}</td>
+        <td>${dir}</td>
+        <td class="num ${pc}">${fmt(r.marginPct)}%</td>
+        <td class="num ${pc}">${fmt(r.perUnit)}</td>
+        <td class="num">${fmt(r.units,0)}</td>
+        <td class="num ${pc}">${fmt(r.totalProfit,0)} <span class="exalted">ex</span></td>
+        <td class="num ${pc}">${fmt(r.ppg*1000)}</td>
+        <td class="num muted">${fmt(r.vol,0)}</td></tr>`;}).join("");
+  }
+  t.innerHTML="<thead>"+head+"</thead><tbody>"+body+"</tbody>";
+  const realArb=view.some(r=>r.hasRealDiv&&r.marginPct>0.01);
+  if(!realArb&&sortKey!=="liq")
+    t.innerHTML+=`<tbody><tr><td colspan="9" class="muted" style="font-size:12px;padding:12px;border:none">ℹ Margins are <b>implied</b> from normalized snapshot prices (the feed has no live per-pair Divine quote). Real edges open in-game when the Divine market drifts from the Exalted market — use Liquidity to pick targets, then the calculator to confirm.</td></tr></tbody>`;
+}
+
+function calibrate(){const u=num($("calUnits").value),g=num($("calGold").value);
+  if(u>0&&g>0){$("goldPerUnit").value=Math.round(g/u);save();if(lastRows.length)buildOpportunities(lastRows,lastD);
+    banner("Gold/unit set to "+Math.round(g/u)+" from your trade.","ok");}}
+
+/* ---------------- init ---------------- */
+document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));t.classList.add("on");sortKey=t.dataset.k;save();renderTable();});
+["minMargin","minVol","capDiv","capEx","goldPerUnit"].forEach(id=>$(id).addEventListener("change",()=>{save();if(lastRows.length)buildOpportunities(lastRows,lastD);}));
+["cDiv","cIE","cID","cUnits"].forEach(id=>$(id).addEventListener("change",save));
+load();renderChips();
+document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("on",x.dataset.k===sortKey));
+calc();
+scan();   /* auto-load live data on open */
+</script>
+</body>
+</html>

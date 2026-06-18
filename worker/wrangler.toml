@@ -1,0 +1,9 @@
+# Cloudflare Worker config for the DivineFlip "Live now" proxy.
+# Deploy from this folder:  wrangler deploy
+# (run `wrangler login` once first). The deployed URL becomes your VITE_LIVE_URL.
+
+name = "divineflip-proxy"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# worker.js imports ../shared/poe2scout.mjs; wrangler bundles it automatically.

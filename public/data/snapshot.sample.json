@@ -1,0 +1,13 @@
+{
+  "league": "Runes of Aldur",
+  "divinePrice": 198,
+  "updated": "2026-06-18T12:00:00Z",
+  "source": "sample",
+  "items": [
+    { "name": "Omen of Light", "cat": "omens", "ex": 1380, "div": 7.2, "vol": 1234 },
+    { "name": "Chaos Orb", "cat": "currency", "ex": 20.43, "div": 0.1146, "vol": 91318 },
+    { "name": "Vaal Orb", "cat": "currency", "ex": 2.0, "div": 0.0088, "vol": 679 },
+    { "name": "Regal Orb", "cat": "currency", "ex": 0.39, "div": null, "vol": 40124 },
+    { "name": "Greater Exalted Orb", "cat": "currency", "ex": 5.1, "div": null, "vol": 210 }
+  ]
+}

@@ -1,0 +1,40 @@
+name: Update snapshot
+
+on:
+  schedule:
+    # every 30 minutes (scheduled runs on public repos can be delayed a few minutes)
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # fetch-data.mjs + shared/poe2scout.mjs use only Node built-ins, so no install needed.
+      - name: Fetch live snapshot
+        run: node scripts/fetch-data.mjs
+
+      - name: Commit snapshot if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/snapshot.json
+          if git diff --staged --quiet; then
+            echo "No changes to snapshot."
+          else
+            git commit -m "data: refresh snapshot [skip ci]"
+            git push
+          fi
