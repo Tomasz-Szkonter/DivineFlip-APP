@@ -145,6 +145,10 @@ export default function App() {
       });
       return;
     }
+    // The Worker can lag the committed pipeline until it's redeployed (and never computes vph).
+    // Carry slow-moving rich fields forward so a live swap never silently drops a feature.
+    const prev = prevSnapRef.current;
+    if (!data.rateHist && prev?.rateHist) data.rateHist = prev.rateHist;
     fillVph(data);
     prevSnapRef.current = data;
     setSnapshot(data);
@@ -364,8 +368,8 @@ export default function App() {
         {snapshot && (
           <div className="rates">
             <RateTile cur="ex" valEx={1} note="base unit — always 1 ex" />
-            <RateTile cur="div" valEx={d} spark={snapshot.rateSpark?.div} note="7-day history unavailable (refresh data)" />
-            <RateTile cur="cha" valEx={ch} spark={snapshot.rateSpark?.cha} note="7-day history unavailable (refresh data)" />
+            <RateTile cur="div" valEx={d} hist={snapshot.rateHist?.div} note="price history unavailable (refresh data)" />
+            <RateTile cur="cha" valEx={ch} hist={snapshot.rateHist?.cha} note="price history unavailable (refresh data)" />
           </div>
         )}
 
@@ -702,11 +706,27 @@ function Rate({ parts }) {
     </>
   );
 }
-// Base-currency tile with its value in exalted + a 7-day price-history sparkline.
-function RateTile({ cur, valEx, spark, note }) {
+// Timeframes sliced from the hourly rate history (oldest -> newest).
+const RATE_WINDOWS = [{ label: '7d', n: 168 }, { label: '1d', n: 24 }, { label: '6h', n: 6 }];
+
+// One timeframe: label, % change over the window, and a mini price sparkline.
+function MiniChart({ label, data }) {
+  const chg = data.length > 1 ? (data[data.length - 1] / data[0] - 1) * 100 : 0;
+  return (
+    <div className="rt-chart">
+      <div className="rt-chart-top">
+        <span className="rt-tf">{label}</span>
+        <span className={`rt-chg num ${chg >= 0 ? 'profit' : 'loss'}`}>{chg >= 0 ? '+' : ''}{fmt(chg, 1)}%</span>
+      </div>
+      <Sparkline data={data} w={86} h={26} />
+    </div>
+  );
+}
+
+// Base-currency tile: value in exalted + 7d / 1d / 6h price-history graphs (hourly source).
+function RateTile({ cur, valEx, hist, note }) {
   const c = CUR[cur];
-  const has = Array.isArray(spark) && spark.length > 1;
-  const chg = has ? (spark[spark.length - 1] / spark[0] - 1) * 100 : 0;
+  const has = Array.isArray(hist) && hist.length > 1;
   return (
     <div className={`rate-tile sell-${cur}`}>
       <div className="rt-head">
@@ -716,12 +736,14 @@ function RateTile({ cur, valEx, spark, note }) {
         </span>
       </div>
       {has ? (
-        <div className="rt-spark">
-          <Sparkline data={spark} w={170} h={30} />
-          <span className={`rt-chg ${chg >= 0 ? 'profit' : 'loss'}`}>{chg >= 0 ? '+' : ''}{fmt(chg, 0)}% <span className="muted">7d</span></span>
+        <div className="rt-charts">
+          {RATE_WINDOWS.map((w) => {
+            const data = hist.slice(-w.n);
+            return data.length > 1 ? <MiniChart key={w.label} label={w.label} data={data} /> : null;
+          })}
         </div>
       ) : (
-        <div className="rt-note muted">{note || '7-day history unavailable'}</div>
+        <div className="rt-note muted">{note || 'history unavailable'}</div>
       )}
     </div>
   );

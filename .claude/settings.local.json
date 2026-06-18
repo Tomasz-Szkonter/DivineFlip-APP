@@ -10,7 +10,14 @@
       "PowerShell(\"===== git log =====\")",
       "PowerShell(\"===== full status =====\")",
       "PowerShell(\"===== diff stat vs HEAD =====\")",
-      "PowerShell(git pull --ff-only 2>&1)"
+      "PowerShell(git pull --ff-only 2>&1)",
+      "Bash(pkill -f \"msedge.*headless\")",
+      "Bash(pkill -f vite)",
+      "Bash(npm run *)",
+      "Bash(timeout 30 bash -c 'until curl -sf http://localhost:5173 >/dev/null 2>&1; do sleep 1; done')",
+      "PowerShell(node tmp-cdp.mjs)",
+      "Bash(rm -f tmp-cdp.mjs tmp-shot.png)",
+      "Bash(pkill -f \"npm run dev\")"
     ]
   }
 }

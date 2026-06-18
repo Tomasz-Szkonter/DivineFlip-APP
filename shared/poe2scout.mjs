@@ -63,10 +63,12 @@ function pairRate(pair, targetApiId) {
 }
 
 // Best-effort: fetch each category's normalized PriceLogs (~7 daily points) and return an
-// apiId -> [price, ...] map (chronological). Used for the free 7-day sparkline. Never throws:
-// a failed category is skipped so the snapshot still ships.
+// apiId -> [price, ...] map (chronological) plus the base-currency ItemIds (needed for the
+// hourly rate history). Used for the free sparklines. Never throws: a failed category is
+// skipped so the snapshot still ships.
 async function fetchSparks(base, realm, leagueName, cats) {
   const map = new Map();
+  const curIds = {}; // apiId -> ItemId (for divine/exalted/chaos)
   for (const cat of cats) {
     try {
       let page = 1;
@@ -78,7 +80,11 @@ async function fetchSparks(base, realm, leagueName, cats) {
         const data = await getJSON(url);
         pages = num(data.Pages) ?? 1;
         for (const it of data.Items || []) {
-          if (!it || !it.ApiId || !Array.isArray(it.PriceLogs)) continue;
+          if (!it || !it.ApiId) continue;
+          if (it.ItemId != null && ['divine', 'exalted', 'chaos'].includes(it.ApiId)) {
+            curIds[it.ApiId] = it.ItemId;
+          }
+          if (!Array.isArray(it.PriceLogs)) continue;
           // PriceLogs come newest-first; reverse to chronological and keep finite prices.
           const series = it.PriceLogs.map((p) => round(num(p && p.Price)))
             .filter((p) => p != null)
@@ -91,7 +97,39 @@ async function fetchSparks(base, realm, leagueName, cats) {
       /* skip this category, keep the rest */
     }
   }
-  return map;
+  return { sparks: map, curIds };
+}
+
+// Best-effort hourly value-in-exalted history for the base currencies (Divine, Chaos), from
+// the per-pair History endpoint (newest-first → reversed to chronological). `hours` points ≈
+// that many hours back. The UI slices this into 7d / 1d / 6h windows. Never throws.
+async function fetchRateHist(base, realm, leagueName, curIds, hours = 168) {
+  const ex = curIds.exalted;
+  if (ex == null) return null;
+  const out = {};
+  for (const [key, apiId] of [['div', 'divine'], ['cha', 'chaos']]) {
+    const id = curIds[apiId];
+    if (id == null) continue;
+    try {
+      const url =
+        `${base}/${realm}/Leagues/${encodeURIComponent(leagueName)}/Currencies/Pairs/` +
+        `${id}/${ex}/History?Limit=${hours}`;
+      const data = await getJSON(url);
+      const series = (data.History || [])
+        .slice()
+        .reverse() // oldest -> newest
+        .map((h) => {
+          const o = num(h?.Data?.CurrencyOneData?.RelativePrice); // the target currency
+          const t = num(h?.Data?.CurrencyTwoData?.RelativePrice); // exalted
+          return o && t ? round(o / t) : null;
+        })
+        .filter((v) => v != null);
+      if (series.length > 1) out[key] = series;
+    } catch {
+      /* skip this currency, keep the rest */
+    }
+  }
+  return Object.keys(out).length ? out : null;
 }
 
 /**
@@ -263,24 +301,18 @@ export async function fetchSnapshot({
     emitted.push([apiId, item]);
   }
 
-  // 7. Free 7-day sparkline from PriceLogs (best-effort), attached by apiId. The same fetch
-  //    also yields the base currencies' own normalized (exalted) price history, surfaced at
-  //    the top level for the per-currency graphs.
-  let rateSpark = null;
+  // 7. Free per-item 7-day sparkline from PriceLogs (best-effort), attached by apiId. The same
+  //    fetch yields the base-currency ItemIds, used to pull each currency's HOURLY value-in-ex
+  //    history (rateHist) for the per-currency multi-timeframe (7d / 1d / 6h) graphs.
+  let rateHist = null;
   if (withSpark) {
     const cats = [...new Set(emitted.map(([, it]) => it.cat).filter(Boolean))];
-    const sparks = await fetchSparks(base, realm, leagueName, cats);
+    const { sparks, curIds } = await fetchSparks(base, realm, leagueName, cats);
     for (const [apiId, item] of emitted) {
       const s = sparks.get(apiId);
       if (s && s.length) item.spark = s;
     }
-    const div = sparks.get('divine');
-    const cha = sparks.get('chaos');
-    if ((div && div.length) || (cha && cha.length)) {
-      rateSpark = {}; // 7-day history of each currency's value in exalted
-      if (div && div.length) rateSpark.div = div;
-      if (cha && cha.length) rateSpark.cha = cha;
-    }
+    rateHist = await fetchRateHist(base, realm, leagueName, curIds);
   }
 
   // Order by liquidity (hunt = vol * ex) so the file is sensibly sorted; the UI re-ranks.
@@ -291,7 +323,7 @@ export async function fetchSnapshot({
     divinePrice: round(divinePrice),
     chaosPrice: round(chaosPrice),
     epoch,
-    rateSpark, // { div:[...ex prices], cha:[...] } | null — per-currency 7-day history
+    rateHist, // { div:[...hourly ex values, oldest->newest], cha:[...] } | null — per-currency history
     updated: new Date().toISOString(),
     source,
     items,

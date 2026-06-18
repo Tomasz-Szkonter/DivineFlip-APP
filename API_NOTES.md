@@ -69,6 +69,7 @@ Returns **all ~2157 independent currency-pair order books in one call** (no pagi
 | top-level `divinePrice` | the `divine/exalted` book ratio (ex per divine) |
 | top-level `chaosPrice`  | the `chaos/exalted` book ratio (ex per chaos); fallback `divinePrice / ChaosDivinePrice` |
 | top-level `epoch`       | `ExchangeSnapshot.Epoch` (unix s) — used to derive `vph` (trades/hour) from snapshot deltas |
+| top-level `rateHist`    | `{ div:[...], cha:[...] }` — each base currency's HOURLY value-in-exalted (oldest→newest), for the per-currency 7d/1d/6h graphs |
 | `vph` *(committed only)* | `Δvol / Δhours` vs the previous committed snapshot; `null` if unknown / a volume reset |
 | `spark` *(optional)*    | `Currencies/ByCategory` `PriceLogs[].Price`, ~7 daily points, chronological (free 7-day sparkline) |
 
@@ -87,6 +88,12 @@ receive side to be liquid before a flip is flagged two-way / eligible for the he
 
 - `GET /api/Realms` — realms list.
 - `GET /api/poe2/Leagues/{League}/ExchangeSnapshot` — `{Epoch, Volume, MarketCap, BaseCurrencyApiId}`.
-- `GET /api/poe2/Leagues/{League}/SnapshotHistory`, `/ReferenceCurrencies`.
+- `GET /api/poe2/Leagues/{League}/SnapshotHistory?Limit=N` — `{Data:[{Epoch, Volume, MarketCap}]}`, **hourly**, newest-first (market-wide).
+- `GET /api/poe2/Leagues/{League}/Currencies/Pairs/{OneItemId}/{TwoItemId}/History?Limit=N` — per-pair order-book
+  **hourly** history, newest-first: `{History:[{Epoch, Data:{CurrencyOneData, CurrencyTwoData}}]}`. Rate =
+  `One.RelativePrice / Two.RelativePrice`. Source for `rateHist` (each currency's value-in-ex over time).
+  Currency `ItemId`s come from `Currencies/ByCategory` (e.g. exalted 290, divine 291, chaos 287 — resolve, don't hardcode).
+- `GET /api/poe2/Leagues/{League}/Items/{ItemId}/DailyStatsHistory?DayCount=N` — daily OHLC
+  `{DailyStats:[{Time, Open, High, Low, Close, Average, Volume}]}`. `/Items/{ItemId}/History?LogCount=N` (multiple of 4) also exists.
 - `GET /api/poe2/Leagues/{League}/Items`, `/Items/Categories`, `/Uniques/ByCategory` (non-fungible
   items — not used for currency-exchange arbitrage).
