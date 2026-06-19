@@ -7,6 +7,7 @@ import {
   rankOpportunities,
   scoreOf,
   topFlips,
+  lotSize,
 } from './arb.js';
 
 // A two-way-liquid book on every market, so liquidity never gates these fixtures unless we
@@ -248,5 +249,47 @@ describe('smart score & top flips', () => {
   it('computes a volume-capped realistic total = perUnit * vol', () => {
     expect(solid.realisticTotal).toBeCloseTo(solid.perUnit * solid.vol, 6);
     expect(thin.realisticTotal).toBeCloseTo(30 * 50, 4);
+  });
+});
+
+describe('lotSize — whole-number trading batches', () => {
+  it('finds the smallest lot that makes both sub-orb legs whole', () => {
+    // Omen of Refreshment: buy 0.1 ex, sell 1.3 cha -> 10 items = "1 ex : 13 cha"
+    expect(lotSize(0.1, 1.3)).toBe(10);
+  });
+
+  it('trades expensive, already-whole items one at a time', () => {
+    expect(lotSize(1380, 6)).toBe(1);
+  });
+
+  it('batches up to hug an awkward price within tolerance', () => {
+    // 7.2 div: 1-unit rounding (7) is 2.8% off; L=4 -> 29/4 = 7.25 is <1% off.
+    expect(lotSize(1380, 7.2)).toBe(4);
+  });
+
+  it('never returns below 1, even for junk input', () => {
+    expect(lotSize(0, 0)).toBe(1);
+    expect(lotSize(null, undefined)).toBe(1);
+  });
+});
+
+describe('units cap — never flip more than the book holds', () => {
+  const liq = { ex: { s: 1e6, v: 1e6 }, cha: { s: 1e6, v: 1e6 } };
+
+  it('caps loops-at-capital by book volume (the 57-unit book, not 67k loops)', () => {
+    // ex 0.1 buy, 1.3 cha sell @ chaosPrice 24; capital affords ~67k units but vol is 57.
+    const cheap = { name: 'Omen', cat: 'omens', ex: 0.1, div: null, cha: 1.3, vol: 57, liq };
+    const opps = buildOpportunities([cheap], 200, { minVol: 0, chaosPrice: 24, capInEx: 6751 });
+    const o = opps[0];
+    expect(o.units).toBe(57);
+    expect(o.totalProfit).toBeCloseTo(o.perUnit * 57, 4);
+    expect(o.totalProfit).toBeCloseTo(o.realisticTotal, 4); // capital figure no longer exceeds the book
+  });
+
+  it('still binds on capital when capital is the smaller limit', () => {
+    // ex 100 buy, 6 cha (=120 ex) sell; capInEx 1000 affords 10 units; vol 1000.
+    const item = { name: 'X', cat: 'c', ex: 100, div: null, cha: 6, vol: 1000, liq };
+    const opps = buildOpportunities([item], 200, { minVol: 0, chaosPrice: 20, capInEx: 1000 });
+    expect(opps[0].units).toBe(10);
   });
 });

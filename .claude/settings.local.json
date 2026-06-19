@@ -22,7 +22,8 @@
       "Bash(git log *)",
       "Bash(curl -s --max-time 45 \"https://divineflip-proxy.divineflipapp.workers.dev\" -H \"accept: application/json\" -o /tmp/live.json -w \"HTTP %{http_code}  size=%{size_download} bytes  time=%{time_total}s\\\\n\")",
       "Bash(node -e \"const s=require\\('/tmp/live.json'\\); console.log\\('top-level keys:', Object.keys\\(s\\)\\); console.log\\('source:', s.source\\); console.log\\('chaosPrice:', s.chaosPrice, '\\(isFull =', s.chaosPrice!=null, '\\)'\\); console.log\\('rateHist:', s.rateHist===undefined?'KEY ABSENT':\\(s.rateHist===null?'null':JSON.stringify\\(Object.fromEntries\\(Object.entries\\(s.rateHist\\).map\\(\\([k,v]\\)=>[k,Array.isArray\\(v\\)?'len '+v.length:v]\\)\\)\\)\\)\\); console.log\\('items:', Array.isArray\\(s.items\\)?s.items.length:'n/a'\\);\")",
-      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{const s=JSON.parse\\(d\\);const keys=Object.keys\\(s\\);console.log\\('has rateHist?', keys.includes\\('rateHist'\\)?\\('YES len div='+\\(s.rateHist?.div?.length\\)\\):'NO'\\);console.log\\('has rateSpark?', keys.includes\\('rateSpark'\\)?\\('YES len div='+\\(s.rateSpark?.div?.length\\)\\):'NO'\\);}\\)\")"
+      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{const s=JSON.parse\\(d\\);const keys=Object.keys\\(s\\);console.log\\('has rateHist?', keys.includes\\('rateHist'\\)?\\('YES len div='+\\(s.rateHist?.div?.length\\)\\):'NO'\\);console.log\\('has rateSpark?', keys.includes\\('rateSpark'\\)?\\('YES len div='+\\(s.rateSpark?.div?.length\\)\\):'NO'\\);}\\)\")",
+      "PowerShell(npx vitest run 2>&1)"
     ]
   }
 }

@@ -109,6 +109,39 @@ export function bestLoop(
 }
 
 /**
+ * Smallest whole-number lot for a flip. In-game the Currency Exchange only accepts integer
+ * "give : get" ratios and trades whole orbs/items, so a per-1-item plan with sub-orb prices
+ * (e.g. buy at 0.1 ex, sell at 1.3 cha) is literally unexecutable. Given the item's native
+ * price in the buy and sell currencies, this returns the smallest item count L (1..maxLot) for
+ * which BOTH leg totals (L*buyNative, L*sellNative) land within `tol` of a whole number — i.e.
+ * the smallest batch you can actually type into the exchange. Returns the lowest-error L if
+ * none hits `tol` inside maxLot. Bigger lots track the true price more finely (less rounding
+ * loss), which is why a fatter stack captures more of the theoretical margin.
+ *
+ * @param {number} buyNative   item price in the buy currency (whole-unit denominated)
+ * @param {number} sellNative  item price in the sell currency
+ * @param {{maxLot?:number, tol?:number}} [opts]
+ * @returns {number} item count per lot (>= 1)
+ */
+export function lotSize(buyNative, sellNative, { maxLot = 50, tol = 0.01 } = {}) {
+  const legErr = (L, per) => {
+    if (!(per > 0)) return Infinity;
+    const total = L * per;
+    const rounded = Math.round(total);
+    if (rounded < 1) return Infinity; // can't give/get zero of a currency
+    return Math.abs(rounded - total) / total;
+  };
+  let best = 1;
+  let bestErr = Infinity;
+  for (let L = 1; L <= maxLot; L++) {
+    const e = Math.max(legErr(L, buyNative), legErr(L, sellNative));
+    if (e < bestErr) { bestErr = e; best = L; }
+    if (e <= tol) return L;
+  }
+  return best;
+}
+
+/**
  * Smart score = margin weighted by a log of liquidity, so a fat margin isn't
  * buried by a mega-volume item while thin books are still demoted.
  * NOTE: log10(1 + vol) only spans ~1.7 (vol 50) to ~5.0 (vol ~90k), so the
@@ -161,9 +194,13 @@ export function buildOpportunities(
       const buyValEx = loop ? loop.buyValEx : r.ex;
       const sellValEx = loop ? loop.sellValEx : r.ex;
 
-      const unitPrice = buyValEx > 0 ? buyValEx : r.ex;
-      const units = unitPrice > 0 ? Math.floor(capInEx / unitPrice) : 0;
       const vol = r.vol || 0;
+      const unitPrice = buyValEx > 0 ? buyValEx : r.ex;
+      // Loops you can fund, then capped by book depth — you can't flip more units than the
+      // thinner book actually holds (kills the "67k loops on a 57-unit book" fantasy). When
+      // volume is unknown (0) fall back to the affordable count.
+      const affordable = unitPrice > 0 ? Math.floor(capInEx / unitPrice) : 0;
+      const units = vol > 0 ? Math.min(affordable, vol) : affordable;
       return {
         name: r.name,
         cat: r.cat,

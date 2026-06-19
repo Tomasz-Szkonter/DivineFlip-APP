@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { bestLoop, valuesInEx, buildOpportunities, rankOpportunities, topFlips } from './lib/arb.js';
+import { bestLoop, valuesInEx, buildOpportunities, rankOpportunities, topFlips, lotSize } from './lib/arb.js';
 
 const LS = 'divineflip.react.v1';
 const ENV_LIVE_URL = import.meta.env.VITE_LIVE_URL || '';
@@ -765,10 +765,23 @@ function FlipDetail({ r, d, ch, goldPerUnit, onSend, onGuide }) {
   // Step-by-step playbook amounts (per 1 item; you start and end holding the SELL currency).
   const CUR_EX = { ex: 1, div: d, cha: ch }; // 1 unit of each currency, in exalted
   const NATIVE = { ex: r.ex, div: r.div, cha: r.cha }; // item's price in each currency
-  const buyN = NATIVE[r.buyCur]; // units of buy currency to buy 1 item
-  const sellN = NATIVE[r.sellCur]; // units of sell currency you receive for 1 item
-  const fundS = CUR_EX[r.sellCur] ? r.buyValEx / CUR_EX[r.sellCur] : null; // sell-cur spent to fund the buy
-  const netS = CUR_EX[r.sellCur] ? r.perUnit / CUR_EX[r.sellCur] : null; // net sell-cur gained per item
+  const buyN = NATIVE[r.buyCur]; // buy-currency paid per 1 item
+  const sellN = NATIVE[r.sellCur]; // sell-currency received per 1 item
+  // The Currency Exchange only accepts integer "give : get" ratios and trades whole orbs/items,
+  // so a per-1-item plan is unexecutable when prices are sub-orb (buy 0.1 ex, sell 1.3 cha).
+  // Quote the loop in whole lots: `lot` items priced as round buy/sell-currency totals.
+  const lot = lotSize(buyN, sellN);
+  const buyLot = Math.round(lot * buyN); // whole buy-currency given per lot
+  const sellLot = Math.round(lot * sellN); // whole sell-currency received per lot
+  const sellEx = CUR_EX[r.sellCur] || 0; // 1 sell-currency, in ex
+  const buyEx = CUR_EX[r.buyCur] || 0; // 1 buy-currency, in ex
+  const netLotEx = r.perUnit * lot; // ex profit per lot (matches perUnit exactly)
+  const netLot = sellEx ? netLotEx / sellEx : null; // ...expressed in the sell currency you keep
+  const goldPerLot = goldPerUnit * lot;
+  const capLots = Math.floor((r.units || 0) / lot); // whole lots you can run now (depth-capped via r.units)
+  const runLots = Math.max(1, capLots);
+  const buyRun = buyLot * runLots; // total buy-currency to stock for the run (whole)
+  const buyRunEx = buyRun * buyEx; // its exalted value (shown when buying with non-ex)
   const stop = (fn) => (e) => { e.stopPropagation(); fn(); };
   return (
     <div className="fd">
@@ -792,32 +805,42 @@ function FlipDetail({ r, d, ch, goldPerUnit, onSend, onGuide }) {
 
       {r.hasEdge && (
         <div className="playbook">
-          <div className="plain-h">How to run this loop — you start &amp; end holding <b className={sell.cls}>{sell.name}</b></div>
+          <div className="plain-h">
+            How to run this loop — you start &amp; end holding <b className={sell.cls}>{sell.name}</b>
+            {lot > 1 && <span className="muted"> · trade in whole lots of {fmt(lot, 0)}</span>}
+          </div>
           <ol className="steps">
             <li>
               <span className="step-n">1</span>
-              Convert ~<span className={`num ${sell.cls}`}>{fmt(fundS)}</span> <b className={sell.cls}>{sell.name}</b>
-              {' → '}~<span className={`num ${buy.cls}`}>{fmt(buyN)}</span> <b className={buy.cls}>{buy.name}</b>
-              <span className="muted"> (your buy funds)</span>
+              Stock up: convert some <b className={sell.cls}>{sell.name}</b> into{' '}
+              <span className={`num ${buy.cls}`}>{fmt(buyRun, 0)}</span> <b className={buy.cls}>{buy.name}</b>
+              {r.buyCur !== 'ex' && <span className="muted"> (≈{fmt(buyRunEx, 0)} ex)</span>}
+              <span className="muted"> — funds {fmt(runLots, 0)} {runLots === 1 ? 'lot' : 'lots'}</span>
             </li>
             <li>
               <span className="step-n">2</span>
-              Buy <b>1 {r.name}</b> with ~<span className={`num ${buy.cls}`}>{fmt(buyN)}</span> <b className={buy.cls}>{buy.name}</b>
-              <span className="muted"> (≈{fmt(r.buyValEx)} ex)</span>
+              Buy order&nbsp;
+              <span className="ratio">
+                <span className={`num ${buy.cls}`}>{fmt(buyLot, 0)}</span> {buy.label} : <span className="num">{fmt(lot, 0)}</span> {r.name}
+              </span>
+              <span className="muted"> — give {buy.name}, get {fmt(lot, 0)} {r.name}</span>
             </li>
             <li>
               <span className="step-n">3</span>
-              Sell <b>1 {r.name}</b> for ~<span className={`num ${sell.cls}`}>{fmt(sellN)}</span> <b className={sell.cls}>{sell.name}</b>
-              <span className="muted"> (≈{fmt(r.sellValEx)} ex)</span>
+              Sell order&nbsp;
+              <span className="ratio">
+                <span className="num">{fmt(lot, 0)}</span> {r.name} : <span className={`num ${sell.cls}`}>{fmt(sellLot, 0)}</span> {sell.label}
+              </span>
+              <span className="muted"> — give {fmt(lot, 0)} {r.name}, get {sell.name}</span>
             </li>
             <li className="step-result">
               <span className="step-n">✓</span>
-              Net <span className="num profit">+{fmt(netS)}</span> <b className={sell.cls}>{sell.name}</b>
-              <span className="muted"> (≈{fmt(r.perUnit)} ex)</span> per loop, minus ~<span className="num">{fmt(goldPerUnit, 0)}</span> gold in fees
+              Net <span className="num profit">+{fmt(netLot)}</span> <b className={sell.cls}>{sell.name}</b>
+              <span className="muted"> (≈{fmt(netLotEx)} ex)</span> per lot of {fmt(lot, 0)}, minus ~<span className="num">{fmt(goldPerLot, 0)}</span> gold in fees
             </li>
           </ol>
           <div className="pb-scale muted">
-            At your capital: ~<span className="num">{fmt(r.units, 0)}</span> loops → ~<span className="num profit">{fmt(r.totalProfit, 0)}</span> ex
+            At your capital: ~<span className="num">{fmt(r.units, 0)}</span> units (~<span className="num">{fmt(capLots, 0)}</span> lots) → ~<span className="num profit">{fmt(r.totalProfit, 0)}</span> ex
             for ~<span className="num">{fmt(goldPerUnit * r.units, 0)}</span> gold. Clearing the whole ~{fmt(r.vol, 0)}-unit book ≈{' '}
             <span className="num profit">{fmt(r.realisticTotal, 0)}</span> ex for ~<span className="num">{fmt(goldPerUnit * r.vol, 0)}</span> gold.
           </div>

@@ -283,6 +283,12 @@ tr.rowdetail td { padding: 4px 12px 16px; white-space: normal; }
 }
 .steps .step-result { margin-top: 4px; padding-top: 8px; border-top: 1px dashed var(--border); }
 .steps .step-result .step-n { background: rgba(52, 211, 153, .14); color: var(--profit); border-color: rgba(52, 211, 153, .4); }
+/* the actual integer "give : get" order you place in the in-game exchange */
+.steps .ratio {
+  display: inline-block; padding: 1px 8px; border-radius: 6px;
+  background: rgba(255, 255, 255, .05); border: 1px solid var(--border);
+  font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap;
+}
 .pb-scale { font-size: 12px; margin-top: 9px; line-height: 1.6; }
 
 /* 7-day price sparkline */
