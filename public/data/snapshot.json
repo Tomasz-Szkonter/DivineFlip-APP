@@ -345,7 +345,7 @@
       44.1589
     ]
   },
-  "updated": "2026-08-09T16:22:39.439Z",
+  "updated": "2026-08-09T17:02:52.593Z",
   "source": "github-action",
   "items": [
     {
@@ -377,8 +377,7 @@
         186.239,
         176.73,
         173.014
-      ],
-      "vph": 513
+      ]
     },
     {
       "name": "Omen of Chaotic Rarity",
@@ -409,8 +408,7 @@
         135.639,
         136.886,
         147.034
-      ],
-      "vph": 272
+      ]
     },
     {
       "name": "Orb of Annulment",
@@ -441,8 +439,7 @@
         205.682,
         193.709,
         191.368
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Chaos Orb",
@@ -473,8 +470,7 @@
         135.147,
         133.514,
         132.109
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Vaal Orb",
@@ -505,8 +501,7 @@
         5.46307,
         5.51768,
         5.55917
-      ],
-      "vph": 3048
+      ]
     },
     {
       "name": "Omen of Abyssal Echoes",
@@ -537,8 +532,7 @@
         98.6154,
         87.5565,
         85.5306
-      ],
-      "vph": 57
+      ]
     },
     {
       "name": "Perfect Jeweller's Orb",
@@ -569,8 +563,7 @@
         128.726,
         129.887,
         131.233
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Perfect Exalted Orb",
@@ -601,8 +594,7 @@
         920.212,
         912.259,
         914.938
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Omen of Chaotic Monsters",
@@ -633,8 +625,7 @@
         60.7165,
         56.3261,
         56.0488
-      ],
-      "vph": 441
+      ]
     },
     {
       "name": "Preserved Cranium",
@@ -665,8 +656,7 @@
         4758.75,
         4429.27,
         4197.03
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Sibilant Catalyst",
@@ -697,8 +687,7 @@
         73.7129,
         76.3498,
         76.0321
-      ],
-      "vph": 237
+      ]
     },
     {
       "name": "Perfect Orb of Augmentation",
@@ -729,8 +718,7 @@
         36.4445,
         35.0255,
         35.3863
-      ],
-      "vph": 59
+      ]
     },
     {
       "name": "Kulemak's Invitation",
@@ -761,8 +749,7 @@
         1068.89,
         1029.03,
         1023.42
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Expedition Logbook",
@@ -793,8 +780,7 @@
         584.577,
         585.048,
         574.481
-      ],
-      "vph": 15
+      ]
     },
     {
       "name": "Omen of Amelioration",
@@ -825,8 +811,7 @@
         34.0295,
         32.0489,
         31.0341
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Perfect Chaos Orb",
@@ -857,8 +842,7 @@
         1597.06,
         1534.36,
         1549.29
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Head of the King",
@@ -889,8 +873,7 @@
         1021.15,
         993.507,
         1029.81
-      ],
-      "vph": 4
+      ]
     },
     {
       "name": "Ancient Crisis Fragment",
@@ -921,8 +904,7 @@
         433.188,
         427.631,
         436.222
-      ],
-      "vph": 63
+      ]
     },
     {
       "name": "Masterwork Rune",
@@ -953,8 +935,7 @@
         279.632,
         269.24,
         252.52
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Gemcutter's Prism",
@@ -985,8 +966,7 @@
         7.03102,
         7.4097,
         9.28049
-      ],
-      "vph": 383
+      ]
     },
     {
       "name": "Vaal Cultivation Orb",
@@ -1017,8 +997,7 @@
         574.377,
         541.206,
         546.566
-      ],
-      "vph": 14
+      ]
     },
     {
       "name": "Omen of Dextral Crystallisation",
@@ -1049,8 +1028,7 @@
         112.416,
         118.904,
         119.373
-      ],
-      "vph": 31
+      ]
     },
     {
       "name": "Omen of Bartering",
@@ -1081,8 +1059,7 @@
         16.1988,
         16.6381,
         16.4977
-      ],
-      "vph": 555
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 20)",
@@ -1113,8 +1090,7 @@
         1950.78,
         1907.34,
         1903.75
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Architect's Orb",
@@ -1145,8 +1121,7 @@
         1657.83,
         1625.1,
         1537.05
-      ],
-      "vph": 4
+      ]
     },
     {
       "name": "Simulacrum",
@@ -1177,8 +1152,7 @@
         1124.65,
         1123.1,
         1118.85
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Omen of Chaotic Effectiveness",
@@ -1209,8 +1183,7 @@
         28.7208,
         28.2234,
         27.0521
-      ],
-      "vph": 223
+      ]
     },
     {
       "name": "Potent Liquid Ferocity",
@@ -1241,8 +1214,7 @@
         828.675,
         756.06,
         729.682
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Liquid Verisium",
@@ -1273,8 +1245,7 @@
         15.1894,
         16.4369,
         15.8461
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Reaver Catalyst",
@@ -1305,8 +1276,7 @@
         25.0989,
         26.3362,
         34.843
-      ],
-      "vph": 80
+      ]
     },
     {
       "name": "Greater Exalted Orb",
@@ -1337,8 +1307,7 @@
         5.37329,
         5.19141,
         5.22334
-      ],
-      "vph": 1327
+      ]
     },
     {
       "name": "Fracturing Orb",
@@ -1369,8 +1338,7 @@
         3709.2,
         3693.25,
         3687.85
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Perfect Regal Orb",
@@ -1401,8 +1369,7 @@
         39.6552,
         30.4024,
         27.8462
-      ],
-      "vph": 156
+      ]
     },
     {
       "name": "Ancient Jawbone",
@@ -1433,8 +1400,7 @@
         930.707,
         932.961,
         885.337
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Potent Liquid Contempt",
@@ -1465,8 +1431,7 @@
         209.314,
         209.729,
         204.974
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Armourer's Scrap",
@@ -1497,8 +1462,7 @@
         2.07782,
         2.04735,
         1.95594
-      ],
-      "vph": 2271
+      ]
     },
     {
       "name": "Faded Crisis Fragment",
@@ -1529,8 +1493,7 @@
         2974.89,
         2706.38,
         2604.08
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Orb of Chance",
@@ -1561,8 +1524,7 @@
         8.5873,
         8.88037,
         8.51044
-      ],
-      "vph": 592
+      ]
     },
     {
       "name": "Vaal Armourer's Infuser",
@@ -1593,8 +1555,7 @@
         311.674,
         313.611,
         301.447
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Omen of Light",
@@ -1625,8 +1586,7 @@
         3462.07,
         3364.61,
         3303.92
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Breachstone",
@@ -1657,8 +1617,7 @@
         217.382,
         221.644,
         218.362
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uhtred's Saga",
@@ -1689,8 +1648,7 @@
         316.29,
         305.716,
         297.267
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Omen of Whittling",
@@ -1721,8 +1679,7 @@
         2937.13,
         2912.04,
         2869
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Crystallised Corruption",
@@ -1753,8 +1710,7 @@
         1102.42,
         1097.5,
         1082.26
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "An Audience with the King",
@@ -1785,8 +1741,7 @@
         112.078,
         87.3443,
         84.7717
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Perfect Iron Rune",
@@ -1817,8 +1772,7 @@
         528.18,
         533.176,
         543.659
-      ],
-      "vph": 8
+      ]
     },
     {
       "name": "Astrid's Creativity",
@@ -1849,8 +1803,7 @@
         687.843,
         634.358,
         591.145
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Celestial Alloy",
@@ -1881,8 +1834,7 @@
         191.778,
         187.905,
         197.211
-      ],
-      "vph": 7
+      ]
     },
     {
       "name": "Refined Reaver Catalyst",
@@ -1913,8 +1865,7 @@
         1264.18,
         1165.41,
         1197.05
-      ],
-      "vph": 10
+      ]
     },
     {
       "name": "Concentrated Liquid Isolation",
@@ -1945,8 +1896,7 @@
         218.858,
         215.153,
         210.754
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Origin Cradle",
@@ -1977,8 +1927,7 @@
         1236.25,
         1243.27,
         1212.67
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Soul Core of Azcapa",
@@ -2009,8 +1958,7 @@
         937.178,
         929.999,
         948.522
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Support Gem (Level 5)",
@@ -2041,8 +1989,7 @@
         6.96339,
         7.49494,
         7.65953
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Origin Spark",
@@ -2073,8 +2020,7 @@
         1482.75,
         1457.04,
         1446.93
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Essence of Hysteria",
@@ -2105,8 +2051,7 @@
         219.65,
         210.42,
         212.063
-      ],
-      "vph": 41
+      ]
     },
     {
       "name": "Omen of Sinistral Crystallisation",
@@ -2137,8 +2082,7 @@
         57.901,
         50.73,
         55.9238
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Refined Sibilant Catalyst",
@@ -2169,8 +2113,7 @@
         1862.41,
         1870.15,
         1840.89
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Omen of Sinistral Annulment",
@@ -2201,8 +2144,7 @@
         4888.89,
         4964.38,
         4888.68
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Perfect Desert Rune",
@@ -2264,8 +2206,7 @@
         0.0231069,
         0.0192173,
         0.0169479
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Fox Idol",
@@ -2296,8 +2237,7 @@
         291.38,
         308.707,
         299.638
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Call of the Shadows",
@@ -2328,8 +2268,7 @@
         32.6217,
         27.7053,
         25.9397
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Ancient Collarbone",
@@ -2360,8 +2299,7 @@
         1419.7,
         1432.13,
         1386.98
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Arcanist's Etcher",
@@ -2392,8 +2330,7 @@
         4.33857,
         5.05181,
         4.59129
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Ancient Rib",
@@ -2424,8 +2361,7 @@
         1588.37,
         1620.04,
         1558.04
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 20)",
@@ -2456,8 +2392,7 @@
         1978.16,
         1883.86,
         1910.42
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Refined Tul's Catalyst",
@@ -2488,8 +2423,7 @@
         61.0076,
         56.3389,
         61.0267
-      ],
-      "vph": 7
+      ]
     },
     {
       "name": "Soul Core of Quipolatl",
@@ -2520,8 +2454,7 @@
         439.27,
         439.498,
         447.915
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Olroth's Saga",
@@ -2552,8 +2485,7 @@
         151.371,
         145.663,
         131.317
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Refined Carapace Catalyst",
@@ -2584,8 +2516,7 @@
         76.3479,
         67.1064,
         73.3468
-      ],
-      "vph": 57
+      ]
     },
     {
       "name": "Ancient Infuser",
@@ -2616,8 +2547,7 @@
         113.243,
         115.771,
         110.151
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 14)",
@@ -2648,8 +2578,7 @@
         446.536,
         479.805,
         446.502
-      ],
-      "vph": 4
+      ]
     },
     {
       "name": "Breachlord Sac",
@@ -2711,8 +2640,7 @@
         246.866,
         251.52,
         230.52
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Omen of Resurgence",
@@ -2743,8 +2671,7 @@
         4.46091,
         4.72032,
         4.90262
-      ],
-      "vph": 75
+      ]
     },
     {
       "name": "Victorious Fate",
@@ -2775,8 +2702,7 @@
         2718.62,
         2758.28,
         2664.62
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Perfect Orb of Transmutation",
@@ -2807,8 +2733,7 @@
         5.18473,
         4.61809,
         4.91008
-      ],
-      "vph": 575
+      ]
     },
     {
       "name": "Simulacrum Splinter",
@@ -2839,8 +2764,7 @@
         3.6263,
         3.57656,
         3.5479
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Xopec's Soul Core of Power",
@@ -2871,8 +2795,7 @@
         673.681,
         695.486,
         652.55
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Refined Adaptive Catalyst",
@@ -2903,8 +2826,7 @@
         42.7374,
         41.8245,
         45.0029
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Refined Xoph's Catalyst",
@@ -2935,8 +2857,7 @@
         56.2024,
         52.5021,
         52.73
-      ],
-      "vph": 7
+      ]
     },
     {
       "name": "Cowardly Fate",
@@ -2967,8 +2888,7 @@
         2710.38,
         2744.73,
         2670.73
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Concentrated Liquid Suffering",
@@ -2999,8 +2919,7 @@
         59.9397,
         57.6318,
         59.3046
-      ],
-      "vph": 6
+      ]
     },
     {
       "name": "Tecrod's Gaze",
@@ -3062,8 +2981,7 @@
         967.016,
         930.176,
         862.847
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Refined Flesh Catalyst",
@@ -3094,8 +3012,7 @@
         49.015,
         50.1043,
         52.1596
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Breach Splinter",
@@ -3126,8 +3043,7 @@
         0.387536,
         0.400743,
         0.430314
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Breachlord's Amalgam",
@@ -3158,8 +3074,7 @@
         1574.67,
         1477.55,
         1503.93
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Orb of Alchemy",
@@ -3190,8 +3105,7 @@
         0.736929,
         0.710346,
         0.710249
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Refined Necrotic Catalyst",
@@ -3222,8 +3136,7 @@
         73.6293,
         75.4433,
         115.571
-      ],
-      "vph": 25
+      ]
     },
     {
       "name": "Orb of Extraction",
@@ -3254,8 +3167,7 @@
         135.496,
         125,
         142.216
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Skittering Catalyst",
@@ -3286,8 +3198,7 @@
         25.431,
         25.1877,
         27.1684
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Refined Uul-Netol's Catalyst",
@@ -3314,8 +3225,7 @@
         45.8136,
         50.0152,
         48.8943
-      ],
-      "vph": 6
+      ]
     },
     {
       "name": "Cadigan's Epiphany",
@@ -3346,8 +3256,7 @@
         172.168,
         160.904,
         162.449
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 8)",
@@ -3378,8 +3287,7 @@
         1240.62,
         1183.35,
         1122.39
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Omen of Dextral Erasure",
@@ -3410,8 +3318,7 @@
         3157.99,
         3054.29,
         2914.68
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Omen of Sinistral Exaltation",
@@ -3442,8 +3349,7 @@
         12.3959,
         12.567,
         12.2959
-      ],
-      "vph": 12
+      ]
     },
     {
       "name": "Amanamu's Tithe",
@@ -3474,8 +3380,7 @@
         785.238,
         759.057,
         634.772
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Serle's Triumph",
@@ -3506,8 +3411,7 @@
         569.953,
         565.657,
         522.623
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Weathered Crisis Fragment",
@@ -3538,8 +3442,7 @@
         237.216,
         217.317,
         208.543
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Omen of Sanctification",
@@ -3570,8 +3473,7 @@
         265.426,
         256.328,
         212.906
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Ancient Potent Liquid Contempt",
@@ -3602,8 +3504,7 @@
         1323.09,
         1267.53,
         1264.37
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Vaal Catalysing Infuser",
@@ -3634,8 +3535,7 @@
         1491.29,
         1547.13,
         1500.05
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Refined Neural Catalyst",
@@ -3666,8 +3566,7 @@
         49.7503,
         52.0636,
         53.7002
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Essence of the Breach",
@@ -3698,8 +3597,7 @@
         34.5373,
         33.1504,
         29.5702
-      ],
-      "vph": 72
+      ]
     },
     {
       "name": "Vaal Blacksmith's Infuser",
@@ -3730,8 +3628,7 @@
         67.2689,
         65.5269,
         64.7858
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 18)",
@@ -3762,8 +3659,7 @@
         27.9663,
         24.1087,
         22.0738
-      ],
-      "vph": 6
+      ]
     },
     {
       "name": "Preserved Collarbone",
@@ -3794,8 +3690,7 @@
         33.4757,
         33.8746,
         28.7937
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Deadly Fate",
@@ -3826,8 +3721,7 @@
         2717.83,
         2751.28,
         2667.5
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Omen of Dextral Annulment",
@@ -3858,8 +3752,7 @@
         3222.1,
         2691.35,
         2636.94
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Rabbit Idol",
@@ -3890,8 +3783,7 @@
         120.633,
         108.065,
         105.998
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 16)",
@@ -3922,8 +3814,7 @@
         267.539,
         263.63,
         272.868
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Raven-Touched Shard",
@@ -3981,8 +3872,7 @@
         26.6795,
         29.1803,
         35.7541
-      ],
-      "vph": 9
+      ]
     },
     {
       "name": "Omen of the Blessed",
@@ -4013,8 +3903,7 @@
         47.5763,
         52.4352,
         62.3319
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Kolr's Hunt",
@@ -4045,8 +3934,7 @@
         103.371,
         100.657,
         100.931
-      ],
-      "vph": 8
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 19)",
@@ -4077,8 +3965,7 @@
         38.6042,
         38.0301,
         36.6759
-      ],
-      "vph": 40
+      ]
     },
     {
       "name": "Soul Core of Zalatl",
@@ -4109,8 +3996,7 @@
         120.306,
         107.937,
         111.264
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Esh's Prowess",
@@ -4141,8 +4027,7 @@
         483.849,
         534.257,
         519.366
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Refined Esh's Catalyst",
@@ -4173,8 +4058,7 @@
         63.1474,
         58.8741,
         53.8687
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Tul's Catalyst",
@@ -4205,8 +4089,7 @@
         4.24229,
         4.55498,
         5.56746
-      ],
-      "vph": 48
+      ]
     },
     {
       "name": "Omen of the Blackblooded",
@@ -4237,8 +4120,7 @@
         75.1337,
         80.6215,
         76.455
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Essence of the Abyss",
@@ -4269,8 +4151,7 @@
         17.8686,
         15.1833,
         16.6692
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Blacksmith's Whetstone",
@@ -4301,8 +4182,7 @@
         1.53677,
         1.3859,
         1.40815
-      ],
-      "vph": 357
+      ]
     },
     {
       "name": "Sovereign Alloy",
@@ -4333,8 +4213,7 @@
         52.5787,
         53.494,
         58.1075
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Perfect Essence of the Infinite",
@@ -4365,8 +4244,7 @@
         18.7131,
         22.5405,
         18.9528
-      ],
-      "vph": 52
+      ]
     },
     {
       "name": "Olroth's Crest of the Sun",
@@ -4397,8 +4275,7 @@
         50.1892,
         51.1826,
         58.9957
-      ],
-      "vph": 14
+      ]
     },
     {
       "name": "Refined Skittering Catalyst",
@@ -4429,8 +4306,7 @@
         50.6519,
         44.3921,
         54.2331
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 10)",
@@ -4453,8 +4329,7 @@
         35.0236,
         33.5917,
         36.1065
-      ],
-      "vph": 28
+      ]
     },
     {
       "name": "Greater Rune of Alacrity",
@@ -4485,8 +4360,7 @@
         276.804,
         286.033,
         380.036
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Soul Core of Citaqualotl",
@@ -4517,8 +4391,7 @@
         58.9746,
         52.5647,
         52.0671
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Soul Core of Opiloti",
@@ -4541,8 +4414,7 @@
         7.47776,
         5.8267,
         9.89585
-      ],
-      "vph": 52
+      ]
     },
     {
       "name": "Xoph's Catalyst",
@@ -4573,8 +4445,7 @@
         3.57521,
         3.7013,
         3.5762
-      ],
-      "vph": 204
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 1)",
@@ -4605,8 +4476,7 @@
         141.694,
         128.469,
         120.212
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Greater Regal Orb",
@@ -4637,8 +4507,7 @@
         4.87696,
         4.72578,
         4.79193
-      ],
-      "vph": 107
+      ]
     },
     {
       "name": "Catha's Brilliance",
@@ -4669,8 +4538,7 @@
         226.286,
         213.213,
         242.475
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Glacial Rune",
@@ -4697,8 +4565,7 @@
         107.077,
         66.6071,
         61.2305
-      ],
-      "vph": 12
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 15)",
@@ -4729,8 +4596,7 @@
         390.835,
         386.679,
         362.784
-      ],
-      "vph": 4
+      ]
     },
     {
       "name": "Omen of Dextral Exaltation",
@@ -4761,8 +4627,7 @@
         4.99743,
         5.18365,
         5.12025
-      ],
-      "vph": 80
+      ]
     },
     {
       "name": "Altered Collarbone",
@@ -4793,8 +4658,7 @@
         866.123,
         834.914,
         786.484
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Cryptic Key",
@@ -4825,8 +4689,7 @@
         355.388,
         340.33,
         343.743
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Tzamoto's Soul Core of Ferocity",
@@ -4853,8 +4716,7 @@
         125.172,
         116.873,
         130.725
-      ],
-      "vph": 12
+      ]
     },
     {
       "name": "Arbiter's Ignition",
@@ -4885,8 +4747,7 @@
         491.239,
         428.447,
         353.485
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Omen of Greater Exaltation",
@@ -4917,8 +4778,7 @@
         3.03436,
         2.7768,
         2.83362
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Glassblower's Bauble",
@@ -4949,8 +4809,7 @@
         2.77771,
         2.72346,
         2.71334
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Carved Tenacity",
@@ -4977,8 +4836,7 @@
         230.621,
         236.254,
         233.912
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Medved's Saga",
@@ -5005,8 +4863,7 @@
         19.4866,
         20.4398,
         24.4593
-      ],
-      "vph": 27
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 7)",
@@ -5033,8 +4890,7 @@
         131.861,
         149.62,
         130.411
-      ],
-      "vph": 8
+      ]
     },
     {
       "name": "Atziri's Allure",
@@ -5092,8 +4948,7 @@
         22.5845,
         18.1283,
         16.1931
-      ],
-      "vph": 8
+      ]
     },
     {
       "name": "Esh's Catalyst",
@@ -5124,8 +4979,7 @@
         5.19243,
         4.67504,
         5.42657
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Lesser Glacial Rune",
@@ -5156,8 +5010,7 @@
         63.8498,
         47.0535,
         22.221
-      ],
-      "vph": 3
+      ]
     },
     {
       "name": "Sione's Temper",
@@ -5188,8 +5041,7 @@
         93.9544,
         90.1584,
         88.6469
-      ],
-      "vph": 4
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 4)",
@@ -5220,8 +5072,7 @@
         164.061,
         181.966,
         168.8
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Khatal's Rejuvenation",
@@ -5252,8 +5103,7 @@
         1237.99,
         1211.23,
         1219.02
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Refined Chayula's Catalyst",
@@ -5284,8 +5134,7 @@
         50.9449,
         47.851,
         49.4372
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 19)",
@@ -5316,8 +5165,7 @@
         11.2853,
         11.2876,
         9.75077
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Mórrigan's Insight",
@@ -5348,8 +5196,7 @@
         277.437,
         279.989,
         261.305
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Rune of Tithing",
@@ -5376,8 +5223,7 @@
         268.997,
         339.78,
         347.986
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Vision Rune",
@@ -5400,8 +5246,7 @@
         3.39246,
         3.0536,
         3.27518
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Ulaman's Gaze",
@@ -5428,8 +5273,7 @@
         224.772,
         134.032,
         104.896
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Rune of Leadership",
@@ -5460,8 +5304,7 @@
         311.044,
         285.761,
         259.601
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Rune of the Blossom",
@@ -5488,8 +5331,7 @@
         31.7397,
         32.8603,
         28.1438
-      ],
-      "vph": 9
+      ]
     },
     {
       "name": "Greater Robust Rune",
@@ -5512,8 +5354,7 @@
         7.39648,
         4.95694,
         10.3266
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Omen of the Hunt",
@@ -5536,8 +5377,7 @@
         178.093,
         205.092,
         191.885
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Rune of Foundations",
@@ -5564,8 +5404,7 @@
         44.599,
         41.4353,
         36.2152
-      ],
-      "vph": 14
+      ]
     },
     {
       "name": "Omen of the Ancients",
@@ -5596,8 +5435,7 @@
         6.6989,
         6.43305,
         6.20248
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Orb of Augmentation",
@@ -5628,8 +5466,7 @@
         0.297969,
         0.317957,
         0.340323
-      ],
-      "vph": 273
+      ]
     },
     {
       "name": "Amanamu's Gaze",
@@ -5660,8 +5497,7 @@
         111.825,
         124.239,
         171.668
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Xipocado's Soul Core of Dominion",
@@ -5684,8 +5520,7 @@
         34.8594,
         29.4407,
         27.2848
-      ],
-      "vph": 22
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 13)",
@@ -5712,8 +5547,7 @@
         77.2179,
         80.1696,
         89.7488
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Paquate's Pact",
@@ -5736,8 +5570,7 @@
         30.8268,
         16.1758,
         26.2446
-      ],
-      "vph": 11
+      ]
     },
     {
       "name": "Soul Core of Jiquani",
@@ -5768,8 +5601,7 @@
         186.639,
         182.52,
         203.506
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Vorana's Saga",
@@ -5796,8 +5628,7 @@
         22.6639,
         22.0338,
         18.7685
-      ],
-      "vph": 40
+      ]
     },
     {
       "name": "Liquid Disgust",
@@ -5820,8 +5651,7 @@
         1.73511,
         1.73001,
         1.57447
-      ],
-      "vph": 157
+      ]
     },
     {
       "name": "Ailith's Chimes",
@@ -5852,8 +5682,7 @@
         67.1159,
         67.3287,
         77.2285
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Opiloti's Soul Core of Assault",
@@ -5880,8 +5709,7 @@
         67.4257,
         89.0272,
         114.287
-      ],
-      "vph": 4
+      ]
     },
     {
       "name": "Necrotic Catalyst",
@@ -5912,8 +5740,7 @@
         2.83413,
         4.09471,
         3.34412
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Exceptional Verisium",
@@ -5944,8 +5771,7 @@
         1.19144,
         0.88402,
         1.15025
-      ],
-      "vph": 105
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 11)",
@@ -5972,8 +5798,7 @@
         48.6599,
         43.2603,
         45.0689
-      ],
-      "vph": 6
+      ]
     },
     {
       "name": "Neural Catalyst",
@@ -6004,8 +5829,7 @@
         3.33014,
         3.80721,
         4.15833
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Warding Rune of Reinforcement",
@@ -6036,8 +5860,7 @@
         119.716,
         76.8397,
         75.869
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Perfect Essence of Battle",
@@ -6068,8 +5891,7 @@
         10.0012,
         11.0279,
         10.7618
-      ],
-      "vph": 34
+      ]
     },
     {
       "name": "Warding Rune of Protection",
@@ -6092,8 +5914,7 @@
         24.9016,
         53.1175,
         23.5306
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Quipolatl's Soul Core of Flow",
@@ -6124,8 +5945,7 @@
         84.0595,
         74.3078,
         105.981
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Flesh Catalyst",
@@ -6156,8 +5976,7 @@
         0.914624,
         0.78744,
         1.10734
-      ],
-      "vph": 49
+      ]
     },
     {
       "name": "Vaal Arcanist's Infuser",
@@ -6184,8 +6003,7 @@
         6.66607,
         6.44946,
         6.55173
-      ],
-      "vph": 169
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 15)",
@@ -6208,8 +6026,7 @@
         10.2026,
         9.59146,
         11.3596
-      ],
-      "vph": 71
+      ]
     },
     {
       "name": "Gnawed Jawbone",
@@ -6232,8 +6049,7 @@
         11.2518,
         19.2852,
         20.9138
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Lesser Inspiration Rune",
@@ -6256,8 +6072,7 @@
         37.5465,
         30.9025,
         25.0994
-      ],
-      "vph": 9
+      ]
     },
     {
       "name": "Warding Rune of Heart",
@@ -6284,8 +6099,7 @@
         47.3136,
         38.7026,
         35.4058
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Gnawed Collarbone",
@@ -6308,8 +6122,7 @@
         13.2499,
         13.7355,
         27.717
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Lesser Resolve Rune",
@@ -6332,8 +6145,7 @@
         91.2622,
         90.1844,
         70.8612
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Soul Core of Xopec",
@@ -6356,8 +6168,7 @@
         9.61646,
         7.81268,
         8.56368
-      ],
-      "vph": 17
+      ]
     },
     {
       "name": "Essence of Delirium",
@@ -6388,8 +6199,7 @@
         290.481,
         253.46,
         183.815
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Idol of Eeshta",
@@ -6420,8 +6230,7 @@
         58.6528,
         65.5172,
         60.5562
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uhtred's Sidereus",
@@ -6452,8 +6261,7 @@
         65.5479,
         67.8944,
         72.7
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "The Runebinder's Alloy",
@@ -6476,8 +6284,7 @@
         30.2831,
         33.0743,
         28.6099
-      ],
-      "vph": 7
+      ]
     },
     {
       "name": "Idol of Grold",
@@ -6500,8 +6307,7 @@
         48.5593,
         57.8326,
         76.9485
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Soul Core of Zantipi",
@@ -6524,8 +6330,7 @@
         61.7851,
         61.9653,
         62.7212
-      ],
-      "vph": 16
+      ]
     },
     {
       "name": "Warding Starlit Ore",
@@ -6548,8 +6353,7 @@
         71.4961,
         67.4186,
         72.7327
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Void Flux",
@@ -6576,8 +6380,7 @@
         17.2839,
         15.2731,
         15.9761
-      ],
-      "vph": 9
+      ]
     },
     {
       "name": "Adept Rune",
@@ -6600,8 +6403,7 @@
         50.5249,
         35.9228,
         50.3737
-      ],
-      "vph": 4
+      ]
     },
     {
       "name": "Emergent Protection",
@@ -6624,8 +6426,7 @@
         73.7139,
         78.6597,
         108.973
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Lesser Iron Rune",
@@ -6652,8 +6453,7 @@
         48.1521,
         54.9685,
         77.0791
-      ],
-      "vph": 7
+      ]
     },
     {
       "name": "Ancient Potent Liquid Melancholy",
@@ -6684,8 +6484,7 @@
         15.2696,
         11.6965,
         12.8251
-      ],
-      "vph": 19
+      ]
     },
     {
       "name": "Omen of Secret Compartments",
@@ -6716,8 +6515,7 @@
         407.553,
         418.492,
         430.947
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uhtred's Constellation",
@@ -6744,8 +6542,7 @@
         112.844,
         98.7273,
         85.9485
-      ],
-      "vph": 4
+      ]
     },
     {
       "name": "Kopec's Orb of Sacrifice",
@@ -6776,8 +6573,7 @@
         56.3147,
         34.9706,
         53.3515
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Oisín's Oath",
@@ -6800,8 +6596,7 @@
         15.3557,
         15.7906,
         17.0199
-      ],
-      "vph": 24
+      ]
     },
     {
       "name": "Rune of the Prism",
@@ -6828,8 +6623,7 @@
         40.6438,
         65.7236,
         39.7192
-      ],
-      "vph": 8
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 7)",
@@ -6856,8 +6650,7 @@
         93.3602,
         86.1941,
         70.7865
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Artificer's Orb",
@@ -6888,8 +6681,7 @@
         1.83247,
         1.68779,
         1.38787
-      ],
-      "vph": 50
+      ]
     },
     {
       "name": "Lesser Storm Rune",
@@ -6916,8 +6708,7 @@
         64.621,
         53.7002,
         54.8584
-      ],
-      "vph": 7
+      ]
     },
     {
       "name": "Omen of Answered Prayers",
@@ -6944,8 +6735,7 @@
         88.7642,
         85.6786,
         99.2675
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Yaomac's Orb of Sacrifice",
@@ -6972,8 +6762,7 @@
         13.9141,
         17.044,
         15.1182
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Regal Orb",
@@ -7004,8 +6793,7 @@
         0.412298,
         0.389111,
         0.351849
-      ],
-      "vph": 996
+      ]
     },
     {
       "name": "Gnawed Rib",
@@ -7028,8 +6816,7 @@
         17.1767,
         7.74458,
         12.359
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Preserved Rib",
@@ -7060,8 +6847,7 @@
         3.50561,
         4.07517,
         3.43401
-      ],
-      "vph": 15
+      ]
     },
     {
       "name": "Greater Iron Rune",
@@ -7092,8 +6878,7 @@
         4.35049,
         3.7644,
         3.90976
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 8)",
@@ -7120,8 +6905,7 @@
         74.2351,
         81.2758,
         81.6685
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Soul Core of Atmohua",
@@ -7144,8 +6928,7 @@
         26.5012,
         22.2019,
         31.3681
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Warding Rune of Nourishment",
@@ -7199,8 +6982,7 @@
         34.4266,
         30.1691,
         28.384
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Resolve Rune",
@@ -7223,8 +7005,7 @@
         11.5373,
         7.00966,
         8.62506
-      ],
-      "vph": 35
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 9)",
@@ -7255,8 +7036,7 @@
         442.877,
         514.64,
         495.806
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Soul Core of Cholotl",
@@ -7283,8 +7063,7 @@
         125.839,
         154.356,
         173.516
-      ],
-      "vph": 3
+      ]
     },
     {
       "name": "Adaptive Catalyst",
@@ -7315,8 +7094,7 @@
         2.56236,
         2.20353,
         1.71495
-      ],
-      "vph": 111
+      ]
     },
     {
       "name": "Perfect Essence of Ice",
@@ -7339,8 +7117,7 @@
         3.95968,
         6.52971,
         4.23144
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Ward Rune",
@@ -7367,8 +7144,7 @@
         58.115,
         75.7681,
         44.476
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Greater Body Rune",
@@ -7391,8 +7167,7 @@
         7.47543,
         4.56924,
         2.63516
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Hedgewitch Assandra's Rune of Wisdom",
@@ -7423,8 +7198,7 @@
         37.4662,
         39.6934,
         31.9161
-      ],
-      "vph": 4
+      ]
     },
     {
       "name": "Saqawal's Rune of the Sky",
@@ -7451,8 +7225,7 @@
         28.3442,
         29.3904,
         28.5864
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "The Runefather's Alloy",
@@ -7475,8 +7248,7 @@
         7.82189,
         10.3834,
         11.1821
-      ],
-      "vph": 19
+      ]
     },
     {
       "name": "Zalatl's Soul Core of Insulation",
@@ -7499,8 +7271,7 @@
         5.57895,
         12.1258,
         8.23965
-      ],
-      "vph": 25
+      ]
     },
     {
       "name": "Saqawal's Rune of Memory",
@@ -7523,8 +7294,7 @@
         27.5884,
         34.8681,
         21.6016
-      ],
-      "vph": 9
+      ]
     },
     {
       "name": "Rune of Vitality",
@@ -7574,8 +7344,7 @@
         23.0588,
         25.4132,
         25.3095
-      ],
-      "vph": 3
+      ]
     },
     {
       "name": "Soul Core of Tacati",
@@ -7606,8 +7375,7 @@
         25.7497,
         23.7699,
         22.6568
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Runic Alloy",
@@ -7634,8 +7402,7 @@
         15.0437,
         11.9672,
         14.3834
-      ],
-      "vph": 20
+      ]
     },
     {
       "name": "Inspiration Rune",
@@ -7689,8 +7456,7 @@
         49.3176,
         46.5127,
         57.3027
-      ],
-      "vph": 4
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 11)",
@@ -7717,8 +7483,7 @@
         118.442,
         113.697,
         97.4858
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Thaumaturgic Flux (Level 12)",
@@ -7741,8 +7506,7 @@
         62.7694,
         37.0149,
         46.036
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Perfect Essence of Sorcery",
@@ -7765,8 +7529,7 @@
         2.75917,
         4.0207,
         2.67283
-      ],
-      "vph": 34
+      ]
     },
     {
       "name": "Chayula's Catalyst",
@@ -7797,8 +7560,7 @@
         2.81949,
         3.06613,
         2.46426
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Lesser Adept Rune",
@@ -7821,8 +7583,7 @@
         27.5684,
         30.7612,
         26.6625
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Thaumaturgic Flux (Level 13)",
@@ -7845,8 +7606,7 @@
         79.0979,
         33.0088,
         108.335
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Essence of the Body",
@@ -7869,8 +7629,7 @@
         1.88186,
         3.50643,
         3.4859
-      ],
-      "vph": 5
+      ]
     },
     {
       "name": "Uncut Support Gem (Level 4)",
@@ -7897,8 +7656,7 @@
         26.0529,
         21.8578,
         21.1143
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Essence of Abrasion",
@@ -7952,8 +7710,7 @@
         53.8845,
         86.1503,
         75.6115
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Ancient Rune of Detonation",
@@ -7976,8 +7733,7 @@
         22.6501,
         48.7871,
         88.5632
-      ],
-      "vph": 3
+      ]
     },
     {
       "name": "Zarokh's Refrain",
@@ -8004,8 +7760,7 @@
         79.5945,
         72.2149,
         105.397
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Brutus' Brain",
@@ -8032,8 +7787,7 @@
         39.7686,
         34.9089,
         38.7235
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Thaumaturgic Flux (Level 9)",
@@ -8079,8 +7833,7 @@
         25.2553,
         17.5938,
         21.0831
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 10)",
@@ -8103,8 +7856,7 @@
         15.9282,
         26.0281,
         22.4378
-      ],
-      "vph": 25
+      ]
     },
     {
       "name": "Blazing Flux",
@@ -8135,8 +7887,7 @@
         9.98552,
         13.3821,
         13.0955
-      ],
-      "vph": 6
+      ]
     },
     {
       "name": "Vorana's Crest of the Scythe",
@@ -8159,8 +7910,7 @@
         1.36027,
         2.23478,
         1.70195
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Essence of Insanity",
@@ -8183,8 +7933,7 @@
         10.4386,
         16.3882,
         16.6356
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Countess Seske's Rune of Archery",
@@ -8211,8 +7960,7 @@
         18.9436,
         14.3056,
         14.1961
-      ],
-      "vph": 4
+      ]
     },
     {
       "name": "Resolve Rune",
@@ -8235,8 +7983,7 @@
         40.2617,
         88.9449,
         56.3585
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Arbiter's Reach",
@@ -8259,8 +8006,7 @@
         125.985,
         128.044,
         134.51
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Iron Rune",
@@ -8291,8 +8037,7 @@
         103.582,
         85.7294,
         88.2618
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Scroll of Wisdom",
@@ -8323,8 +8068,7 @@
         0.0290509,
         0.0289885,
         0.0261284
-      ],
-      "vph": 3040
+      ]
     },
     {
       "name": "Soul Core of Puhuarte",
@@ -8347,8 +8091,7 @@
         9.56391,
         7.50144,
         8.50759
-      ],
-      "vph": 5
+      ]
     },
     {
       "name": "Potent Liquid Melancholy",
@@ -8375,8 +8118,7 @@
         4.08746,
         5.19236,
         6.02907
-      ],
-      "vph": 18
+      ]
     },
     {
       "name": "Omen of Catalysing Exaltation",
@@ -8407,8 +8149,7 @@
         11.371,
         11.4956,
         9.70362
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Essence of Opulence",
@@ -8435,8 +8176,7 @@
         9.57761,
         9.75143,
         6.78949
-      ],
-      "vph": 14
+      ]
     },
     {
       "name": "Emergent Instinct",
@@ -8463,8 +8203,7 @@
         297.908,
         240.447,
         295.9
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Vorana's Carnage",
@@ -8491,8 +8230,7 @@
         16.7686,
         18.3901,
         17.1868
-      ],
-      "vph": 3
+      ]
     },
     {
       "name": "Carapace Catalyst",
@@ -8523,8 +8261,7 @@
         1.64244,
         2.00159,
         1.78877
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Orb of Transmutation",
@@ -8555,8 +8292,7 @@
         0.210121,
         0.231145,
         0.225394
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Idol of Eramir",
@@ -8587,8 +8323,7 @@
         79.4955,
         73.8954,
         70.1605
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uromoti's Soul Core of Attenuation",
@@ -8611,8 +8346,7 @@
         23.247,
         31.6268,
         5.5812
-      ],
-      "vph": 24
+      ]
     },
     {
       "name": "Topotante's Soul Core of Dampening",
@@ -8635,8 +8369,7 @@
         7.05637,
         9.74283,
         7.99962
-      ],
-      "vph": 3
+      ]
     },
     {
       "name": "Omen of Putrefaction",
@@ -8663,8 +8396,7 @@
         2.40155,
         1.79566,
         1.33514
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Rune of the Hunt",
@@ -8687,8 +8419,7 @@
         24.2079,
         28.4475,
         17.2747
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 2)",
@@ -8715,8 +8446,7 @@
         21.0854,
         20.7138,
         38.7216
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Chilling Flux",
@@ -8747,8 +8477,7 @@
         9.97804,
         12.8994,
         10.7409
-      ],
-      "vph": 10
+      ]
     },
     {
       "name": "Protective Alloy",
@@ -8775,8 +8504,7 @@
         25.0846,
         28.3874,
         34.0571
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Kurgal's Leash",
@@ -8803,8 +8531,7 @@
         12.0701,
         12.6187,
         11.4742
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 9)",
@@ -8831,8 +8558,7 @@
         25.7391,
         45.2965,
         33.5019
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Storm Rune",
@@ -8859,8 +8585,7 @@
         101.13,
         71.4522,
         84.6152
-      ],
-      "vph": 6
+      ]
     },
     {
       "name": "Carved Mischief",
@@ -8891,8 +8616,7 @@
         81.6385,
         72.905,
         76.3224
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Jeweller's Orb",
@@ -8919,8 +8643,7 @@
         1.62232,
         1.66625,
         1.54249
-      ],
-      "vph": 72
+      ]
     },
     {
       "name": "Soul Core of Tzamoto",
@@ -8943,8 +8666,7 @@
         6.95053,
         5.33698,
         5.30043
-      ],
-      "vph": 11
+      ]
     },
     {
       "name": "Cholotl's Soul Core of War",
@@ -8967,8 +8689,7 @@
         7.87477,
         6.44839,
         8.5112
-      ],
-      "vph": 27
+      ]
     },
     {
       "name": "Transcendent Alloy",
@@ -8999,8 +8720,7 @@
         47.4637,
         31.623,
         44.6854
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Perfect Essence of Haste",
@@ -9027,8 +8747,7 @@
         7.3099,
         9.41505,
         8.83131
-      ],
-      "vph": 17
+      ]
     },
     {
       "name": "Thaumaturgic Flux (Level 20)",
@@ -9059,8 +8778,7 @@
         64.5623,
         64.7829,
         64.4564
-      ],
-      "vph": 3
+      ]
     },
     {
       "name": "Omen of Dextral Necromancy",
@@ -9091,8 +8809,7 @@
         3.52424,
         3.68357,
         2.986
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Perfect Essence of Enhancement",
@@ -9119,8 +8836,7 @@
         8.81938,
         10.9676,
         8.73765
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Farrul's Rune of the Hunt",
@@ -9151,8 +8867,7 @@
         8.46136,
         7.24861,
         6.95174
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Omen of the Sovereign",
@@ -9179,8 +8894,7 @@
         8.51884,
         12.6042,
         12.0345
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 12)",
@@ -9207,8 +8921,7 @@
         32.8299,
         36.5304,
         33.001
-      ],
-      "vph": 4
+      ]
     },
     {
       "name": "The Greatwolf's Rune of Willpower",
@@ -9235,8 +8948,7 @@
         13.1628,
         19.1321,
         20.349
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Yugul's Orb of Sacrifice",
@@ -9259,8 +8971,7 @@
         14.6564,
         25.8178,
         5.79027
-      ],
-      "vph": 8
+      ]
     },
     {
       "name": "Kaom's Madness",
@@ -9287,8 +8998,7 @@
         39.9457,
         44.0057,
         42.0696
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Essence of Haste",
@@ -9311,8 +9021,7 @@
         11.1551,
         34.1625,
         31.1458
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Essence of Enhancement",
@@ -9335,8 +9044,7 @@
         49.7413,
         152.262,
         451.906
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uhtred's Crest of the Chalice",
@@ -9363,8 +9071,7 @@
         5.11284,
         6.8785,
         4.30543
-      ],
-      "vph": 12
+      ]
     },
     {
       "name": "Greater Charging Rune",
@@ -9387,8 +9094,7 @@
         16.4928,
         27.9735,
         21.3162
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Hayoxi's Soul Core of Heatproofing",
@@ -9415,8 +9121,7 @@
         14.2583,
         8.87788,
         13.3351
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Thrud's Might",
@@ -9439,8 +9144,7 @@
         45.894,
         46.3353,
         58.9137
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 6)",
@@ -9463,8 +9167,7 @@
         5.13171,
         11.5039,
         5.04869
-      ],
-      "vph": 9
+      ]
     },
     {
       "name": "Greater Storm Rune",
@@ -9487,8 +9190,7 @@
         2.02083,
         2.50719,
         1.98122
-      ],
-      "vph": 25
+      ]
     },
     {
       "name": "Vilenta's Propulsion",
@@ -9515,8 +9217,7 @@
         9.96291,
         10.9935,
         15.0406
-      ],
-      "vph": 11
+      ]
     },
     {
       "name": "Rune of Consistency",
@@ -9539,8 +9240,7 @@
         35.3151,
         12.2856,
         24.1293
-      ],
-      "vph": 3
+      ]
     },
     {
       "name": "Omen of Reinforcements",
@@ -9567,8 +9267,7 @@
         79.8602,
         77.6976,
         89.2409
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Medved's Felling",
@@ -9599,8 +9298,7 @@
         152.719,
         374.027,
         337.579
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Greater Orb of Augmentation",
@@ -9627,8 +9325,7 @@
         0.379853,
         1.09265,
         0.342016
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Lesser Desert Rune",
@@ -9686,8 +9383,7 @@
         18.578,
         18.1111,
         24.0367
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Ratha's Assault",
@@ -9710,8 +9406,7 @@
         30.6987,
         18.6556,
         17.7609
-      ],
-      "vph": 6
+      ]
     },
     {
       "name": "Greater Essence of Seeking",
@@ -9742,8 +9437,7 @@
         6.42876,
         10.1187,
         14.7059
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Atziri's Impatience",
@@ -9770,8 +9464,7 @@
         15.3257,
         23.6669,
         22.459
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Rune of Renown",
@@ -9798,8 +9491,7 @@
         48.9641,
         56.8944,
         61.432
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Twilight Reliquary Key",
@@ -9830,8 +9522,7 @@
         6.73302,
         9.27473,
         7.40133
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Crackling Flux",
@@ -9862,8 +9553,7 @@
         11.6148,
         11.9722,
         11.8465
-      ],
-      "vph": 10
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 6)",
@@ -9890,8 +9580,7 @@
         54.6412,
         51.1323,
         55.8626
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Doedre's Undoing",
@@ -9918,8 +9607,7 @@
         42.7628,
         42.0586,
         40.5795
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Ancient Rune of Splinters",
@@ -9942,8 +9630,7 @@
         47.8104,
         60.0169,
         18.1634
-      ],
-      "vph": 7
+      ]
     },
     {
       "name": "Ahn's Citadel",
@@ -9970,8 +9657,7 @@
         42.4077,
         39.5108,
         32.484
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uul-Netol's Catalyst",
@@ -10002,8 +9688,7 @@
         1.24444,
         0.989962,
         1.5152
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Rune of Accumulation",
@@ -10026,8 +9711,7 @@
         397.377,
         122.059,
         33.6887
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Lesser Ward Rune",
@@ -10050,8 +9734,7 @@
         3.48519,
         2.4331,
         5.02302
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Ancient Rune of Witchcraft",
@@ -10074,8 +9757,7 @@
         5.46767,
         16.5213,
         23.5874
-      ],
-      "vph": 8
+      ]
     },
     {
       "name": "Lesser Essence of Command",
@@ -10121,8 +9803,7 @@
         67.1681,
         79.6866,
         6.89919
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Liquid Despair",
@@ -10153,8 +9834,7 @@
         5.25046,
         5.47159,
         5.38673
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Hayoxi's Fulmination",
@@ -10181,8 +9861,7 @@
         70.2352,
         109.251,
         101.624
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Courtesan Mannan's Rune of Cruelty",
@@ -10205,8 +9884,7 @@
         74.8071,
         64.8246,
         74.6616
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Prototype Seventeen",
@@ -10229,8 +9907,7 @@
         80.3126,
         80.6944,
         61.7087
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Essence of Abrasion",
@@ -10253,8 +9930,7 @@
         0.613075,
         1.29148,
         1.35861
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Fenumus' Rune of Draining",
@@ -10277,8 +9953,7 @@
         17.9233,
         16.0364,
         8.23
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Mind Rune",
@@ -10328,8 +10003,7 @@
         12.4495,
         9.54123,
         11.0612
-      ],
-      "vph": 31
+      ]
     },
     {
       "name": "Uncut Spirit Gem (Level 5)",
@@ -10360,8 +10034,7 @@
         79.9479,
         84.8108,
         106.307
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Greater Adept Rune",
@@ -10384,8 +10057,7 @@
         6.64342,
         5.86094,
         2.21688
-      ],
-      "vph": 14
+      ]
     },
     {
       "name": "Dominus' Grasp",
@@ -10412,8 +10084,7 @@
         27.5498,
         25.6821,
         24.2225
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Uncut Support Gem (Level 1)",
@@ -10440,8 +10111,7 @@
         7.2738,
         4.83069,
         9.23818
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Thaumaturgic Flux (Level 18)",
@@ -10464,8 +10134,7 @@
         12.7844,
         11.6294,
         18.0532
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Idol of Yeena",
@@ -10488,8 +10157,7 @@
         14.7241,
         19.4387,
         19.6554
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Greater Orb of Transmutation",
@@ -10516,8 +10184,7 @@
         0.266891,
         0.255333,
         0.287002
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Soul Core of Topotante",
@@ -10548,8 +10215,7 @@
         7.90802,
         6.51461,
         10.6162
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Katla's Gloom",
@@ -10576,8 +10242,7 @@
         50.8016,
         41.5471,
         30.2453
-      ],
-      "vph": 6
+      ]
     },
     {
       "name": "Thaumaturgic Flux (Level 19)",
@@ -10600,8 +10265,7 @@
         8.01933,
         5.23223,
         6.30621
-      ],
-      "vph": 8
+      ]
     },
     {
       "name": "Greater Glacial Rune",
@@ -10624,8 +10288,7 @@
         1.53259,
         2.14829,
         1.7281
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Omen of the Liege",
@@ -10648,8 +10311,7 @@
         1.84384,
         2.56294,
         2.8021
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Craiceann's Rune of Warding",
@@ -10676,8 +10338,7 @@
         36.8252,
         44.9437,
         60.5042
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Medved's Tending",
@@ -10704,8 +10365,7 @@
         37.0493,
         28.6374,
         125.592
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Omen of Sinistral Necromancy",
@@ -10736,8 +10396,7 @@
         1.95699,
         2.2578,
         1.83306
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Rune of Acrobatics",
@@ -10764,8 +10423,7 @@
         42.6172,
         25.7046,
         41.9926
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Diluted Liquid Greed",
@@ -10788,8 +10446,7 @@
         0.73604,
         0.926367,
         1.65912
-      ],
-      "vph": 3
+      ]
     },
     {
       "name": "Zerphi's Infamy",
@@ -10816,8 +10473,7 @@
         29.5023,
         39.8818,
         31.9993
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Expansive Alloy",
@@ -10844,8 +10500,7 @@
         19.4464,
         26.4704,
         19.0517
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 12)",
@@ -10868,8 +10523,7 @@
         10.9701,
         18.318,
         7.53316
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uhtred's Rite",
@@ -10896,8 +10550,7 @@
         85.8529,
         52.0418,
         74.6067
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Lesser Robust Rune",
@@ -10924,8 +10577,7 @@
         66.5714,
         78.4618,
         58.396
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 5)",
@@ -10956,8 +10608,7 @@
         43.7819,
         28.8572,
         26.6512
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Perfect Essence of Abrasion",
@@ -10980,8 +10631,7 @@
         9.04016,
         13.4625,
         6.8869
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Lesser Body Rune",
@@ -11008,8 +10658,7 @@
         9.95496,
         11.221,
         16.2171
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Mystic Alloy",
@@ -11036,8 +10685,7 @@
         14.9916,
         14.6669,
         14.7227
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Cyclonic Alloy",
@@ -11064,8 +10712,7 @@
         16.333,
         15.6648,
         17.1718
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Essence of Command",
@@ -11088,8 +10735,7 @@
         7.3651,
         4.69889,
         3.72138
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Idol of Sirrius",
@@ -11120,8 +10766,7 @@
         48.8579,
         58.4074,
         85.337
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Thaumaturgic Flux (Level 8)",
@@ -11167,8 +10812,7 @@
         27.3138,
         24.1286,
         47.1299
-      ],
-      "vph": 8
+      ]
     },
     {
       "name": "Thaumaturgic Flux (Level 16)",
@@ -11191,8 +10835,7 @@
         11.1444,
         10.1444,
         19.8075
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Idol of Alira",
@@ -11219,8 +10862,7 @@
         13.1548,
         18.9657,
         22.9327
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Diluted Liquid Guilt",
@@ -11243,8 +10885,7 @@
         0.321722,
         0.771259,
         0.231996
-      ],
-      "vph": 33
+      ]
     },
     {
       "name": "Desert Rune",
@@ -11298,8 +10939,7 @@
         5.88428,
         9.09253,
         18.2516
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Lesser Rebirth Rune",
@@ -11322,8 +10962,7 @@
         14,
         9.18613,
         6.45455
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Kalisa's Crescendo",
@@ -11350,8 +10989,7 @@
         19.387,
         52.4404,
         25.706
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Ritualistic Reliquary Key",
@@ -11405,8 +11043,7 @@
         22.12,
         31.7167,
         26.7846
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 17)",
@@ -11433,8 +11070,7 @@
         2.34434,
         1.98208,
         1.49443
-      ],
-      "vph": 44
+      ]
     },
     {
       "name": "Idol of Maxarius",
@@ -11457,8 +11093,7 @@
         26.5205,
         37.893,
         29.6076
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Idol of Kraityn",
@@ -11481,8 +11116,7 @@
         10.5967,
         9.95244,
         17.1947
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Olroth's Hubris",
@@ -11509,8 +11143,7 @@
         104.872,
         67.2981,
         59.2908
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Swift Alloy",
@@ -11537,8 +11170,7 @@
         5.71559,
         6.11555,
         5.40826
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Breath of Aldur",
@@ -11561,8 +11193,7 @@
         19.3318,
         11.6033,
         7.60853
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Citaqualotl's Soul Core of Foulness",
@@ -11608,8 +11239,7 @@
         1.6704,
         2.70167,
         4.02956
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Ancient Concentrated Liquid Isolation",
@@ -11636,8 +11266,7 @@
         25.6738,
         29.7209,
         28.2867
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Ox Idol",
@@ -11660,8 +11289,7 @@
         4.55402,
         5.88692,
         10.5089
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Essence of Ruin",
@@ -11688,8 +11316,7 @@
         4.87,
         4.32774,
         3.99063
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 13)",
@@ -11720,8 +11347,7 @@
         14.1076,
         14.2276,
         20.7004
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Styrn's Mountain",
@@ -11748,8 +11374,7 @@
         46.8517,
         90.3156,
         109.006
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Tecrod's Revenge",
@@ -11776,8 +11401,7 @@
         31.5309,
         32.1035,
         34.7051
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Medved's Crest of the Circle",
@@ -11800,8 +11424,7 @@
         0.242052,
         0.32544,
         0.290277
-      ],
-      "vph": 45
+      ]
     },
     {
       "name": "Lesser Jeweller's Orb",
@@ -11824,8 +11447,7 @@
         0.407236,
         0.149882,
         0.0804544
-      ],
-      "vph": 136
+      ]
     },
     {
       "name": "Chance Shard",
@@ -11875,8 +11497,7 @@
         18.7059,
         21.2508,
         17.0685
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Arjun's Medal",
@@ -11903,8 +11524,7 @@
         28.2557,
         17.4454,
         21.9532
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Warding Rune of Armature",
@@ -11927,8 +11547,7 @@
         44.4172,
         59.2764,
         25.7186
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Estazunti's Soul Core of Convalescence",
@@ -11959,8 +11578,7 @@
         28.1446,
         25.8298,
         37.2437
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 4)",
@@ -11987,8 +11605,7 @@
         31.135,
         24.2135,
         23.6384
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Idol of Thruldana",
@@ -12019,8 +11636,7 @@
         66.3455,
         42.7594,
         38.5619
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Perfect Essence of the Mind",
@@ -12047,8 +11663,7 @@
         4.86338,
         10.6695,
         10.7027
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Soul Core of Ticaba",
@@ -12075,8 +11690,7 @@
         51.1829,
         44.6792,
         45.0608
-      ],
-      "vph": 4
+      ]
     },
     {
       "name": "Vision Rune",
@@ -12099,8 +11713,7 @@
         11,
         31.8623,
         50.7057
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Farrul's Rune of Grace",
@@ -12123,8 +11736,7 @@
         13.7803,
         10.4971,
         20.7718
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Lady Hestra's Rune of Winter",
@@ -12170,8 +11782,7 @@
         70.639,
         46.493,
         52.1862
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Essence of Thawing",
@@ -12198,8 +11809,7 @@
         1.82368,
         4.94478,
         3.64672
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Einhar's Beastrite",
@@ -12226,8 +11836,7 @@
         32.8562,
         42.8753,
         98.7497
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Atmohua's Soul Core of Retreat",
@@ -12254,8 +11863,7 @@
         11.934,
         11.7281,
         28.3202
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Essence of Grounding",
@@ -12347,8 +11955,7 @@
         29.2393,
         7.28769,
         7.15679
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Lesser Essence of Abrasion",
@@ -12394,8 +12001,7 @@
         1.64892,
         2.42156,
         0.951442
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Bhatair's Vengeance",
@@ -12418,8 +12024,7 @@
         7.87433,
         7.80912,
         13.4749
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Vaal Siphoner",
@@ -12473,8 +12078,7 @@
         23.647,
         34.0051,
         30.528
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Idol of Oak",
@@ -12501,8 +12105,7 @@
         21.8646,
         20.186,
         30.3738
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Ancient Concentrated Liquid Suffering",
@@ -12529,8 +12132,7 @@
         6.78598,
         5.36511,
         7.10693
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Prismatic Alloy",
@@ -12557,8 +12159,7 @@
         4.50413,
         4.24417,
         6.57606
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Warding Rune of Bodyguards",
@@ -12581,8 +12182,7 @@
         6.37602,
         6.44235,
         3.59259
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Inspiration Rune",
@@ -12605,8 +12205,7 @@
         0.630169,
         0.469009,
         1.44086
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Saqawal's Rune of Erosion",
@@ -12629,8 +12228,7 @@
         19.2656,
         16.8276,
         7.74892
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Diluted Liquid Ire",
@@ -12653,8 +12251,7 @@
         0.129723,
         0.265728,
         0.139685
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Preserved Jawbone",
@@ -12685,8 +12282,7 @@
         1.34464,
         1.61607,
         1.23049
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 14)",
@@ -12717,8 +12313,7 @@
         4.30023,
         3.65094,
         4.12159
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Xibaqua's Rending",
@@ -12745,8 +12340,7 @@
         70.3302,
         69.5138,
         73.6907
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uruk's Smelting",
@@ -12777,8 +12371,7 @@
         15.6523,
         27.5493,
         30.463
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Betrayal of Aldur",
@@ -12805,8 +12398,7 @@
         34.2751,
         27.8694,
         33.933
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 3)",
@@ -12837,8 +12429,7 @@
         4.25334,
         5.0595,
         5.65806
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Rebirth Rune",
@@ -12861,8 +12452,7 @@
         3.60711,
         5.63047,
         0.787358
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Lesser Essence of Grounding",
@@ -12908,8 +12498,7 @@
         0.162843,
         1.31487,
         1.1035
-      ],
-      "vph": 3
+      ]
     },
     {
       "name": "Vruun's Inevitability",
@@ -12932,8 +12521,7 @@
         29.7871,
         9.50975,
         9.1916
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Daresso's Passion",
@@ -12956,8 +12544,7 @@
         7.5579,
         1.88415,
         2.39021
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Wolf Idol",
@@ -12980,8 +12567,7 @@
         4.65533,
         4.67852,
         3.14578
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Essence of Insulation",
@@ -13004,8 +12590,7 @@
         1.72629,
         1.00027,
         0.845011
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Trickster's Shard",
@@ -13036,8 +12621,7 @@
         12.9761,
         18.0805,
         24.1549
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Desert Rune",
@@ -13064,8 +12648,7 @@
         1.31827,
         2.48759,
         1.73657
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Fenumus' Rune of Agony",
@@ -13092,8 +12675,7 @@
         23.0687,
         25.8381,
         26.2772
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Uncut Skill Gem (Level 18)",
@@ -13124,8 +12706,7 @@
         2.28279,
         1.96196,
         1.11571
-      ],
-      "vph": 12
+      ]
     },
     {
       "name": "Warding Rune of Glancing",
@@ -13148,8 +12729,7 @@
         15.4242,
         35.0384,
         1.33333
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Warding Rune of Courage",
@@ -13172,8 +12752,7 @@
         1,
         4.55786,
         1
-      ],
-      "vph": 1
+      ]
     },
     {
       "name": "Perfect Essence of Electricity",
@@ -13242,8 +12821,7 @@
         5.94223,
         8.52357,
         10.1342
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Essence of Sorcery",
@@ -13266,8 +12844,7 @@
         1.42373,
         1.24522,
         0.217312
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Morgana's Tempest",
@@ -13294,8 +12871,7 @@
         37.9978,
         48.5826,
         19.7131
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Thane Grannell's Rune of Mastery",
@@ -13322,8 +12898,7 @@
         20.7557,
         45.2697,
         22.5864
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Warding Rune of Equinox",
@@ -13354,8 +12929,7 @@
         34.4657,
         84.8263,
         176.352
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Bear Idol",
@@ -13382,8 +12956,7 @@
         9.26456,
         24.1597,
         16.5244
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Tasalio's Rhythm",
@@ -13410,8 +12983,7 @@
         33.6051,
         26.6956,
         24.3241
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Romira's Requital",
@@ -13438,8 +13010,7 @@
         6.76915,
         8.19791,
         8.19307
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Idol of Greust",
@@ -13493,8 +13064,7 @@
         27.3765,
         24.2948,
         23.0075
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Craiceann's Rune of Recovery",
@@ -13521,8 +13091,7 @@
         32.9192,
         37.416,
         20.4964
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Omen of Refreshment",
@@ -13549,8 +13118,7 @@
         1.07538,
         1.07299,
         1.13926
-      ],
-      "vph": 43
+      ]
     },
     {
       "name": "Stag Idol",
@@ -13596,8 +13164,7 @@
         12.4354,
         6.90526,
         5.64784
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Body Rune",
@@ -13620,8 +13187,7 @@
         39.0782,
         73.4938,
         51.13
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Thane Myrk's Rune of Summer",
@@ -13644,8 +13210,7 @@
         12.818,
         2.28476,
         10.5728
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Ancient Rune of Prowess",
@@ -13737,8 +13302,7 @@
         3.03691,
         2.9983,
         2.1123
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Idol of the Martyr",
@@ -13761,8 +13325,7 @@
         11.4867,
         30.0689,
         19.898
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Tacati's Ire",
@@ -13808,8 +13371,7 @@
         1.91219,
         0.781169,
         3.57869
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Cat Idol",
@@ -13878,8 +13440,7 @@
         0.634614,
         0.764581,
         0.127147
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Essence of Alacrity",
@@ -13929,8 +13490,7 @@
         4.00276,
         3.0856,
         4.54163
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Liquid Envy",
@@ -13957,8 +13517,7 @@
         1.37756,
         2.55529,
         2.38997
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Ancient Concentrated Liquid Fear",
@@ -13985,8 +13544,7 @@
         3.88791,
         4.16541,
         4.28689
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Greater Essence of Haste",
@@ -14013,8 +13571,7 @@
         4.32242,
         11.3517,
         8.58039
-      ],
-      "vph": 4
+      ]
     },
     {
       "name": "Guatelitzi's Soul Core of Endurance",
@@ -14076,8 +13633,7 @@
         13.7625,
         10.8203,
         10.2724
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Idol of the Pharisee",
@@ -14104,8 +13660,7 @@
         39.3738,
         33.3672,
         33.7979
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Omen of Gambling",
@@ -14132,8 +13687,7 @@
         1.01117,
         1.15305,
         1.31073
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Boar Idol",
@@ -14160,8 +13714,7 @@
         2.87469,
         9.93243,
         3.27463
-      ],
-      "vph": 2
+      ]
     },
     {
       "name": "Thane Girt's Rune of Wildness",
@@ -14192,8 +13745,7 @@
         8.45563,
         10.9293,
         11.6675
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Styrn's Ferocity",
@@ -14220,8 +13772,7 @@
         114.901,
         111.669,
         106.831
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Owl Idol",
@@ -14248,8 +13799,7 @@
         3.43589,
         17.7561,
         4.90796
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Thane Leld's Rune of Spring",
@@ -14276,8 +13826,7 @@
         22.7745,
         7.99641,
         13.2566
-      ],
-      "vph": 3
+      ]
     },
     {
       "name": "Greater Essence of Enhancement",
@@ -14304,8 +13853,7 @@
         1.40801,
         1.45817,
         4.8903
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Rune of Culmination",
@@ -14332,8 +13880,7 @@
         53.1268,
         53.3312,
         124.794
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Perfect Essence of Alacrity",
@@ -14360,8 +13907,7 @@
         3.15005,
         2.67808,
         1.16616
-      ],
-      "vph": null
+      ]
     },
     {
       "name": "Tangmazu's Thurible",
