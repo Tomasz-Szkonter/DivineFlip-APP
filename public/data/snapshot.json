@@ -2,9 +2,27 @@
   "league": "Forbidden Rites",
   "divinePrice": 0,
   "chaosPrice": null,
-  "epoch": null,
+  "epoch": 1788559200,
   "rateHist": null,
-  "updated": "2026-09-04T21:36:25.608Z",
+  "updated": "2026-09-04T23:34:13.995Z",
   "source": "github-action",
-  "items": []
+  "items": [
+    {
+      "name": "Regal Orb",
+      "cat": "currency",
+      "ex": 0.5,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 2
+        }
+      },
+      "spark": [
+        0.5
+      ]
+    }
+  ]
 }
