@@ -1,19 +1,1197 @@
 {
   "league": "Forbidden Rites",
-  "divinePrice": 0,
-  "chaosPrice": null,
-  "epoch": 1788559200,
-  "rateHist": null,
-  "updated": "2026-09-04T23:34:13.995Z",
+  "divinePrice": 34.8513,
+  "chaosPrice": 1.38868,
+  "epoch": 1788566400,
+  "rateHist": {
+    "div": [
+      31.3106,
+      34.8513
+    ],
+    "cha": [
+      1.74757,
+      1.38868
+    ]
+  },
+  "updated": "2026-09-05T02:03:49.097Z",
   "source": "github-action",
   "items": [
     {
+      "name": "Greater Jeweller's Orb",
+      "cat": "currency",
+      "ex": 10.2043,
+      "div": null,
+      "cha": null,
+      "vol": 93,
+      "liq": {
+        "ex": {
+          "s": 439,
+          "v": 949
+        }
+      },
+      "spark": [
+        8.42857,
+        10.2043
+      ]
+    },
+    {
+      "name": "Blacksmith's Whetstone",
+      "cat": "currency",
+      "ex": 0.669759,
+      "div": null,
+      "cha": null,
+      "vol": 539,
+      "liq": {
+        "ex": {
+          "s": 44,
+          "v": 361
+        }
+      },
+      "spark": [
+        0.481482,
+        0.669759
+      ]
+    },
+    {
+      "name": "Essence of Abrasion",
+      "cat": "essences",
+      "ex": 12.0455,
+      "div": null,
+      "cha": null,
+      "vol": 22,
+      "liq": {
+        "ex": {
+          "s": 81,
+          "v": 265
+        }
+      },
+      "spark": [
+        7.75,
+        12.0455
+      ]
+    },
+    {
+      "name": "Uncut Support Gem (Level 4)",
+      "cat": "uncutgems",
+      "ex": 1.5283,
+      "div": null,
+      "cha": null,
+      "vol": 159,
+      "liq": {
+        "ex": {
+          "s": 98,
+          "v": 243
+        }
+      },
+      "spark": [
+        2.2,
+        1.5283
+      ]
+    },
+    {
+      "name": "Gnawed Jawbone",
+      "cat": "abyss",
+      "ex": 3.26761,
+      "div": null,
+      "cha": null,
+      "vol": 71,
+      "liq": {
+        "ex": {
+          "s": 85,
+          "v": 232
+        }
+      },
+      "spark": [
+        2.5,
+        3.26761
+      ]
+    },
+    {
+      "name": "Uncut Support Gem (Level 5)",
+      "cat": "uncutgems",
+      "ex": 8.95833,
+      "div": null,
+      "cha": null,
+      "vol": 24,
+      "liq": {
+        "ex": {
+          "s": 148,
+          "v": 215
+        }
+      },
+      "spark": [
+        8.95833
+      ]
+    },
+    {
+      "name": "Uncut Support Gem (Level 3)",
+      "cat": "uncutgems",
+      "ex": 1.03205,
+      "div": null,
+      "cha": null,
+      "vol": 156,
+      "liq": {
+        "ex": {
+          "s": 21,
+          "v": 161
+        }
+      },
+      "spark": [
+        1.52381,
+        1.03205
+      ]
+    },
+    {
+      "name": "Orb of Alchemy",
+      "cat": "currency",
+      "ex": 0.444118,
+      "div": null,
+      "cha": null,
+      "vol": 340,
+      "liq": {
+        "ex": {
+          "s": 66,
+          "v": 151
+        }
+      },
+      "spark": [
+        0.736842,
+        0.444118
+      ]
+    },
+    {
+      "name": "Orb of Chance",
+      "cat": "currency",
+      "ex": 4.46154,
+      "div": null,
+      "cha": null,
+      "vol": 26,
+      "liq": {
+        "ex": {
+          "s": 42,
+          "v": 116
+        }
+      },
+      "spark": [
+        3,
+        4.46154
+      ]
+    },
+    {
       "name": "Regal Orb",
       "cat": "currency",
-      "ex": 0.5,
+      "ex": 0.231454,
+      "div": null,
+      "cha": null,
+      "vol": 337,
+      "liq": {
+        "ex": {
+          "s": 18,
+          "v": 78
+        }
+      },
+      "spark": [
+        0.5,
+        0.231454
+      ],
+      "vph": 166.5
+    },
+    {
+      "name": "Lesser Essence of Abrasion",
+      "cat": "essences",
+      "ex": 7.44444,
+      "div": null,
+      "cha": null,
+      "vol": 9,
+      "liq": {
+        "ex": {
+          "s": 29,
+          "v": 67
+        }
+      },
+      "spark": [
+        7.44444
+      ]
+    },
+    {
+      "name": "Artificer's Orb",
+      "cat": "currency",
+      "ex": 0.424837,
+      "div": null,
+      "cha": null,
+      "vol": 153,
+      "liq": {
+        "ex": {
+          "s": 5,
+          "v": 65
+        }
+      },
+      "spark": [
+        1,
+        0.424837
+      ]
+    },
+    {
+      "name": "Armourer's Scrap",
+      "cat": "currency",
+      "ex": 0.20462,
+      "div": null,
+      "cha": null,
+      "vol": 303,
+      "liq": {
+        "ex": {
+          "s": 53,
+          "v": 62
+        }
+      },
+      "spark": [
+        0.20462
+      ]
+    },
+    {
+      "name": "Greater Iron Rune",
+      "cat": "runes",
+      "ex": 1.82609,
+      "div": null,
+      "cha": null,
+      "vol": 23,
+      "liq": {
+        "ex": {
+          "s": 89,
+          "v": 42
+        }
+      },
+      "spark": [
+        3,
+        1.82609
+      ]
+    },
+    {
+      "name": "Greater Storm Rune",
+      "cat": "runes",
+      "ex": 2.33333,
+      "div": null,
+      "cha": null,
+      "vol": 18,
+      "liq": {
+        "ex": {
+          "s": 41,
+          "v": 42
+        }
+      },
+      "spark": [
+        2.33333
+      ]
+    },
+    {
+      "name": "Essence of Enhancement",
+      "cat": "essences",
+      "ex": 2.6,
+      "div": null,
+      "cha": null,
+      "vol": 15,
+      "liq": {
+        "ex": {
+          "s": 19,
+          "v": 39
+        }
+      },
+      "spark": [
+        3,
+        2.6
+      ]
+    },
+    {
+      "name": "Iron Rune",
+      "cat": "runes",
+      "ex": 1.05882,
+      "div": null,
+      "cha": null,
+      "vol": 34,
+      "liq": {
+        "ex": {
+          "s": 9,
+          "v": 36
+        }
+      },
+      "spark": [
+        1.66667,
+        1.05882
+      ]
+    },
+    {
+      "name": "Essence of Haste",
+      "cat": "essences",
+      "ex": 3.5,
+      "div": null,
+      "cha": null,
+      "vol": 10,
+      "liq": {
+        "ex": {
+          "s": 4,
+          "v": 35
+        }
+      },
+      "spark": [
+        3.5
+      ]
+    },
+    {
+      "name": "Uncut Support Gem (Level 2)",
+      "cat": "uncutgems",
+      "ex": 0.90625,
+      "div": null,
+      "cha": null,
+      "vol": 32,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 29
+        }
+      },
+      "spark": [
+        1,
+        0.90625
+      ]
+    },
+    {
+      "name": "Essence of Electricity",
+      "cat": "essences",
+      "ex": 3.85714,
+      "div": null,
+      "cha": null,
+      "vol": 7,
+      "liq": {
+        "ex": {
+          "s": 19,
+          "v": 27
+        }
+      },
+      "spark": [
+        2.5,
+        3.85714
+      ]
+    },
+    {
+      "name": "Essence of Sorcery",
+      "cat": "essences",
+      "ex": 2.6,
+      "div": null,
+      "cha": null,
+      "vol": 10,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 26
+        }
+      },
+      "spark": [
+        2.6
+      ]
+    },
+    {
+      "name": "Greater Essence of Abrasion",
+      "cat": "essences",
+      "ex": 25,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 75,
+          "v": 25
+        }
+      },
+      "spark": [
+        25
+      ]
+    },
+    {
+      "name": "Orb of Annulment",
+      "cat": "currency",
+      "ex": 3.66667,
+      "div": null,
+      "cha": null,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 15,
+          "v": 22
+        }
+      },
+      "spark": [
+        3.66667
+      ]
+    },
+    {
+      "name": "Essence of Flames",
+      "cat": "essences",
+      "ex": 2.33333,
+      "div": null,
+      "cha": null,
+      "vol": 9,
+      "liq": {
+        "ex": {
+          "s": 4,
+          "v": 21
+        }
+      },
+      "spark": [
+        2,
+        2.33333
+      ]
+    },
+    {
+      "name": "Gnawed Collarbone",
+      "cat": "abyss",
+      "ex": 1.61538,
+      "div": null,
+      "cha": null,
+      "vol": 13,
+      "liq": {
+        "ex": {
+          "s": 3,
+          "v": 21
+        }
+      },
+      "spark": [
+        1,
+        1.61538
+      ]
+    },
+    {
+      "name": "Storm Rune",
+      "cat": "runes",
+      "ex": 0.947368,
+      "div": null,
+      "cha": null,
+      "vol": 19,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 18
+        }
+      },
+      "spark": [
+        2,
+        0.947368
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 7)",
+      "cat": "uncutgems",
+      "ex": 1.63636,
+      "div": null,
+      "cha": null,
+      "vol": 11,
+      "liq": {
+        "ex": {
+          "s": 8,
+          "v": 18
+        }
+      },
+      "spark": [
+        1.63636
+      ]
+    },
+    {
+      "name": "Gemcutter's Prism",
+      "cat": "currency",
+      "ex": 3.95129,
+      "div": null,
+      "cha": 2.2022,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 295,
+          "v": 1468
+        },
+        "cha": {
+          "s": 58.3247,
+          "v": 10
+        }
+      },
+      "spark": [
+        4.49305,
+        3.94119
+      ]
+    },
+    {
+      "name": "Essence of Ice",
+      "cat": "essences",
+      "ex": 2.8,
+      "div": null,
+      "cha": null,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 3,
+          "v": 14
+        }
+      },
+      "spark": [
+        2.8
+      ]
+    },
+    {
+      "name": "Uncut Support Gem (Level 1)",
+      "cat": "uncutgems",
+      "ex": 0.857143,
+      "div": null,
+      "cha": null,
+      "vol": 14,
+      "liq": {
+        "ex": {
+          "s": 7,
+          "v": 12
+        }
+      },
+      "spark": [
+        1,
+        0.857143
+      ]
+    },
+    {
+      "name": "Essence of Command",
+      "cat": "essences",
+      "ex": 3,
       "div": null,
       "cha": null,
       "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 18,
+          "v": 12
+        }
+      },
+      "spark": [
+        1,
+        3
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 7)",
+      "cat": "uncutgems",
+      "ex": 1.57143,
+      "div": null,
+      "cha": null,
+      "vol": 7,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 11
+        }
+      },
+      "spark": [
+        1,
+        1.57143
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 1)",
+      "cat": "uncutgems",
+      "ex": 1.66667,
+      "div": null,
+      "cha": null,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 10,
+          "v": 10
+        }
+      },
+      "spark": [
+        1.5,
+        1.66667
+      ]
+    },
+    {
+      "name": "Lesser Iron Rune",
+      "cat": "runes",
+      "ex": 0.526316,
+      "div": null,
+      "cha": null,
+      "vol": 19,
+      "liq": {
+        "ex": {
+          "s": 13,
+          "v": 10
+        }
+      },
+      "spark": [
+        0.526316
+      ]
+    },
+    {
+      "name": "Greater Essence of Enhancement",
+      "cat": "essences",
+      "ex": 10,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 5,
+          "v": 10
+        }
+      },
+      "spark": [
+        10
+      ]
+    },
+    {
+      "name": "Gnawed Rib",
+      "cat": "abyss",
+      "ex": 0.833333,
+      "div": null,
+      "cha": null,
+      "vol": 12,
+      "liq": {
+        "ex": {
+          "s": 10,
+          "v": 10
+        }
+      },
+      "spark": [
+        0.833333
+      ]
+    },
+    {
+      "name": "Greater Glacial Rune",
+      "cat": "runes",
+      "ex": 2.25,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 9
+        }
+      },
+      "spark": [
+        2.25
+      ]
+    },
+    {
+      "name": "Ratha's Assault",
+      "cat": "lineagesupportgems",
+      "ex": 4.5,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 25,
+          "v": 9
+        }
+      },
+      "spark": [
+        4.5
+      ]
+    },
+    {
+      "name": "Greater Essence of Ice",
+      "cat": "essences",
+      "ex": 8,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 7,
+          "v": 8
+        }
+      },
+      "spark": [
+        8
+      ]
+    },
+    {
+      "name": "Glacial Rune",
+      "cat": "runes",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 7,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 7
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Essence of Insulation",
+      "cat": "essences",
+      "ex": 2.33333,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 11,
+          "v": 7
+        }
+      },
+      "spark": [
+        2.33333
+      ]
+    },
+    {
+      "name": "Lesser Essence of Electricity",
+      "cat": "essences",
+      "ex": 2,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 3,
+          "v": 6
+        }
+      },
+      "spark": [
+        2
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 5)",
+      "cat": "uncutgems",
+      "ex": 1.5,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 6
+        }
+      },
+      "spark": [
+        1.5
+      ]
+    },
+    {
+      "name": "Greater Desert Rune",
+      "cat": "runes",
+      "ex": 2,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 7,
+          "v": 6
+        }
+      },
+      "spark": [
+        2
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 5)",
+      "cat": "uncutgems",
+      "ex": 1.5,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 6
+        }
+      },
+      "spark": [
+        1.5
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 6)",
+      "cat": "uncutgems",
+      "ex": 2,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 6
+        }
+      },
+      "spark": [
+        2
+      ]
+    },
+    {
+      "name": "Lesser Essence of Sorcery",
+      "cat": "essences",
+      "ex": 2.5,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 5
+        }
+      },
+      "spark": [
+        2.5
+      ]
+    },
+    {
+      "name": "Lesser Essence of Haste",
+      "cat": "essences",
+      "ex": 2.5,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 5
+        }
+      },
+      "spark": [
+        2.5
+      ]
+    },
+    {
+      "name": "Greater Essence of Grounding",
+      "cat": "essences",
+      "ex": 5,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 5,
+          "v": 5
+        }
+      },
+      "spark": [
+        5
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 4)",
+      "cat": "uncutgems",
+      "ex": 1.25,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 5
+        }
+      },
+      "spark": [
+        1.25
+      ]
+    },
+    {
+      "name": "Lesser Glacial Rune",
+      "cat": "runes",
+      "ex": 0.666667,
+      "div": null,
+      "cha": null,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 4,
+          "v": 4
+        }
+      },
+      "spark": [
+        0.666667
+      ]
+    },
+    {
+      "name": "Desert Rune",
+      "cat": "runes",
+      "ex": 0.8,
+      "div": null,
+      "cha": null,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 4
+        }
+      },
+      "spark": [
+        0.8
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 8)",
+      "cat": "uncutgems",
+      "ex": 2,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 9,
+          "v": 4
+        }
+      },
+      "spark": [
+        2
+      ]
+    },
+    {
+      "name": "Greater Essence of Command",
+      "cat": "essences",
+      "ex": 4,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 9,
+          "v": 4
+        }
+      },
+      "spark": [
+        4
+      ]
+    },
+    {
+      "name": "Lesser Storm Rune",
+      "cat": "runes",
+      "ex": 0.444444,
+      "div": null,
+      "cha": null,
+      "vol": 9,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 4
+        }
+      },
+      "spark": [
+        1,
+        0.444444
+      ]
+    },
+    {
+      "name": "Essence of Seeking",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Lesser Essence of Insulation",
+      "cat": "essences",
+      "ex": 0.75,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 3
+        }
+      },
+      "spark": [
+        0.75
+      ]
+    },
+    {
+      "name": "Lesser Essence of Command",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 3
+        }
+      },
+      "spark": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 9)",
+      "cat": "uncutgems",
+      "ex": 3,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        3
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 4)",
+      "cat": "uncutgems",
+      "ex": 0.6,
+      "div": null,
+      "cha": null,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        0.6
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 11)",
+      "cat": "uncutgems",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 2)",
+      "cat": "uncutgems",
+      "ex": 1.5,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        1.5
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 12)",
+      "cat": "uncutgems",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Resolve Rune",
+      "cat": "runes",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Soul Core of Tacati",
+      "cat": "ultimatum",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 27,
+          "v": 3
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 9)",
+      "cat": "uncutgems",
+      "ex": 0.75,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        0.75
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 8)",
+      "cat": "uncutgems",
+      "ex": 1.5,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        1.5
+      ]
+    },
+    {
+      "name": "Greater Orb of Augmentation",
+      "cat": "currency",
+      "ex": 0.666667,
+      "div": null,
+      "cha": null,
+      "vol": 3,
       "liq": {
         "ex": {
           "s": 2,
@@ -21,7 +1199,438 @@
         }
       },
       "spark": [
-        0.5
+        0.666667
+      ]
+    },
+    {
+      "name": "Greater Orb of Transmutation",
+      "cat": "currency",
+      "ex": 2,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 2
+        }
+      },
+      "spark": [
+        2
+      ]
+    },
+    {
+      "name": "Chance Shard",
+      "cat": "currency",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Lesser Essence of Enhancement",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Lesser Essence of Flames",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Essence of Alacrity",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Lesser Essence of Ice",
+      "cat": "essences",
+      "ex": 2,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        2
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 10)",
+      "cat": "uncutgems",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 11)",
+      "cat": "uncutgems",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 12)",
+      "cat": "uncutgems",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Primate Idol",
+      "cat": "idol",
+      "ex": 2,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 18,
+          "v": 2
+        }
+      },
+      "spark": [
+        2
+      ]
+    },
+    {
+      "name": "Soul Core of Citaqualotl",
+      "cat": "ultimatum",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 6,
+          "v": 2
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Bear Idol",
+      "cat": "idol",
+      "ex": 2,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 3,
+          "v": 2
+        }
+      },
+      "spark": [
+        2
+      ]
+    },
+    {
+      "name": "Orb of Augmentation",
+      "cat": "currency",
+      "ex": 0.142857,
+      "div": null,
+      "cha": null,
+      "vol": 14,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        0.142857
+      ]
+    },
+    {
+      "name": "Orb of Transmutation",
+      "cat": "currency",
+      "ex": 0.105263,
+      "div": null,
+      "cha": null,
+      "vol": 19,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        0.105263
+      ]
+    },
+    {
+      "name": "Vision Rune",
+      "cat": "runes",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Lesser Adept Rune",
+      "cat": "runes",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 1
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Greater Resolve Rune",
+      "cat": "runes",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 1
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Essence of the Body",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Essence of Thawing",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 10)",
+      "cat": "uncutgems",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 6)",
+      "cat": "uncutgems",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Greater Robust Rune",
+      "cat": "runes",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Lesser Desert Rune",
+      "cat": "runes",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 3)",
+      "cat": "uncutgems",
+      "ex": 0.333333,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        0.333333
+      ]
+    },
+    {
+      "name": "Lesser Jeweller's Orb",
+      "cat": "currency",
+      "ex": 0.415276,
+      "div": null,
+      "cha": 0.830429,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 14,
+          "v": 165
+        },
+        "cha": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1.2087,
+        0.418062
       ]
     }
   ]
