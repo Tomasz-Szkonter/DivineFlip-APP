@@ -1,404 +1,2277 @@
 {
   "league": "Forbidden Rites",
-  "divinePrice": 34.8513,
-  "chaosPrice": 1.38868,
-  "epoch": 1788566400,
+  "divinePrice": 48.2875,
+  "chaosPrice": 1.53631,
+  "epoch": 1788584400,
   "rateHist": {
     "div": [
       31.3106,
-      34.8513
+      34.8513,
+      40.869,
+      43.6303,
+      47.8712,
+      47.2128,
+      48.2875
     ],
     "cha": [
       1.74757,
-      1.38868
+      1.38868,
+      1.44345,
+      1.52812,
+      1.53659,
+      1.57384,
+      1.53631
     ]
   },
-  "updated": "2026-09-05T02:03:49.097Z",
+  "updated": "2026-09-05T07:00:06.149Z",
   "source": "github-action",
   "items": [
     {
-      "name": "Greater Jeweller's Orb",
-      "cat": "currency",
-      "ex": 10.2043,
-      "div": null,
-      "cha": null,
-      "vol": 93,
-      "liq": {
-        "ex": {
-          "s": 439,
-          "v": 949
-        }
-      },
-      "spark": [
-        8.42857,
-        10.2043
-      ]
-    },
-    {
-      "name": "Blacksmith's Whetstone",
-      "cat": "currency",
-      "ex": 0.669759,
-      "div": null,
-      "cha": null,
-      "vol": 539,
-      "liq": {
-        "ex": {
-          "s": 44,
-          "v": 361
-        }
-      },
-      "spark": [
-        0.481482,
-        0.669759
-      ]
-    },
-    {
-      "name": "Essence of Abrasion",
-      "cat": "essences",
-      "ex": 12.0455,
-      "div": null,
-      "cha": null,
-      "vol": 22,
-      "liq": {
-        "ex": {
-          "s": 81,
-          "v": 265
-        }
-      },
-      "spark": [
-        7.75,
-        12.0455
-      ]
-    },
-    {
-      "name": "Uncut Support Gem (Level 4)",
-      "cat": "uncutgems",
-      "ex": 1.5283,
-      "div": null,
-      "cha": null,
-      "vol": 159,
-      "liq": {
-        "ex": {
-          "s": 98,
-          "v": 243
-        }
-      },
-      "spark": [
-        2.2,
-        1.5283
-      ]
-    },
-    {
-      "name": "Gnawed Jawbone",
+      "name": "Preserved Rib",
       "cat": "abyss",
-      "ex": 3.26761,
+      "ex": 9.91298,
       "div": null,
       "cha": null,
-      "vol": 71,
+      "vol": 655,
       "liq": {
         "ex": {
-          "s": 85,
-          "v": 232
+          "s": 570,
+          "v": 6493
         }
       },
       "spark": [
-        2.5,
-        3.26761
+        9.28606
       ]
     },
     {
-      "name": "Uncut Support Gem (Level 5)",
-      "cat": "uncutgems",
-      "ex": 8.95833,
-      "div": null,
-      "cha": null,
-      "vol": 24,
-      "liq": {
-        "ex": {
-          "s": 148,
-          "v": 215
-        }
-      },
-      "spark": [
-        8.95833
-      ]
-    },
-    {
-      "name": "Uncut Support Gem (Level 3)",
-      "cat": "uncutgems",
-      "ex": 1.03205,
-      "div": null,
-      "cha": null,
-      "vol": 156,
-      "liq": {
-        "ex": {
-          "s": 21,
-          "v": 161
-        }
-      },
-      "spark": [
-        1.52381,
-        1.03205
-      ]
-    },
-    {
-      "name": "Orb of Alchemy",
+      "name": "Perfect Jeweller's Orb",
       "cat": "currency",
-      "ex": 0.444118,
-      "div": null,
+      "ex": 88.4763,
+      "div": 2.03795,
       "cha": null,
-      "vol": 340,
+      "vol": 73,
       "liq": {
         "ex": {
-          "s": 66,
-          "v": 151
+          "s": 1072,
+          "v": 13312
+        },
+        "div": {
+          "s": 5267.96,
+          "v": 144
         }
       },
       "spark": [
-        0.736842,
-        0.444118
+        91.6159
       ]
     },
     {
-      "name": "Orb of Chance",
-      "cat": "currency",
-      "ex": 4.46154,
+      "name": "Medved's Crest of the Circle",
+      "cat": "verisium",
+      "ex": 36.1429,
       "div": null,
       "cha": null,
-      "vol": 26,
+      "vol": 63,
+      "liq": {
+        "ex": {
+          "s": 363,
+          "v": 2277
+        }
+      },
+      "spark": [
+        27.3989
+      ]
+    },
+    {
+      "name": "Omen of Light",
+      "cat": "ritual",
+      "ex": 43.9706,
+      "div": 1.49179,
+      "cha": null,
+      "vol": 42,
+      "liq": {
+        "ex": {
+          "s": 704,
+          "v": 2706
+        },
+        "div": {
+          "s": 1628.28,
+          "v": 55
+        }
+      },
+      "spark": [
+        64.5703
+      ]
+    },
+    {
+      "name": "Greater Essence of Grounding",
+      "cat": "essences",
+      "ex": 4.79429,
+      "div": null,
+      "cha": null,
+      "vol": 350,
+      "liq": {
+        "ex": {
+          "s": 138,
+          "v": 1678
+        }
+      },
+      "spark": [
+        4.41102
+      ],
+      "vph": 69.8
+    },
+    {
+      "name": "Greater Exalted Orb",
+      "cat": "currency",
+      "ex": 21.4103,
+      "div": null,
+      "cha": null,
+      "vol": 78,
+      "liq": {
+        "ex": {
+          "s": 305,
+          "v": 1670
+        }
+      },
+      "spark": [
+        20.9201
+      ]
+    },
+    {
+      "name": "Omen of Putrefaction",
+      "cat": "ritual",
+      "ex": 5.92391,
+      "div": null,
+      "cha": null,
+      "vol": 276,
+      "liq": {
+        "ex": {
+          "s": 180,
+          "v": 1635
+        }
+      },
+      "spark": [
+        6.5998
+      ]
+    },
+    {
+      "name": "Greater Essence of Thawing",
+      "cat": "essences",
+      "ex": 4.83025,
+      "div": null,
+      "cha": null,
+      "vol": 324,
+      "liq": {
+        "ex": {
+          "s": 143,
+          "v": 1565
+        }
+      },
+      "spark": [
+        4.61254
+      ]
+    },
+    {
+      "name": "Verisium",
+      "cat": "verisium",
+      "ex": 0.0233723,
+      "div": null,
+      "cha": null,
+      "vol": 23960,
       "liq": {
         "ex": {
           "s": 42,
-          "v": 116
+          "v": 560
         }
       },
       "spark": [
-        3,
-        4.46154
+        0.0415873
       ]
     },
     {
-      "name": "Regal Orb",
-      "cat": "currency",
-      "ex": 0.231454,
+      "name": "Vorana's Crest of the Scythe",
+      "cat": "verisium",
+      "ex": 25.9524,
       "div": null,
       "cha": null,
-      "vol": 337,
+      "vol": 21,
       "liq": {
         "ex": {
-          "s": 18,
-          "v": 78
+          "s": 268,
+          "v": 545
         }
       },
       "spark": [
-        0.5,
-        0.231454
-      ],
-      "vph": 166.5
+        11.4048
+      ]
     },
     {
-      "name": "Lesser Essence of Abrasion",
+      "name": "Greater Essence of Sorcery",
       "cat": "essences",
-      "ex": 7.44444,
+      "ex": 1.54867,
       "div": null,
       "cha": null,
-      "vol": 9,
+      "vol": 339,
       "liq": {
         "ex": {
-          "s": 29,
-          "v": 67
+          "s": 146,
+          "v": 525
         }
       },
       "spark": [
-        7.44444
+        2.74177
       ]
     },
     {
-      "name": "Artificer's Orb",
-      "cat": "currency",
-      "ex": 0.424837,
+      "name": "Primate Idol",
+      "cat": "idol",
+      "ex": 24.8095,
+      "div": null,
+      "cha": null,
+      "vol": 21,
+      "liq": {
+        "ex": {
+          "s": 251,
+          "v": 521
+        }
+      },
+      "spark": [
+        14.597
+      ],
+      "vph": 4
+    },
+    {
+      "name": "Omen of the Liege",
+      "cat": "ritual",
+      "ex": 3.16993,
       "div": null,
       "cha": null,
       "vol": 153,
       "liq": {
         "ex": {
-          "s": 5,
-          "v": 65
+          "s": 35,
+          "v": 485
+        }
+      },
+      "spark": [
+        3.75576
+      ]
+    },
+    {
+      "name": "Omen of Dextral Necromancy",
+      "cat": "ritual",
+      "ex": 2.02294,
+      "div": null,
+      "cha": null,
+      "vol": 218,
+      "liq": {
+        "ex": {
+          "s": 12,
+          "v": 441
+        }
+      },
+      "spark": [
+        3.807
+      ]
+    },
+    {
+      "name": "Ratha's Assault",
+      "cat": "lineagesupportgems",
+      "ex": 12.3143,
+      "div": null,
+      "cha": null,
+      "vol": 35,
+      "liq": {
+        "ex": {
+          "s": 75,
+          "v": 431
+        }
+      },
+      "spark": [
+        12.3308
+      ],
+      "vph": 6.6
+    },
+    {
+      "name": "Greater Essence of Command",
+      "cat": "essences",
+      "ex": 3.08,
+      "div": null,
+      "cha": null,
+      "vol": 125,
+      "liq": {
+        "ex": {
+          "s": 10,
+          "v": 385
+        }
+      },
+      "spark": [
+        5.42029
+      ],
+      "vph": 24.8
+    },
+    {
+      "name": "Greater Orb of Augmentation",
+      "cat": "currency",
+      "ex": 0.501608,
+      "div": null,
+      "cha": null,
+      "vol": 622,
+      "liq": {
+        "ex": {
+          "s": 38,
+          "v": 312
+        }
+      },
+      "spark": [
+        0.950641
+      ],
+      "vph": 123.8
+    },
+    {
+      "name": "Sione's Temper",
+      "cat": "lineagesupportgems",
+      "ex": 49.8,
+      "div": null,
+      "cha": null,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 201,
+          "v": 249
+        }
+      },
+      "spark": [
+        28.6
+      ]
+    },
+    {
+      "name": "Amanamu's Tithe",
+      "cat": "lineagesupportgems",
+      "ex": 26.4444,
+      "div": null,
+      "cha": null,
+      "vol": 9,
+      "liq": {
+        "ex": {
+          "s": 179,
+          "v": 238
+        }
+      },
+      "spark": [
+        14.2183
+      ]
+    },
+    {
+      "name": "Perfect Orb of Augmentation",
+      "cat": "currency",
+      "ex": 4.05263,
+      "div": null,
+      "cha": null,
+      "vol": 57,
+      "liq": {
+        "ex": {
+          "s": 46,
+          "v": 231
+        }
+      },
+      "spark": [
+        6.35088
+      ]
+    },
+    {
+      "name": "Rune of the Prism",
+      "cat": "runes",
+      "ex": 12.2941,
+      "div": null,
+      "cha": null,
+      "vol": 17,
+      "liq": {
+        "ex": {
+          "s": 49,
+          "v": 209
+        }
+      },
+      "spark": [
+        7.75829
+      ]
+    },
+    {
+      "name": "Saqawal's Rune of the Sky",
+      "cat": "runes",
+      "ex": 19.6,
+      "div": null,
+      "cha": null,
+      "vol": 10,
+      "liq": {
+        "ex": {
+          "s": 100,
+          "v": 196
+        }
+      },
+      "spark": [
+        11.3667
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 17)",
+      "cat": "uncutgems",
+      "ex": 2.39744,
+      "div": null,
+      "cha": null,
+      "vol": 78,
+      "liq": {
+        "ex": {
+          "s": 9,
+          "v": 187
+        }
+      },
+      "spark": [
+        3.03248
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 16)",
+      "cat": "uncutgems",
+      "ex": 1.55172,
+      "div": null,
+      "cha": null,
+      "vol": 116,
+      "liq": {
+        "ex": {
+          "s": 21,
+          "v": 180
+        }
+      },
+      "spark": [
+        1.69926
+      ]
+    },
+    {
+      "name": "Greater Essence of Ruin",
+      "cat": "essences",
+      "ex": 2.12048,
+      "div": null,
+      "cha": null,
+      "vol": 83,
+      "liq": {
+        "ex": {
+          "s": 25,
+          "v": 176
+        }
+      },
+      "spark": [
+        2.90183
+      ]
+    },
+    {
+      "name": "Essence of Grounding",
+      "cat": "essences",
+      "ex": 2.55738,
+      "div": null,
+      "cha": null,
+      "vol": 61,
+      "liq": {
+        "ex": {
+          "s": 23,
+          "v": 156
+        }
+      },
+      "spark": [
+        2.63932
+      ]
+    },
+    {
+      "name": "Perfect Essence of Enhancement",
+      "cat": "essences",
+      "ex": 6.375,
+      "div": null,
+      "cha": null,
+      "vol": 24,
+      "liq": {
+        "ex": {
+          "s": 26,
+          "v": 153
+        }
+      },
+      "spark": [
+        6.58333
+      ]
+    },
+    {
+      "name": "Greater Orb of Transmutation",
+      "cat": "currency",
+      "ex": 0.586873,
+      "div": null,
+      "cha": null,
+      "vol": 259,
+      "liq": {
+        "ex": {
+          "s": 19,
+          "v": 152
+        }
+      },
+      "spark": [
+        1.16835
+      ],
+      "vph": 51.6
+    },
+    {
+      "name": "Concentrated Liquid Fear",
+      "cat": "delirium",
+      "ex": 18.75,
+      "div": null,
+      "cha": null,
+      "vol": 8,
+      "liq": {
+        "ex": {
+          "s": 84,
+          "v": 150
+        }
+      },
+      "spark": [
+        24.125
+      ]
+    },
+    {
+      "name": "Soul Core of Quipolatl",
+      "cat": "ultimatum",
+      "ex": 29.8,
+      "div": null,
+      "cha": null,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 153,
+          "v": 149
+        }
+      },
+      "spark": [
+        29.1963
+      ]
+    },
+    {
+      "name": "Perfect Essence of Battle",
+      "cat": "essences",
+      "ex": 36.3945,
+      "div": 1.86722,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 485,
+          "v": 1604
+        },
+        "div": {
+          "s": 95.7812,
+          "v": 5
+        }
+      },
+      "spark": [
+        38.0275
+      ]
+    },
+    {
+      "name": "Storm Rune",
+      "cat": "runes",
+      "ex": 0.856287,
+      "div": null,
+      "cha": null,
+      "vol": 167,
+      "liq": {
+        "ex": {
+          "s": 57,
+          "v": 143
+        }
+      },
+      "spark": [
+        2,
+        0.834242
+      ],
+      "vph": 29.6
+    },
+    {
+      "name": "Omen of Sinistral Exaltation",
+      "cat": "ritual",
+      "ex": 2.07246,
+      "div": null,
+      "cha": null,
+      "vol": 69,
+      "liq": {
+        "ex": {
+          "s": 8,
+          "v": 143
+        }
+      },
+      "spark": [
+        2.4445
+      ]
+    },
+    {
+      "name": "Greater Essence of Flames",
+      "cat": "essences",
+      "ex": 1.05344,
+      "div": null,
+      "cha": null,
+      "vol": 131,
+      "liq": {
+        "ex": {
+          "s": 18,
+          "v": 138
+        }
+      },
+      "spark": [
+        3.42516
+      ]
+    },
+    {
+      "name": "Perfect Essence of Abrasion",
+      "cat": "essences",
+      "ex": 9.71429,
+      "div": null,
+      "cha": null,
+      "vol": 14,
+      "liq": {
+        "ex": {
+          "s": 25,
+          "v": 136
+        }
+      },
+      "spark": [
+        10.5714
+      ]
+    },
+    {
+      "name": "Rune of Renown",
+      "cat": "runes",
+      "ex": 15.1111,
+      "div": null,
+      "cha": null,
+      "vol": 9,
+      "liq": {
+        "ex": {
+          "s": 33,
+          "v": 136
+        }
+      },
+      "spark": [
+        14.7037
+      ]
+    },
+    {
+      "name": "Atalui's Bloodletting",
+      "cat": "lineagesupportgems",
+      "ex": 135.235,
+      "div": 0.647649,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 189,
+          "v": 100
+        },
+        "div": {
+          "s": 287.344,
+          "v": 1
+        }
+      },
+      "spark": [
+        60.6923
+      ]
+    },
+    {
+      "name": "Soul Core of Tacati",
+      "cat": "ultimatum",
+      "ex": 1.55172,
+      "div": null,
+      "cha": null,
+      "vol": 87,
+      "liq": {
+        "ex": {
+          "s": 94,
+          "v": 135
+        }
+      },
+      "spark": [
+        1.26177
+      ],
+      "vph": 16.8
+    },
+    {
+      "name": "Greater Essence of Ice",
+      "cat": "essences",
+      "ex": 1.20909,
+      "div": null,
+      "cha": null,
+      "vol": 110,
+      "liq": {
+        "ex": {
+          "s": 8,
+          "v": 133
+        }
+      },
+      "spark": [
+        3.98424
+      ],
+      "vph": 21.8
+    },
+    {
+      "name": "Uncut Skill Gem (Level 7)",
+      "cat": "uncutgems",
+      "ex": 2.15789,
+      "div": null,
+      "cha": null,
+      "vol": 57,
+      "liq": {
+        "ex": {
+          "s": 12,
+          "v": 123
         }
       },
       "spark": [
         1,
-        0.424837
-      ]
+        2.16462
+      ],
+      "vph": 10
     },
     {
-      "name": "Armourer's Scrap",
-      "cat": "currency",
-      "ex": 0.20462,
-      "div": null,
-      "cha": null,
-      "vol": 303,
-      "liq": {
-        "ex": {
-          "s": 53,
-          "v": 62
-        }
-      },
-      "spark": [
-        0.20462
-      ]
-    },
-    {
-      "name": "Greater Iron Rune",
+      "name": "Thane Leld's Rune of Spring",
       "cat": "runes",
-      "ex": 1.82609,
+      "ex": 11.9,
       "div": null,
       "cha": null,
-      "vol": 23,
+      "vol": 10,
       "liq": {
         "ex": {
-          "s": 89,
-          "v": 42
+          "s": 13,
+          "v": 119
         }
       },
       "spark": [
-        3,
-        1.82609
-      ]
-    },
-    {
-      "name": "Greater Storm Rune",
-      "cat": "runes",
-      "ex": 2.33333,
-      "div": null,
-      "cha": null,
-      "vol": 18,
-      "liq": {
-        "ex": {
-          "s": 41,
-          "v": 42
-        }
-      },
-      "spark": [
-        2.33333
-      ]
-    },
-    {
-      "name": "Essence of Enhancement",
-      "cat": "essences",
-      "ex": 2.6,
-      "div": null,
-      "cha": null,
-      "vol": 15,
-      "liq": {
-        "ex": {
-          "s": 19,
-          "v": 39
-        }
-      },
-      "spark": [
-        3,
-        2.6
-      ]
-    },
-    {
-      "name": "Iron Rune",
-      "cat": "runes",
-      "ex": 1.05882,
-      "div": null,
-      "cha": null,
-      "vol": 34,
-      "liq": {
-        "ex": {
-          "s": 9,
-          "v": 36
-        }
-      },
-      "spark": [
-        1.66667,
-        1.05882
+        12.9667
       ]
     },
     {
       "name": "Essence of Haste",
       "cat": "essences",
-      "ex": 3.5,
+      "ex": 3.02564,
       "div": null,
       "cha": null,
-      "vol": 10,
+      "vol": 39,
       "liq": {
         "ex": {
-          "s": 4,
-          "v": 35
+          "s": 24,
+          "v": 118
         }
       },
       "spark": [
-        3.5
-      ]
+        3.29487
+      ],
+      "vph": 5.8
     },
     {
-      "name": "Uncut Support Gem (Level 2)",
+      "name": "Uncut Support Gem (Level 1)",
       "cat": "uncutgems",
-      "ex": 0.90625,
+      "ex": 1.89655,
       "div": null,
       "cha": null,
-      "vol": 32,
+      "vol": 58,
       "liq": {
         "ex": {
-          "s": 2,
-          "v": 29
+          "s": 26,
+          "v": 110
         }
       },
       "spark": [
         1,
-        0.90625
-      ]
+        1.53935
+      ],
+      "vph": 8.8
     },
     {
-      "name": "Essence of Electricity",
-      "cat": "essences",
-      "ex": 3.85714,
-      "div": null,
-      "cha": null,
-      "vol": 7,
+      "name": "Greater Jeweller's Orb",
+      "cat": "currency",
+      "ex": 12.0985,
+      "div": 0.439632,
+      "cha": 7.30178,
+      "vol": 9,
       "liq": {
         "ex": {
-          "s": 19,
-          "v": 27
+          "s": 1645,
+          "v": 25134
+        },
+        "div": {
+          "s": 143.672,
+          "v": 3
+        },
+        "cha": {
+          "s": 287.291,
+          "v": 493
         }
       },
       "spark": [
-        2.5,
-        3.85714
+        8.42857,
+        11.4167
+      ],
+      "vph": null
+    },
+    {
+      "name": "Farrul's Rune of the Hunt",
+      "cat": "runes",
+      "ex": 11.7778,
+      "div": null,
+      "cha": null,
+      "vol": 9,
+      "liq": {
+        "ex": {
+          "s": 7,
+          "v": 106
+        }
+      },
+      "spark": [
+        9.13889
       ]
     },
     {
-      "name": "Essence of Sorcery",
+      "name": "Greater Essence of Alacrity",
       "cat": "essences",
-      "ex": 2.6,
+      "ex": 1.56061,
+      "div": null,
+      "cha": null,
+      "vol": 66,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 103
+        }
+      },
+      "spark": [
+        1.96857
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 15)",
+      "cat": "uncutgems",
+      "ex": 2.75676,
+      "div": null,
+      "cha": null,
+      "vol": 37,
+      "liq": {
+        "ex": {
+          "s": 5,
+          "v": 102
+        }
+      },
+      "spark": [
+        2.32371
+      ]
+    },
+    {
+      "name": "Greater Essence of Seeking",
+      "cat": "essences",
+      "ex": 1.57813,
+      "div": null,
+      "cha": null,
+      "vol": 64,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 101
+        }
+      },
+      "spark": [
+        3.08365
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 18)",
+      "cat": "uncutgems",
+      "ex": 2.59459,
+      "div": null,
+      "cha": null,
+      "vol": 37,
+      "liq": {
+        "ex": {
+          "s": 5,
+          "v": 96
+        }
+      },
+      "spark": [
+        3.07508
+      ]
+    },
+    {
+      "name": "Omen of Amelioration",
+      "cat": "ritual",
+      "ex": 1.91837,
+      "div": null,
+      "cha": null,
+      "vol": 49,
+      "liq": {
+        "ex": {
+          "s": 8,
+          "v": 94
+        }
+      },
+      "spark": [
+        2.0839
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 15)",
+      "cat": "uncutgems",
+      "ex": 0.911765,
+      "div": null,
+      "cha": null,
+      "vol": 102,
+      "liq": {
+        "ex": {
+          "s": 3,
+          "v": 93
+        }
+      },
+      "spark": [
+        1.52213
+      ]
+    },
+    {
+      "name": "Greater Regal Orb",
+      "cat": "currency",
+      "ex": 9.3,
       "div": null,
       "cha": null,
       "vol": 10,
       "liq": {
         "ex": {
-          "s": 2,
-          "v": 26
+          "s": 29,
+          "v": 93
         }
       },
       "spark": [
-        2.6
+        8.1
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 1)",
+      "cat": "uncutgems",
+      "ex": 5.35294,
+      "div": null,
+      "cha": null,
+      "vol": 17,
+      "liq": {
+        "ex": {
+          "s": 31,
+          "v": 91
+        }
+      },
+      "spark": [
+        1.5,
+        3.10629
+      ],
+      "vph": 2.2
+    },
+    {
+      "name": "Idol of Sirrius",
+      "cat": "idol",
+      "ex": 22.5,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 15,
+          "v": 90
+        }
+      },
+      "spark": [
+        11.5
+      ]
+    },
+    {
+      "name": "Idol of Ralakesh",
+      "cat": "idol",
+      "ex": 14.3333,
+      "div": null,
+      "cha": null,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 37,
+          "v": 86
+        }
+      },
+      "spark": [
+        8.66667
+      ]
+    },
+    {
+      "name": "Essence of Enhancement",
+      "cat": "essences",
+      "ex": 1.1831,
+      "div": null,
+      "cha": null,
+      "vol": 71,
+      "liq": {
+        "ex": {
+          "s": 18,
+          "v": 84
+        }
+      },
+      "spark": [
+        3,
+        1.75417
+      ],
+      "vph": 11.2
+    },
+    {
+      "name": "Essence of Electricity",
+      "cat": "essences",
+      "ex": 1.78723,
+      "div": null,
+      "cha": null,
+      "vol": 47,
+      "liq": {
+        "ex": {
+          "s": 26,
+          "v": 84
+        }
+      },
+      "spark": [
+        2.5,
+        3.12723
+      ],
+      "vph": 8
+    },
+    {
+      "name": "Uncut Skill Gem (Level 19)",
+      "cat": "uncutgems",
+      "ex": 6.91667,
+      "div": null,
+      "cha": null,
+      "vol": 12,
+      "liq": {
+        "ex": {
+          "s": 28,
+          "v": 83
+        }
+      },
+      "spark": [
+        6.91667
+      ]
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 15)",
+      "cat": "expedition",
+      "ex": 10.375,
+      "div": null,
+      "cha": null,
+      "vol": 8,
+      "liq": {
+        "ex": {
+          "s": 12,
+          "v": 83
+        }
+      },
+      "spark": [
+        10.8795
+      ]
+    },
+    {
+      "name": "Liquid Despair",
+      "cat": "delirium",
+      "ex": 5.1875,
+      "div": null,
+      "cha": null,
+      "vol": 16,
+      "liq": {
+        "ex": {
+          "s": 11,
+          "v": 83
+        }
+      },
+      "spark": [
+        7.21875
+      ]
+    },
+    {
+      "name": "Glacial Rune",
+      "cat": "runes",
+      "ex": 0.754545,
+      "div": null,
+      "cha": null,
+      "vol": 110,
+      "liq": {
+        "ex": {
+          "s": 15,
+          "v": 83
+        }
+      },
+      "spark": [
+        0.842018
+      ],
+      "vph": 20.6
+    },
+    {
+      "name": "Doedre's Undoing",
+      "cat": "lineagesupportgems",
+      "ex": 82.0776,
+      "div": 3.53767,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 627,
+          "v": 100
+        },
+        "div": {
+          "s": 1340.94,
+          "v": 3
+        }
+      },
+      "spark": [
+        107.696
+      ]
+    },
+    {
+      "name": "Glassblower's Bauble",
+      "cat": "currency",
+      "ex": 0.570423,
+      "div": null,
+      "cha": null,
+      "vol": 142,
+      "liq": {
+        "ex": {
+          "s": 25,
+          "v": 81
+        }
+      },
+      "spark": [
+        0.505664
+      ]
+    },
+    {
+      "name": "Essence of Insulation",
+      "cat": "essences",
+      "ex": 1.6875,
+      "div": null,
+      "cha": null,
+      "vol": 48,
+      "liq": {
+        "ex": {
+          "s": 20,
+          "v": 81
+        }
+      },
+      "spark": [
+        1.97797
+      ],
+      "vph": 9
+    },
+    {
+      "name": "Essence of Sorcery",
+      "cat": "essences",
+      "ex": 1.92683,
+      "div": null,
+      "cha": null,
+      "vol": 41,
+      "liq": {
+        "ex": {
+          "s": 6,
+          "v": 79
+        }
+      },
+      "spark": [
+        2.42363
+      ],
+      "vph": 6.2
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 4)",
+      "cat": "uncutgems",
+      "ex": 2.17143,
+      "div": null,
+      "cha": null,
+      "vol": 35,
+      "liq": {
+        "ex": {
+          "s": 37,
+          "v": 76
+        }
+      },
+      "spark": [
+        2.23829
+      ],
+      "vph": 6.2
+    },
+    {
+      "name": "Uncut Support Gem (Level 4)",
+      "cat": "uncutgems",
+      "ex": 2.35523,
+      "div": null,
+      "cha": 1.84915,
+      "vol": 32,
+      "liq": {
+        "ex": {
+          "s": 823,
+          "v": 3208
+        },
+        "cha": {
+          "s": 38.4079,
+          "v": 54
+        }
+      },
+      "spark": [
+        2.2,
+        1.91364
+      ],
+      "vph": null
+    },
+    {
+      "name": "Greater Essence of the Body",
+      "cat": "essences",
+      "ex": 1.02817,
+      "div": null,
+      "cha": null,
+      "vol": 71,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 73
+        }
+      },
+      "spark": [
+        1.63377
+      ]
+    },
+    {
+      "name": "Romira's Requital",
+      "cat": "lineagesupportgems",
+      "ex": 3.5,
+      "div": null,
+      "cha": null,
+      "vol": 20,
+      "liq": {
+        "ex": {
+          "s": 4,
+          "v": 70
+        }
+      },
+      "spark": [
+        8.85417
+      ]
+    },
+    {
+      "name": "Rabbit Idol",
+      "cat": "idol",
+      "ex": 13.4,
+      "div": null,
+      "cha": null,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 57,
+          "v": 67
+        }
+      },
+      "spark": [
+        12.3
+      ]
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 14)",
+      "cat": "expedition",
+      "ex": 3.72222,
+      "div": null,
+      "cha": null,
+      "vol": 18,
+      "liq": {
+        "ex": {
+          "s": 3,
+          "v": 67
+        }
+      },
+      "spark": [
+        4.60741
+      ]
+    },
+    {
+      "name": "Essence of Command",
+      "cat": "essences",
+      "ex": 2.57692,
+      "div": null,
+      "cha": null,
+      "vol": 26,
+      "liq": {
+        "ex": {
+          "s": 10,
+          "v": 67
+        }
+      },
+      "spark": [
+        1,
+        3.35652
+      ],
+      "vph": 4.4
+    },
+    {
+      "name": "Diluted Liquid Greed",
+      "cat": "delirium",
+      "ex": 2.28571,
+      "div": null,
+      "cha": null,
+      "vol": 28,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 64
+        }
+      },
+      "spark": [
+        3.85357
+      ]
+    },
+    {
+      "name": "Perfect Essence of Sorcery",
+      "cat": "essences",
+      "ex": 63.5594,
+      "div": 0.761847,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 695,
+          "v": 2718
+        },
+        "div": {
+          "s": 287.344,
+          "v": 1
+        }
+      },
+      "spark": [
+        54.0079
+      ]
+    },
+    {
+      "name": "Liquid Paranoia",
+      "cat": "delirium",
+      "ex": 2.17241,
+      "div": null,
+      "cha": null,
+      "vol": 29,
+      "liq": {
+        "ex": {
+          "s": 6,
+          "v": 63
+        }
+      },
+      "spark": [
+        2.61949
+      ]
+    },
+    {
+      "name": "Perfect Essence of Haste",
+      "cat": "essences",
+      "ex": 6.66667,
+      "div": null,
+      "cha": null,
+      "vol": 9,
+      "liq": {
+        "ex": {
+          "s": 24,
+          "v": 60
+        }
+      },
+      "spark": [
+        11.9556
+      ]
+    },
+    {
+      "name": "Omen of Gambling",
+      "cat": "ritual",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 60,
+      "liq": {
+        "ex": {
+          "s": 19,
+          "v": 60
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Exceptional Verisium",
+      "cat": "verisium",
+      "ex": 6,
+      "div": null,
+      "cha": null,
+      "vol": 10,
+      "liq": {
+        "ex": {
+          "s": 161,
+          "v": 60
+        }
+      },
+      "spark": [
+        6
+      ]
+    },
+    {
+      "name": "Gemcutter's Prism",
+      "cat": "currency",
+      "ex": 4.56944,
+      "div": 0.248007,
+      "cha": 2.66967,
+      "vol": 13,
+      "liq": {
+        "ex": {
+          "s": 1750,
+          "v": 17183
+        },
+        "div": {
+          "s": 0,
+          "v": 2
+        },
+        "cha": {
+          "s": 164.386,
+          "v": 403
+        }
+      },
+      "spark": [
+        4.49305,
+        3.97988
+      ],
+      "vph": 1.8
+    },
+    {
+      "name": "Rune of the Hunt",
+      "cat": "runes",
+      "ex": 4.14286,
+      "div": null,
+      "cha": null,
+      "vol": 14,
+      "liq": {
+        "ex": {
+          "s": 12,
+          "v": 58
+        }
+      },
+      "spark": [
+        5.71429
+      ]
+    },
+    {
+      "name": "Greater Body Rune",
+      "cat": "runes",
+      "ex": 1.46154,
+      "div": null,
+      "cha": null,
+      "vol": 39,
+      "liq": {
+        "ex": {
+          "s": 9,
+          "v": 57
+        }
+      },
+      "spark": [
+        1.4866
+      ]
+    },
+    {
+      "name": "Perfect Orb of Transmutation",
+      "cat": "currency",
+      "ex": 7.125,
+      "div": null,
+      "cha": null,
+      "vol": 8,
+      "liq": {
+        "ex": {
+          "s": 74,
+          "v": 57
+        }
+      },
+      "spark": [
+        8.0625
+      ]
+    },
+    {
+      "name": "Liquid Envy",
+      "cat": "delirium",
+      "ex": 1.5,
+      "div": null,
+      "cha": null,
+      "vol": 38,
+      "liq": {
+        "ex": {
+          "s": 21,
+          "v": 57
+        }
+      },
+      "spark": [
+        2.58333
+      ]
+    },
+    {
+      "name": "Greater Iron Rune",
+      "cat": "runes",
+      "ex": 1.75259,
+      "div": null,
+      "cha": 2.01904,
+      "vol": 32,
+      "liq": {
+        "ex": {
+          "s": 573,
+          "v": 2030
+        },
+        "cha": {
+          "s": 98.3241,
+          "v": 49
+        }
+      },
+      "spark": [
+        3,
+        1.92985
+      ],
+      "vph": 1.8
+    },
+    {
+      "name": "Uhtred's Crest of the Chalice",
+      "cat": "verisium",
+      "ex": 54.7558,
+      "div": 2.81891,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 439,
+          "v": 244
+        },
+        "div": {
+          "s": 239.453,
+          "v": 2
+        }
+      },
+      "spark": [
+        39.4332
+      ]
+    },
+    {
+      "name": "Uruk's Smelting",
+      "cat": "lineagesupportgems",
+      "ex": 3.46667,
+      "div": null,
+      "cha": null,
+      "vol": 15,
+      "liq": {
+        "ex": {
+          "s": 8,
+          "v": 52
+        }
+      },
+      "spark": [
+        5.2625
+      ]
+    },
+    {
+      "name": "Scroll of Wisdom",
+      "cat": "currency",
+      "ex": 0.00814224,
+      "div": null,
+      "cha": null,
+      "vol": 6018,
+      "liq": {
+        "ex": {
+          "s": 19,
+          "v": 49
+        }
+      },
+      "spark": [
+        0.0141372
+      ]
+    },
+    {
+      "name": "Soul Core of Citaqualotl",
+      "cat": "ultimatum",
+      "ex": 1.34286,
+      "div": null,
+      "cha": null,
+      "vol": 35,
+      "liq": {
+        "ex": {
+          "s": 24,
+          "v": 47
+        }
+      },
+      "spark": [
+        1.35538
+      ],
+      "vph": 6.6
+    },
+    {
+      "name": "Orb of Alchemy",
+      "cat": "currency",
+      "ex": 0.421566,
+      "div": null,
+      "cha": 0.378941,
+      "vol": 108,
+      "liq": {
+        "ex": {
+          "s": 487,
+          "v": 1557
+        },
+        "cha": {
+          "s": 38.4079,
+          "v": 35
+        }
+      },
+      "spark": [
+        0.736842,
+        0.423389
+      ],
+      "vph": null
+    },
+    {
+      "name": "Omen of Abyssal Echoes",
+      "cat": "ritual",
+      "ex": 14.6144,
+      "div": 0.364884,
+      "cha": 3.38285,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 273,
+          "v": 4876
+        },
+        "div": {
+          "s": 95.7812,
+          "v": 3
+        },
+        "cha": {
+          "s": 23.0447,
+          "v": 17
+        }
+      },
+      "spark": [
+        17.2066
+      ]
+    },
+    {
+      "name": "Arcanist's Etcher",
+      "cat": "currency",
+      "ex": 0.237569,
+      "div": null,
+      "cha": null,
+      "vol": 181,
+      "liq": {
+        "ex": {
+          "s": 8,
+          "v": 43
+        }
+      },
+      "spark": [
+        0.267161
+      ]
+    },
+    {
+      "name": "Essence of the Body",
+      "cat": "essences",
+      "ex": 1.59259,
+      "div": null,
+      "cha": null,
+      "vol": 27,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 43
+        }
+      },
+      "spark": [
+        1.48759
+      ],
+      "vph": 5.2
+    },
+    {
+      "name": "Soul Core of Cholotl",
+      "cat": "ultimatum",
+      "ex": 10.5,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 36,
+          "v": 42
+        }
+      },
+      "spark": [
+        10.5
+      ]
+    },
+    {
+      "name": "Lesser Essence of Abrasion",
+      "cat": "essences",
+      "ex": 3.15385,
+      "div": null,
+      "cha": null,
+      "vol": 13,
+      "liq": {
+        "ex": {
+          "s": 4,
+          "v": 41
+        }
+      },
+      "spark": [
+        4.29323
+      ],
+      "vph": 0.8
+    },
+    {
+      "name": "Omen of the Sovereign",
+      "cat": "ritual",
+      "ex": 0.745455,
+      "div": null,
+      "cha": null,
+      "vol": 55,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 41
+        }
+      },
+      "spark": [
+        1.87089
       ]
     },
     {
       "name": "Greater Essence of Abrasion",
       "cat": "essences",
+      "ex": 5.59222,
+      "div": null,
+      "cha": 3.23378,
+      "vol": 7,
+      "liq": {
+        "ex": {
+          "s": 181,
+          "v": 3286
+        },
+        "cha": {
+          "s": 6.14526,
+          "v": 24
+        }
+      },
+      "spark": [
+        15.0207
+      ],
+      "vph": 1.2
+    },
+    {
+      "name": "Concentrated Liquid Suffering",
+      "cat": "delirium",
+      "ex": 36.4089,
+      "div": 1.08978,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 157,
+          "v": 40
+        },
+        "div": {
+          "s": 47.8906,
+          "v": 1
+        }
+      },
+      "spark": [
+        43.9453
+      ]
+    },
+    {
+      "name": "Bear Idol",
+      "cat": "idol",
+      "ex": 5.14286,
+      "div": null,
+      "cha": null,
+      "vol": 7,
+      "liq": {
+        "ex": {
+          "s": 3,
+          "v": 36
+        }
+      },
+      "spark": [
+        2.30357
+      ],
+      "vph": 1.2
+    },
+    {
+      "name": "Rune of the Blossom",
+      "cat": "runes",
+      "ex": 3.88889,
+      "div": null,
+      "cha": null,
+      "vol": 9,
+      "liq": {
+        "ex": {
+          "s": 3,
+          "v": 35
+        }
+      },
+      "spark": [
+        3.99293
+      ]
+    },
+    {
+      "name": "Essence of the Abyss",
+      "cat": "essences",
+      "ex": 1.75,
+      "div": null,
+      "cha": null,
+      "vol": 20,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 35
+        }
+      },
+      "spark": [
+        1.27083
+      ]
+    },
+    {
+      "name": "Perfect Essence of the Mind",
+      "cat": "essences",
+      "ex": 4.375,
+      "div": null,
+      "cha": null,
+      "vol": 8,
+      "liq": {
+        "ex": {
+          "s": 6,
+          "v": 35
+        }
+      },
+      "spark": [
+        3.52083
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 18)",
+      "cat": "uncutgems",
+      "ex": 4.85714,
+      "div": null,
+      "cha": null,
+      "vol": 7,
+      "liq": {
+        "ex": {
+          "s": 6,
+          "v": 34
+        }
+      },
+      "spark": [
+        4.85714
+      ]
+    },
+    {
+      "name": "Vilenta's Propulsion",
+      "cat": "lineagesupportgems",
+      "ex": 2.83333,
+      "div": null,
+      "cha": null,
+      "vol": 12,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 34
+        }
+      },
+      "spark": [
+        3.32222
+      ]
+    },
+    {
+      "name": "Greater Vision Rune",
+      "cat": "runes",
+      "ex": 1.54545,
+      "div": null,
+      "cha": null,
+      "vol": 22,
+      "liq": {
+        "ex": {
+          "s": 4,
+          "v": 34
+        }
+      },
+      "spark": [
+        1.60195
+      ]
+    },
+    {
+      "name": "Brutus' Brain",
+      "cat": "lineagesupportgems",
+      "ex": 16.5836,
+      "div": 1.32312,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 184,
+          "v": 49
+        },
+        "div": {
+          "s": 47.8906,
+          "v": 2
+        }
+      },
+      "spark": [
+        30.5976
+      ]
+    },
+    {
+      "name": "Essence of Alacrity",
+      "cat": "essences",
+      "ex": 1.83333,
+      "div": null,
+      "cha": null,
+      "vol": 18,
+      "liq": {
+        "ex": {
+          "s": 11,
+          "v": 33
+        }
+      },
+      "spark": [
+        2.36223
+      ],
+      "vph": 3.2
+    },
+    {
+      "name": "Adept Rune",
+      "cat": "runes",
+      "ex": 1.45455,
+      "div": null,
+      "cha": null,
+      "vol": 22,
+      "liq": {
+        "ex": {
+          "s": 15,
+          "v": 32
+        }
+      },
+      "spark": [
+        1.61758
+      ]
+    },
+    {
+      "name": "Essence of Opulence",
+      "cat": "essences",
+      "ex": 1.77778,
+      "div": null,
+      "cha": null,
+      "vol": 18,
+      "liq": {
+        "ex": {
+          "s": 6,
+          "v": 32
+        }
+      },
+      "spark": [
+        1.67778
+      ]
+    },
+    {
+      "name": "Preserved Jawbone",
+      "cat": "abyss",
+      "ex": 6.31322,
+      "div": null,
+      "cha": 11.8548,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 594,
+          "v": 7541
+        },
+        "cha": {
+          "s": 15.3631,
+          "v": 35
+        }
+      },
+      "spark": [
+        9.40415
+      ]
+    },
+    {
+      "name": "Diluted Liquid Ire",
+      "cat": "delirium",
+      "ex": 0.837838,
+      "div": null,
+      "cha": null,
+      "vol": 37,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 31
+        }
+      },
+      "spark": [
+        0.93565
+      ]
+    },
+    {
+      "name": "Orb of Annulment",
+      "cat": "currency",
+      "ex": 5.08513,
+      "div": 0.254828,
+      "cha": 4.00169,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 693,
+          "v": 1793
+        },
+        "div": {
+          "s": 0,
+          "v": 1
+        },
+        "cha": {
+          "s": 124.441,
+          "v": 59
+        }
+      },
+      "spark": [
+        4.69936
+      ],
+      "vph": null
+    },
+    {
+      "name": "Chilling Flux",
+      "cat": "expedition",
+      "ex": 7.5,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 12,
+          "v": 30
+        }
+      },
+      "spark": [
+        7.5
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 9)",
+      "cat": "uncutgems",
+      "ex": 0.659091,
+      "div": null,
+      "cha": null,
+      "vol": 44,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 29
+        }
+      },
+      "spark": [
+        0.766459
+      ],
+      "vph": 8
+    },
+    {
+      "name": "Greater Essence of Haste",
+      "cat": "essences",
+      "ex": 7.0095,
+      "div": null,
+      "cha": 4.93994,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 127,
+          "v": 2125
+        },
+        "cha": {
+          "s": 27.6537,
+          "v": 19
+        }
+      },
+      "spark": [
+        11.7471
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 17)",
+      "cat": "uncutgems",
+      "ex": 3.11111,
+      "div": null,
+      "cha": null,
+      "vol": 9,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 28
+        }
+      },
+      "spark": [
+        3.55556
+      ]
+    },
+    {
+      "name": "Idol of Thruldana",
+      "cat": "idol",
+      "ex": 6.75,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 5,
+          "v": 27
+        }
+      },
+      "spark": [
+        8.875
+      ]
+    },
+    {
+      "name": "Morgana's Tempest",
+      "cat": "lineagesupportgems",
+      "ex": 26.2352,
+      "div": 1.30741,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 10,
+          "v": 62
+        },
+        "div": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        36.6302
+      ]
+    },
+    {
+      "name": "Craiceann's Rune of Warding",
+      "cat": "runes",
+      "ex": 6.5,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 10,
+          "v": 26
+        }
+      },
+      "spark": [
+        6.5
+      ]
+    },
+    {
+      "name": "Masterwork Rune",
+      "cat": "runes",
+      "ex": 13,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 13,
+          "v": 26
+        }
+      },
+      "spark": [
+        13.75
+      ]
+    },
+    {
+      "name": "Kurgal's Leash",
+      "cat": "lineagesupportgems",
+      "ex": 12.8995,
+      "div": 3.21616,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 122,
+          "v": 887
+        },
+        "div": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        14.8032
+      ]
+    },
+    {
+      "name": "Oisín's Oath",
+      "cat": "lineagesupportgems",
+      "ex": 2.77778,
+      "div": null,
+      "cha": null,
+      "vol": 9,
+      "liq": {
+        "ex": {
+          "s": 4,
+          "v": 25
+        }
+      },
+      "spark": [
+        15.5926
+      ]
+    },
+    {
+      "name": "Owl Idol",
+      "cat": "idol",
+      "ex": 4.16667,
+      "div": null,
+      "cha": null,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 25
+        }
+      },
+      "spark": [
+        3.08333
+      ]
+    },
+    {
+      "name": "Hedgewitch Assandra's Rune of Wisdom",
+      "cat": "runes",
       "ex": 25,
       "div": null,
       "cha": null,
       "vol": 1,
       "liq": {
         "ex": {
-          "s": 75,
+          "s": 175,
+          "v": 25
+        }
+      },
+      "spark": [
+        17
+      ]
+    },
+    {
+      "name": "Omen of Catalysing Exaltation",
+      "cat": "ritual",
+      "ex": 25,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
           "v": 25
         }
       },
@@ -407,134 +2280,754 @@
       ]
     },
     {
-      "name": "Orb of Annulment",
-      "cat": "currency",
-      "ex": 3.66667,
-      "div": null,
-      "cha": null,
-      "vol": 6,
-      "liq": {
-        "ex": {
-          "s": 15,
-          "v": 22
-        }
-      },
-      "spark": [
-        3.66667
-      ]
-    },
-    {
-      "name": "Essence of Flames",
+      "name": "Essence of Ice",
       "cat": "essences",
-      "ex": 2.33333,
+      "ex": 0.961538,
       "div": null,
       "cha": null,
-      "vol": 9,
-      "liq": {
-        "ex": {
-          "s": 4,
-          "v": 21
-        }
-      },
-      "spark": [
-        2,
-        2.33333
-      ]
-    },
-    {
-      "name": "Gnawed Collarbone",
-      "cat": "abyss",
-      "ex": 1.61538,
-      "div": null,
-      "cha": null,
-      "vol": 13,
-      "liq": {
-        "ex": {
-          "s": 3,
-          "v": 21
-        }
-      },
-      "spark": [
-        1,
-        1.61538
-      ]
-    },
-    {
-      "name": "Storm Rune",
-      "cat": "runes",
-      "ex": 0.947368,
-      "div": null,
-      "cha": null,
-      "vol": 19,
+      "vol": 26,
       "liq": {
         "ex": {
           "s": 1,
-          "v": 18
+          "v": 25
         }
       },
       "spark": [
-        2,
-        0.947368
+        2.16194
+      ],
+      "vph": 4.2
+    },
+    {
+      "name": "Farrul's Rune of the Chase",
+      "cat": "runes",
+      "ex": 8,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 8,
+          "v": 24
+        }
+      },
+      "spark": [
+        9
       ]
     },
     {
-      "name": "Uncut Spirit Gem (Level 7)",
-      "cat": "uncutgems",
-      "ex": 1.63636,
+      "name": "Liquid Disgust",
+      "cat": "delirium",
+      "ex": 1.5,
+      "div": null,
+      "cha": null,
+      "vol": 16,
+      "liq": {
+        "ex": {
+          "s": 20,
+          "v": 24
+        }
+      },
+      "spark": [
+        1.63462
+      ]
+    },
+    {
+      "name": "Paquate's Pact",
+      "cat": "lineagesupportgems",
+      "ex": 23.1093,
+      "div": 1.22969,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 37,
+          "v": 30
+        },
+        "div": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        38.9453
+      ]
+    },
+    {
+      "name": "The Greatwolf's Rune of Claws",
+      "cat": "runes",
+      "ex": 7.66667,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 23
+        }
+      },
+      "spark": [
+        6.83333
+      ]
+    },
+    {
+      "name": "Robust Rune",
+      "cat": "runes",
+      "ex": 2.09091,
       "div": null,
       "cha": null,
       "vol": 11,
       "liq": {
         "ex": {
+          "s": 2,
+          "v": 23
+        }
+      },
+      "spark": [
+        1.70094
+      ]
+    },
+    {
+      "name": "Omen of the Blackblooded",
+      "cat": "ritual",
+      "ex": 0.605263,
+      "div": null,
+      "cha": null,
+      "vol": 38,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 23
+        }
+      },
+      "spark": [
+        0.945272
+      ]
+    },
+    {
+      "name": "Artificer's Orb",
+      "cat": "currency",
+      "ex": 0.727599,
+      "div": null,
+      "cha": 2.61329,
+      "vol": 31,
+      "liq": {
+        "ex": {
+          "s": 111,
+          "v": 2055
+        },
+        "cha": {
+          "s": 0,
+          "v": 35
+        }
+      },
+      "spark": [
+        1,
+        0.507534
+      ],
+      "vph": null
+    },
+    {
+      "name": "Perfect Essence of Electricity",
+      "cat": "essences",
+      "ex": 2.44444,
+      "div": null,
+      "cha": null,
+      "vol": 9,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 22
+        }
+      },
+      "spark": [
+        4
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 10)",
+      "cat": "uncutgems",
+      "ex": 0.777778,
+      "div": null,
+      "cha": null,
+      "vol": 27,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 21
+        }
+      },
+      "spark": [
+        0.9164
+      ],
+      "vph": 5.2
+    },
+    {
+      "name": "Dominus' Grasp",
+      "cat": "lineagesupportgems",
+      "ex": 10.2009,
+      "div": 2.49249,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 59,
+          "v": 154
+        },
+        "div": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        15.1546
+      ]
+    },
+    {
+      "name": "Ancient Rune of Detonation",
+      "cat": "runes",
+      "ex": 20,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 30,
+          "v": 20
+        }
+      },
+      "spark": [
+        14.5
+      ]
+    },
+    {
+      "name": "Blazing Flux",
+      "cat": "expedition",
+      "ex": 10,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 26,
+          "v": 20
+        }
+      },
+      "spark": [
+        10
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 16)",
+      "cat": "uncutgems",
+      "ex": 2.5,
+      "div": null,
+      "cha": null,
+      "vol": 8,
+      "liq": {
+        "ex": {
+          "s": 5,
+          "v": 20
+        }
+      },
+      "spark": [
+        3.08333
+      ]
+    },
+    {
+      "name": "Fenumus' Rune of Agony",
+      "cat": "runes",
+      "ex": 10,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 9,
+          "v": 20
+        }
+      },
+      "spark": [
+        7.5
+      ]
+    },
+    {
+      "name": "Omen of Dextral Crystallisation",
+      "cat": "ritual",
+      "ex": 20,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 142,
+          "v": 20
+        }
+      },
+      "spark": [
+        20
+      ]
+    },
+    {
+      "name": "Diluted Liquid Guilt",
+      "cat": "delirium",
+      "ex": 1.05263,
+      "div": null,
+      "cha": null,
+      "vol": 19,
+      "liq": {
+        "ex": {
+          "s": 4,
+          "v": 20
+        }
+      },
+      "spark": [
+        1.36477
+      ]
+    },
+    {
+      "name": "Gnawed Jawbone",
+      "cat": "abyss",
+      "ex": 3.94156,
+      "div": null,
+      "cha": 0.56458,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 1311,
+          "v": 3537
+        },
+        "cha": {
+          "s": 4.60894,
+          "v": 6
+        }
+      },
+      "spark": [
+        2.5,
+        4.69393
+      ],
+      "vph": null
+    },
+    {
+      "name": "Soul Core of Topotante",
+      "cat": "ultimatum",
+      "ex": 0.904762,
+      "div": null,
+      "cha": null,
+      "vol": 21,
+      "liq": {
+        "ex": {
           "s": 8,
+          "v": 19
+        }
+      },
+      "spark": [
+        1.23683
+      ]
+    },
+    {
+      "name": "Essence of the Infinite",
+      "cat": "essences",
+      "ex": 2.375,
+      "div": null,
+      "cha": null,
+      "vol": 8,
+      "liq": {
+        "ex": {
+          "s": 6,
+          "v": 19
+        }
+      },
+      "spark": [
+        1.275
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 12)",
+      "cat": "uncutgems",
+      "ex": 0.818182,
+      "div": null,
+      "cha": null,
+      "vol": 22,
+      "liq": {
+        "ex": {
+          "s": 0,
           "v": 18
         }
       },
       "spark": [
-        1.63636
-      ]
+        0.786113
+      ],
+      "vph": 4
     },
     {
-      "name": "Gemcutter's Prism",
-      "cat": "currency",
-      "ex": 3.95129,
-      "div": null,
-      "cha": 2.2022,
-      "vol": 4,
-      "liq": {
-        "ex": {
-          "s": 295,
-          "v": 1468
-        },
-        "cha": {
-          "s": 58.3247,
-          "v": 10
-        }
-      },
-      "spark": [
-        4.49305,
-        3.94119
-      ]
-    },
-    {
-      "name": "Essence of Ice",
-      "cat": "essences",
-      "ex": 2.8,
+      "name": "Thane Grannell's Rune of Mastery",
+      "cat": "runes",
+      "ex": 3.6,
       "div": null,
       "cha": null,
       "vol": 5,
       "liq": {
         "ex": {
+          "s": 0,
+          "v": 18
+        }
+      },
+      "spark": [
+        2.86667
+      ]
+    },
+    {
+      "name": "Warding Rune of Heart",
+      "cat": "runes",
+      "ex": 4.5,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 12,
+          "v": 18
+        }
+      },
+      "spark": [
+        4.75
+      ]
+    },
+    {
+      "name": "Twilight Reliquary Key",
+      "cat": "vaultkeys",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 18,
+      "liq": {
+        "ex": {
+          "s": 10,
+          "v": 18
+        }
+      },
+      "spark": [
+        1.02778
+      ]
+    },
+    {
+      "name": "Perfect Essence of Flames",
+      "cat": "essences",
+      "ex": 2.42857,
+      "div": null,
+      "cha": null,
+      "vol": 7,
+      "liq": {
+        "ex": {
+          "s": 5,
+          "v": 17
+        }
+      },
+      "spark": [
+        2.21429
+      ]
+    },
+    {
+      "name": "Uncut Support Gem (Level 5)",
+      "cat": "uncutgems",
+      "ex": 2.6697,
+      "div": 0.49075,
+      "cha": 2.72393,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 1140,
+          "v": 8595
+        },
+        "div": {
+          "s": 0,
+          "v": 1
+        },
+        "cha": {
+          "s": 41.4805,
+          "v": 114
+        }
+      },
+      "spark": [
+        4.85053
+      ],
+      "vph": null
+    },
+    {
+      "name": "Greater Essence of the Infinite",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 16,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 16
+        }
+      },
+      "spark": [
+        1.025
+      ]
+    },
+    {
+      "name": "Snake Idol",
+      "cat": "ritual",
+      "ex": 3.2,
+      "div": null,
+      "cha": null,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 16
+        }
+      },
+      "spark": [
+        2.62222
+      ]
+    },
+    {
+      "name": "Uncut Support Gem (Level 3)",
+      "cat": "uncutgems",
+      "ex": 1.96886,
+      "div": null,
+      "cha": 0.991,
+      "vol": 8,
+      "liq": {
+        "ex": {
+          "s": 419,
+          "v": 1081
+        },
+        "cha": {
+          "s": 7.68157,
+          "v": 9
+        }
+      },
+      "spark": [
+        1.52381,
+        1.51538
+      ],
+      "vph": null
+    },
+    {
+      "name": "Blacksmith's Whetstone",
+      "cat": "currency",
+      "ex": 1.16946,
+      "div": 0.238947,
+      "cha": 1.07444,
+      "vol": 13,
+      "liq": {
+        "ex": {
+          "s": 778,
+          "v": 8027
+        },
+        "div": {
+          "s": 0,
+          "v": 1
+        },
+        "cha": {
+          "s": 43.0168,
+          "v": 102
+        }
+      },
+      "spark": [
+        0.481482,
+        0.905617
+      ],
+      "vph": null
+    },
+    {
+      "name": "Esh's Catalyst",
+      "cat": "breach",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 15,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 15
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Daresso's Passion",
+      "cat": "lineagesupportgems",
+      "ex": 3,
+      "div": null,
+      "cha": null,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 6,
+          "v": 15
+        }
+      },
+      "spark": [
+        2.82143
+      ]
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 6)",
+      "cat": "uncutgems",
+      "ex": 1.25,
+      "div": null,
+      "cha": null,
+      "vol": 12,
+      "liq": {
+        "ex": {
           "s": 3,
+          "v": 15
+        }
+      },
+      "spark": [
+        1.74444
+      ],
+      "vph": 1.8
+    },
+    {
+      "name": "Orb of Chance",
+      "cat": "currency",
+      "ex": 2.13116,
+      "div": null,
+      "cha": 8.11806,
+      "vol": 7,
+      "liq": {
+        "ex": {
+          "s": 169,
+          "v": 982
+        },
+        "cha": {
+          "s": 0,
+          "v": 24
+        }
+      },
+      "spark": [
+        3,
+        2.77701
+      ],
+      "vph": null
+    },
+    {
+      "name": "Stag Idol",
+      "cat": "idol",
+      "ex": 1.55556,
+      "div": null,
+      "cha": null,
+      "vol": 9,
+      "liq": {
+        "ex": {
+          "s": 2,
           "v": 14
         }
       },
       "spark": [
-        2.8
+        1.7996
       ]
     },
     {
-      "name": "Uncut Support Gem (Level 1)",
+      "name": "Uncut Skill Gem (Level 8)",
+      "cat": "uncutgems",
+      "ex": 1.4,
+      "div": null,
+      "cha": null,
+      "vol": 10,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 14
+        }
+      },
+      "spark": [
+        1.41425
+      ],
+      "vph": 1.6
+    },
+    {
+      "name": "Armourer's Scrap",
+      "cat": "currency",
+      "ex": 0.366655,
+      "div": null,
+      "cha": 0.18596,
+      "vol": 38,
+      "liq": {
+        "ex": {
+          "s": 346,
+          "v": 2415
+        },
+        "cha": {
+          "s": 3.07263,
+          "v": 8
+        }
+      },
+      "spark": [
+        0.241763
+      ],
+      "vph": null
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 9)",
+      "cat": "uncutgems",
+      "ex": 6.72954,
+      "div": null,
+      "cha": 0.297003,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 6,
+          "v": 59
+        },
+        "cha": {
+          "s": 1.53631,
+          "v": 2
+        }
+      },
+      "spark": [
+        3.72204
+      ],
+      "vph": 0.2
+    },
+    {
+      "name": "Uncut Skill Gem (Level 2)",
+      "cat": "uncutgems",
+      "ex": 0.928571,
+      "div": null,
+      "cha": null,
+      "vol": 14,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 13
+        }
+      },
+      "spark": [
+        0.83631
+      ],
+      "vph": 2.4
+    },
+    {
+      "name": "Mystic Alloy",
+      "cat": "verisium",
+      "ex": 4.33333,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 13
+        }
+      },
+      "spark": [
+        4.33333
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 3)",
       "cat": "uncutgems",
       "ex": 0.857143,
       "div": null,
@@ -542,40 +3035,56 @@
       "vol": 14,
       "liq": {
         "ex": {
-          "s": 7,
+          "s": 0,
           "v": 12
         }
       },
       "spark": [
-        1,
-        0.857143
-      ]
+        0.627318
+      ],
+      "vph": 2.2
     },
     {
-      "name": "Essence of Command",
-      "cat": "essences",
-      "ex": 3,
+      "name": "Kulemak's Invitation",
+      "cat": "fragments",
+      "ex": 12,
       "div": null,
       "cha": null,
-      "vol": 4,
+      "vol": 1,
       "liq": {
         "ex": {
-          "s": 18,
+          "s": 37,
           "v": 12
         }
       },
       "spark": [
-        1,
-        3
+        12
       ]
     },
     {
-      "name": "Uncut Skill Gem (Level 7)",
-      "cat": "uncutgems",
-      "ex": 1.57143,
+      "name": "Greater Chaos Orb",
+      "cat": "currency",
+      "ex": 5.5,
       "div": null,
       "cha": null,
-      "vol": 7,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 32,
+          "v": 11
+        }
+      },
+      "spark": [
+        5.5
+      ]
+    },
+    {
+      "name": "Lesser Storm Rune",
+      "cat": "runes",
+      "ex": 0.44,
+      "div": null,
+      "cha": null,
+      "vol": 25,
       "liq": {
         "ex": {
           "s": 1,
@@ -584,54 +3093,166 @@
       },
       "spark": [
         1,
-        1.57143
+        0.613051
+      ],
+      "vph": 3.2
+    },
+    {
+      "name": "Lesser Essence of Haste",
+      "cat": "essences",
+      "ex": 2.2,
+      "div": null,
+      "cha": null,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 11
+        }
+      },
+      "spark": [
+        2.40833
+      ],
+      "vph": 0.6
+    },
+    {
+      "name": "Essence of Seeking",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 11,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 11
+        }
+      },
+      "spark": [
+        1.8588
+      ],
+      "vph": 1.6
+    },
+    {
+      "name": "Essence of Flames",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 11,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 11
+        }
+      },
+      "spark": [
+        2,
+        1.58714
+      ],
+      "vph": 0.4
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 11)",
+      "cat": "uncutgems",
+      "ex": 0.6875,
+      "div": null,
+      "cha": null,
+      "vol": 16,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 11
+        }
+      },
+      "spark": [
+        0.87449
+      ],
+      "vph": 2.6
+    },
+    {
+      "name": "Lesser Essence of Sorcery",
+      "cat": "essences",
+      "ex": 1.83333,
+      "div": null,
+      "cha": null,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 11
+        }
+      },
+      "spark": [
+        1.69841
+      ],
+      "vph": 0.8
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 13)",
+      "cat": "expedition",
+      "ex": 1.83333,
+      "div": null,
+      "cha": null,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 11
+        }
+      },
+      "spark": [
+        2.23333
       ]
     },
     {
-      "name": "Uncut Skill Gem (Level 1)",
-      "cat": "uncutgems",
+      "name": "Preserved Collarbone",
+      "cat": "abyss",
+      "ex": 10.5376,
+      "div": null,
+      "cha": 14.5309,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 266,
+          "v": 2871
+        },
+        "cha": {
+          "s": 13.8268,
+          "v": 10
+        }
+      },
+      "spark": [
+        9.98789
+      ]
+    },
+    {
+      "name": "Rune of Foundations",
+      "cat": "runes",
       "ex": 1.66667,
       "div": null,
       "cha": null,
       "vol": 6,
       "liq": {
         "ex": {
-          "s": 10,
+          "s": 2,
           "v": 10
         }
       },
       "spark": [
-        1.5,
-        1.66667
+        2
       ]
     },
     {
-      "name": "Lesser Iron Rune",
+      "name": "Astrid's Creativity",
       "cat": "runes",
-      "ex": 0.526316,
-      "div": null,
-      "cha": null,
-      "vol": 19,
-      "liq": {
-        "ex": {
-          "s": 13,
-          "v": 10
-        }
-      },
-      "spark": [
-        0.526316
-      ]
-    },
-    {
-      "name": "Greater Essence of Enhancement",
-      "cat": "essences",
       "ex": 10,
       "div": null,
       "cha": null,
       "vol": 1,
       "liq": {
         "ex": {
-          "s": 5,
+          "s": 10,
           "v": 10
         }
       },
@@ -640,12 +3261,12 @@
       ]
     },
     {
-      "name": "Gnawed Rib",
-      "cat": "abyss",
-      "ex": 0.833333,
+      "name": "Warding Rune of Bodyguards",
+      "cat": "runes",
+      "ex": 10,
       "div": null,
       "cha": null,
-      "vol": 12,
+      "vol": 1,
       "liq": {
         "ex": {
           "s": 10,
@@ -653,71 +3274,110 @@
         }
       },
       "spark": [
-        0.833333
+        10
       ]
     },
     {
-      "name": "Greater Glacial Rune",
-      "cat": "runes",
-      "ex": 2.25,
-      "div": null,
-      "cha": null,
-      "vol": 4,
-      "liq": {
-        "ex": {
-          "s": 0,
-          "v": 9
-        }
-      },
-      "spark": [
-        2.25
-      ]
-    },
-    {
-      "name": "Ratha's Assault",
-      "cat": "lineagesupportgems",
-      "ex": 4.5,
-      "div": null,
-      "cha": null,
-      "vol": 2,
-      "liq": {
-        "ex": {
-          "s": 25,
-          "v": 9
-        }
-      },
-      "spark": [
-        4.5
-      ]
-    },
-    {
-      "name": "Greater Essence of Ice",
-      "cat": "essences",
-      "ex": 8,
+      "name": "Thaumaturgic Flux (Level 17)",
+      "cat": "expedition",
+      "ex": 10,
       "div": null,
       "cha": null,
       "vol": 1,
       "liq": {
         "ex": {
-          "s": 7,
-          "v": 8
+          "s": 49,
+          "v": 10
         }
       },
       "spark": [
-        8
+        10
       ]
     },
     {
-      "name": "Glacial Rune",
-      "cat": "runes",
-      "ex": 1,
+      "name": "Ancient Rib",
+      "cat": "abyss",
+      "ex": 10,
       "div": null,
       "cha": null,
-      "vol": 7,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 4,
+          "v": 10
+        }
+      },
+      "spark": [
+        10
+      ]
+    },
+    {
+      "name": "Crackling Flux",
+      "cat": "expedition",
+      "ex": 10,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 3,
+          "v": 10
+        }
+      },
+      "spark": [
+        10
+      ]
+    },
+    {
+      "name": "Xoph's Catalyst",
+      "cat": "breach",
+      "ex": 2,
+      "div": null,
+      "cha": null,
+      "vol": 5,
       "liq": {
         "ex": {
           "s": 0,
-          "v": 7
+          "v": 10
+        }
+      },
+      "spark": [
+        2
+      ]
+    },
+    {
+      "name": "Greater Desert Rune",
+      "cat": "runes",
+      "ex": 1.60202,
+      "div": null,
+      "cha": 0.959774,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 180,
+          "v": 940
+        },
+        "cha": {
+          "s": 0,
+          "v": 6
+        }
+      },
+      "spark": [
+        1.42733
+      ],
+      "vph": 0.6
+    },
+    {
+      "name": "Greater Rebirth Rune",
+      "cat": "runes",
+      "ex": 1.5,
+      "div": null,
+      "cha": null,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 9
         }
       },
       "spark": [
@@ -725,80 +3385,351 @@
       ]
     },
     {
-      "name": "Essence of Insulation",
-      "cat": "essences",
-      "ex": 2.33333,
-      "div": null,
-      "cha": null,
-      "vol": 3,
-      "liq": {
-        "ex": {
-          "s": 11,
-          "v": 7
-        }
-      },
-      "spark": [
-        2.33333
-      ]
-    },
-    {
-      "name": "Lesser Essence of Electricity",
-      "cat": "essences",
-      "ex": 2,
-      "div": null,
-      "cha": null,
-      "vol": 3,
-      "liq": {
-        "ex": {
-          "s": 3,
-          "v": 6
-        }
-      },
-      "spark": [
-        2
-      ]
-    },
-    {
-      "name": "Uncut Skill Gem (Level 5)",
+      "name": "Uncut Spirit Gem (Level 8)",
       "cat": "uncutgems",
-      "ex": 1.5,
+      "ex": 8.89118,
       "div": null,
-      "cha": null,
-      "vol": 4,
+      "cha": 0.196699,
+      "vol": 1,
       "liq": {
         "ex": {
-          "s": 1,
-          "v": 6
+          "s": 90,
+          "v": 100
+        },
+        "cha": {
+          "s": 1.53631,
+          "v": 1
         }
       },
       "spark": [
-        1.5
+        5.52481
+      ],
+      "vph": null
+    },
+    {
+      "name": "Omen of Sinistral Necromancy",
+      "cat": "ritual",
+      "ex": 8.8517,
+      "div": null,
+      "cha": 1.56532,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 257,
+          "v": 4041
+        },
+        "cha": {
+          "s": 3.07263,
+          "v": 3
+        }
+      },
+      "spark": [
+        11.8824
       ]
     },
     {
-      "name": "Greater Desert Rune",
+      "name": "Uncut Spirit Gem (Level 14)",
+      "cat": "uncutgems",
+      "ex": 4.38347,
+      "div": null,
+      "cha": 21.8744,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 87,
+          "v": 1234
+        },
+        "cha": {
+          "s": 0,
+          "v": 16
+        }
+      },
+      "spark": [
+        3.19803
+      ]
+    },
+    {
+      "name": "Greater Storm Rune",
+      "cat": "runes",
+      "ex": 1.68379,
+      "div": null,
+      "cha": 2.93121,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 231,
+          "v": 1253
+        },
+        "cha": {
+          "s": 6.14526,
+          "v": 9
+        }
+      },
+      "spark": [
+        1.7264
+      ],
+      "vph": null
+    },
+    {
+      "name": "Ancient Rune of Splinters",
       "cat": "runes",
       "ex": 2,
       "div": null,
       "cha": null,
-      "vol": 3,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 8
+        }
+      },
+      "spark": [
+        4.66667
+      ]
+    },
+    {
+      "name": "Courtesan Mannan's Rune of Cruelty",
+      "cat": "runes",
+      "ex": 4,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 6,
+          "v": 8
+        }
+      },
+      "spark": [
+        4
+      ]
+    },
+    {
+      "name": "Lesser Essence of Thawing",
+      "cat": "essences",
+      "ex": 1.6,
+      "div": null,
+      "cha": null,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 8
+        }
+      },
+      "spark": [
+        1.395
+      ]
+    },
+    {
+      "name": "Iron Rune",
+      "cat": "runes",
+      "ex": 0.792667,
+      "div": null,
+      "cha": 1.82708,
+      "vol": 9,
+      "liq": {
+        "ex": {
+          "s": 48,
+          "v": 209
+        },
+        "cha": {
+          "s": 0,
+          "v": 9
+        }
+      },
+      "spark": [
+        1.66667,
+        0.975555
+      ],
+      "vph": null
+    },
+    {
+      "name": "Lesser Essence of Grounding",
+      "cat": "essences",
+      "ex": 1.16667,
+      "div": null,
+      "cha": null,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 7
+        }
+      },
+      "spark": [
+        0.993333
+      ]
+    },
+    {
+      "name": "Saqawal's Rune of Memory",
+      "cat": "runes",
+      "ex": 3.5,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 18,
+          "v": 7
+        }
+      },
+      "spark": [
+        3.25
+      ]
+    },
+    {
+      "name": "Rune of Culmination",
+      "cat": "runes",
+      "ex": 7,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 7
+        }
+      },
+      "spark": [
+        7
+      ]
+    },
+    {
+      "name": "Perfect Essence of Ice",
+      "cat": "essences",
+      "ex": 7,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 3,
+          "v": 7
+        }
+      },
+      "spark": [
+        8.66667
+      ]
+    },
+    {
+      "name": "Lesser Essence of Insulation",
+      "cat": "essences",
+      "ex": 1.4,
+      "div": null,
+      "cha": null,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 7
+        }
+      },
+      "spark": [
+        0.983333
+      ],
+      "vph": 0.2
+    },
+    {
+      "name": "Adaptive Alloy",
+      "cat": "verisium",
+      "ex": 3.5,
+      "div": null,
+      "cha": null,
+      "vol": 2,
       "liq": {
         "ex": {
           "s": 7,
+          "v": 7
+        }
+      },
+      "spark": [
+        6.25
+      ]
+    },
+    {
+      "name": "Chance Shard",
+      "cat": "currency",
+      "ex": 0.212121,
+      "div": null,
+      "cha": null,
+      "vol": 33,
+      "liq": {
+        "ex": {
+          "s": 16,
+          "v": 7
+        }
+      },
+      "spark": [
+        1,
+        0.490431
+      ],
+      "vph": 6.2
+    },
+    {
+      "name": "Lesser Jeweller's Orb",
+      "cat": "currency",
+      "ex": 0.231626,
+      "div": null,
+      "cha": 1.44372,
+      "vol": 29,
+      "liq": {
+        "ex": {
+          "s": 25,
+          "v": 412
+        },
+        "cha": {
+          "s": 3.07263,
+          "v": 14
+        }
+      },
+      "spark": [
+        1.2087,
+        0.306586
+      ],
+      "vph": 5.4
+    },
+    {
+      "name": "Lesser Essence of Seeking",
+      "cat": "essences",
+      "ex": 3,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 0,
           "v": 6
         }
       },
       "spark": [
-        2
+        1.625
       ]
     },
     {
-      "name": "Uncut Spirit Gem (Level 5)",
-      "cat": "uncutgems",
-      "ex": 1.5,
+      "name": "Omen of the Ancients",
+      "cat": "ritual",
+      "ex": 1,
       "div": null,
       "cha": null,
-      "vol": 4,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 6
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Ox Idol",
+      "cat": "idol",
+      "ex": 1.2,
+      "div": null,
+      "cha": null,
+      "vol": 5,
       "liq": {
         "ex": {
           "s": 2,
@@ -806,16 +3737,16 @@
         }
       },
       "spark": [
-        1.5
+        3.425
       ]
     },
     {
-      "name": "Uncut Spirit Gem (Level 6)",
-      "cat": "uncutgems",
-      "ex": 2,
+      "name": "Wolf Idol",
+      "cat": "idol",
+      "ex": 3,
       "div": null,
       "cha": null,
-      "vol": 3,
+      "vol": 2,
       "liq": {
         "ex": {
           "s": 0,
@@ -823,53 +3754,97 @@
         }
       },
       "spark": [
-        2
+        1.66667
       ]
     },
     {
-      "name": "Lesser Essence of Sorcery",
+      "name": "Essence of Abrasion",
       "cat": "essences",
-      "ex": 2.5,
+      "ex": 5.75985,
       "div": null,
-      "cha": null,
-      "vol": 2,
+      "cha": 1.07383,
+      "vol": 1,
       "liq": {
         "ex": {
-          "s": 1,
-          "v": 5
+          "s": 152,
+          "v": 821
+        },
+        "cha": {
+          "s": 4.60894,
+          "v": 2
         }
       },
       "spark": [
-        2.5
-      ]
+        7.75,
+        8.73064
+      ],
+      "vph": null
     },
     {
-      "name": "Lesser Essence of Haste",
-      "cat": "essences",
-      "ex": 2.5,
-      "div": null,
+      "name": "Preserved Cranium",
+      "cat": "abyss",
+      "ex": 5.38704,
+      "div": 6.75984,
       "cha": null,
-      "vol": 2,
+      "vol": 1,
       "liq": {
         "ex": {
+          "s": 74,
+          "v": 278
+        },
+        "div": {
           "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        6.29742
+      ]
+    },
+    {
+      "name": "Lady Hestra's Rune of Winter",
+      "cat": "runes",
+      "ex": 1.66667,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 3,
           "v": 5
         }
       },
       "spark": [
-        2.5
+        1.66667
       ]
     },
     {
-      "name": "Greater Essence of Grounding",
-      "cat": "essences",
+      "name": "Breach Splinter",
+      "cat": "fragments",
+      "ex": 0.0909091,
+      "div": null,
+      "cha": null,
+      "vol": 55,
+      "liq": {
+        "ex": {
+          "s": 31,
+          "v": 5
+        }
+      },
+      "spark": [
+        0.0909091
+      ]
+    },
+    {
+      "name": "Breath of Aldur",
+      "cat": "runes",
       "ex": 5,
       "div": null,
       "cha": null,
       "vol": 1,
       "liq": {
         "ex": {
-          "s": 5,
+          "s": 0,
           "v": 5
         }
       },
@@ -878,140 +3853,20 @@
       ]
     },
     {
-      "name": "Uncut Spirit Gem (Level 4)",
-      "cat": "uncutgems",
-      "ex": 1.25,
-      "div": null,
-      "cha": null,
-      "vol": 4,
-      "liq": {
-        "ex": {
-          "s": 1,
-          "v": 5
-        }
-      },
-      "spark": [
-        1.25
-      ]
-    },
-    {
-      "name": "Lesser Glacial Rune",
+      "name": "Warding Rune of Equinox",
       "cat": "runes",
-      "ex": 0.666667,
-      "div": null,
-      "cha": null,
-      "vol": 6,
-      "liq": {
-        "ex": {
-          "s": 4,
-          "v": 4
-        }
-      },
-      "spark": [
-        0.666667
-      ]
-    },
-    {
-      "name": "Desert Rune",
-      "cat": "runes",
-      "ex": 0.8,
-      "div": null,
-      "cha": null,
-      "vol": 5,
-      "liq": {
-        "ex": {
-          "s": 0,
-          "v": 4
-        }
-      },
-      "spark": [
-        0.8
-      ]
-    },
-    {
-      "name": "Uncut Spirit Gem (Level 8)",
-      "cat": "uncutgems",
-      "ex": 2,
-      "div": null,
-      "cha": null,
-      "vol": 2,
-      "liq": {
-        "ex": {
-          "s": 9,
-          "v": 4
-        }
-      },
-      "spark": [
-        2
-      ]
-    },
-    {
-      "name": "Greater Essence of Command",
-      "cat": "essences",
-      "ex": 4,
+      "ex": 5,
       "div": null,
       "cha": null,
       "vol": 1,
       "liq": {
         "ex": {
-          "s": 9,
-          "v": 4
+          "s": 8,
+          "v": 5
         }
       },
       "spark": [
-        4
-      ]
-    },
-    {
-      "name": "Lesser Storm Rune",
-      "cat": "runes",
-      "ex": 0.444444,
-      "div": null,
-      "cha": null,
-      "vol": 9,
-      "liq": {
-        "ex": {
-          "s": 1,
-          "v": 4
-        }
-      },
-      "spark": [
-        1,
-        0.444444
-      ]
-    },
-    {
-      "name": "Essence of Seeking",
-      "cat": "essences",
-      "ex": 1,
-      "div": null,
-      "cha": null,
-      "vol": 3,
-      "liq": {
-        "ex": {
-          "s": 0,
-          "v": 3
-        }
-      },
-      "spark": [
-        1
-      ]
-    },
-    {
-      "name": "Lesser Essence of Insulation",
-      "cat": "essences",
-      "ex": 0.75,
-      "div": null,
-      "cha": null,
-      "vol": 4,
-      "liq": {
-        "ex": {
-          "s": 1,
-          "v": 3
-        }
-      },
-      "spark": [
-        0.75
+        5
       ]
     },
     {
@@ -1020,21 +3875,581 @@
       "ex": 1,
       "div": null,
       "cha": null,
-      "vol": 3,
+      "vol": 5,
       "liq": {
         "ex": {
-          "s": 2,
-          "v": 3
+          "s": 1,
+          "v": 5
         }
       },
       "spark": [
         2,
+        2.2881
+      ],
+      "vph": 0.4
+    },
+    {
+      "name": "Perfect Essence of the Body",
+      "cat": "essences",
+      "ex": 5,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 5
+        }
+      },
+      "spark": [
+        5
+      ]
+    },
+    {
+      "name": "Soul Core of Azcapa",
+      "cat": "ultimatum",
+      "ex": 5,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 22,
+          "v": 5
+        }
+      },
+      "spark": [
+        5
+      ]
+    },
+    {
+      "name": "Arjun's Medal",
+      "cat": "lineagesupportgems",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 5
+        }
+      },
+      "spark": [
+        3.29167
+      ]
+    },
+    {
+      "name": "Vaal Catalysing Infuser",
+      "cat": "vaal",
+      "ex": 5,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 5
+        }
+      },
+      "spark": [
+        5
+      ]
+    },
+    {
+      "name": "Fenumus' Rune of Spinning",
+      "cat": "runes",
+      "ex": 5,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 3,
+          "v": 5
+        }
+      },
+      "spark": [
+        7.25
+      ]
+    },
+    {
+      "name": "Lesser Desert Rune",
+      "cat": "runes",
+      "ex": 0.5,
+      "div": null,
+      "cha": null,
+      "vol": 10,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 5
+        }
+      },
+      "spark": [
+        0.555556
+      ],
+      "vph": 1.8
+    },
+    {
+      "name": "Essence of Ruin",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 5,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 5
+        }
+      },
+      "spark": [
         1
       ]
     },
     {
-      "name": "Uncut Spirit Gem (Level 9)",
+      "name": "Soul Core of Jiquani",
+      "cat": "ultimatum",
+      "ex": 5,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 11,
+          "v": 5
+        }
+      },
+      "spark": [
+        5
+      ]
+    },
+    {
+      "name": "Idol of Eeshta",
+      "cat": "idol",
+      "ex": 5,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 5
+        }
+      },
+      "spark": [
+        5
+      ]
+    },
+    {
+      "name": "Rebirth Rune",
+      "cat": "runes",
+      "ex": 0.833333,
+      "div": null,
+      "cha": null,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 5
+        }
+      },
+      "spark": [
+        0.777778
+      ]
+    },
+    {
+      "name": "Body Rune",
+      "cat": "runes",
+      "ex": 0.454545,
+      "div": null,
+      "cha": null,
+      "vol": 11,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 5
+        }
+      },
+      "spark": [
+        0.863636
+      ]
+    },
+    {
+      "name": "Vaal Orb",
+      "cat": "currency",
+      "ex": 0.260187,
+      "div": null,
+      "cha": 0.395667,
+      "vol": 19,
+      "liq": {
+        "ex": {
+          "s": 63,
+          "v": 155
+        },
+        "cha": {
+          "s": 3.07263,
+          "v": 5
+        }
+      },
+      "spark": [
+        0.333859
+      ]
+    },
+    {
+      "name": "Greater Essence of Insulation",
+      "cat": "essences",
+      "ex": 4.73633,
+      "div": null,
+      "cha": 0.325612,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 131,
+          "v": 1664
+        },
+        "cha": {
+          "s": 3.07263,
+          "v": 1
+        }
+      },
+      "spark": [
+        4.29916
+      ]
+    },
+    {
+      "name": "Greater Essence of Opulence",
+      "cat": "essences",
+      "ex": 4.62423,
+      "div": null,
+      "cha": 0.33661,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 31,
+          "v": 464
+        },
+        "cha": {
+          "s": 16.8995,
+          "v": 1
+        }
+      },
+      "spark": [
+        3.70952
+      ]
+    },
+    {
+      "name": "Omen of Dextral Exaltation",
+      "cat": "ritual",
+      "ex": 4.25762,
+      "div": null,
+      "cha": 1.44762,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 57,
+          "v": 795
+        },
+        "cha": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        5.53604
+      ]
+    },
+    {
+      "name": "Greater Essence of Electricity",
+      "cat": "essences",
+      "ex": 2.11928,
+      "div": null,
+      "cha": 0.728267,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 27,
+          "v": 499
+        },
+        "cha": {
+          "s": 1.53631,
+          "v": 2
+        }
+      },
+      "spark": [
+        5.22935
+      ]
+    },
+    {
+      "name": "Greater Resolve Rune",
+      "cat": "runes",
+      "ex": 2.05553,
+      "div": null,
+      "cha": 0.767404,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 4,
+          "v": 71
+        },
+        "cha": {
+          "s": 1.53631,
+          "v": 2
+        }
+      },
+      "spark": [
+        1.42795
+      ],
+      "vph": 0.2
+    },
+    {
+      "name": "Lesser Adept Rune",
+      "cat": "runes",
+      "ex": 2,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 4
+        }
+      },
+      "spark": [
+        1.63333
+      ],
+      "vph": 0.2
+    },
+    {
+      "name": "Greater Inspiration Rune",
+      "cat": "runes",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 4
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Ancient Rune of Prowess",
+      "cat": "runes",
+      "ex": 4,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 4
+        }
+      },
+      "spark": [
+        4
+      ]
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 16)",
+      "cat": "expedition",
+      "ex": 4,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 19,
+          "v": 4
+        }
+      },
+      "spark": [
+        4.5
+      ]
+    },
+    {
+      "name": "Rune of Acrobatics",
+      "cat": "runes",
+      "ex": 3.69017,
+      "div": null,
+      "cha": 8.03468,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 11,
+          "v": 21
+        },
+        "cha": {
+          "s": 0,
+          "v": 5
+        }
+      },
+      "spark": [
+        4.18601
+      ]
+    },
+    {
+      "name": "Lesser Resolve Rune",
+      "cat": "runes",
+      "ex": 3,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 3
+        }
+      },
+      "spark": [
+        1.75
+      ]
+    },
+    {
+      "name": "Lesser Essence of the Infinite",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Soul Core of Opiloti",
+      "cat": "ultimatum",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        1.10562
+      ]
+    },
+    {
+      "name": "Thaumaturgic Flux (Level 18)",
+      "cat": "expedition",
+      "ex": 3,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 39,
+          "v": 3
+        }
+      },
+      "spark": [
+        3
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 6)",
       "cat": "uncutgems",
+      "ex": 0.375,
+      "div": null,
+      "cha": null,
+      "vol": 8,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        0.75463
+      ],
+      "vph": 1.4
+    },
+    {
+      "name": "Prismatic Alloy",
+      "cat": "verisium",
+      "ex": 3,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 6,
+          "v": 3
+        }
+      },
+      "spark": [
+        3
+      ]
+    },
+    {
+      "name": "Lesser Essence of Opulence",
+      "cat": "essences",
+      "ex": 1.5,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 10,
+          "v": 3
+        }
+      },
+      "spark": [
+        1.5
+      ]
+    },
+    {
+      "name": "Vruun's Aftermath",
+      "cat": "lineagesupportgems",
+      "ex": 1.5,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        1.5
+      ]
+    },
+    {
+      "name": "Arakaali's Lust",
+      "cat": "lineagesupportgems",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Swift Alloy",
+      "cat": "verisium",
       "ex": 3,
       "div": null,
       "cha": null,
@@ -1050,144 +4465,204 @@
       ]
     },
     {
-      "name": "Uncut Skill Gem (Level 4)",
-      "cat": "uncutgems",
-      "ex": 0.6,
+      "name": "Essence of Thawing",
+      "cat": "essences",
+      "ex": 2.95615,
       "div": null,
-      "cha": null,
-      "vol": 5,
+      "cha": 2.07656,
+      "vol": 1,
       "liq": {
         "ex": {
+          "s": 47,
+          "v": 210
+        },
+        "cha": {
           "s": 0,
-          "v": 3
+          "v": 2
         }
       },
       "spark": [
-        0.6
-      ]
+        2.22732
+      ],
+      "vph": null
     },
     {
-      "name": "Uncut Spirit Gem (Level 11)",
+      "name": "Uncut Spirit Gem (Level 13)",
       "cat": "uncutgems",
-      "ex": 1,
+      "ex": 1.46886,
       "div": null,
-      "cha": null,
-      "vol": 3,
-      "liq": {
-        "ex": {
-          "s": 0,
-          "v": 3
-        }
-      },
-      "spark": [
-        1
-      ]
-    },
-    {
-      "name": "Uncut Skill Gem (Level 2)",
-      "cat": "uncutgems",
-      "ex": 1.5,
-      "div": null,
-      "cha": null,
+      "cha": 1.04115,
       "vol": 2,
       "liq": {
         "ex": {
           "s": 0,
-          "v": 3
-        }
-      },
-      "spark": [
-        1.5
-      ]
-    },
-    {
-      "name": "Uncut Skill Gem (Level 12)",
-      "cat": "uncutgems",
-      "ex": 1,
-      "div": null,
-      "cha": null,
-      "vol": 3,
-      "liq": {
-        "ex": {
+          "v": 53
+        },
+        "cha": {
           "s": 0,
-          "v": 3
+          "v": 2
         }
       },
       "spark": [
-        1
+        1.29052
       ]
     },
     {
-      "name": "Resolve Rune",
-      "cat": "runes",
-      "ex": 1,
-      "div": null,
-      "cha": null,
-      "vol": 3,
-      "liq": {
-        "ex": {
-          "s": 0,
-          "v": 3
-        }
-      },
-      "spark": [
-        1
-      ]
-    },
-    {
-      "name": "Soul Core of Tacati",
-      "cat": "ultimatum",
-      "ex": 1,
-      "div": null,
-      "cha": null,
-      "vol": 3,
-      "liq": {
-        "ex": {
-          "s": 27,
-          "v": 3
-        }
-      },
-      "spark": [
-        1
-      ]
-    },
-    {
-      "name": "Uncut Skill Gem (Level 9)",
-      "cat": "uncutgems",
-      "ex": 0.75,
-      "div": null,
-      "cha": null,
-      "vol": 4,
-      "liq": {
-        "ex": {
-          "s": 0,
-          "v": 3
-        }
-      },
-      "spark": [
-        0.75
-      ]
-    },
-    {
-      "name": "Uncut Skill Gem (Level 8)",
-      "cat": "uncutgems",
-      "ex": 1.5,
-      "div": null,
-      "cha": null,
-      "vol": 2,
-      "liq": {
-        "ex": {
-          "s": 0,
-          "v": 3
-        }
-      },
-      "spark": [
-        1.5
-      ]
-    },
-    {
-      "name": "Greater Orb of Augmentation",
+      "name": "Regal Orb",
       "cat": "currency",
+      "ex": 0.138939,
+      "div": null,
+      "cha": 1.17323,
+      "vol": 21,
+      "liq": {
+        "ex": {
+          "s": 76,
+          "v": 330
+        },
+        "cha": {
+          "s": 9.21788,
+          "v": 7
+        }
+      },
+      "spark": [
+        0.5,
+        0.192127
+      ],
+      "vph": null
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 10)",
+      "cat": "uncutgems",
+      "ex": 0.881259,
+      "div": null,
+      "cha": 1.58894,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 36
+        },
+        "cha": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        0.980481
+      ],
+      "vph": 0.2
+    },
+    {
+      "name": "Omen of Bartering",
+      "cat": "ritual",
+      "ex": 2.35585,
+      "div": null,
+      "cha": 0.656848,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 137,
+          "v": 223
+        },
+        "cha": {
+          "s": 3.07263,
+          "v": 1
+        }
+      },
+      "spark": [
+        1.89328
+      ]
+    },
+    {
+      "name": "Gnawed Rib",
+      "cat": "abyss",
+      "ex": 0.739548,
+      "div": null,
+      "cha": 2.05578,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 82,
+          "v": 452
+        },
+        "cha": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        0.831627
+      ],
+      "vph": null
+    },
+    {
+      "name": "Uncut Spirit Gem (Level 7)",
+      "cat": "uncutgems",
+      "ex": 2.19383,
+      "div": null,
+      "cha": 0.714163,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 11,
+          "v": 63
+        },
+        "cha": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        2.15104
+      ],
+      "vph": null
+    },
+    {
+      "name": "Greater Adept Rune",
+      "cat": "runes",
+      "ex": 2.18985,
+      "div": null,
+      "cha": 2.75705,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 5,
+          "v": 95
+        },
+        "cha": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        1.55947
+      ]
+    },
+    {
+      "name": "Greater Robust Rune",
+      "cat": "runes",
+      "ex": 2.09456,
+      "div": null,
+      "cha": 0.741404,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 16,
+          "v": 100
+        },
+        "cha": {
+          "s": 1.53631,
+          "v": 1
+        }
+      },
+      "spark": [
+        1.55654
+      ],
+      "vph": null
+    },
+    {
+      "name": "Lesser Robust Rune",
+      "cat": "runes",
       "ex": 0.666667,
       "div": null,
       "cha": null,
@@ -1199,29 +4674,29 @@
         }
       },
       "spark": [
-        0.666667
+        1.33333
       ]
     },
     {
-      "name": "Greater Orb of Transmutation",
-      "cat": "currency",
-      "ex": 2,
+      "name": "Lesser Body Rune",
+      "cat": "runes",
+      "ex": 0.5,
       "div": null,
       "cha": null,
-      "vol": 1,
+      "vol": 4,
       "liq": {
         "ex": {
-          "s": 2,
+          "s": 0,
           "v": 2
         }
       },
       "spark": [
-        2
+        0.444444
       ]
     },
     {
-      "name": "Chance Shard",
-      "cat": "currency",
+      "name": "Inspiration Rune",
+      "cat": "runes",
       "ex": 1,
       "div": null,
       "cha": null,
@@ -1233,8 +4708,41 @@
         }
       },
       "spark": [
-        1,
         1
+      ]
+    },
+    {
+      "name": "Greater Essence of Battle",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        0.875
+      ]
+    },
+    {
+      "name": "Greater Essence of the Mind",
+      "cat": "essences",
+      "ex": 0.5,
+      "div": null,
+      "cha": null,
+      "vol": 4,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        0.75
       ]
     },
     {
@@ -1251,46 +4759,13 @@
         }
       },
       "spark": [
-        1
-      ]
+        0.913532
+      ],
+      "vph": null
     },
     {
-      "name": "Lesser Essence of Flames",
-      "cat": "essences",
-      "ex": 1,
-      "div": null,
-      "cha": null,
-      "vol": 2,
-      "liq": {
-        "ex": {
-          "s": 0,
-          "v": 2
-        }
-      },
-      "spark": [
-        1
-      ]
-    },
-    {
-      "name": "Essence of Alacrity",
-      "cat": "essences",
-      "ex": 1,
-      "div": null,
-      "cha": null,
-      "vol": 2,
-      "liq": {
-        "ex": {
-          "s": 0,
-          "v": 2
-        }
-      },
-      "spark": [
-        1
-      ]
-    },
-    {
-      "name": "Lesser Essence of Ice",
-      "cat": "essences",
+      "name": "Soul Core of Tzamoto",
+      "cat": "ultimatum",
       "ex": 2,
       "div": null,
       "cha": null,
@@ -1306,8 +4781,8 @@
       ]
     },
     {
-      "name": "Uncut Spirit Gem (Level 10)",
-      "cat": "uncutgems",
+      "name": "Bhatair's Vengeance",
+      "cat": "lineagesupportgems",
       "ex": 1,
       "div": null,
       "cha": null,
@@ -1319,71 +4794,279 @@
         }
       },
       "spark": [
-        1
+        2.11111
       ]
+    },
+    {
+      "name": "Greater Mind Rune",
+      "cat": "runes",
+      "ex": 0.333333,
+      "div": null,
+      "cha": null,
+      "vol": 6,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        0.666667
+      ]
+    },
+    {
+      "name": "Greater Essence of Enhancement",
+      "cat": "essences",
+      "ex": 1.93499,
+      "div": null,
+      "cha": 3.16449,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 38,
+          "v": 630
+        },
+        "cha": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        4.45947
+      ],
+      "vph": null
     },
     {
       "name": "Uncut Skill Gem (Level 11)",
       "cat": "uncutgems",
-      "ex": 1,
+      "ex": 0.631387,
       "div": null,
-      "cha": null,
-      "vol": 2,
+      "cha": 2.23298,
+      "vol": 3,
       "liq": {
         "ex": {
+          "s": 8,
+          "v": 58
+        },
+        "cha": {
           "s": 0,
-          "v": 2
+          "v": 3
         }
       },
       "spark": [
-        1
-      ]
+        0.82518
+      ],
+      "vph": 0.2
     },
     {
-      "name": "Uncut Spirit Gem (Level 12)",
+      "name": "Uncut Spirit Gem (Level 5)",
       "cat": "uncutgems",
-      "ex": 1,
+      "ex": 1.70783,
       "div": null,
-      "cha": null,
+      "cha": 0.907877,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 6,
+          "v": 34
+        },
+        "cha": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1.72977
+      ],
+      "vph": null
+    },
+    {
+      "name": "Greater Glacial Rune",
+      "cat": "runes",
+      "ex": 1.53575,
+      "div": null,
+      "cha": 8.93953,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 185,
+          "v": 860
+        },
+        "cha": {
+          "s": 4.60894,
+          "v": 3
+        }
+      },
+      "spark": [
+        1.62517
+      ],
+      "vph": null
+    },
+    {
+      "name": "Gnawed Collarbone",
+      "cat": "abyss",
+      "ex": 1.52294,
+      "div": null,
+      "cha": 1.00875,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 193,
+          "v": 862
+        },
+        "cha": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1,
+        1.53498
+      ],
+      "vph": null
+    },
+    {
+      "name": "Uncut Support Gem (Level 2)",
+      "cat": "uncutgems",
+      "ex": 1.3837,
+      "div": null,
+      "cha": 1.10981,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 69,
+          "v": 692
+        },
+        "cha": {
+          "s": 7.68157,
+          "v": 1
+        }
+      },
+      "spark": [
+        1,
+        1.10703
+      ],
+      "vph": null
+    },
+    {
+      "name": "Desert Rune",
+      "cat": "runes",
+      "ex": 0.687089,
+      "div": null,
+      "cha": 2.149,
       "vol": 2,
       "liq": {
         "ex": {
+          "s": 17,
+          "v": 82
+        },
+        "cha": {
           "s": 0,
           "v": 2
         }
       },
       "spark": [
-        1
+        0.69759
+      ],
+      "vph": null
+    },
+    {
+      "name": "Uncut Skill Gem (Level 13)",
+      "cat": "uncutgems",
+      "ex": 1.30235,
+      "div": null,
+      "cha": 1.17604,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 14,
+          "v": 150
+        },
+        "cha": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1.45383
       ]
     },
     {
-      "name": "Primate Idol",
-      "cat": "idol",
-      "ex": 2,
+      "name": "Omen of Greater Exaltation",
+      "cat": "ritual",
+      "ex": 1.26874,
+      "div": null,
+      "cha": 1.20958,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 289,
+          "v": 490
+        },
+        "cha": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1.30344
+      ]
+    },
+    {
+      "name": "Resolve Rune",
+      "cat": "runes",
+      "ex": 1.22468,
+      "div": null,
+      "cha": 16.9335,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 6,
+          "v": 15
+        },
+        "cha": {
+          "s": 0,
+          "v": 5
+        }
+      },
+      "spark": [
+        1.49145
+      ],
+      "vph": null
+    },
+    {
+      "name": "Orb of Transmutation",
+      "cat": "currency",
+      "ex": 0.0509301,
+      "div": null,
+      "cha": 1.14437,
+      "vol": 20,
+      "liq": {
+        "ex": {
+          "s": 20,
+          "v": 189
+        },
+        "cha": {
+          "s": 0,
+          "v": 4
+        }
+      },
+      "spark": [
+        0.060108
+      ],
+      "vph": 0.2
+    },
+    {
+      "name": "Rune of Vitality",
+      "cat": "runes",
+      "ex": 1,
       "div": null,
       "cha": null,
       "vol": 1,
       "liq": {
         "ex": {
-          "s": 18,
-          "v": 2
-        }
-      },
-      "spark": [
-        2
-      ]
-    },
-    {
-      "name": "Soul Core of Citaqualotl",
-      "cat": "ultimatum",
-      "ex": 1,
-      "div": null,
-      "cha": null,
-      "vol": 2,
-      "liq": {
-        "ex": {
-          "s": 6,
-          "v": 2
+          "s": 1,
+          "v": 1
         }
       },
       "spark": [
@@ -1391,75 +5074,24 @@
       ]
     },
     {
-      "name": "Bear Idol",
-      "cat": "idol",
-      "ex": 2,
+      "name": "Rune of Accumulation",
+      "cat": "runes",
+      "ex": 1,
       "div": null,
       "cha": null,
       "vol": 1,
       "liq": {
         "ex": {
           "s": 3,
-          "v": 2
-        }
-      },
-      "spark": [
-        2
-      ]
-    },
-    {
-      "name": "Orb of Augmentation",
-      "cat": "currency",
-      "ex": 0.142857,
-      "div": null,
-      "cha": null,
-      "vol": 14,
-      "liq": {
-        "ex": {
-          "s": 0,
-          "v": 2
-        }
-      },
-      "spark": [
-        0.142857
-      ]
-    },
-    {
-      "name": "Orb of Transmutation",
-      "cat": "currency",
-      "ex": 0.105263,
-      "div": null,
-      "cha": null,
-      "vol": 19,
-      "liq": {
-        "ex": {
-          "s": 0,
-          "v": 2
-        }
-      },
-      "spark": [
-        0.105263
-      ]
-    },
-    {
-      "name": "Vision Rune",
-      "cat": "runes",
-      "ex": 1,
-      "div": null,
-      "cha": null,
-      "vol": 1,
-      "liq": {
-        "ex": {
-          "s": 0,
           "v": 1
         }
       },
       "spark": [
-        1
+        5.5
       ]
     },
     {
-      "name": "Lesser Adept Rune",
+      "name": "Thane Myrk's Rune of Summer",
       "cat": "runes",
       "ex": 1,
       "div": null,
@@ -1476,7 +5108,24 @@
       ]
     },
     {
-      "name": "Greater Resolve Rune",
+      "name": "Lesser Inspiration Rune",
+      "cat": "runes",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Saqawal's Rune of Erosion",
       "cat": "runes",
       "ex": 1,
       "div": null,
@@ -1493,7 +5142,7 @@
       ]
     },
     {
-      "name": "Essence of the Body",
+      "name": "Lesser Essence of the Body",
       "cat": "essences",
       "ex": 1,
       "div": null,
@@ -1510,7 +5159,7 @@
       ]
     },
     {
-      "name": "Essence of Thawing",
+      "name": "Perfect Essence of Grounding",
       "cat": "essences",
       "ex": 1,
       "div": null,
@@ -1527,8 +5176,25 @@
       ]
     },
     {
-      "name": "Uncut Skill Gem (Level 10)",
-      "cat": "uncutgems",
+      "name": "Perfect Essence of Command",
+      "cat": "essences",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 1
+        }
+      },
+      "spark": [
+        1.5
+      ]
+    },
+    {
+      "name": "Omen of Chaotic Rarity",
+      "cat": "ritual",
       "ex": 1,
       "div": null,
       "cha": null,
@@ -1544,8 +5210,8 @@
       ]
     },
     {
-      "name": "Uncut Skill Gem (Level 6)",
-      "cat": "uncutgems",
+      "name": "Vruun's Inevitability",
+      "cat": "lineagesupportgems",
       "ex": 1,
       "div": null,
       "cha": null,
@@ -1561,7 +5227,75 @@
       ]
     },
     {
-      "name": "Greater Robust Rune",
+      "name": "Tacati's Ire",
+      "cat": "lineagesupportgems",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        5.20833
+      ]
+    },
+    {
+      "name": "Idol of Grold",
+      "cat": "idol",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Cat Idol",
+      "cat": "idol",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 1
+        }
+      },
+      "spark": [
+        3.66667
+      ]
+    },
+    {
+      "name": "Cyclonic Alloy",
+      "cat": "verisium",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 5,
+          "v": 1
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Rune of Confrontation",
       "cat": "runes",
       "ex": 1,
       "div": null,
@@ -1578,7 +5312,24 @@
       ]
     },
     {
-      "name": "Lesser Desert Rune",
+      "name": "Thane Girt's Rune of Wildness",
+      "cat": "runes",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        2.5
+      ]
+    },
+    {
+      "name": "Lesser Rebirth Rune",
       "cat": "runes",
       "ex": 1,
       "div": null,
@@ -1595,7 +5346,41 @@
       ]
     },
     {
-      "name": "Uncut Skill Gem (Level 3)",
+      "name": "Omen of Chaotic Quantity",
+      "cat": "ritual",
+      "ex": 1,
+      "div": null,
+      "cha": null,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1
+      ]
+    },
+    {
+      "name": "Omen of Resurgence",
+      "cat": "ritual",
+      "ex": 0.333333,
+      "div": null,
+      "cha": null,
+      "vol": 3,
+      "liq": {
+        "ex": {
+          "s": 1,
+          "v": 1
+        }
+      },
+      "spark": [
+        0.833333
+      ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 4)",
       "cat": "uncutgems",
       "ex": 0.333333,
       "div": null,
@@ -1608,20 +5393,21 @@
         }
       },
       "spark": [
-        0.333333
-      ]
+        0.761667
+      ],
+      "vph": null
     },
     {
-      "name": "Lesser Jeweller's Orb",
-      "cat": "currency",
-      "ex": 0.415276,
+      "name": "Uncut Skill Gem (Level 5)",
+      "cat": "uncutgems",
+      "ex": 0.96038,
       "div": null,
-      "cha": 0.830429,
-      "vol": 2,
+      "cha": 1.47544,
+      "vol": 1,
       "liq": {
         "ex": {
-          "s": 14,
-          "v": 165
+          "s": 0,
+          "v": 12
         },
         "cha": {
           "s": 0,
@@ -1629,9 +5415,118 @@
         }
       },
       "spark": [
-        1.2087,
-        0.418062
+        1.1293
+      ],
+      "vph": null
+    },
+    {
+      "name": "Orb of Augmentation",
+      "cat": "currency",
+      "ex": 0.03158,
+      "div": null,
+      "cha": 0.619544,
+      "vol": 26,
+      "liq": {
+        "ex": {
+          "s": 18,
+          "v": 167
+        },
+        "cha": {
+          "s": 0,
+          "v": 3
+        }
+      },
+      "spark": [
+        0.0518991
+      ],
+      "vph": 2.4
+    },
+    {
+      "name": "Uncut Skill Gem (Level 14)",
+      "cat": "uncutgems",
+      "ex": 0.764164,
+      "div": null,
+      "cha": 1.9916,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 9,
+          "v": 162
+        },
+        "cha": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        1.0425
       ]
+    },
+    {
+      "name": "Uncut Skill Gem (Level 12)",
+      "cat": "uncutgems",
+      "ex": 0.54137,
+      "div": null,
+      "cha": 10.3053,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 4,
+          "v": 50
+        },
+        "cha": {
+          "s": 0,
+          "v": 2
+        }
+      },
+      "spark": [
+        0.781048
+      ],
+      "vph": null
+    },
+    {
+      "name": "Lesser Iron Rune",
+      "cat": "runes",
+      "ex": 0.252302,
+      "div": null,
+      "cha": 1.3211,
+      "vol": 2,
+      "liq": {
+        "ex": {
+          "s": 8,
+          "v": 13
+        },
+        "cha": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        0.402826
+      ],
+      "vph": null
+    },
+    {
+      "name": "Lesser Glacial Rune",
+      "cat": "runes",
+      "ex": 0.475518,
+      "div": null,
+      "cha": 2.51964,
+      "vol": 1,
+      "liq": {
+        "ex": {
+          "s": 2,
+          "v": 7
+        },
+        "cha": {
+          "s": 0,
+          "v": 1
+        }
+      },
+      "spark": [
+        0.50602
+      ],
+      "vph": null
     }
   ]
 }
